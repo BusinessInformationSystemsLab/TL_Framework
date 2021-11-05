@@ -1,0 +1,144 @@
+<svg width="600px" height="1198px"
+ viewBox="0.00 0.00 489.00 975.98" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(4 971.98)">
+<title>TU_Munich</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-971.98 485,-971.98 485,4 -4,4"/>
+<!-- sid&#45;B9C01B\n9A&#45;294C&#45;4E\n27&#45;A0A8&#45;DB\n69025E4284 -->
+<g id="node1" class="node">
+<title>sid&#45;B9C01B\n9A&#45;294C&#45;4E\n27&#45;A0A8&#45;DB\n69025E4284</title>
+<polygon fill="lightgrey" stroke="black" points="47.5,-634.89 47.5,-717.89 433.5,-717.89 433.5,-634.89 47.5,-634.89"/>
+<text text-anchor="middle" x="93" y="-695.19" font-family="Times New Roman,serif" font-size="14.00">sid&#45;B9C01B</text>
+<text text-anchor="middle" x="93" y="-680.19" font-family="Times New Roman,serif" font-size="14.00">9A&#45;294C&#45;4E</text>
+<text text-anchor="middle" x="93" y="-665.19" font-family="Times New Roman,serif" font-size="14.00">27&#45;A0A8&#45;DB</text>
+<text text-anchor="middle" x="93" y="-650.19" font-family="Times New Roman,serif" font-size="14.00">69025E4284</text>
+<polyline fill="none" stroke="black" points="138.5,-634.89 138.5,-717.89 "/>
+<text text-anchor="middle" x="187" y="-702.69" font-family="Times New Roman,serif" font-size="14.00">Applicant:</text>
+<text text-anchor="middle" x="187" y="-687.69" font-family="Times New Roman,serif" font-size="14.00">sid&#45;39452A</text>
+<text text-anchor="middle" x="187" y="-672.69" font-family="Times New Roman,serif" font-size="14.00">A2&#45;6890&#45;47</text>
+<text text-anchor="middle" x="187" y="-657.69" font-family="Times New Roman,serif" font-size="14.00">A4&#45;82CA&#45;5E</text>
+<text text-anchor="middle" x="187" y="-642.69" font-family="Times New Roman,serif" font-size="14.00">7DCB7F6EF4</text>
+<polyline fill="none" stroke="black" points="235.5,-634.89 235.5,-717.89 "/>
+<text text-anchor="middle" x="334.5" y="-672.69" font-family="Times New Roman,serif" font-size="14.00">task_Send_documents_by_post</text>
+</g>
+<!-- sid&#45;40FCF5\n7B&#45;44A4&#45;44\n3F&#45;80D6&#45;D2\n778D1045CD -->
+<g id="node4" class="node">
+<title>sid&#45;40FCF5\n7B&#45;44A4&#45;44\n3F&#45;80D6&#45;D2\n778D1045CD</title>
+<polygon fill="lightgrey" stroke="black" points="75.5,-514.89 75.5,-597.89 405.5,-597.89 405.5,-514.89 75.5,-514.89"/>
+<text text-anchor="middle" x="122" y="-575.19" font-family="Times New Roman,serif" font-size="14.00">sid&#45;40FCF5</text>
+<text text-anchor="middle" x="122" y="-560.19" font-family="Times New Roman,serif" font-size="14.00">7B&#45;44A4&#45;44</text>
+<text text-anchor="middle" x="122" y="-545.19" font-family="Times New Roman,serif" font-size="14.00">3F&#45;80D6&#45;D2</text>
+<text text-anchor="middle" x="122" y="-530.19" font-family="Times New Roman,serif" font-size="14.00">778D1045CD</text>
+<polyline fill="none" stroke="black" points="168.5,-514.89 168.5,-597.89 "/>
+<text text-anchor="middle" x="217" y="-582.69" font-family="Times New Roman,serif" font-size="14.00">Applicant:</text>
+<text text-anchor="middle" x="217" y="-567.69" font-family="Times New Roman,serif" font-size="14.00">sid&#45;39452A</text>
+<text text-anchor="middle" x="217" y="-552.69" font-family="Times New Roman,serif" font-size="14.00">A2&#45;6890&#45;47</text>
+<text text-anchor="middle" x="217" y="-537.69" font-family="Times New Roman,serif" font-size="14.00">A4&#45;82CA&#45;5E</text>
+<text text-anchor="middle" x="217" y="-522.69" font-family="Times New Roman,serif" font-size="14.00">7DCB7F6EF4</text>
+<polyline fill="none" stroke="black" points="265.5,-514.89 265.5,-597.89 "/>
+<text text-anchor="middle" x="335.5" y="-552.69" font-family="Times New Roman,serif" font-size="14.00">task_Wait_for_results</text>
+</g>
+<!-- sid&#45;B9C01B\n9A&#45;294C&#45;4E\n27&#45;A0A8&#45;DB\n69025E4284&#45;&gt;sid&#45;40FCF5\n7B&#45;44A4&#45;44\n3F&#45;80D6&#45;D2\n778D1045CD -->
+<g id="edge1" class="edge">
+<title>sid&#45;B9C01B\n9A&#45;294C&#45;4E\n27&#45;A0A8&#45;DB\n69025E4284&#45;&gt;sid&#45;40FCF5\n7B&#45;44A4&#45;44\n3F&#45;80D6&#45;D2\n778D1045CD</title>
+<path fill="none" stroke="black" d="M240.5,-634.78C240.5,-626.25 240.5,-617.16 240.5,-608.3"/>
+<polygon fill="black" stroke="black" points="244,-608.08 240.5,-598.08 237,-608.08 244,-608.08"/>
+</g>
+<!-- sid&#45;89EB0B\nD4&#45;5311&#45;43\nBF&#45;BD7D&#45;5B\n16EF67D9B3\n_sid&#45;714C5\nB0A&#45;CC06&#45;4\n710&#45;9866&#45;E\nC2280EA282\nE -->
+<g id="node2" class="node">
+<title>sid&#45;89EB0B\nD4&#45;5311&#45;43\nBF&#45;BD7D&#45;5B\n16EF67D9B3\n_sid&#45;714C5\nB0A&#45;CC06&#45;4\n710&#45;9866&#45;E\nC2280EA282\nE</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="0,-124.89 0,-477.89 481,-477.89 481,-124.89 0,-124.89"/>
+<text text-anchor="middle" x="47" y="-357.69" font-family="Times New Roman,serif" font-size="14.00">sid&#45;89EB0B</text>
+<text text-anchor="middle" x="47" y="-342.69" font-family="Times New Roman,serif" font-size="14.00">D4&#45;5311&#45;43</text>
+<text text-anchor="middle" x="47" y="-327.69" font-family="Times New Roman,serif" font-size="14.00">BF&#45;BD7D&#45;5B</text>
+<text text-anchor="middle" x="47" y="-312.69" font-family="Times New Roman,serif" font-size="14.00">16EF67D9B3</text>
+<text text-anchor="middle" x="47" y="-297.69" font-family="Times New Roman,serif" font-size="14.00">_sid&#45;714C5</text>
+<text text-anchor="middle" x="47" y="-282.69" font-family="Times New Roman,serif" font-size="14.00">B0A&#45;CC06&#45;4</text>
+<text text-anchor="middle" x="47" y="-267.69" font-family="Times New Roman,serif" font-size="14.00">710&#45;9866&#45;E</text>
+<text text-anchor="middle" x="47" y="-252.69" font-family="Times New Roman,serif" font-size="14.00">C2280EA282</text>
+<text text-anchor="middle" x="47" y="-237.69" font-family="Times New Roman,serif" font-size="14.00">E</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="94,-124.89 94,-477.89 "/>
+<text text-anchor="middle" x="142.5" y="-327.69" font-family="Times New Roman,serif" font-size="14.00">Applicant:</text>
+<text text-anchor="middle" x="142.5" y="-312.69" font-family="Times New Roman,serif" font-size="14.00">sid&#45;39452A</text>
+<text text-anchor="middle" x="142.5" y="-297.69" font-family="Times New Roman,serif" font-size="14.00">A2&#45;6890&#45;47</text>
+<text text-anchor="middle" x="142.5" y="-282.69" font-family="Times New Roman,serif" font-size="14.00">A4&#45;82CA&#45;5E</text>
+<text text-anchor="middle" x="142.5" y="-267.69" font-family="Times New Roman,serif" font-size="14.00">7DCB7F6EF4</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="191,-124.89 191,-477.89 "/>
+<text text-anchor="middle" x="336" y="-462.69" font-family="Times New Roman,serif" font-size="14.00">eventBasedGateway: </text>
+<text text-anchor="middle" x="336" y="-447.69" font-family="Times New Roman,serif" font-size="14.00"> XOR </text>
+<text text-anchor="middle" x="336" y="-432.69" font-family="Times New Roman,serif" font-size="14.00">(</text>
+<text text-anchor="middle" x="336" y="-417.69" font-family="Times New Roman,serif" font-size="14.00">intermediateCatchEvent_Accepted</text>
+<text text-anchor="middle" x="336" y="-402.69" font-family="Times New Roman,serif" font-size="14.00">exclusiveGateway)</text>
+<text text-anchor="middle" x="336" y="-387.69" font-family="Times New Roman,serif" font-size="14.00"> XOR </text>
+<text text-anchor="middle" x="336" y="-372.69" font-family="Times New Roman,serif" font-size="14.00">(</text>
+<text text-anchor="middle" x="336" y="-357.69" font-family="Times New Roman,serif" font-size="14.00">intermediateCatchEvent_Rejected</text>
+<text text-anchor="middle" x="336" y="-342.69" font-family="Times New Roman,serif" font-size="14.00">exclusiveGateway)</text>
+<text text-anchor="middle" x="336" y="-327.69" font-family="Times New Roman,serif" font-size="14.00"> XOR </text>
+<text text-anchor="middle" x="336" y="-312.69" font-family="Times New Roman,serif" font-size="14.00">(</text>
+<text text-anchor="middle" x="336" y="-297.69" font-family="Times New Roman,serif" font-size="14.00">intermediateCatchEvent_Invited_to_an_interview</text>
+<text text-anchor="middle" x="336" y="-282.69" font-family="Times New Roman,serif" font-size="14.00">task_Go_to_the_interview</text>
+<text text-anchor="middle" x="336" y="-267.69" font-family="Times New Roman,serif" font-size="14.00">eventBasedGateway: </text>
+<text text-anchor="middle" x="336" y="-252.69" font-family="Times New Roman,serif" font-size="14.00"> XOR </text>
+<text text-anchor="middle" x="336" y="-237.69" font-family="Times New Roman,serif" font-size="14.00">(</text>
+<text text-anchor="middle" x="336" y="-222.69" font-family="Times New Roman,serif" font-size="14.00">intermediateCatchEvent_Accepted</text>
+<text text-anchor="middle" x="336" y="-207.69" font-family="Times New Roman,serif" font-size="14.00">exclusiveGateway)</text>
+<text text-anchor="middle" x="336" y="-192.69" font-family="Times New Roman,serif" font-size="14.00"> XOR </text>
+<text text-anchor="middle" x="336" y="-177.69" font-family="Times New Roman,serif" font-size="14.00">(</text>
+<text text-anchor="middle" x="336" y="-162.69" font-family="Times New Roman,serif" font-size="14.00">intermediateCatchEvent_Rejected</text>
+<text text-anchor="middle" x="336" y="-147.69" font-family="Times New Roman,serif" font-size="14.00">exclusiveGateway)</text>
+<text text-anchor="middle" x="336" y="-132.69" font-family="Times New Roman,serif" font-size="14.00"> )</text>
+</g>
+<!-- sid&#45;EC00EA\n7C&#45;CDFF&#45;44\n1C&#45;A544&#45;92\nE423EE8803 -->
+<g id="node6" class="node">
+<title>sid&#45;EC00EA\n7C&#45;CDFF&#45;44\n1C&#45;A544&#45;92\nE423EE8803</title>
+<ellipse fill="lightgrey" stroke="black" cx="240.5" cy="-44.2" rx="44.39" ry="44.39"/>
+<text text-anchor="middle" x="240.5" y="-40.5" font-family="Times New Roman,serif" font-size="14.00">endEvent</text>
+</g>
+<!-- sid&#45;89EB0B\nD4&#45;5311&#45;43\nBF&#45;BD7D&#45;5B\n16EF67D9B3\n_sid&#45;714C5\nB0A&#45;CC06&#45;4\n710&#45;9866&#45;E\nC2280EA282\nE&#45;&gt;sid&#45;EC00EA\n7C&#45;CDFF&#45;44\n1C&#45;A544&#45;92\nE423EE8803 -->
+<g id="edge2" class="edge">
+<title>sid&#45;89EB0B\nD4&#45;5311&#45;43\nBF&#45;BD7D&#45;5B\n16EF67D9B3\n_sid&#45;714C5\nB0A&#45;CC06&#45;4\n710&#45;9866&#45;E\nC2280EA282\nE&#45;&gt;sid&#45;EC00EA\n7C&#45;CDFF&#45;44\n1C&#45;A544&#45;92\nE423EE8803</title>
+<path fill="none" stroke="black" d="M240.5,-124.89C240.5,-115.63 240.5,-106.76 240.5,-98.53"/>
+<polygon fill="black" stroke="black" points="244,-98.45 240.5,-88.46 237,-98.46 244,-98.45"/>
+</g>
+<!-- sid&#45;3B9A16\n79&#45;D9C0&#45;48\nD4&#45;B6EB&#45;EE\n354AB529F2 -->
+<g id="node3" class="node">
+<title>sid&#45;3B9A16\n79&#45;D9C0&#45;48\nD4&#45;B6EB&#45;EE\n354AB529F2</title>
+<polygon fill="lightgrey" stroke="black" points="85,-754.89 85,-837.89 396,-837.89 396,-754.89 85,-754.89"/>
+<text text-anchor="middle" x="131" y="-815.19" font-family="Times New Roman,serif" font-size="14.00">sid&#45;3B9A16</text>
+<text text-anchor="middle" x="131" y="-800.19" font-family="Times New Roman,serif" font-size="14.00">79&#45;D9C0&#45;48</text>
+<text text-anchor="middle" x="131" y="-785.19" font-family="Times New Roman,serif" font-size="14.00">D4&#45;B6EB&#45;EE</text>
+<text text-anchor="middle" x="131" y="-770.19" font-family="Times New Roman,serif" font-size="14.00">354AB529F2</text>
+<polyline fill="none" stroke="black" points="177,-754.89 177,-837.89 "/>
+<text text-anchor="middle" x="225.5" y="-822.69" font-family="Times New Roman,serif" font-size="14.00">Applicant:</text>
+<text text-anchor="middle" x="225.5" y="-807.69" font-family="Times New Roman,serif" font-size="14.00">sid&#45;39452A</text>
+<text text-anchor="middle" x="225.5" y="-792.69" font-family="Times New Roman,serif" font-size="14.00">A2&#45;6890&#45;47</text>
+<text text-anchor="middle" x="225.5" y="-777.69" font-family="Times New Roman,serif" font-size="14.00">A4&#45;82CA&#45;5E</text>
+<text text-anchor="middle" x="225.5" y="-762.69" font-family="Times New Roman,serif" font-size="14.00">7DCB7F6EF4</text>
+<polyline fill="none" stroke="black" points="274,-754.89 274,-837.89 "/>
+<text text-anchor="middle" x="335" y="-792.69" font-family="Times New Roman,serif" font-size="14.00">task_Apply_online</text>
+</g>
+<!-- sid&#45;3B9A16\n79&#45;D9C0&#45;48\nD4&#45;B6EB&#45;EE\n354AB529F2&#45;&gt;sid&#45;B9C01B\n9A&#45;294C&#45;4E\n27&#45;A0A8&#45;DB\n69025E4284 -->
+<g id="edge3" class="edge">
+<title>sid&#45;3B9A16\n79&#45;D9C0&#45;48\nD4&#45;B6EB&#45;EE\n354AB529F2&#45;&gt;sid&#45;B9C01B\n9A&#45;294C&#45;4E\n27&#45;A0A8&#45;DB\n69025E4284</title>
+<path fill="none" stroke="black" d="M240.5,-754.78C240.5,-746.25 240.5,-737.16 240.5,-728.3"/>
+<polygon fill="black" stroke="black" points="244,-728.08 240.5,-718.08 237,-728.08 244,-728.08"/>
+</g>
+<!-- sid&#45;40FCF5\n7B&#45;44A4&#45;44\n3F&#45;80D6&#45;D2\n778D1045CD&#45;&gt;sid&#45;89EB0B\nD4&#45;5311&#45;43\nBF&#45;BD7D&#45;5B\n16EF67D9B3\n_sid&#45;714C5\nB0A&#45;CC06&#45;4\n710&#45;9866&#45;E\nC2280EA282\nE -->
+<g id="edge4" class="edge">
+<title>sid&#45;40FCF5\n7B&#45;44A4&#45;44\n3F&#45;80D6&#45;D2\n778D1045CD&#45;&gt;sid&#45;89EB0B\nD4&#45;5311&#45;43\nBF&#45;BD7D&#45;5B\n16EF67D9B3\n_sid&#45;714C5\nB0A&#45;CC06&#45;4\n710&#45;9866&#45;E\nC2280EA282\nE</title>
+<path fill="none" stroke="black" d="M240.5,-514.74C240.5,-506.66 240.5,-497.68 240.5,-488.13"/>
+<polygon fill="black" stroke="black" points="244,-487.97 240.5,-477.97 237,-487.97 244,-487.97"/>
+</g>
+<!-- sid&#45;4BC64E\n5F&#45;17AA&#45;4A\n7C&#45;AAF7&#45;C0\nC5AAC49682 -->
+<g id="node5" class="node">
+<title>sid&#45;4BC64E\n5F&#45;17AA&#45;4A\n7C&#45;AAF7&#45;C0\nC5AAC49682</title>
+<ellipse fill="lightgrey" stroke="black" cx="240.5" cy="-921.19" rx="46.59" ry="46.59"/>
+<text text-anchor="middle" x="240.5" y="-917.49" font-family="Times New Roman,serif" font-size="14.00">startEvent</text>
+</g>
+<!-- sid&#45;4BC64E\n5F&#45;17AA&#45;4A\n7C&#45;AAF7&#45;C0\nC5AAC49682&#45;&gt;sid&#45;3B9A16\n79&#45;D9C0&#45;48\nD4&#45;B6EB&#45;EE\n354AB529F2 -->
+<g id="edge5" class="edge">
+<title>sid&#45;4BC64E\n5F&#45;17AA&#45;4A\n7C&#45;AAF7&#45;C0\nC5AAC49682&#45;&gt;sid&#45;3B9A16\n79&#45;D9C0&#45;48\nD4&#45;B6EB&#45;EE\n354AB529F2</title>
+<path fill="none" stroke="black" d="M240.5,-874.11C240.5,-865.7 240.5,-856.87 240.5,-848.32"/>
+<polygon fill="black" stroke="black" points="244,-848.07 240.5,-838.07 237,-848.07 244,-848.07"/>
+</g>
+</g>
+</svg>

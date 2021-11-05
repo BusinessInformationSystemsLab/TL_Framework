@@ -1,0 +1,51 @@
+<svg width="600px" height="571px"
+ viewBox="0.00 0.00 308.00 293.39" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(4 289.39)">
+<title>04_Passagierabfertigung_Check&#45;In_am_Vorabend</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-289.39 304,-289.39 304,4 -4,4"/>
+<!-- StartEvent\n_4 -->
+<g id="node1" class="node">
+<title>StartEvent\n_4</title>
+<ellipse fill="lightgrey" stroke="black" cx="150" cy="-257.44" rx="27.9" ry="27.9"/>
+<text text-anchor="middle" x="150" y="-253.74" font-family="Times New Roman,serif" font-size="14.00">Start</text>
+</g>
+<!-- Task_1376l\n88_Task_0c\n1t49t -->
+<g id="node3" class="node">
+<title>Task_1376l\n88_Task_0c\n1t49t</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="0,-94.99 0,-192.99 300,-192.99 300,-94.99 0,-94.99"/>
+<text text-anchor="middle" x="43" y="-155.29" font-family="Times New Roman,serif" font-size="14.00">Task_1376l</text>
+<text text-anchor="middle" x="43" y="-140.29" font-family="Times New Roman,serif" font-size="14.00">88_Task_0c</text>
+<text text-anchor="middle" x="43" y="-125.29" font-family="Times New Roman,serif" font-size="14.00">1t49t</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="86,-94.99 86,-192.99 "/>
+<text text-anchor="middle" x="127.5" y="-177.79" font-family="Times New Roman,serif" font-size="14.00">Sicherheit</text>
+<text text-anchor="middle" x="127.5" y="-162.79" font-family="Times New Roman,serif" font-size="14.00">sbereich:L</text>
+<text text-anchor="middle" x="127.5" y="-147.79" font-family="Times New Roman,serif" font-size="14.00">ane_02kbgs</text>
+<text text-anchor="middle" x="127.5" y="-132.79" font-family="Times New Roman,serif" font-size="14.00">x&amp;Passagie</text>
+<text text-anchor="middle" x="127.5" y="-117.79" font-family="Times New Roman,serif" font-size="14.00">r:Lane_0yl</text>
+<text text-anchor="middle" x="127.5" y="-102.79" font-family="Times New Roman,serif" font-size="14.00">woow</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="169,-94.99 169,-192.99 "/>
+<text text-anchor="middle" x="234.5" y="-162.79" font-family="Times New Roman,serif" font-size="14.00">sequential execution:</text>
+<text text-anchor="middle" x="234.5" y="-147.79" font-family="Times New Roman,serif" font-size="14.00">Person_bewegen</text>
+<text text-anchor="middle" x="234.5" y="-132.79" font-family="Times New Roman,serif" font-size="14.00">Person_bewegen</text>
+<text text-anchor="middle" x="234.5" y="-117.79" font-family="Times New Roman,serif" font-size="14.00">Person_bewegen</text>
+</g>
+<!-- StartEvent\n_4&#45;&gt;Task_1376l\n88_Task_0c\n1t49t -->
+<g id="edge1" class="edge">
+<title>StartEvent\n_4&#45;&gt;Task_1376l\n88_Task_0c\n1t49t</title>
+<path fill="none" stroke="black" d="M150,-229.46C150,-221.51 150,-212.47 150,-203.35"/>
+<polygon fill="black" stroke="black" points="153.5,-203.05 150,-193.05 146.5,-203.05 153.5,-203.05"/>
+</g>
+<!-- EndEvent_1\nvwcw55 -->
+<g id="node2" class="node">
+<title>EndEvent_1\nvwcw55</title>
+<ellipse fill="lightgrey" stroke="black" cx="150" cy="-29.25" rx="29.5" ry="29.5"/>
+<text text-anchor="middle" x="150" y="-25.55" font-family="Times New Roman,serif" font-size="14.00">Ende</text>
+</g>
+<!-- Task_1376l\n88_Task_0c\n1t49t&#45;&gt;EndEvent_1\nvwcw55 -->
+<g id="edge2" class="edge">
+<title>Task_1376l\n88_Task_0c\n1t49t&#45;&gt;EndEvent_1\nvwcw55</title>
+<path fill="none" stroke="black" d="M150,-94.85C150,-86.18 150,-77.25 150,-68.89"/>
+<polygon fill="black" stroke="black" points="153.5,-68.68 150,-58.68 146.5,-68.68 153.5,-68.68"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,145 @@
+<svg width="600px" height="1188px"
+ viewBox="0.00 0.00 537.00 1063.47" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(4 1059.47)">
+<title>Cologne_1</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-1059.47 533,-1059.47 533,4 -4,4"/>
+<!-- Gateway_1q\ndo7vy_Gate\nway_1qmiym\nr -->
+<g id="node1" class="node">
+<title>Gateway_1q\ndo7vy_Gate\nway_1qmiym\nr</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="72,-409.89 72,-552.89 457,-552.89 457,-409.89 72,-409.89"/>
+<text text-anchor="middle" x="118" y="-500.19" font-family="Times New Roman,serif" font-size="14.00">Gateway_1q</text>
+<text text-anchor="middle" x="118" y="-485.19" font-family="Times New Roman,serif" font-size="14.00">do7vy_Gate</text>
+<text text-anchor="middle" x="118" y="-470.19" font-family="Times New Roman,serif" font-size="14.00">way_1qmiym</text>
+<text text-anchor="middle" x="118" y="-455.19" font-family="Times New Roman,serif" font-size="14.00">r</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="164,-409.89 164,-552.89 "/>
+<text text-anchor="middle" x="206.5" y="-500.19" font-family="Times New Roman,serif" font-size="14.00">University</text>
+<text text-anchor="middle" x="206.5" y="-485.19" font-family="Times New Roman,serif" font-size="14.00">_of_Cologn</text>
+<text text-anchor="middle" x="206.5" y="-470.19" font-family="Times New Roman,serif" font-size="14.00">e:Lane_12e</text>
+<text text-anchor="middle" x="206.5" y="-455.19" font-family="Times New Roman,serif" font-size="14.00">a2o1</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="249,-409.89 249,-552.89 "/>
+<text text-anchor="middle" x="353" y="-537.69" font-family="Times New Roman,serif" font-size="14.00">exclusiveGateway: </text>
+<text text-anchor="middle" x="353" y="-522.69" font-family="Times New Roman,serif" font-size="14.00"> XOR </text>
+<text text-anchor="middle" x="353" y="-507.69" font-family="Times New Roman,serif" font-size="14.00">(</text>
+<text text-anchor="middle" x="353" y="-492.69" font-family="Times New Roman,serif" font-size="14.00">task_Invite_to_an_aptitude_test</text>
+<text text-anchor="middle" x="353" y="-477.69" font-family="Times New Roman,serif" font-size="14.00">exclusiveGateway)</text>
+<text text-anchor="middle" x="353" y="-462.69" font-family="Times New Roman,serif" font-size="14.00"> XOR </text>
+<text text-anchor="middle" x="353" y="-447.69" font-family="Times New Roman,serif" font-size="14.00">(</text>
+<text text-anchor="middle" x="353" y="-432.69" font-family="Times New Roman,serif" font-size="14.00">task_Keep_in_the_applicant_pool</text>
+<text text-anchor="middle" x="353" y="-417.69" font-family="Times New Roman,serif" font-size="14.00">exclusiveGateway)</text>
+</g>
+<!-- Activity_1\n48u7wn -->
+<g id="node6" class="node">
+<title>Activity_1\n48u7wn</title>
+<polygon fill="lightgrey" stroke="black" points="0,-304.89 0,-372.89 529,-372.89 529,-304.89 0,-304.89"/>
+<text text-anchor="middle" x="37" y="-342.69" font-family="Times New Roman,serif" font-size="14.00">Activity_1</text>
+<text text-anchor="middle" x="37" y="-327.69" font-family="Times New Roman,serif" font-size="14.00">48u7wn</text>
+<polyline fill="none" stroke="black" points="74,-304.89 74,-372.89 "/>
+<text text-anchor="middle" x="116.5" y="-357.69" font-family="Times New Roman,serif" font-size="14.00">University</text>
+<text text-anchor="middle" x="116.5" y="-342.69" font-family="Times New Roman,serif" font-size="14.00">_of_Cologn</text>
+<text text-anchor="middle" x="116.5" y="-327.69" font-family="Times New Roman,serif" font-size="14.00">e:Lane_12e</text>
+<text text-anchor="middle" x="116.5" y="-312.69" font-family="Times New Roman,serif" font-size="14.00">a2o1</text>
+<polyline fill="none" stroke="black" points="159,-304.89 159,-372.89 "/>
+<text text-anchor="middle" x="344" y="-335.19" font-family="Times New Roman,serif" font-size="14.00">task_Rank_students_according_to_GPA_and_the_test_results</text>
+</g>
+<!-- Gateway_1q\ndo7vy_Gate\nway_1qmiym\nr&#45;&gt;Activity_1\n48u7wn -->
+<g id="edge1" class="edge">
+<title>Gateway_1q\ndo7vy_Gate\nway_1qmiym\nr&#45;&gt;Activity_1\n48u7wn</title>
+<path fill="none" stroke="black" d="M264.5,-409.73C264.5,-400.6 264.5,-391.47 264.5,-382.98"/>
+<polygon fill="black" stroke="black" points="268,-382.96 264.5,-372.96 261,-382.96 268,-382.96"/>
+</g>
+<!-- Activity_1\nocui6e -->
+<g id="node2" class="node">
+<title>Activity_1\nocui6e</title>
+<polygon fill="lightgrey" stroke="black" points="109,-694.89 109,-762.89 420,-762.89 420,-694.89 109,-694.89"/>
+<text text-anchor="middle" x="146" y="-732.69" font-family="Times New Roman,serif" font-size="14.00">Activity_1</text>
+<text text-anchor="middle" x="146" y="-717.69" font-family="Times New Roman,serif" font-size="14.00">ocui6e</text>
+<polyline fill="none" stroke="black" points="183,-694.89 183,-762.89 "/>
+<text text-anchor="middle" x="225.5" y="-747.69" font-family="Times New Roman,serif" font-size="14.00">University</text>
+<text text-anchor="middle" x="225.5" y="-732.69" font-family="Times New Roman,serif" font-size="14.00">_of_Cologn</text>
+<text text-anchor="middle" x="225.5" y="-717.69" font-family="Times New Roman,serif" font-size="14.00">e:Lane_12e</text>
+<text text-anchor="middle" x="225.5" y="-702.69" font-family="Times New Roman,serif" font-size="14.00">a2o1</text>
+<polyline fill="none" stroke="black" points="268,-694.89 268,-762.89 "/>
+<text text-anchor="middle" x="344" y="-725.19" font-family="Times New Roman,serif" font-size="14.00">task_Check_documents</text>
+</g>
+<!-- Activity_1\nflewlx -->
+<g id="node4" class="node">
+<title>Activity_1\nflewlx</title>
+<polygon fill="lightgrey" stroke="black" points="138.5,-589.89 138.5,-657.89 390.5,-657.89 390.5,-589.89 138.5,-589.89"/>
+<text text-anchor="middle" x="175.5" y="-627.69" font-family="Times New Roman,serif" font-size="14.00">Activity_1</text>
+<text text-anchor="middle" x="175.5" y="-612.69" font-family="Times New Roman,serif" font-size="14.00">flewlx</text>
+<polyline fill="none" stroke="black" points="212.5,-589.89 212.5,-657.89 "/>
+<text text-anchor="middle" x="255" y="-642.69" font-family="Times New Roman,serif" font-size="14.00">University</text>
+<text text-anchor="middle" x="255" y="-627.69" font-family="Times New Roman,serif" font-size="14.00">_of_Cologn</text>
+<text text-anchor="middle" x="255" y="-612.69" font-family="Times New Roman,serif" font-size="14.00">e:Lane_12e</text>
+<text text-anchor="middle" x="255" y="-597.69" font-family="Times New Roman,serif" font-size="14.00">a2o1</text>
+<polyline fill="none" stroke="black" points="297.5,-589.89 297.5,-657.89 "/>
+<text text-anchor="middle" x="344" y="-620.19" font-family="Times New Roman,serif" font-size="14.00">task_Evaluate</text>
+</g>
+<!-- Activity_1\nocui6e&#45;&gt;Activity_1\nflewlx -->
+<g id="edge2" class="edge">
+<title>Activity_1\nocui6e&#45;&gt;Activity_1\nflewlx</title>
+<path fill="none" stroke="black" d="M264.5,-694.74C264.5,-686.28 264.5,-677.07 264.5,-668.19"/>
+<polygon fill="black" stroke="black" points="268,-667.99 264.5,-657.99 261,-667.99 268,-667.99"/>
+</g>
+<!-- Event_1ttr\nlqw -->
+<g id="node3" class="node">
+<title>Event_1ttr\nlqw</title>
+<ellipse fill="lightgrey" stroke="black" cx="264.5" cy="-44.2" rx="44.39" ry="44.39"/>
+<text text-anchor="middle" x="264.5" y="-40.5" font-family="Times New Roman,serif" font-size="14.00">endEvent</text>
+</g>
+<!-- Activity_1\nflewlx&#45;&gt;Gateway_1q\ndo7vy_Gate\nway_1qmiym\nr -->
+<g id="edge3" class="edge">
+<title>Activity_1\nflewlx&#45;&gt;Gateway_1q\ndo7vy_Gate\nway_1qmiym\nr</title>
+<path fill="none" stroke="black" d="M264.5,-589.6C264.5,-581.49 264.5,-572.47 264.5,-563.2"/>
+<polygon fill="black" stroke="black" points="268,-563.07 264.5,-553.07 261,-563.07 268,-563.07"/>
+</g>
+<!-- Gateway_0e\n5kry8_Gate\nway_0xlssx\n8 -->
+<g id="node5" class="node">
+<title>Gateway_0e\n5kry8_Gate\nway_0xlssx\n8</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="79.5,-124.89 79.5,-267.89 449.5,-267.89 449.5,-124.89 79.5,-124.89"/>
+<text text-anchor="middle" x="122.5" y="-215.19" font-family="Times New Roman,serif" font-size="14.00">Gateway_0e</text>
+<text text-anchor="middle" x="122.5" y="-200.19" font-family="Times New Roman,serif" font-size="14.00">5kry8_Gate</text>
+<text text-anchor="middle" x="122.5" y="-185.19" font-family="Times New Roman,serif" font-size="14.00">way_0xlssx</text>
+<text text-anchor="middle" x="122.5" y="-170.19" font-family="Times New Roman,serif" font-size="14.00">8</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="165.5,-124.89 165.5,-267.89 "/>
+<text text-anchor="middle" x="208" y="-215.19" font-family="Times New Roman,serif" font-size="14.00">University</text>
+<text text-anchor="middle" x="208" y="-200.19" font-family="Times New Roman,serif" font-size="14.00">_of_Cologn</text>
+<text text-anchor="middle" x="208" y="-185.19" font-family="Times New Roman,serif" font-size="14.00">e:Lane_12e</text>
+<text text-anchor="middle" x="208" y="-170.19" font-family="Times New Roman,serif" font-size="14.00">a2o1</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="250.5,-124.89 250.5,-267.89 "/>
+<text text-anchor="middle" x="350" y="-252.69" font-family="Times New Roman,serif" font-size="14.00">exclusiveGateway: </text>
+<text text-anchor="middle" x="350" y="-237.69" font-family="Times New Roman,serif" font-size="14.00"> XOR </text>
+<text text-anchor="middle" x="350" y="-222.69" font-family="Times New Roman,serif" font-size="14.00">(</text>
+<text text-anchor="middle" x="350" y="-207.69" font-family="Times New Roman,serif" font-size="14.00">task_Send_letter_of_acceptance</text>
+<text text-anchor="middle" x="350" y="-192.69" font-family="Times New Roman,serif" font-size="14.00">exclusiveGateway)</text>
+<text text-anchor="middle" x="350" y="-177.69" font-family="Times New Roman,serif" font-size="14.00"> XOR </text>
+<text text-anchor="middle" x="350" y="-162.69" font-family="Times New Roman,serif" font-size="14.00">(</text>
+<text text-anchor="middle" x="350" y="-147.69" font-family="Times New Roman,serif" font-size="14.00">task_Send_letter_of_rejection</text>
+<text text-anchor="middle" x="350" y="-132.69" font-family="Times New Roman,serif" font-size="14.00">exclusiveGateway)</text>
+</g>
+<!-- Gateway_0e\n5kry8_Gate\nway_0xlssx\n8&#45;&gt;Event_1ttr\nlqw -->
+<g id="edge4" class="edge">
+<title>Gateway_0e\n5kry8_Gate\nway_0xlssx\n8&#45;&gt;Event_1ttr\nlqw</title>
+<path fill="none" stroke="black" d="M264.5,-124.69C264.5,-115.93 264.5,-107.09 264.5,-98.64"/>
+<polygon fill="black" stroke="black" points="268,-98.57 264.5,-88.57 261,-98.57 268,-98.57"/>
+</g>
+<!-- Activity_1\n48u7wn&#45;&gt;Gateway_0e\n5kry8_Gate\nway_0xlssx\n8 -->
+<g id="edge5" class="edge">
+<title>Activity_1\n48u7wn&#45;&gt;Gateway_0e\n5kry8_Gate\nway_0xlssx\n8</title>
+<path fill="none" stroke="black" d="M264.5,-304.6C264.5,-296.49 264.5,-287.47 264.5,-278.2"/>
+<polygon fill="black" stroke="black" points="268,-278.07 264.5,-268.07 261,-278.07 268,-278.07"/>
+</g>
+<!-- Event_1gel\njn0 -->
+<g id="node7" class="node">
+<title>Event_1gel\njn0</title>
+<ellipse fill="lightgrey" stroke="black" cx="264.5" cy="-927.43" rx="128.08" ry="128.08"/>
+<text text-anchor="middle" x="264.5" y="-923.73" font-family="Times New Roman,serif" font-size="14.00">startEvent_Documents_received</text>
+</g>
+<!-- Event_1gel\njn0&#45;&gt;Activity_1\nocui6e -->
+<g id="edge6" class="edge">
+<title>Event_1gel\njn0&#45;&gt;Activity_1\nocui6e</title>
+<path fill="none" stroke="black" d="M264.5,-799.18C264.5,-790.05 264.5,-781.28 264.5,-773.24"/>
+<polygon fill="black" stroke="black" points="268,-773.11 264.5,-763.11 261,-773.11 268,-773.11"/>
+</g>
+</g>
+</svg>

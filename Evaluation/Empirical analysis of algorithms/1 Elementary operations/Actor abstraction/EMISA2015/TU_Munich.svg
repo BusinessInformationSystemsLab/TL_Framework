@@ -1,0 +1,63 @@
+<svg width="600px" height="537px"
+ viewBox="0.00 0.00 487.00 435.98" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(4 431.98)">
+<title>TU_Munich</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-431.98 483,-431.98 483,4 -4,4"/>
+<!-- sid&#45;3B9A16\n79&#45;D9C0&#45;48\nD4&#45;B6EB&#45;EE\n354AB529F2\n_sid&#45;714C5\nB0A&#45;CC06&#45;4\n710&#45;9866&#45;E\nC2280EA282\nE -->
+<g id="node1" class="node">
+<title>sid&#45;3B9A16\n79&#45;D9C0&#45;48\nD4&#45;B6EB&#45;EE\n354AB529F2\n_sid&#45;714C5\nB0A&#45;CC06&#45;4\n710&#45;9866&#45;E\nC2280EA282\nE</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="0,-124.89 0,-297.89 479,-297.89 479,-124.89 0,-124.89"/>
+<text text-anchor="middle" x="46" y="-267.69" font-family="Times New Roman,serif" font-size="14.00">sid&#45;3B9A16</text>
+<text text-anchor="middle" x="46" y="-252.69" font-family="Times New Roman,serif" font-size="14.00">79&#45;D9C0&#45;48</text>
+<text text-anchor="middle" x="46" y="-237.69" font-family="Times New Roman,serif" font-size="14.00">D4&#45;B6EB&#45;EE</text>
+<text text-anchor="middle" x="46" y="-222.69" font-family="Times New Roman,serif" font-size="14.00">354AB529F2</text>
+<text text-anchor="middle" x="46" y="-207.69" font-family="Times New Roman,serif" font-size="14.00">_sid&#45;714C5</text>
+<text text-anchor="middle" x="46" y="-192.69" font-family="Times New Roman,serif" font-size="14.00">B0A&#45;CC06&#45;4</text>
+<text text-anchor="middle" x="46" y="-177.69" font-family="Times New Roman,serif" font-size="14.00">710&#45;9866&#45;E</text>
+<text text-anchor="middle" x="46" y="-162.69" font-family="Times New Roman,serif" font-size="14.00">C2280EA282</text>
+<text text-anchor="middle" x="46" y="-147.69" font-family="Times New Roman,serif" font-size="14.00">E</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="92,-124.89 92,-297.89 "/>
+<text text-anchor="middle" x="140.5" y="-237.69" font-family="Times New Roman,serif" font-size="14.00">Applicant:</text>
+<text text-anchor="middle" x="140.5" y="-222.69" font-family="Times New Roman,serif" font-size="14.00">sid&#45;39452A</text>
+<text text-anchor="middle" x="140.5" y="-207.69" font-family="Times New Roman,serif" font-size="14.00">A2&#45;6890&#45;47</text>
+<text text-anchor="middle" x="140.5" y="-192.69" font-family="Times New Roman,serif" font-size="14.00">A4&#45;82CA&#45;5E</text>
+<text text-anchor="middle" x="140.5" y="-177.69" font-family="Times New Roman,serif" font-size="14.00">7DCB7F6EF4</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="189,-124.89 189,-297.89 "/>
+<text text-anchor="middle" x="334" y="-282.69" font-family="Times New Roman,serif" font-size="14.00">Applicant DO</text>
+<text text-anchor="middle" x="334" y="-267.69" font-family="Times New Roman,serif" font-size="14.00"> task_Apply_online</text>
+<text text-anchor="middle" x="334" y="-252.69" font-family="Times New Roman,serif" font-size="14.00">task_Send_documents_by_post</text>
+<text text-anchor="middle" x="334" y="-237.69" font-family="Times New Roman,serif" font-size="14.00">task_Wait_for_results</text>
+<text text-anchor="middle" x="334" y="-222.69" font-family="Times New Roman,serif" font-size="14.00">eventBasedGateway</text>
+<text text-anchor="middle" x="334" y="-207.69" font-family="Times New Roman,serif" font-size="14.00">intermediateCatchEvent_Invited_to_an_interview</text>
+<text text-anchor="middle" x="334" y="-192.69" font-family="Times New Roman,serif" font-size="14.00">task_Go_to_the_interview</text>
+<text text-anchor="middle" x="334" y="-177.69" font-family="Times New Roman,serif" font-size="14.00">eventBasedGateway</text>
+<text text-anchor="middle" x="334" y="-162.69" font-family="Times New Roman,serif" font-size="14.00">intermediateCatchEvent_Accepted</text>
+<text text-anchor="middle" x="334" y="-147.69" font-family="Times New Roman,serif" font-size="14.00">exclusiveGateway</text>
+<text text-anchor="middle" x="334" y="-132.69" font-family="Times New Roman,serif" font-size="14.00">exclusiveGateway</text>
+</g>
+<!-- sid&#45;EC00EA\n7C&#45;CDFF&#45;44\n1C&#45;A544&#45;92\nE423EE8803 -->
+<g id="node3" class="node">
+<title>sid&#45;EC00EA\n7C&#45;CDFF&#45;44\n1C&#45;A544&#45;92\nE423EE8803</title>
+<ellipse fill="lightgrey" stroke="black" cx="239.5" cy="-44.2" rx="44.39" ry="44.39"/>
+<text text-anchor="middle" x="239.5" y="-40.5" font-family="Times New Roman,serif" font-size="14.00">endEvent</text>
+</g>
+<!-- sid&#45;3B9A16\n79&#45;D9C0&#45;48\nD4&#45;B6EB&#45;EE\n354AB529F2\n_sid&#45;714C5\nB0A&#45;CC06&#45;4\n710&#45;9866&#45;E\nC2280EA282\nE&#45;&gt;sid&#45;EC00EA\n7C&#45;CDFF&#45;44\n1C&#45;A544&#45;92\nE423EE8803 -->
+<g id="edge1" class="edge">
+<title>sid&#45;3B9A16\n79&#45;D9C0&#45;48\nD4&#45;B6EB&#45;EE\n354AB529F2\n_sid&#45;714C5\nB0A&#45;CC06&#45;4\n710&#45;9866&#45;E\nC2280EA282\nE&#45;&gt;sid&#45;EC00EA\n7C&#45;CDFF&#45;44\n1C&#45;A544&#45;92\nE423EE8803</title>
+<path fill="none" stroke="black" d="M239.5,-124.89C239.5,-115.94 239.5,-107.03 239.5,-98.58"/>
+<polygon fill="black" stroke="black" points="243,-98.55 239.5,-88.55 236,-98.55 243,-98.55"/>
+</g>
+<!-- sid&#45;4BC64E\n5F&#45;17AA&#45;4A\n7C&#45;AAF7&#45;C0\nC5AAC49682 -->
+<g id="node2" class="node">
+<title>sid&#45;4BC64E\n5F&#45;17AA&#45;4A\n7C&#45;AAF7&#45;C0\nC5AAC49682</title>
+<ellipse fill="lightgrey" stroke="black" cx="239.5" cy="-381.19" rx="46.59" ry="46.59"/>
+<text text-anchor="middle" x="239.5" y="-377.49" font-family="Times New Roman,serif" font-size="14.00">startEvent</text>
+</g>
+<!-- sid&#45;4BC64E\n5F&#45;17AA&#45;4A\n7C&#45;AAF7&#45;C0\nC5AAC49682&#45;&gt;sid&#45;3B9A16\n79&#45;D9C0&#45;48\nD4&#45;B6EB&#45;EE\n354AB529F2\n_sid&#45;714C5\nB0A&#45;CC06&#45;4\n710&#45;9866&#45;E\nC2280EA282\nE -->
+<g id="edge2" class="edge">
+<title>sid&#45;4BC64E\n5F&#45;17AA&#45;4A\n7C&#45;AAF7&#45;C0\nC5AAC49682&#45;&gt;sid&#45;3B9A16\n79&#45;D9C0&#45;48\nD4&#45;B6EB&#45;EE\n354AB529F2\n_sid&#45;714C5\nB0A&#45;CC06&#45;4\n710&#45;9866&#45;E\nC2280EA282\nE</title>
+<path fill="none" stroke="black" d="M239.5,-334.34C239.5,-326.16 239.5,-317.37 239.5,-308.39"/>
+<polygon fill="black" stroke="black" points="243,-308.19 239.5,-298.19 236,-308.19 243,-308.19"/>
+</g>
+</g>
+</svg>

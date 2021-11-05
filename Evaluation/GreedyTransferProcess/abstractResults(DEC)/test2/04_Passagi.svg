@@ -1,0 +1,60 @@
+<svg width="600px" height="26px"
+ viewBox="0.00 0.00 1753.00 77.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(4 73)">
+<title>04_Passagierabfertigung_Check&#45;In_am_Vorabend</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-73 1749,-73 1749,4 -4,4"/>
+<!-- Task_1maku\nr1 -->
+<g id="node1" class="node">
+<title>Task_1maku\nr1</title>
+<polygon fill="lightgrey" stroke="black" points="0,-8 0,-61 326,-61 326,-8 0,-8"/>
+<text text-anchor="middle" x="44.5" y="-38.3" font-family="Times New Roman,serif" font-size="14.00">Task_1maku</text>
+<text text-anchor="middle" x="44.5" y="-23.3" font-family="Times New Roman,serif" font-size="14.00">r1</text>
+<polyline fill="none" stroke="black" points="89,-8 89,-61 "/>
+<text text-anchor="middle" x="133.5" y="-45.8" font-family="Times New Roman,serif" font-size="14.00">Versandbür</text>
+<text text-anchor="middle" x="133.5" y="-30.8" font-family="Times New Roman,serif" font-size="14.00">o:1CN__Lan</text>
+<text text-anchor="middle" x="133.5" y="-15.8" font-family="Times New Roman,serif" font-size="14.00">e_1n6g0py</text>
+<polyline fill="none" stroke="black" points="178,-8 178,-61 "/>
+<text text-anchor="middle" x="252" y="-30.8" font-family="Times New Roman,serif" font-size="14.00">Versandeinheiten_laden</text>
+</g>
+<!-- Task_1376l\n88 -->
+<g id="node2" class="node">
+<title>Task_1376l\n88</title>
+<polygon fill="lightgrey" stroke="black" points="344.5,-0.5 344.5,-68.5 983.5,-68.5 983.5,-0.5 344.5,-0.5"/>
+<text text-anchor="middle" x="385.5" y="-38.3" font-family="Times New Roman,serif" font-size="14.00">Task_1376l</text>
+<text text-anchor="middle" x="385.5" y="-23.3" font-family="Times New Roman,serif" font-size="14.00">88</text>
+<polyline fill="none" stroke="black" points="426.5,-0.5 426.5,-68.5 "/>
+<text text-anchor="middle" x="469.5" y="-53.3" font-family="Times New Roman,serif" font-size="14.00">Lagerfachk</text>
+<text text-anchor="middle" x="469.5" y="-38.3" font-family="Times New Roman,serif" font-size="14.00">raft:1BQ__</text>
+<text text-anchor="middle" x="469.5" y="-23.3" font-family="Times New Roman,serif" font-size="14.00">Lane_11q77</text>
+<text text-anchor="middle" x="469.5" y="-8.3" font-family="Times New Roman,serif" font-size="14.00">qc</text>
+<polyline fill="none" stroke="black" points="512.5,-0.5 512.5,-68.5 "/>
+<text text-anchor="middle" x="748" y="-30.8" font-family="Times New Roman,serif" font-size="14.00">Produkte_vom_Übergabepunkt_in_den_Puffer_für_Hochregal&#45;paletten_einlagern</text>
+</g>
+<!-- StartEvent\n_4 -->
+<g id="node3" class="node">
+<title>StartEvent\n_4</title>
+<ellipse fill="lightgrey" stroke="black" cx="1029" cy="-34.5" rx="27.9" ry="27.9"/>
+<text text-anchor="middle" x="1029" y="-30.8" font-family="Times New Roman,serif" font-size="14.00">Start</text>
+</g>
+<!-- EndEvent_1\nvwcw55 -->
+<g id="node4" class="node">
+<title>EndEvent_1\nvwcw55</title>
+<ellipse fill="lightgrey" stroke="black" cx="1104" cy="-34.5" rx="29.5" ry="29.5"/>
+<text text-anchor="middle" x="1104" y="-30.8" font-family="Times New Roman,serif" font-size="14.00">Ende</text>
+</g>
+<!-- Task_0c1t4\n9t -->
+<g id="node5" class="node">
+<title>Task_0c1t4\n9t</title>
+<polygon fill="lightgrey" stroke="black" points="1151,-0.5 1151,-68.5 1745,-68.5 1745,-0.5 1151,-0.5"/>
+<text text-anchor="middle" x="1192.5" y="-38.3" font-family="Times New Roman,serif" font-size="14.00">Task_0c1t4</text>
+<text text-anchor="middle" x="1192.5" y="-23.3" font-family="Times New Roman,serif" font-size="14.00">9t</text>
+<polyline fill="none" stroke="black" points="1234,-0.5 1234,-68.5 "/>
+<text text-anchor="middle" x="1276" y="-53.3" font-family="Times New Roman,serif" font-size="14.00">Lagerfachk</text>
+<text text-anchor="middle" x="1276" y="-38.3" font-family="Times New Roman,serif" font-size="14.00">raft:1CX__</text>
+<text text-anchor="middle" x="1276" y="-23.3" font-family="Times New Roman,serif" font-size="14.00">Lane_12ge0</text>
+<text text-anchor="middle" x="1276" y="-8.3" font-family="Times New Roman,serif" font-size="14.00">89</text>
+<polyline fill="none" stroke="black" points="1318,-0.5 1318,-68.5 "/>
+<text text-anchor="middle" x="1531.5" y="-30.8" font-family="Times New Roman,serif" font-size="14.00">Differenzen_der_physischen_Inventur_ins_SAP_S/4HANA_transferieren</text>
+</g>
+</g>
+</svg>

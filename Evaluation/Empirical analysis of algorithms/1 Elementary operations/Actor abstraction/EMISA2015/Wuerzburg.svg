@@ -1,0 +1,62 @@
+<svg width="600px" height="571px"
+ viewBox="0.00 0.00 442.00 420.98" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(4 416.98)">
+<title>Wuerzburg</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-416.98 438,-416.98 438,4 -4,4"/>
+<!-- sid&#45;ED4EDE\n4D&#45;F2A7&#45;41\n5C&#45;87FE&#45;98\n379131F244 -->
+<g id="node1" class="node">
+<title>sid&#45;ED4EDE\n4D&#45;F2A7&#45;41\n5C&#45;87FE&#45;98\n379131F244</title>
+<ellipse fill="lightgrey" stroke="black" cx="217" cy="-44.2" rx="44.39" ry="44.39"/>
+<text text-anchor="middle" x="217" y="-40.5" font-family="Times New Roman,serif" font-size="14.00">endEvent</text>
+</g>
+<!-- sid&#45;7334C7\n8B&#45;F3F1&#45;44\n9E&#45;9B9B&#45;D3\n9C17261BD9\n_sid&#45;A7409\n099&#45;EFAC&#45;4\n7F3&#45;9672&#45;0\n00E4655388\n9 -->
+<g id="node2" class="node">
+<title>sid&#45;7334C7\n8B&#45;F3F1&#45;44\n9E&#45;9B9B&#45;D3\n9C17261BD9\n_sid&#45;A7409\n099&#45;EFAC&#45;4\n7F3&#45;9672&#45;0\n00E4655388\n9</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="0,-124.89 0,-282.89 434,-282.89 434,-124.89 0,-124.89"/>
+<text text-anchor="middle" x="46" y="-260.19" font-family="Times New Roman,serif" font-size="14.00">sid&#45;7334C7</text>
+<text text-anchor="middle" x="46" y="-245.19" font-family="Times New Roman,serif" font-size="14.00">8B&#45;F3F1&#45;44</text>
+<text text-anchor="middle" x="46" y="-230.19" font-family="Times New Roman,serif" font-size="14.00">9E&#45;9B9B&#45;D3</text>
+<text text-anchor="middle" x="46" y="-215.19" font-family="Times New Roman,serif" font-size="14.00">9C17261BD9</text>
+<text text-anchor="middle" x="46" y="-200.19" font-family="Times New Roman,serif" font-size="14.00">_sid&#45;A7409</text>
+<text text-anchor="middle" x="46" y="-185.19" font-family="Times New Roman,serif" font-size="14.00">099&#45;EFAC&#45;4</text>
+<text text-anchor="middle" x="46" y="-170.19" font-family="Times New Roman,serif" font-size="14.00">7F3&#45;9672&#45;0</text>
+<text text-anchor="middle" x="46" y="-155.19" font-family="Times New Roman,serif" font-size="14.00">00E4655388</text>
+<text text-anchor="middle" x="46" y="-140.19" font-family="Times New Roman,serif" font-size="14.00">9</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="92,-124.89 92,-282.89 "/>
+<text text-anchor="middle" x="141" y="-230.19" font-family="Times New Roman,serif" font-size="14.00">Applicant:</text>
+<text text-anchor="middle" x="141" y="-215.19" font-family="Times New Roman,serif" font-size="14.00">sid&#45;834957</text>
+<text text-anchor="middle" x="141" y="-200.19" font-family="Times New Roman,serif" font-size="14.00">E4&#45;F801&#45;40</text>
+<text text-anchor="middle" x="141" y="-185.19" font-family="Times New Roman,serif" font-size="14.00">92&#45;8504&#45;57</text>
+<text text-anchor="middle" x="141" y="-170.19" font-family="Times New Roman,serif" font-size="14.00">0CC30E50CA</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="190,-124.89 190,-282.89 "/>
+<text text-anchor="middle" x="312" y="-267.69" font-family="Times New Roman,serif" font-size="14.00">Applicant DO</text>
+<text text-anchor="middle" x="312" y="-252.69" font-family="Times New Roman,serif" font-size="14.00"> task_Choose_Uni</text>
+<text text-anchor="middle" x="312" y="-237.69" font-family="Times New Roman,serif" font-size="14.00">exclusiveGateway</text>
+<text text-anchor="middle" x="312" y="-222.69" font-family="Times New Roman,serif" font-size="14.00">task_Fill_in_online_form_of_application</text>
+<text text-anchor="middle" x="312" y="-207.69" font-family="Times New Roman,serif" font-size="14.00">task_Send_german_application</text>
+<text text-anchor="middle" x="312" y="-192.69" font-family="Times New Roman,serif" font-size="14.00">exclusiveGateway</text>
+<text text-anchor="middle" x="312" y="-177.69" font-family="Times New Roman,serif" font-size="14.00">task_Waiting_for_response</text>
+<text text-anchor="middle" x="312" y="-162.69" font-family="Times New Roman,serif" font-size="14.00">exclusiveGateway</text>
+<text text-anchor="middle" x="312" y="-147.69" font-family="Times New Roman,serif" font-size="14.00">task_Receive_rejection</text>
+<text text-anchor="middle" x="312" y="-132.69" font-family="Times New Roman,serif" font-size="14.00">exclusiveGateway</text>
+</g>
+<!-- sid&#45;7334C7\n8B&#45;F3F1&#45;44\n9E&#45;9B9B&#45;D3\n9C17261BD9\n_sid&#45;A7409\n099&#45;EFAC&#45;4\n7F3&#45;9672&#45;0\n00E4655388\n9&#45;&gt;sid&#45;ED4EDE\n4D&#45;F2A7&#45;41\n5C&#45;87FE&#45;98\n379131F244 -->
+<g id="edge1" class="edge">
+<title>sid&#45;7334C7\n8B&#45;F3F1&#45;44\n9E&#45;9B9B&#45;D3\n9C17261BD9\n_sid&#45;A7409\n099&#45;EFAC&#45;4\n7F3&#45;9672&#45;0\n00E4655388\n9&#45;&gt;sid&#45;ED4EDE\n4D&#45;F2A7&#45;41\n5C&#45;87FE&#45;98\n379131F244</title>
+<path fill="none" stroke="black" d="M217,-124.51C217,-115.81 217,-107.11 217,-98.82"/>
+<polygon fill="black" stroke="black" points="220.5,-98.57 217,-88.57 213.5,-98.57 220.5,-98.57"/>
+</g>
+<!-- sid&#45;3AE343\n40&#45;B40D&#45;4A\n61&#45;99AB&#45;3E\nF1D830EF28 -->
+<g id="node3" class="node">
+<title>sid&#45;3AE343\n40&#45;B40D&#45;4A\n61&#45;99AB&#45;3E\nF1D830EF28</title>
+<ellipse fill="lightgrey" stroke="black" cx="217" cy="-366.19" rx="46.59" ry="46.59"/>
+<text text-anchor="middle" x="217" y="-362.49" font-family="Times New Roman,serif" font-size="14.00">startEvent</text>
+</g>
+<!-- sid&#45;3AE343\n40&#45;B40D&#45;4A\n61&#45;99AB&#45;3E\nF1D830EF28&#45;&gt;sid&#45;7334C7\n8B&#45;F3F1&#45;44\n9E&#45;9B9B&#45;D3\n9C17261BD9\n_sid&#45;A7409\n099&#45;EFAC&#45;4\n7F3&#45;9672&#45;0\n00E4655388\n9 -->
+<g id="edge2" class="edge">
+<title>sid&#45;3AE343\n40&#45;B40D&#45;4A\n61&#45;99AB&#45;3E\nF1D830EF28&#45;&gt;sid&#45;7334C7\n8B&#45;F3F1&#45;44\n9E&#45;9B9B&#45;D3\n9C17261BD9\n_sid&#45;A7409\n099&#45;EFAC&#45;4\n7F3&#45;9672&#45;0\n00E4655388\n9</title>
+<path fill="none" stroke="black" d="M217,-319.25C217,-310.99 217,-302.12 217,-293.12"/>
+<polygon fill="black" stroke="black" points="220.5,-292.92 217,-282.92 213.5,-292.92 220.5,-292.92"/>
+</g>
+</g>
+</svg>

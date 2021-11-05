@@ -1,0 +1,999 @@
+Prefix(:=<http://owl.api.wf#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://owl.api.wf>
+
+Declaration(Class(:Anlieferung_bearbeiten))
+Declaration(Class(:Auslieferung_bearbeiten))
+Declaration(Class(:Beleg_buchen))
+Declaration(Class(:Beleg_erstellen))
+Declaration(Class(:Beleg_prüfen))
+Declaration(Class(:Belege_bearbeiten))
+Declaration(Class(:Bestellungen_bearbeiten))
+Declaration(Class(:Inventurvorgänge_bearbeiten))
+Declaration(Class(:Lageraufträge_bearbeiten))
+Declaration(Class(:Nicht-physische_Verarbeitungsvorgänge))
+Declaration(Class(:Physische_Verarbeitung))
+Declaration(Class(:Produktionsaufgaben_bearbeiten))
+Declaration(Class(:Retourenaufgaben_bearbeiten))
+Declaration(Class(:Sonstige_Aufgaben))
+Declaration(Class(:Sonstige_Belege-Bearbeitung))
+Declaration(Class(:Sonstige_Vorgänge_der_Warenüberprüfung))
+Declaration(Class(:Task_SAP_Hierarchie))
+Declaration(Class(:Transportmittel_beladen))
+Declaration(Class(:Ware_aus_Entnahmezone_herausnehmen))
+Declaration(Class(:Ware_aus_Großlager_herausnehmen))
+Declaration(Class(:Ware_bereitstellen))
+Declaration(Class(:Ware_einlagern))
+Declaration(Class(:Ware_für_die_Produktion_bearbeiten))
+Declaration(Class(:Ware_herausnehmen))
+Declaration(Class(:Ware_in_Regale_einlagern))
+Declaration(Class(:Warenausgang_bearbeiten))
+Declaration(Class(:Warenbestand_auffüllen))
+Declaration(Class(:Warenbestand_bearbeiten))
+Declaration(Class(:Warenbestand_prüfen))
+Declaration(Class(:Wareneingang_bearbeiten))
+Declaration(Class(:Wareneinheiten_Im_Lager_bewegen))
+Declaration(Class(:Wareneinheiten_verpacken))
+Declaration(Class(:Warenverschrottung_bearbeiten))
+Declaration(NamedIndividual(:Ad-hoc-Warenaufgabe_zur_Verschrottung_erstellen))
+Declaration(NamedIndividual(:Anfrage_für_Produktionsmaterial_erstellen))
+Declaration(NamedIndividual(:Anlieferung_aktualisieren))
+Declaration(NamedIndividual(:Anlieferung_erstellen))
+Declaration(NamedIndividual(:Anlieferung_erzeugen))
+Declaration(NamedIndividual(:Anlieferung_updaten))
+Declaration(NamedIndividual(:Artikel_zählen_und_Ergebnisse_auf_Ausdrucken_notieren))
+Declaration(NamedIndividual(:Artikel_zählen_und_Ergebnisse_ins_mobile_Gerät_eingeben))
+Declaration(NamedIndividual(:Auslieferung_erstellen))
+Declaration(NamedIndividual(:Auslieferungsauftrag_aktualisieren))
+Declaration(NamedIndividual(:Auslieferungsauftrag_der_Kommissionierwelle_zuordnen))
+Declaration(NamedIndividual(:Auslieferungsauftrag_erstellen))
+Declaration(NamedIndividual(:Auslieferungsaufträge_in_SAP_EWM_anzeigen))
+Declaration(NamedIndividual(:Automatisch_wiederauffüllen))
+Declaration(NamedIndividual(:Bereitstellung_planen))
+Declaration(NamedIndividual(:Bestand_ist_aufgefüllt))
+Declaration(NamedIndividual(:Bestand_vom_Lagerplatz_ROD_in_den_Lagerplatz_AFS_buchen))
+Declaration(NamedIndividual(:Bestellung_erhalten))
+Declaration(NamedIndividual(:Bestellung_erstellen))
+Declaration(NamedIndividual(:Differenzen_der_physischen_Inventur_in_SAP_EWM_einbuchen))
+Declaration(NamedIndividual(:Dokument_für_physische_Inventur_erstellen))
+Declaration(NamedIndividual(:Dokumente_für_physische_Inventur_drucken))
+Declaration(NamedIndividual(:Einzelne_Kartons_aus_Großlager_entnehmen))
+Declaration(NamedIndividual(:Einzelprodukte_aus_Großlager-Entnahmezone_rausnehmen))
+Declaration(NamedIndividual(:Entscheidung_über_die_Nutzung_erfassen))
+Declaration(NamedIndividual(:Ganze_Paletten_aus_Großlager_entnehmen))
+Declaration(NamedIndividual(:Geblockte_Inventur-Differenzen_analysieren))
+Declaration(NamedIndividual(:Geringen_Warenbestand_erkennen))
+Declaration(NamedIndividual(:Große_Teile_aus_Schmalgang-Entnahmezone_nehmen))
+Declaration(NamedIndividual(:In_der_Klärungszone_umverpacken))
+Declaration(NamedIndividual(:Initialen_Warenbestand_in_SAP_EWM_System_uploaden))
+Declaration(NamedIndividual(:Kommissionierwelle_freigeben))
+Declaration(NamedIndividual(:Komponenten_im_Produktionsversorgungsbereich_vorbereiten))
+Declaration(NamedIndividual(:Kundenauftrag_erstellen))
+Declaration(NamedIndividual(:Kundenretoure-Lieferung_erstellen))
+Declaration(NamedIndividual(:Kundenretoure-Lieferung_in_SAP_EWM_lokalisieren))
+Declaration(NamedIndividual(:Kundenretoure_erstellen))
+Declaration(NamedIndividual(:LKW-Check-In_erreichen_und_zur_Tür_vorfahren))
+Declaration(NamedIndividual(:LKW_beladen))
+Declaration(NamedIndividual(:LKW_fährt_los))
+Declaration(NamedIndividual(:Laden_beenden))
+Declaration(NamedIndividual(:Ladung_sichten))
+Declaration(NamedIndividual(:Lageraufgabe_Wiederauffüllung_bestätigen))
+Declaration(NamedIndividual(:Lageraufgabe_Wiederauffüllung_erstellen))
+Declaration(NamedIndividual(:Lagerauftrag_überprüfen))
+Declaration(NamedIndividual(:Lageraufträge_anzeigen))
+Declaration(NamedIndividual(:Lagerhaus-Bestellungen_prüfen))
+Declaration(NamedIndividual(:Lagerhaustasks_erstellen))
+Declaration(NamedIndividual(:Materialdokument_im_System_prüfen))
+Declaration(NamedIndividual(:Nachgezählte_Inventurdokumente_kontrollieren))
+Declaration(NamedIndividual(:Nicht-Paletten-Mengen_aus_Mezzanin_entnehmen))
+Declaration(NamedIndividual(:Nicht-Paletten-mengen_in_versandbereite_Warenheinheiten_umpacken))
+Declaration(NamedIndividual(:Offene_Behälter_suchen))
+Declaration(NamedIndividual(:Offene_Produkte_überwachen))
+Declaration(NamedIndividual(:PMR-Status_ändern))
+Declaration(NamedIndividual(:Paletten_von_der_Bereitstellungszone_zum_Übergabepunkt_bewegen))
+Declaration(NamedIndividual(:Physischen_Lagerbestand_prüfen))
+Declaration(NamedIndividual(:Produkte_aus_der_Bereitstellungszone_in_Großlager_einlagern))
+Declaration(NamedIndividual(:Produkte_aus_der_Klärungszone_ins_Mezzanin_bewegen))
+Declaration(NamedIndividual(:Produkte_aus_der_Verschrottungszone_entfernen))
+Declaration(NamedIndividual(:Produkte_aus_der_Wareneingangszone_in_Hochregale_einlagern))
+Declaration(NamedIndividual(:Produkte_im_Verpackungszentrum_verpacken_und_konsolidieren))
+Declaration(NamedIndividual(:Produkte_in_den_Produktionsversorgungsbereich_bereitstellen))
+Declaration(NamedIndividual(:Produkte_in_der_Produktionsanlage_fertigstellen))
+Declaration(NamedIndividual(:Produkte_in_die_Klärungszone_bewegen))
+Declaration(NamedIndividual(:Produkte_ins_Mezzanin_einlagern))
+Declaration(NamedIndividual(:Produkte_verbrauchen))
+Declaration(NamedIndividual(:Produkte_vom_Übergabepunkt_in_den_Puffer_für_Hochregal-paletten_einlagern))
+Declaration(NamedIndividual(:Produkte_zur_Verschrottungszone_bewegen))
+Declaration(NamedIndividual(:Produktionsbedarf_erkennen))
+Declaration(NamedIndividual(:Produktionsbestellung_aktualisieren))
+Declaration(NamedIndividual(:Produktionsbestellung_erstellen_und_freigeben))
+Declaration(NamedIndividual(:Produktionsbestellung_schließen))
+Declaration(NamedIndividual(:Produktionsbestellung_technisch_fertigstellen))
+Declaration(NamedIndividual(:Produktionsversorgungsbereich_räumen))
+Declaration(NamedIndividual(:RF-basiert_zählen))
+Declaration(NamedIndividual(:Retournierte_Produkte_erhalten))
+Declaration(NamedIndividual(:Retournierte_Produkte_zu_Qulitätsprüfung_bewegen))
+Declaration(NamedIndividual(:Simmulierte_Batch-Auswahl_überprüfen))
+Declaration(NamedIndividual(:Transporteinheit_bearbeiten))
+Declaration(NamedIndividual(:Transporteinheit_bearbeiten_Check-In_und_am_Tor_ankommen))
+Declaration(NamedIndividual(:Transporteinheit_bearbeiten_inklusiv._Check-In_und_am_Tor_ankommen))
+Declaration(NamedIndividual(:Transporteinheit_bearbeiten_inklusiv_Check-In_und_am_Tor_ankommen))
+Declaration(NamedIndividual(:Umbuchung_mit_Warenaufgaben_erstellen))
+Declaration(NamedIndividual(:Verfügbarkeits-gruppe_ändern))
+Declaration(NamedIndividual(:Verfügbarkeitsgruppe_ändern))
+Declaration(NamedIndividual(:Versandbereite_Wareneinheiten_bereitstellen))
+Declaration(NamedIndividual(:Versandbereite_Wareneinheiten_im_Verpackungs-zentrum_verschließen))
+Declaration(NamedIndividual(:Versandbereite_Wareneinheiten_im_Verpackungszentrum_verschließen))
+Declaration(NamedIndividual(:Versandeinheiten_laden))
+Declaration(NamedIndividual(:Verschrottung_von_Kistenteilen_durchführen))
+Declaration(NamedIndividual(:Verschrottungszone_leeren_und_Warenausgang_buchen))
+Declaration(NamedIndividual(:Verschrottungszone_regelmäßig_leeren_und_Warenausgang_buchen))
+Declaration(NamedIndividual(:Ware_Einlagern))
+Declaration(NamedIndividual(:Ware_am_Entnahmepunkt_entnehmen))
+Declaration(NamedIndividual(:Ware_vom_Übergabepunkt_zur_Verschrottungszone_bewegen))
+Declaration(NamedIndividual(:Ware_zum_Übergabepunkt_bewegen))
+Declaration(NamedIndividual(:Warenanküdigung_versenden))
+Declaration(NamedIndividual(:Warenankündigung_versenden))
+Declaration(NamedIndividual(:Warenausgang_für_verschrottete_Produkte_buchen))
+Declaration(NamedIndividual(:Warenbeleg_bearbeiten))
+Declaration(NamedIndividual(:Warenbeleg_buchen))
+Declaration(NamedIndividual(:Warenbeleg_der_Produktion_bearbeiten))
+Declaration(NamedIndividual(:Warenbelege_buchen))
+Declaration(NamedIndividual(:Warenbestand_aktualisieren))
+Declaration(NamedIndividual(:Warenbestand_initial_auffüllen))
+Declaration(NamedIndividual(:Warenbestand_ins_Lager_zurückbringen))
+Declaration(NamedIndividual(:Warenbestand_zur_Verschrottungszone_bewegen))
+Declaration(NamedIndividual(:Wareneingang_buchen))
+Declaration(NamedIndividual(:Wareneingang_für_verschrottete_Produkte_buchen))
+Declaration(NamedIndividual(:Wareneingang_prüfen))
+Declaration(NamedIndividual(:Wareneingangsbeleg_bearbeiten))
+Declaration(NamedIndividual(:Wareneingangsbeleg_erstellen))
+Declaration(NamedIndividual(:Wareneinheit_aus_dem_Übergabepunkt_ins_Mezzanin_bewegen))
+Declaration(NamedIndividual(:Wareneinheit_im_urprünglichen_Gang_abholen))
+Declaration(NamedIndividual(:Wareneinheiten_aus_dem_Paletten-Puffer_entnehmen))
+Declaration(NamedIndividual(:Wareneinheiten_vom_Übergabepunkt_zum_Verpackungszentrum_bewegen))
+Declaration(NamedIndividual(:Wiederauffüllung_durchführen))
+Declaration(NamedIndividual(:Zu_verschrottenden_Lagerbestand_selektieren))
+Declaration(NamedIndividual(:Zählergebnisse_ins_System_eingeben))
+Declaration(NamedIndividual(:Übersicht_der_Batch-Warenbestands_überprüfen))
+Declaration(NamedIndividual(<http://owl.api.wf#Ausladen_(inkl._Umverpackung_und_Etikettierung)>))
+Declaration(NamedIndividual(<http://owl.api.wf#Auslieferung_aktualisieren,_Warenbestand_buchen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Auslieferung_aktualisieren,_inkl._Warenbestand_buchen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Bearbeitung_der_Wareneingangsbelege_(WEB)>))
+Declaration(NamedIndividual(<http://owl.api.wf#Bestand_vom_Lagerplatz_'ROD'_in_den_Lagerplatz_'AFS'_buchen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Differenzen_der_physischen_Inventur_ins_SAP_S/4HANA_transferieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Differenzen_in_SAP_S/4HANA_buchen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Dokumente_für_physische_Inventur_(Cycle-Counting)_erstellen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Entnahme-Lageraufträge_und_Lageraufgaben _erstellen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Innerhalb_eines_Lagergangs?_/_JOIN>))
+Declaration(NamedIndividual(<http://owl.api.wf#Innerhalb_eines_Lagergangs?_/_SPLIT>))
+Declaration(NamedIndividual(<http://owl.api.wf#Lageraufgabe_'Einlagerung'_erstellen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Lageraufgabe Wiederauffüllung_anzeigen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Paletten/Wareneinheiten_vom_Entnahmepunkt_zum_Verpackungszentrum_bewegen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Paletten/Wareneinheiten_zum_Entnahmepunkt_bewegen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Paletten/Wareneinheiten_zum_Verpackungszentrum_bewegen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Paletten/Wareneinheiten_zum_Übergabepunkt_bewegen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Paletten/Wareneinheiten_zu_Hochregalen_(höhere_Ebenen)_bewegen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Paletten/Wareneinheiten_zu_Hochregalen_(untere_Ebenen)_bewegen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Produkte_in_'Einlagern'_oder_'Verschrotten'_klassifizieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Produkte_in_Hochregal_einlagern_(höhere_Ebenen)>))
+Declaration(NamedIndividual(<http://owl.api.wf#Produkte_in_Hochregal_einlagern_(tiefere_Ebenen)>))
+Declaration(NamedIndividual(<http://owl.api.wf#Produkte_in_Hochregale_einlagern_(niedrigere_Ebenen)>))
+Declaration(NamedIndividual(<http://owl.api.wf#Produkte_treffen_in_der _Verschrottungszone_ein>))
+Declaration(NamedIndividual(<http://owl.api.wf#Verechnungsdokumente_in_SAP_S/4HANA_erstellen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Warenankündigung_erforderlich?_/_JOIN>))
+Declaration(NamedIndividual(<http://owl.api.wf#Warenankündigung_erforderlich?_/_SPLIT>))
+Declaration(NamedIndividual(<http://owl.api.wf#Warenankündigung_erforderlich?_/ _JOIN>))
+Declaration(NamedIndividual(<http://owl.api.wf#Warenausgang_in_SAP_S/4HANA_überprüfen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Warenbestand_von_Lagerplatz_'ROD'_in_Lagerplatz_'AFS'_umbuchen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Wareneingang_in_Qualitätsprüfung_buchen,_Wareneinheiten_erstellen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Wareneingangsbelege_(WEB)_bearbeiten>))
+Declaration(NamedIndividual(<http://owl.api.wf#Warentyp_in_'S6'_ändern>))
+Declaration(AnnotationProperty(:similarity))
+Declaration(AnnotationProperty(owl:mappedTo))
+
+############################
+#   Classes
+############################
+
+# Class: :Anlieferung_bearbeiten (:Anlieferung_bearbeiten)
+
+AnnotationAssertion(owl:mappedTo :Anlieferung_bearbeiten :Flughafenbereich_erreichen)
+SubClassOf(:Anlieferung_bearbeiten :Nicht-physische_Verarbeitungsvorgänge)
+
+# Class: :Auslieferung_bearbeiten (:Auslieferung_bearbeiten)
+
+AnnotationAssertion(owl:mappedTo :Auslieferung_bearbeiten :Dokument_bearbeiten)
+AnnotationAssertion(owl:mappedTo :Auslieferung_bearbeiten :Kontrollieren)
+AnnotationAssertion(owl:mappedTo :Auslieferung_bearbeiten :Schalter_erreichen)
+SubClassOf(:Auslieferung_bearbeiten :Nicht-physische_Verarbeitungsvorgänge)
+
+# Class: :Beleg_buchen (:Beleg_buchen)
+
+AnnotationAssertion(owl:mappedTo :Beleg_buchen :Dokument_bearbeiten)
+SubClassOf(:Beleg_buchen :Belege_bearbeiten)
+
+# Class: :Beleg_erstellen (:Beleg_erstellen)
+
+AnnotationAssertion(owl:mappedTo :Beleg_erstellen :Dokument_bearbeiten)
+SubClassOf(:Beleg_erstellen :Belege_bearbeiten)
+
+# Class: :Beleg_prüfen (:Beleg_prüfen)
+
+AnnotationAssertion(owl:mappedTo :Beleg_prüfen :Dokument_kontrollieren)
+SubClassOf(:Beleg_prüfen :Belege_bearbeiten)
+
+# Class: :Belege_bearbeiten (:Belege_bearbeiten)
+
+AnnotationAssertion(owl:mappedTo :Belege_bearbeiten :Dokument_bearbeiten)
+SubClassOf(:Belege_bearbeiten :Task_SAP_Hierarchie)
+
+# Class: :Bestellungen_bearbeiten (:Bestellungen_bearbeiten)
+
+AnnotationAssertion(owl:mappedTo :Bestellungen_bearbeiten :Dokument_bearbeiten)
+AnnotationAssertion(owl:mappedTo :Bestellungen_bearbeiten :Flughafenbereich_erreichen)
+AnnotationAssertion(owl:mappedTo :Bestellungen_bearbeiten :Warten)
+SubClassOf(:Bestellungen_bearbeiten :Nicht-physische_Verarbeitungsvorgänge)
+
+# Class: :Inventurvorgänge_bearbeiten (:Inventurvorgänge_bearbeiten)
+
+AnnotationAssertion(owl:mappedTo :Inventurvorgänge_bearbeiten :Automat_erreichen)
+AnnotationAssertion(owl:mappedTo :Inventurvorgänge_bearbeiten :Kontrollieren)
+SubClassOf(:Inventurvorgänge_bearbeiten :Nicht-physische_Verarbeitungsvorgänge)
+
+# Class: :Lageraufträge_bearbeiten (:Lageraufträge_bearbeiten)
+
+AnnotationAssertion(owl:mappedTo :Lageraufträge_bearbeiten :Gepäck_transportieren)
+AnnotationAssertion(owl:mappedTo :Lageraufträge_bearbeiten :Gepäckinhalt_kontrollieren)
+SubClassOf(:Lageraufträge_bearbeiten :Nicht-physische_Verarbeitungsvorgänge)
+
+# Class: :Nicht-physische_Verarbeitungsvorgänge (:Nicht-physische_Verarbeitungsvorgänge)
+
+AnnotationAssertion(owl:mappedTo :Nicht-physische_Verarbeitungsvorgänge :Kontrollieren)
+SubClassOf(:Nicht-physische_Verarbeitungsvorgänge :Task_SAP_Hierarchie)
+
+# Class: :Physische_Verarbeitung (:Physische_Verarbeitung)
+
+AnnotationAssertion(owl:mappedTo :Physische_Verarbeitung :Bewegen)
+AnnotationAssertion(owl:mappedTo :Physische_Verarbeitung :Gepäck_bewegen)
+SubClassOf(:Physische_Verarbeitung :Task_SAP_Hierarchie)
+
+# Class: :Produktionsaufgaben_bearbeiten (:Produktionsaufgaben_bearbeiten)
+
+AnnotationAssertion(owl:mappedTo :Produktionsaufgaben_bearbeiten :Sonstige_Tasks)
+SubClassOf(:Produktionsaufgaben_bearbeiten :Nicht-physische_Verarbeitungsvorgänge)
+
+# Class: :Retourenaufgaben_bearbeiten (:Retourenaufgaben_bearbeiten)
+
+AnnotationAssertion(owl:mappedTo :Retourenaufgaben_bearbeiten :Sonstige_Gegenstände_bewegen)
+SubClassOf(:Retourenaufgaben_bearbeiten :Nicht-physische_Verarbeitungsvorgänge)
+
+# Class: :Sonstige_Aufgaben (:Sonstige_Aufgaben)
+
+AnnotationAssertion(owl:mappedTo :Sonstige_Aufgaben :Dokument_bearbeiten)
+AnnotationAssertion(owl:mappedTo :Sonstige_Aufgaben :Sonstige_Tasks)
+SubClassOf(:Sonstige_Aufgaben :Nicht-physische_Verarbeitungsvorgänge)
+
+# Class: :Sonstige_Belege-Bearbeitung (:Sonstige_Belege-Bearbeitung)
+
+AnnotationAssertion(owl:mappedTo :Sonstige_Belege-Bearbeitung :Dokument_kontrollieren)
+SubClassOf(:Sonstige_Belege-Bearbeitung :Belege_bearbeiten)
+
+# Class: :Sonstige_Vorgänge_der_Warenüberprüfung (:Sonstige_Vorgänge_der_Warenüberprüfung)
+
+AnnotationAssertion(owl:mappedTo :Sonstige_Vorgänge_der_Warenüberprüfung :Gepäck_kontrollieren)
+AnnotationAssertion(owl:mappedTo :Sonstige_Vorgänge_der_Warenüberprüfung :Kontrollieren)
+AnnotationAssertion(owl:mappedTo :Sonstige_Vorgänge_der_Warenüberprüfung :Passagier_kontrollieren)
+SubClassOf(:Sonstige_Vorgänge_der_Warenüberprüfung :Physische_Verarbeitung)
+
+# Class: :Transportmittel_beladen (:Transportmittel_beladen)
+
+AnnotationAssertion(owl:mappedTo :Transportmittel_beladen :Gepäck_transportieren)
+SubClassOf(:Transportmittel_beladen :Warenausgang_bearbeiten)
+
+# Class: :Ware_aus_Entnahmezone_herausnehmen (:Ware_aus_Entnahmezone_herausnehmen)
+
+AnnotationAssertion(owl:mappedTo :Ware_aus_Entnahmezone_herausnehmen :Bewegen)
+SubClassOf(:Ware_aus_Entnahmezone_herausnehmen :Ware_herausnehmen)
+
+# Class: :Ware_aus_Großlager_herausnehmen (:Ware_aus_Großlager_herausnehmen)
+
+AnnotationAssertion(owl:mappedTo :Ware_aus_Großlager_herausnehmen :Bewegen)
+SubClassOf(:Ware_aus_Großlager_herausnehmen :Ware_herausnehmen)
+
+# Class: :Ware_bereitstellen (:Ware_bereitstellen)
+
+AnnotationAssertion(owl:mappedTo :Ware_bereitstellen :Bewegen)
+SubClassOf(:Ware_bereitstellen :Warenausgang_bearbeiten)
+
+# Class: :Ware_einlagern (:Ware_einlagern)
+
+AnnotationAssertion(owl:mappedTo :Ware_einlagern :Gepäck_auf_Transportmittel_laden)
+AnnotationAssertion(owl:mappedTo :Ware_einlagern :Gepäck_aufs_Band_stellen)
+AnnotationAssertion(owl:mappedTo :Ware_einlagern :Gepäck_transportieren)
+SubClassOf(:Ware_einlagern :Physische_Verarbeitung)
+
+# Class: :Ware_für_die_Produktion_bearbeiten (:Ware_für_die_Produktion_bearbeiten)
+
+AnnotationAssertion(owl:mappedTo :Ware_für_die_Produktion_bearbeiten :Bewegen)
+SubClassOf(:Ware_für_die_Produktion_bearbeiten :Physische_Verarbeitung)
+
+# Class: :Ware_herausnehmen (:Ware_herausnehmen)
+
+AnnotationAssertion(owl:mappedTo :Ware_herausnehmen :Bewegen)
+SubClassOf(:Ware_herausnehmen :Physische_Verarbeitung)
+
+# Class: :Ware_in_Regale_einlagern (:Ware_in_Regale_einlagern)
+
+AnnotationAssertion(owl:mappedTo :Ware_in_Regale_einlagern :Bewegen)
+SubClassOf(:Ware_in_Regale_einlagern :Ware_einlagern)
+
+# Class: :Warenausgang_bearbeiten (:Warenausgang_bearbeiten)
+
+AnnotationAssertion(owl:mappedTo :Warenausgang_bearbeiten :Bewegen)
+SubClassOf(:Warenausgang_bearbeiten :Physische_Verarbeitung)
+
+# Class: :Warenbestand_auffüllen (:Warenbestand_auffüllen)
+
+AnnotationAssertion(owl:mappedTo :Warenbestand_auffüllen :Bewegen)
+SubClassOf(:Warenbestand_auffüllen :Warenbestand_bearbeiten)
+
+# Class: :Warenbestand_bearbeiten (:Warenbestand_bearbeiten)
+
+AnnotationAssertion(owl:mappedTo :Warenbestand_bearbeiten :Bewegen)
+SubClassOf(:Warenbestand_bearbeiten :Physische_Verarbeitung)
+
+# Class: :Warenbestand_prüfen (:Warenbestand_prüfen)
+
+AnnotationAssertion(owl:mappedTo :Warenbestand_prüfen :Bewegen)
+SubClassOf(:Warenbestand_prüfen :Warenbestand_bearbeiten)
+
+# Class: :Wareneingang_bearbeiten (:Wareneingang_bearbeiten)
+
+AnnotationAssertion(owl:mappedTo :Wareneingang_bearbeiten :Flughafenbereich_erreichen)
+SubClassOf(:Wareneingang_bearbeiten :Physische_Verarbeitung)
+
+# Class: :Wareneinheiten_Im_Lager_bewegen (:Wareneinheiten_Im_Lager_bewegen)
+
+AnnotationAssertion(owl:mappedTo :Wareneinheiten_Im_Lager_bewegen :Bewegen)
+SubClassOf(:Wareneinheiten_Im_Lager_bewegen :Physische_Verarbeitung)
+
+# Class: :Wareneinheiten_verpacken (:Wareneinheiten_verpacken)
+
+AnnotationAssertion(owl:mappedTo :Wareneinheiten_verpacken :Gepäck_sortieren)
+SubClassOf(:Wareneinheiten_verpacken :Warenausgang_bearbeiten)
+
+# Class: :Warenverschrottung_bearbeiten (:Warenverschrottung_bearbeiten)
+
+AnnotationAssertion(owl:mappedTo :Warenverschrottung_bearbeiten :Sonstige_Tasks)
+SubClassOf(:Warenverschrottung_bearbeiten :Physische_Verarbeitung)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: :Ad-hoc-Warenaufgabe_zur_Verschrottung_erstellen (:Ad-hoc-Warenaufgabe_zur_Verschrottung_erstellen)
+
+ClassAssertion(:Lageraufträge_bearbeiten :Ad-hoc-Warenaufgabe_zur_Verschrottung_erstellen)
+
+# Individual: :Anfrage_für_Produktionsmaterial_erstellen (:Anfrage_für_Produktionsmaterial_erstellen)
+
+ClassAssertion(:Produktionsaufgaben_bearbeiten :Anfrage_für_Produktionsmaterial_erstellen)
+
+# Individual: :Anlieferung_aktualisieren (:Anlieferung_aktualisieren)
+
+ClassAssertion(:Auslieferung_bearbeiten :Anlieferung_aktualisieren)
+
+# Individual: :Anlieferung_erstellen (:Anlieferung_erstellen)
+
+ClassAssertion(:Anlieferung_bearbeiten :Anlieferung_erstellen)
+
+# Individual: :Anlieferung_erzeugen (:Anlieferung_erzeugen)
+
+ClassAssertion(:Anlieferung_bearbeiten :Anlieferung_erzeugen)
+
+# Individual: :Anlieferung_updaten (:Anlieferung_updaten)
+
+ClassAssertion(:Anlieferung_bearbeiten :Anlieferung_updaten)
+
+# Individual: :Artikel_zählen_und_Ergebnisse_auf_Ausdrucken_notieren (:Artikel_zählen_und_Ergebnisse_auf_Ausdrucken_notieren)
+
+ClassAssertion(:Warenbestand_prüfen :Artikel_zählen_und_Ergebnisse_auf_Ausdrucken_notieren)
+
+# Individual: :Artikel_zählen_und_Ergebnisse_ins_mobile_Gerät_eingeben (:Artikel_zählen_und_Ergebnisse_ins_mobile_Gerät_eingeben)
+
+ClassAssertion(:Warenbestand_prüfen :Artikel_zählen_und_Ergebnisse_ins_mobile_Gerät_eingeben)
+
+# Individual: :Auslieferung_erstellen (:Auslieferung_erstellen)
+
+ClassAssertion(:Auslieferung_bearbeiten :Auslieferung_erstellen)
+
+# Individual: :Auslieferungsauftrag_aktualisieren (:Auslieferungsauftrag_aktualisieren)
+
+ClassAssertion(:Auslieferung_bearbeiten :Auslieferungsauftrag_aktualisieren)
+
+# Individual: :Auslieferungsauftrag_der_Kommissionierwelle_zuordnen (:Auslieferungsauftrag_der_Kommissionierwelle_zuordnen)
+
+ClassAssertion(:Auslieferung_bearbeiten :Auslieferungsauftrag_der_Kommissionierwelle_zuordnen)
+
+# Individual: :Auslieferungsauftrag_erstellen (:Auslieferungsauftrag_erstellen)
+
+ClassAssertion(:Auslieferung_bearbeiten :Auslieferungsauftrag_erstellen)
+
+# Individual: :Auslieferungsaufträge_in_SAP_EWM_anzeigen (:Auslieferungsaufträge_in_SAP_EWM_anzeigen)
+
+ClassAssertion(:Auslieferung_bearbeiten :Auslieferungsaufträge_in_SAP_EWM_anzeigen)
+
+# Individual: :Automatisch_wiederauffüllen (:Automatisch_wiederauffüllen)
+
+ClassAssertion(:Warenbestand_auffüllen :Automatisch_wiederauffüllen)
+
+# Individual: :Bereitstellung_planen (:Bereitstellung_planen)
+
+ClassAssertion(:Produktionsaufgaben_bearbeiten :Bereitstellung_planen)
+
+# Individual: :Bestand_ist_aufgefüllt (:Bestand_ist_aufgefüllt)
+
+ClassAssertion(:Warenbestand_auffüllen :Bestand_ist_aufgefüllt)
+
+# Individual: :Bestand_vom_Lagerplatz_ROD_in_den_Lagerplatz_AFS_buchen (:Bestand_vom_Lagerplatz_ROD_in_den_Lagerplatz_AFS_buchen)
+
+ClassAssertion(:Sonstige_Aufgaben :Bestand_vom_Lagerplatz_ROD_in_den_Lagerplatz_AFS_buchen)
+
+# Individual: :Bestellung_erhalten (:Bestellung_erhalten)
+
+ClassAssertion(:Bestellungen_bearbeiten :Bestellung_erhalten)
+
+# Individual: :Bestellung_erstellen (:Bestellung_erstellen)
+
+ClassAssertion(:Bestellungen_bearbeiten :Bestellung_erstellen)
+
+# Individual: :Differenzen_der_physischen_Inventur_in_SAP_EWM_einbuchen (:Differenzen_der_physischen_Inventur_in_SAP_EWM_einbuchen)
+
+ClassAssertion(:Inventurvorgänge_bearbeiten :Differenzen_der_physischen_Inventur_in_SAP_EWM_einbuchen)
+
+# Individual: :Dokument_für_physische_Inventur_erstellen (:Dokument_für_physische_Inventur_erstellen)
+
+ClassAssertion(:Beleg_erstellen :Dokument_für_physische_Inventur_erstellen)
+
+# Individual: :Dokumente_für_physische_Inventur_drucken (:Dokumente_für_physische_Inventur_drucken)
+
+ClassAssertion(:Sonstige_Belege-Bearbeitung :Dokumente_für_physische_Inventur_drucken)
+
+# Individual: :Einzelne_Kartons_aus_Großlager_entnehmen (:Einzelne_Kartons_aus_Großlager_entnehmen)
+
+ClassAssertion(:Ware_aus_Großlager_herausnehmen :Einzelne_Kartons_aus_Großlager_entnehmen)
+
+# Individual: :Einzelprodukte_aus_Großlager-Entnahmezone_rausnehmen (:Einzelprodukte_aus_Großlager-Entnahmezone_rausnehmen)
+
+ClassAssertion(:Ware_aus_Entnahmezone_herausnehmen :Einzelprodukte_aus_Großlager-Entnahmezone_rausnehmen)
+
+# Individual: :Entscheidung_über_die_Nutzung_erfassen (:Entscheidung_über_die_Nutzung_erfassen)
+
+ClassAssertion(:Warenverschrottung_bearbeiten :Entscheidung_über_die_Nutzung_erfassen)
+
+# Individual: :Ganze_Paletten_aus_Großlager_entnehmen (:Ganze_Paletten_aus_Großlager_entnehmen)
+
+ClassAssertion(:Ware_aus_Großlager_herausnehmen :Ganze_Paletten_aus_Großlager_entnehmen)
+
+# Individual: :Geblockte_Inventur-Differenzen_analysieren (:Geblockte_Inventur-Differenzen_analysieren)
+
+ClassAssertion(:Inventurvorgänge_bearbeiten :Geblockte_Inventur-Differenzen_analysieren)
+
+# Individual: :Geringen_Warenbestand_erkennen (:Geringen_Warenbestand_erkennen)
+
+ClassAssertion(:Warenbestand_prüfen :Geringen_Warenbestand_erkennen)
+
+# Individual: :Große_Teile_aus_Schmalgang-Entnahmezone_nehmen (:Große_Teile_aus_Schmalgang-Entnahmezone_nehmen)
+
+ClassAssertion(:Ware_aus_Entnahmezone_herausnehmen :Große_Teile_aus_Schmalgang-Entnahmezone_nehmen)
+
+# Individual: :In_der_Klärungszone_umverpacken (:In_der_Klärungszone_umverpacken)
+
+ClassAssertion(:Wareneinheiten_verpacken :In_der_Klärungszone_umverpacken)
+
+# Individual: :Initialen_Warenbestand_in_SAP_EWM_System_uploaden (:Initialen_Warenbestand_in_SAP_EWM_System_uploaden)
+
+ClassAssertion(:Sonstige_Aufgaben :Initialen_Warenbestand_in_SAP_EWM_System_uploaden)
+
+# Individual: :Kommissionierwelle_freigeben (:Kommissionierwelle_freigeben)
+
+ClassAssertion(:Sonstige_Aufgaben :Kommissionierwelle_freigeben)
+
+# Individual: :Komponenten_im_Produktionsversorgungsbereich_vorbereiten (:Komponenten_im_Produktionsversorgungsbereich_vorbereiten)
+
+ClassAssertion(:Ware_für_die_Produktion_bearbeiten :Komponenten_im_Produktionsversorgungsbereich_vorbereiten)
+
+# Individual: :Kundenauftrag_erstellen (:Kundenauftrag_erstellen)
+
+ClassAssertion(:Bestellungen_bearbeiten :Kundenauftrag_erstellen)
+
+# Individual: :Kundenretoure-Lieferung_erstellen (:Kundenretoure-Lieferung_erstellen)
+
+ClassAssertion(:Retourenaufgaben_bearbeiten :Kundenretoure-Lieferung_erstellen)
+
+# Individual: :Kundenretoure-Lieferung_in_SAP_EWM_lokalisieren (:Kundenretoure-Lieferung_in_SAP_EWM_lokalisieren)
+
+ClassAssertion(:Retourenaufgaben_bearbeiten :Kundenretoure-Lieferung_in_SAP_EWM_lokalisieren)
+
+# Individual: :Kundenretoure_erstellen (:Kundenretoure_erstellen)
+
+ClassAssertion(:Retourenaufgaben_bearbeiten :Kundenretoure_erstellen)
+
+# Individual: :LKW-Check-In_erreichen_und_zur_Tür_vorfahren (:LKW-Check-In_erreichen_und_zur_Tür_vorfahren)
+
+ClassAssertion(:Wareneingang_bearbeiten :LKW-Check-In_erreichen_und_zur_Tür_vorfahren)
+
+# Individual: :LKW_beladen (:LKW_beladen)
+
+ClassAssertion(:Transportmittel_beladen :LKW_beladen)
+
+# Individual: :LKW_fährt_los (:LKW_fährt_los)
+
+ClassAssertion(:Transportmittel_beladen :LKW_fährt_los)
+
+# Individual: :Laden_beenden (:Laden_beenden)
+
+ClassAssertion(:Transportmittel_beladen :Laden_beenden)
+
+# Individual: :Ladung_sichten (:Ladung_sichten)
+
+ClassAssertion(:Sonstige_Vorgänge_der_Warenüberprüfung :Ladung_sichten)
+
+# Individual: :Lageraufgabe_Wiederauffüllung_bestätigen (:Lageraufgabe_Wiederauffüllung_bestätigen)
+
+ClassAssertion(:Lageraufträge_bearbeiten :Lageraufgabe_Wiederauffüllung_bestätigen)
+
+# Individual: :Lageraufgabe_Wiederauffüllung_erstellen (:Lageraufgabe_Wiederauffüllung_erstellen)
+
+ClassAssertion(:Lageraufträge_bearbeiten :Lageraufgabe_Wiederauffüllung_erstellen)
+
+# Individual: :Lagerauftrag_überprüfen (:Lagerauftrag_überprüfen)
+
+ClassAssertion(:Lageraufträge_bearbeiten :Lagerauftrag_überprüfen)
+
+# Individual: :Lageraufträge_anzeigen (:Lageraufträge_anzeigen)
+
+ClassAssertion(:Sonstige_Aufgaben :Lageraufträge_anzeigen)
+
+# Individual: :Lagerhaus-Bestellungen_prüfen (:Lagerhaus-Bestellungen_prüfen)
+
+ClassAssertion(:Bestellungen_bearbeiten :Lagerhaus-Bestellungen_prüfen)
+
+# Individual: :Lagerhaustasks_erstellen (:Lagerhaustasks_erstellen)
+
+ClassAssertion(:Lageraufträge_bearbeiten :Lagerhaustasks_erstellen)
+
+# Individual: :Materialdokument_im_System_prüfen (:Materialdokument_im_System_prüfen)
+
+ClassAssertion(:Beleg_prüfen :Materialdokument_im_System_prüfen)
+
+# Individual: :Nachgezählte_Inventurdokumente_kontrollieren (:Nachgezählte_Inventurdokumente_kontrollieren)
+
+ClassAssertion(:Beleg_prüfen :Nachgezählte_Inventurdokumente_kontrollieren)
+
+# Individual: :Nicht-Paletten-Mengen_aus_Mezzanin_entnehmen (:Nicht-Paletten-Mengen_aus_Mezzanin_entnehmen)
+
+ClassAssertion(:Ware_herausnehmen :Nicht-Paletten-Mengen_aus_Mezzanin_entnehmen)
+
+# Individual: :Nicht-Paletten-mengen_in_versandbereite_Warenheinheiten_umpacken (:Nicht-Paletten-mengen_in_versandbereite_Warenheinheiten_umpacken)
+
+ClassAssertion(:Wareneinheiten_verpacken :Nicht-Paletten-mengen_in_versandbereite_Warenheinheiten_umpacken)
+
+# Individual: :Offene_Behälter_suchen (:Offene_Behälter_suchen)
+
+ClassAssertion(:Sonstige_Vorgänge_der_Warenüberprüfung :Offene_Behälter_suchen)
+
+# Individual: :Offene_Produkte_überwachen (:Offene_Produkte_überwachen)
+
+ClassAssertion(:Sonstige_Vorgänge_der_Warenüberprüfung :Offene_Produkte_überwachen)
+
+# Individual: :PMR-Status_ändern (:PMR-Status_ändern)
+
+ClassAssertion(:Sonstige_Aufgaben :PMR-Status_ändern)
+
+# Individual: :Paletten_von_der_Bereitstellungszone_zum_Übergabepunkt_bewegen (:Paletten_von_der_Bereitstellungszone_zum_Übergabepunkt_bewegen)
+
+ClassAssertion(:Wareneinheiten_Im_Lager_bewegen :Paletten_von_der_Bereitstellungszone_zum_Übergabepunkt_bewegen)
+
+# Individual: :Physischen_Lagerbestand_prüfen (:Physischen_Lagerbestand_prüfen)
+
+ClassAssertion(:Warenbestand_prüfen :Physischen_Lagerbestand_prüfen)
+
+# Individual: :Produkte_aus_der_Bereitstellungszone_in_Großlager_einlagern (:Produkte_aus_der_Bereitstellungszone_in_Großlager_einlagern)
+
+ClassAssertion(:Ware_einlagern :Produkte_aus_der_Bereitstellungszone_in_Großlager_einlagern)
+
+# Individual: :Produkte_aus_der_Klärungszone_ins_Mezzanin_bewegen (:Produkte_aus_der_Klärungszone_ins_Mezzanin_bewegen)
+
+ClassAssertion(:Wareneinheiten_Im_Lager_bewegen :Produkte_aus_der_Klärungszone_ins_Mezzanin_bewegen)
+
+# Individual: :Produkte_aus_der_Verschrottungszone_entfernen (:Produkte_aus_der_Verschrottungszone_entfernen)
+
+ClassAssertion(:Ware_herausnehmen :Produkte_aus_der_Verschrottungszone_entfernen)
+
+# Individual: :Produkte_aus_der_Wareneingangszone_in_Hochregale_einlagern (:Produkte_aus_der_Wareneingangszone_in_Hochregale_einlagern)
+
+ClassAssertion(:Ware_in_Regale_einlagern :Produkte_aus_der_Wareneingangszone_in_Hochregale_einlagern)
+
+# Individual: :Produkte_im_Verpackungszentrum_verpacken_und_konsolidieren (:Produkte_im_Verpackungszentrum_verpacken_und_konsolidieren)
+
+ClassAssertion(:Wareneinheiten_verpacken :Produkte_im_Verpackungszentrum_verpacken_und_konsolidieren)
+
+# Individual: :Produkte_in_den_Produktionsversorgungsbereich_bereitstellen (:Produkte_in_den_Produktionsversorgungsbereich_bereitstellen)
+
+ClassAssertion(:Ware_bereitstellen :Produkte_in_den_Produktionsversorgungsbereich_bereitstellen)
+
+# Individual: :Produkte_in_der_Produktionsanlage_fertigstellen (:Produkte_in_der_Produktionsanlage_fertigstellen)
+
+ClassAssertion(:Ware_für_die_Produktion_bearbeiten :Produkte_in_der_Produktionsanlage_fertigstellen)
+
+# Individual: :Produkte_in_die_Klärungszone_bewegen (:Produkte_in_die_Klärungszone_bewegen)
+
+ClassAssertion(:Wareneinheiten_Im_Lager_bewegen :Produkte_in_die_Klärungszone_bewegen)
+
+# Individual: :Produkte_ins_Mezzanin_einlagern (:Produkte_ins_Mezzanin_einlagern)
+
+ClassAssertion(:Ware_einlagern :Produkte_ins_Mezzanin_einlagern)
+
+# Individual: :Produkte_verbrauchen (:Produkte_verbrauchen)
+
+ClassAssertion(:Ware_für_die_Produktion_bearbeiten :Produkte_verbrauchen)
+
+# Individual: :Produkte_vom_Übergabepunkt_in_den_Puffer_für_Hochregal-paletten_einlagern (:Produkte_vom_Übergabepunkt_in_den_Puffer_für_Hochregal-paletten_einlagern)
+
+ClassAssertion(:Ware_einlagern :Produkte_vom_Übergabepunkt_in_den_Puffer_für_Hochregal-paletten_einlagern)
+
+# Individual: :Produkte_zur_Verschrottungszone_bewegen (:Produkte_zur_Verschrottungszone_bewegen)
+
+ClassAssertion(:Wareneinheiten_Im_Lager_bewegen :Produkte_zur_Verschrottungszone_bewegen)
+
+# Individual: :Produktionsbedarf_erkennen (:Produktionsbedarf_erkennen)
+
+ClassAssertion(:Sonstige_Vorgänge_der_Warenüberprüfung :Produktionsbedarf_erkennen)
+
+# Individual: :Produktionsbestellung_aktualisieren (:Produktionsbestellung_aktualisieren)
+
+ClassAssertion(:Produktionsaufgaben_bearbeiten :Produktionsbestellung_aktualisieren)
+
+# Individual: :Produktionsbestellung_erstellen_und_freigeben (:Produktionsbestellung_erstellen_und_freigeben)
+
+ClassAssertion(:Produktionsaufgaben_bearbeiten :Produktionsbestellung_erstellen_und_freigeben)
+
+# Individual: :Produktionsbestellung_schließen (:Produktionsbestellung_schließen)
+
+ClassAssertion(:Produktionsaufgaben_bearbeiten :Produktionsbestellung_schließen)
+
+# Individual: :Produktionsbestellung_technisch_fertigstellen (:Produktionsbestellung_technisch_fertigstellen)
+
+ClassAssertion(:Produktionsaufgaben_bearbeiten :Produktionsbestellung_technisch_fertigstellen)
+
+# Individual: :Produktionsversorgungsbereich_räumen (:Produktionsversorgungsbereich_räumen)
+
+ClassAssertion(:Ware_für_die_Produktion_bearbeiten :Produktionsversorgungsbereich_räumen)
+
+# Individual: :RF-basiert_zählen (:RF-basiert_zählen)
+
+ClassAssertion(:Warenbestand_prüfen :RF-basiert_zählen)
+
+# Individual: :Retournierte_Produkte_erhalten (:Retournierte_Produkte_erhalten)
+
+ClassAssertion(:Wareneingang_bearbeiten :Retournierte_Produkte_erhalten)
+
+# Individual: :Retournierte_Produkte_zu_Qulitätsprüfung_bewegen (:Retournierte_Produkte_zu_Qulitätsprüfung_bewegen)
+
+ClassAssertion(:Wareneinheiten_Im_Lager_bewegen :Retournierte_Produkte_zu_Qulitätsprüfung_bewegen)
+
+# Individual: :Simmulierte_Batch-Auswahl_überprüfen (:Simmulierte_Batch-Auswahl_überprüfen)
+
+ClassAssertion(:Sonstige_Aufgaben :Simmulierte_Batch-Auswahl_überprüfen)
+
+# Individual: :Transporteinheit_bearbeiten (:Transporteinheit_bearbeiten)
+
+ClassAssertion(:Wareneinheiten_Im_Lager_bewegen :Transporteinheit_bearbeiten)
+
+# Individual: :Transporteinheit_bearbeiten_Check-In_und_am_Tor_ankommen (:Transporteinheit_bearbeiten_Check-In_und_am_Tor_ankommen)
+
+ClassAssertion(:Wareneinheiten_Im_Lager_bewegen :Transporteinheit_bearbeiten_Check-In_und_am_Tor_ankommen)
+
+# Individual: :Transporteinheit_bearbeiten_inklusiv._Check-In_und_am_Tor_ankommen (:Transporteinheit_bearbeiten_inklusiv._Check-In_und_am_Tor_ankommen)
+
+ClassAssertion(:Wareneinheiten_Im_Lager_bewegen :Transporteinheit_bearbeiten_inklusiv._Check-In_und_am_Tor_ankommen)
+
+# Individual: :Transporteinheit_bearbeiten_inklusiv_Check-In_und_am_Tor_ankommen (:Transporteinheit_bearbeiten_inklusiv_Check-In_und_am_Tor_ankommen)
+
+ClassAssertion(:Wareneinheiten_Im_Lager_bewegen :Transporteinheit_bearbeiten_inklusiv_Check-In_und_am_Tor_ankommen)
+
+# Individual: :Umbuchung_mit_Warenaufgaben_erstellen (:Umbuchung_mit_Warenaufgaben_erstellen)
+
+ClassAssertion(:Sonstige_Aufgaben :Umbuchung_mit_Warenaufgaben_erstellen)
+
+# Individual: :Verfügbarkeits-gruppe_ändern (:Verfügbarkeits-gruppe_ändern)
+
+ClassAssertion(:Sonstige_Aufgaben :Verfügbarkeits-gruppe_ändern)
+
+# Individual: :Verfügbarkeitsgruppe_ändern (:Verfügbarkeitsgruppe_ändern)
+
+ClassAssertion(:Sonstige_Aufgaben :Verfügbarkeitsgruppe_ändern)
+
+# Individual: :Versandbereite_Wareneinheiten_bereitstellen (:Versandbereite_Wareneinheiten_bereitstellen)
+
+ClassAssertion(:Ware_bereitstellen :Versandbereite_Wareneinheiten_bereitstellen)
+
+# Individual: :Versandbereite_Wareneinheiten_im_Verpackungs-zentrum_verschließen (:Versandbereite_Wareneinheiten_im_Verpackungs-zentrum_verschließen)
+
+ClassAssertion(:Wareneinheiten_verpacken :Versandbereite_Wareneinheiten_im_Verpackungs-zentrum_verschließen)
+
+# Individual: :Versandbereite_Wareneinheiten_im_Verpackungszentrum_verschließen (:Versandbereite_Wareneinheiten_im_Verpackungszentrum_verschließen)
+
+ClassAssertion(:Wareneinheiten_verpacken :Versandbereite_Wareneinheiten_im_Verpackungszentrum_verschließen)
+
+# Individual: :Versandeinheiten_laden (:Versandeinheiten_laden)
+
+ClassAssertion(:Transportmittel_beladen :Versandeinheiten_laden)
+
+# Individual: :Verschrottung_von_Kistenteilen_durchführen (:Verschrottung_von_Kistenteilen_durchführen)
+
+ClassAssertion(:Warenverschrottung_bearbeiten :Verschrottung_von_Kistenteilen_durchführen)
+
+# Individual: :Verschrottungszone_leeren_und_Warenausgang_buchen (:Verschrottungszone_leeren_und_Warenausgang_buchen)
+
+ClassAssertion(:Warenverschrottung_bearbeiten :Verschrottungszone_leeren_und_Warenausgang_buchen)
+
+# Individual: :Verschrottungszone_regelmäßig_leeren_und_Warenausgang_buchen (:Verschrottungszone_regelmäßig_leeren_und_Warenausgang_buchen)
+
+ClassAssertion(:Warenverschrottung_bearbeiten :Verschrottungszone_regelmäßig_leeren_und_Warenausgang_buchen)
+
+# Individual: :Ware_Einlagern (:Ware_Einlagern)
+
+ClassAssertion(:Ware_einlagern :Ware_Einlagern)
+
+# Individual: :Ware_am_Entnahmepunkt_entnehmen (:Ware_am_Entnahmepunkt_entnehmen)
+
+ClassAssertion(:Ware_aus_Entnahmezone_herausnehmen :Ware_am_Entnahmepunkt_entnehmen)
+
+# Individual: :Ware_vom_Übergabepunkt_zur_Verschrottungszone_bewegen (:Ware_vom_Übergabepunkt_zur_Verschrottungszone_bewegen)
+
+ClassAssertion(:Wareneinheiten_Im_Lager_bewegen :Ware_vom_Übergabepunkt_zur_Verschrottungszone_bewegen)
+
+# Individual: :Ware_zum_Übergabepunkt_bewegen (:Ware_zum_Übergabepunkt_bewegen)
+
+ClassAssertion(:Wareneinheiten_Im_Lager_bewegen :Ware_zum_Übergabepunkt_bewegen)
+
+# Individual: :Warenanküdigung_versenden (:Warenanküdigung_versenden)
+
+ClassAssertion(:Auslieferung_bearbeiten :Warenanküdigung_versenden)
+
+# Individual: :Warenankündigung_versenden (:Warenankündigung_versenden)
+
+ClassAssertion(:Auslieferung_bearbeiten :Warenankündigung_versenden)
+
+# Individual: :Warenausgang_für_verschrottete_Produkte_buchen (:Warenausgang_für_verschrottete_Produkte_buchen)
+
+ClassAssertion(:Auslieferung_bearbeiten :Warenausgang_für_verschrottete_Produkte_buchen)
+
+# Individual: :Warenbeleg_bearbeiten (:Warenbeleg_bearbeiten)
+
+ClassAssertion(:Sonstige_Belege-Bearbeitung :Warenbeleg_bearbeiten)
+
+# Individual: :Warenbeleg_buchen (:Warenbeleg_buchen)
+
+ClassAssertion(:Beleg_buchen :Warenbeleg_buchen)
+
+# Individual: :Warenbeleg_der_Produktion_bearbeiten (:Warenbeleg_der_Produktion_bearbeiten)
+
+ClassAssertion(:Sonstige_Belege-Bearbeitung :Warenbeleg_der_Produktion_bearbeiten)
+
+# Individual: :Warenbelege_buchen (:Warenbelege_buchen)
+
+ClassAssertion(:Beleg_buchen :Warenbelege_buchen)
+
+# Individual: :Warenbestand_aktualisieren (:Warenbestand_aktualisieren)
+
+ClassAssertion(:Warenbestand_bearbeiten :Warenbestand_aktualisieren)
+
+# Individual: :Warenbestand_initial_auffüllen (:Warenbestand_initial_auffüllen)
+
+ClassAssertion(:Warenbestand_auffüllen :Warenbestand_initial_auffüllen)
+
+# Individual: :Warenbestand_ins_Lager_zurückbringen (:Warenbestand_ins_Lager_zurückbringen)
+
+ClassAssertion(:Warenbestand_bearbeiten :Warenbestand_ins_Lager_zurückbringen)
+
+# Individual: :Warenbestand_zur_Verschrottungszone_bewegen (:Warenbestand_zur_Verschrottungszone_bewegen)
+
+ClassAssertion(:Warenverschrottung_bearbeiten :Warenbestand_zur_Verschrottungszone_bewegen)
+
+# Individual: :Wareneingang_buchen (:Wareneingang_buchen)
+
+ClassAssertion(:Anlieferung_bearbeiten :Wareneingang_buchen)
+
+# Individual: :Wareneingang_für_verschrottete_Produkte_buchen (:Wareneingang_für_verschrottete_Produkte_buchen)
+
+ClassAssertion(:Sonstige_Aufgaben :Wareneingang_für_verschrottete_Produkte_buchen)
+
+# Individual: :Wareneingang_prüfen (:Wareneingang_prüfen)
+
+ClassAssertion(:Wareneingang_bearbeiten :Wareneingang_prüfen)
+
+# Individual: :Wareneingangsbeleg_bearbeiten (:Wareneingangsbeleg_bearbeiten)
+
+ClassAssertion(:Sonstige_Belege-Bearbeitung :Wareneingangsbeleg_bearbeiten)
+
+# Individual: :Wareneingangsbeleg_erstellen (:Wareneingangsbeleg_erstellen)
+
+ClassAssertion(:Beleg_erstellen :Wareneingangsbeleg_erstellen)
+
+# Individual: :Wareneinheit_aus_dem_Übergabepunkt_ins_Mezzanin_bewegen (:Wareneinheit_aus_dem_Übergabepunkt_ins_Mezzanin_bewegen)
+
+ClassAssertion(:Wareneinheiten_Im_Lager_bewegen :Wareneinheit_aus_dem_Übergabepunkt_ins_Mezzanin_bewegen)
+
+# Individual: :Wareneinheit_im_urprünglichen_Gang_abholen (:Wareneinheit_im_urprünglichen_Gang_abholen)
+
+ClassAssertion(:Ware_herausnehmen :Wareneinheit_im_urprünglichen_Gang_abholen)
+
+# Individual: :Wareneinheiten_aus_dem_Paletten-Puffer_entnehmen (:Wareneinheiten_aus_dem_Paletten-Puffer_entnehmen)
+
+ClassAssertion(:Ware_herausnehmen :Wareneinheiten_aus_dem_Paletten-Puffer_entnehmen)
+
+# Individual: :Wareneinheiten_vom_Übergabepunkt_zum_Verpackungszentrum_bewegen (:Wareneinheiten_vom_Übergabepunkt_zum_Verpackungszentrum_bewegen)
+
+ClassAssertion(:Wareneinheiten_Im_Lager_bewegen :Wareneinheiten_vom_Übergabepunkt_zum_Verpackungszentrum_bewegen)
+
+# Individual: :Wiederauffüllung_durchführen (:Wiederauffüllung_durchführen)
+
+ClassAssertion(:Warenbestand_auffüllen :Wiederauffüllung_durchführen)
+
+# Individual: :Zu_verschrottenden_Lagerbestand_selektieren (:Zu_verschrottenden_Lagerbestand_selektieren)
+
+ClassAssertion(:Warenverschrottung_bearbeiten :Zu_verschrottenden_Lagerbestand_selektieren)
+
+# Individual: :Zählergebnisse_ins_System_eingeben (:Zählergebnisse_ins_System_eingeben)
+
+ClassAssertion(:Warenbestand_bearbeiten :Zählergebnisse_ins_System_eingeben)
+
+# Individual: :Übersicht_der_Batch-Warenbestands_überprüfen (:Übersicht_der_Batch-Warenbestands_überprüfen)
+
+ClassAssertion(:Warenbestand_prüfen :Übersicht_der_Batch-Warenbestands_überprüfen)
+
+# Individual: <http://owl.api.wf#Ausladen_(inkl._Umverpackung_und_Etikettierung)> (<http://owl.api.wf#Ausladen_(inkl._Umverpackung_und_Etikettierung)>)
+
+ClassAssertion(:Ware_herausnehmen <http://owl.api.wf#Ausladen_(inkl._Umverpackung_und_Etikettierung)>)
+
+# Individual: <http://owl.api.wf#Auslieferung_aktualisieren,_Warenbestand_buchen> (<http://owl.api.wf#Auslieferung_aktualisieren,_Warenbestand_buchen>)
+
+ClassAssertion(:Auslieferung_bearbeiten <http://owl.api.wf#Auslieferung_aktualisieren,_Warenbestand_buchen>)
+
+# Individual: <http://owl.api.wf#Auslieferung_aktualisieren,_inkl._Warenbestand_buchen> (<http://owl.api.wf#Auslieferung_aktualisieren,_inkl._Warenbestand_buchen>)
+
+ClassAssertion(:Auslieferung_bearbeiten <http://owl.api.wf#Auslieferung_aktualisieren,_inkl._Warenbestand_buchen>)
+
+# Individual: <http://owl.api.wf#Bearbeitung_der_Wareneingangsbelege_(WEB)> (<http://owl.api.wf#Bearbeitung_der_Wareneingangsbelege_(WEB)>)
+
+ClassAssertion(:Sonstige_Belege-Bearbeitung <http://owl.api.wf#Bearbeitung_der_Wareneingangsbelege_(WEB)>)
+
+# Individual: <http://owl.api.wf#Bestand_vom_Lagerplatz_'ROD'_in_den_Lagerplatz_'AFS'_buchen> (<http://owl.api.wf#Bestand_vom_Lagerplatz_'ROD'_in_den_Lagerplatz_'AFS'_buchen>)
+
+ClassAssertion(:Sonstige_Aufgaben <http://owl.api.wf#Bestand_vom_Lagerplatz_'ROD'_in_den_Lagerplatz_'AFS'_buchen>)
+
+# Individual: <http://owl.api.wf#Differenzen_der_physischen_Inventur_ins_SAP_S/4HANA_transferieren> (<http://owl.api.wf#Differenzen_der_physischen_Inventur_ins_SAP_S/4HANA_transferieren>)
+
+ClassAssertion(:Inventurvorgänge_bearbeiten <http://owl.api.wf#Differenzen_der_physischen_Inventur_ins_SAP_S/4HANA_transferieren>)
+
+# Individual: <http://owl.api.wf#Differenzen_in_SAP_S/4HANA_buchen> (<http://owl.api.wf#Differenzen_in_SAP_S/4HANA_buchen>)
+
+ClassAssertion(:Inventurvorgänge_bearbeiten <http://owl.api.wf#Differenzen_in_SAP_S/4HANA_buchen>)
+
+# Individual: <http://owl.api.wf#Dokumente_für_physische_Inventur_(Cycle-Counting)_erstellen> (<http://owl.api.wf#Dokumente_für_physische_Inventur_(Cycle-Counting)_erstellen>)
+
+ClassAssertion(:Beleg_erstellen <http://owl.api.wf#Dokumente_für_physische_Inventur_(Cycle-Counting)_erstellen>)
+
+# Individual: <http://owl.api.wf#Entnahme-Lageraufträge_und_Lageraufgaben _erstellen> (<http://owl.api.wf#Entnahme-Lageraufträge_und_Lageraufgaben _erstellen>)
+
+ClassAssertion(:Wareneinheiten_Im_Lager_bewegen <http://owl.api.wf#Entnahme-Lageraufträge_und_Lageraufgaben _erstellen>)
+
+# Individual: <http://owl.api.wf#Innerhalb_eines_Lagergangs?_/_JOIN> (<http://owl.api.wf#Innerhalb_eines_Lagergangs?_/_JOIN>)
+
+ClassAssertion(:Wareneinheiten_Im_Lager_bewegen <http://owl.api.wf#Innerhalb_eines_Lagergangs?_/_JOIN>)
+
+# Individual: <http://owl.api.wf#Innerhalb_eines_Lagergangs?_/_SPLIT> (<http://owl.api.wf#Innerhalb_eines_Lagergangs?_/_SPLIT>)
+
+ClassAssertion(:Wareneinheiten_Im_Lager_bewegen <http://owl.api.wf#Innerhalb_eines_Lagergangs?_/_SPLIT>)
+
+# Individual: <http://owl.api.wf#Lageraufgabe_'Einlagerung'_erstellen> (<http://owl.api.wf#Lageraufgabe_'Einlagerung'_erstellen>)
+
+ClassAssertion(:Lageraufträge_bearbeiten <http://owl.api.wf#Lageraufgabe_'Einlagerung'_erstellen>)
+
+# Individual: <http://owl.api.wf#Lageraufgabe Wiederauffüllung_anzeigen> (<http://owl.api.wf#Lageraufgabe Wiederauffüllung_anzeigen>)
+
+ClassAssertion(:Sonstige_Aufgaben <http://owl.api.wf#Lageraufgabe Wiederauffüllung_anzeigen>)
+
+# Individual: <http://owl.api.wf#Paletten/Wareneinheiten_vom_Entnahmepunkt_zum_Verpackungszentrum_bewegen> (<http://owl.api.wf#Paletten/Wareneinheiten_vom_Entnahmepunkt_zum_Verpackungszentrum_bewegen>)
+
+ClassAssertion(:Wareneinheiten_Im_Lager_bewegen <http://owl.api.wf#Paletten/Wareneinheiten_vom_Entnahmepunkt_zum_Verpackungszentrum_bewegen>)
+
+# Individual: <http://owl.api.wf#Paletten/Wareneinheiten_zum_Entnahmepunkt_bewegen> (<http://owl.api.wf#Paletten/Wareneinheiten_zum_Entnahmepunkt_bewegen>)
+
+ClassAssertion(:Wareneinheiten_Im_Lager_bewegen <http://owl.api.wf#Paletten/Wareneinheiten_zum_Entnahmepunkt_bewegen>)
+
+# Individual: <http://owl.api.wf#Paletten/Wareneinheiten_zum_Verpackungszentrum_bewegen> (<http://owl.api.wf#Paletten/Wareneinheiten_zum_Verpackungszentrum_bewegen>)
+
+ClassAssertion(:Wareneinheiten_Im_Lager_bewegen <http://owl.api.wf#Paletten/Wareneinheiten_zum_Verpackungszentrum_bewegen>)
+
+# Individual: <http://owl.api.wf#Paletten/Wareneinheiten_zum_Übergabepunkt_bewegen> (<http://owl.api.wf#Paletten/Wareneinheiten_zum_Übergabepunkt_bewegen>)
+
+ClassAssertion(:Wareneinheiten_Im_Lager_bewegen <http://owl.api.wf#Paletten/Wareneinheiten_zum_Übergabepunkt_bewegen>)
+
+# Individual: <http://owl.api.wf#Paletten/Wareneinheiten_zu_Hochregalen_(höhere_Ebenen)_bewegen> (<http://owl.api.wf#Paletten/Wareneinheiten_zu_Hochregalen_(höhere_Ebenen)_bewegen>)
+
+ClassAssertion(:Wareneinheiten_Im_Lager_bewegen <http://owl.api.wf#Paletten/Wareneinheiten_zu_Hochregalen_(höhere_Ebenen)_bewegen>)
+
+# Individual: <http://owl.api.wf#Paletten/Wareneinheiten_zu_Hochregalen_(untere_Ebenen)_bewegen> (<http://owl.api.wf#Paletten/Wareneinheiten_zu_Hochregalen_(untere_Ebenen)_bewegen>)
+
+ClassAssertion(:Wareneinheiten_Im_Lager_bewegen <http://owl.api.wf#Paletten/Wareneinheiten_zu_Hochregalen_(untere_Ebenen)_bewegen>)
+
+# Individual: <http://owl.api.wf#Produkte_in_'Einlagern'_oder_'Verschrotten'_klassifizieren> (<http://owl.api.wf#Produkte_in_'Einlagern'_oder_'Verschrotten'_klassifizieren>)
+
+ClassAssertion(:Sonstige_Vorgänge_der_Warenüberprüfung <http://owl.api.wf#Produkte_in_'Einlagern'_oder_'Verschrotten'_klassifizieren>)
+
+# Individual: <http://owl.api.wf#Produkte_in_Hochregal_einlagern_(höhere_Ebenen)> (<http://owl.api.wf#Produkte_in_Hochregal_einlagern_(höhere_Ebenen)>)
+
+ClassAssertion(:Ware_in_Regale_einlagern <http://owl.api.wf#Produkte_in_Hochregal_einlagern_(höhere_Ebenen)>)
+
+# Individual: <http://owl.api.wf#Produkte_in_Hochregal_einlagern_(tiefere_Ebenen)> (<http://owl.api.wf#Produkte_in_Hochregal_einlagern_(tiefere_Ebenen)>)
+
+ClassAssertion(:Ware_in_Regale_einlagern <http://owl.api.wf#Produkte_in_Hochregal_einlagern_(tiefere_Ebenen)>)
+
+# Individual: <http://owl.api.wf#Produkte_in_Hochregale_einlagern_(niedrigere_Ebenen)> (<http://owl.api.wf#Produkte_in_Hochregale_einlagern_(niedrigere_Ebenen)>)
+
+ClassAssertion(:Ware_in_Regale_einlagern <http://owl.api.wf#Produkte_in_Hochregale_einlagern_(niedrigere_Ebenen)>)
+
+# Individual: <http://owl.api.wf#Produkte_treffen_in_der _Verschrottungszone_ein> (<http://owl.api.wf#Produkte_treffen_in_der _Verschrottungszone_ein>)
+
+ClassAssertion(:Wareneingang_bearbeiten <http://owl.api.wf#Produkte_treffen_in_der _Verschrottungszone_ein>)
+
+# Individual: <http://owl.api.wf#Verechnungsdokumente_in_SAP_S/4HANA_erstellen> (<http://owl.api.wf#Verechnungsdokumente_in_SAP_S/4HANA_erstellen>)
+
+ClassAssertion(:Beleg_erstellen <http://owl.api.wf#Verechnungsdokumente_in_SAP_S/4HANA_erstellen>)
+
+# Individual: <http://owl.api.wf#Warenankündigung_erforderlich?_/_JOIN> (<http://owl.api.wf#Warenankündigung_erforderlich?_/_JOIN>)
+
+ClassAssertion(:Auslieferung_bearbeiten <http://owl.api.wf#Warenankündigung_erforderlich?_/_JOIN>)
+
+# Individual: <http://owl.api.wf#Warenankündigung_erforderlich?_/_SPLIT> (<http://owl.api.wf#Warenankündigung_erforderlich?_/_SPLIT>)
+
+ClassAssertion(:Auslieferung_bearbeiten <http://owl.api.wf#Warenankündigung_erforderlich?_/_SPLIT>)
+
+# Individual: <http://owl.api.wf#Warenankündigung_erforderlich?_/ _JOIN> (<http://owl.api.wf#Warenankündigung_erforderlich?_/ _JOIN>)
+
+ClassAssertion(:Auslieferung_bearbeiten <http://owl.api.wf#Warenankündigung_erforderlich?_/ _JOIN>)
+
+# Individual: <http://owl.api.wf#Warenausgang_in_SAP_S/4HANA_überprüfen> (<http://owl.api.wf#Warenausgang_in_SAP_S/4HANA_überprüfen>)
+
+ClassAssertion(:Auslieferung_bearbeiten <http://owl.api.wf#Warenausgang_in_SAP_S/4HANA_überprüfen>)
+
+# Individual: <http://owl.api.wf#Warenbestand_von_Lagerplatz_'ROD'_in_Lagerplatz_'AFS'_umbuchen> (<http://owl.api.wf#Warenbestand_von_Lagerplatz_'ROD'_in_Lagerplatz_'AFS'_umbuchen>)
+
+ClassAssertion(:Sonstige_Aufgaben <http://owl.api.wf#Warenbestand_von_Lagerplatz_'ROD'_in_Lagerplatz_'AFS'_umbuchen>)
+
+# Individual: <http://owl.api.wf#Wareneingang_in_Qualitätsprüfung_buchen,_Wareneinheiten_erstellen> (<http://owl.api.wf#Wareneingang_in_Qualitätsprüfung_buchen,_Wareneinheiten_erstellen>)
+
+ClassAssertion(:Anlieferung_bearbeiten <http://owl.api.wf#Wareneingang_in_Qualitätsprüfung_buchen,_Wareneinheiten_erstellen>)
+
+# Individual: <http://owl.api.wf#Wareneingangsbelege_(WEB)_bearbeiten> (<http://owl.api.wf#Wareneingangsbelege_(WEB)_bearbeiten>)
+
+ClassAssertion(:Sonstige_Belege-Bearbeitung <http://owl.api.wf#Wareneingangsbelege_(WEB)_bearbeiten>)
+
+# Individual: <http://owl.api.wf#Warentyp_in_'S6'_ändern> (<http://owl.api.wf#Warentyp_in_'S6'_ändern>)
+
+ClassAssertion(:Sonstige_Aufgaben <http://owl.api.wf#Warentyp_in_'S6'_ändern>)
+
+
+)

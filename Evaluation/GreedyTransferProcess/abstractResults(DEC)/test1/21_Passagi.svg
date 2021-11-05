@@ -1,0 +1,126 @@
+<svg width="600px" height="11px"
+ viewBox="0.00 0.00 4111.00 77.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(4 73)">
+<title>21_Passagierabfertigung_Lounge&#45;Check&#45;In</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-73 4107,-73 4107,4 -4,4"/>
+<!-- Task_0e3yd\n4i -->
+<g id="node1" class="node">
+<title>Task_0e3yd\n4i</title>
+<polygon fill="lightgrey" stroke="black" points="0,-0.5 0,-68.5 279,-68.5 279,-0.5 0,-0.5"/>
+<text text-anchor="middle" x="43" y="-38.3" font-family="Times New Roman,serif" font-size="14.00">Task_0e3yd</text>
+<text text-anchor="middle" x="43" y="-23.3" font-family="Times New Roman,serif" font-size="14.00">4i</text>
+<polyline fill="none" stroke="black" points="86,-0.5 86,-68.5 "/>
+<text text-anchor="middle" x="130" y="-53.3" font-family="Times New Roman,serif" font-size="14.00">Lagerfachk</text>
+<text text-anchor="middle" x="130" y="-38.3" font-family="Times New Roman,serif" font-size="14.00">raft:1CR__</text>
+<text text-anchor="middle" x="130" y="-23.3" font-family="Times New Roman,serif" font-size="14.00">Lane_1v76w</text>
+<text text-anchor="middle" x="130" y="-8.3" font-family="Times New Roman,serif" font-size="14.00">t5</text>
+<polyline fill="none" stroke="black" points="174,-0.5 174,-68.5 "/>
+<text text-anchor="middle" x="226.5" y="-30.8" font-family="Times New Roman,serif" font-size="14.00">Laden_beenden</text>
+</g>
+<!-- StartEvent\n_21 -->
+<g id="node2" class="node">
+<title>StartEvent\n_21</title>
+<ellipse fill="lightgrey" stroke="black" cx="324.5" cy="-34.5" rx="27.9" ry="27.9"/>
+<text text-anchor="middle" x="324.5" y="-30.8" font-family="Times New Roman,serif" font-size="14.00">Start</text>
+</g>
+<!-- Task_0k9zc\nlr -->
+<g id="node3" class="node">
+<title>Task_0k9zc\nlr</title>
+<polygon fill="lightgrey" stroke="black" points="370,-0.5 370,-68.5 747,-68.5 747,-0.5 370,-0.5"/>
+<text text-anchor="middle" x="412.5" y="-38.3" font-family="Times New Roman,serif" font-size="14.00">Task_0k9zc</text>
+<text text-anchor="middle" x="412.5" y="-23.3" font-family="Times New Roman,serif" font-size="14.00">lr</text>
+<polyline fill="none" stroke="black" points="455,-0.5 455,-68.5 "/>
+<text text-anchor="middle" x="498" y="-53.3" font-family="Times New Roman,serif" font-size="14.00">Lagerfachk</text>
+<text text-anchor="middle" x="498" y="-38.3" font-family="Times New Roman,serif" font-size="14.00">raft:1DB__</text>
+<text text-anchor="middle" x="498" y="-23.3" font-family="Times New Roman,serif" font-size="14.00">Lane_11q77</text>
+<text text-anchor="middle" x="498" y="-8.3" font-family="Times New Roman,serif" font-size="14.00">qc</text>
+<polyline fill="none" stroke="black" points="541,-0.5 541,-68.5 "/>
+<text text-anchor="middle" x="644" y="-30.8" font-family="Times New Roman,serif" font-size="14.00">Physischen_Lagerbestand_prüfen</text>
+</g>
+<!-- ExclusiveG\nateway_1dt\n09nz -->
+<g id="node4" class="node">
+<title>ExclusiveG\nateway_1dt\n09nz</title>
+<polygon fill="lightgrey" stroke="black" points="989.5,-52.5 765.45,-34.5 989.5,-16.5 1213.55,-34.5 989.5,-52.5"/>
+<text text-anchor="middle" x="989.5" y="-30.8" font-family="Times New Roman,serif" font-size="14.00">Nur_Handgepäck_vorhanden?_/_SPLIT</text>
+</g>
+<!-- Task_1f6op\nbn -->
+<g id="node5" class="node">
+<title>Task_1f6op\nbn</title>
+<polygon fill="lightgrey" stroke="black" points="1232,-8 1232,-61 1561,-61 1561,-8 1232,-8"/>
+<text text-anchor="middle" x="1274.5" y="-38.3" font-family="Times New Roman,serif" font-size="14.00">Task_1f6op</text>
+<text text-anchor="middle" x="1274.5" y="-23.3" font-family="Times New Roman,serif" font-size="14.00">bn</text>
+<polyline fill="none" stroke="black" points="1317,-8 1317,-61 "/>
+<text text-anchor="middle" x="1363" y="-45.8" font-family="Times New Roman,serif" font-size="14.00">Verkäufer:</text>
+<text text-anchor="middle" x="1363" y="-30.8" font-family="Times New Roman,serif" font-size="14.00">1CV__Lane_</text>
+<text text-anchor="middle" x="1363" y="-15.8" font-family="Times New Roman,serif" font-size="14.00">131x34o</text>
+<polyline fill="none" stroke="black" points="1409,-8 1409,-61 "/>
+<text text-anchor="middle" x="1485" y="-30.8" font-family="Times New Roman,serif" font-size="14.00">Kundenretoure_erstellen</text>
+</g>
+<!-- Task_17ung\nzt -->
+<g id="node6" class="node">
+<title>Task_17ung\nzt</title>
+<polygon fill="lightgrey" stroke="black" points="1579,-8 1579,-61 2188,-61 2188,-8 1579,-8"/>
+<text text-anchor="middle" x="1622" y="-38.3" font-family="Times New Roman,serif" font-size="14.00">Task_17ung</text>
+<text text-anchor="middle" x="1622" y="-23.3" font-family="Times New Roman,serif" font-size="14.00">zt</text>
+<polyline fill="none" stroke="black" points="1665,-8 1665,-61 "/>
+<text text-anchor="middle" x="1709.5" y="-45.8" font-family="Times New Roman,serif" font-size="14.00">Versandbür</text>
+<text text-anchor="middle" x="1709.5" y="-30.8" font-family="Times New Roman,serif" font-size="14.00">o:1CN__Lan</text>
+<text text-anchor="middle" x="1709.5" y="-15.8" font-family="Times New Roman,serif" font-size="14.00">e_1n6g0py</text>
+<polyline fill="none" stroke="black" points="1754,-8 1754,-61 "/>
+<text text-anchor="middle" x="1971" y="-30.8" font-family="Times New Roman,serif" font-size="14.00">Transporteinheit_bearbeiten_inklusiv._Check&#45;In_und_am_Tor_ankommen</text>
+</g>
+<!-- EndEvent_0\nhnjaf3 -->
+<g id="node7" class="node">
+<title>EndEvent_0\nhnjaf3</title>
+<ellipse fill="lightgrey" stroke="black" cx="2235.5" cy="-34.5" rx="29.5" ry="29.5"/>
+<text text-anchor="middle" x="2235.5" y="-30.8" font-family="Times New Roman,serif" font-size="14.00">Ende</text>
+</g>
+<!-- Task_1s7h1\nr2 -->
+<g id="node8" class="node">
+<title>Task_1s7h1\nr2</title>
+<polygon fill="lightgrey" stroke="black" points="2283,-0.5 2283,-68.5 2698,-68.5 2698,-0.5 2283,-0.5"/>
+<text text-anchor="middle" x="2325.5" y="-38.3" font-family="Times New Roman,serif" font-size="14.00">Task_1s7h1</text>
+<text text-anchor="middle" x="2325.5" y="-23.3" font-family="Times New Roman,serif" font-size="14.00">r2</text>
+<polyline fill="none" stroke="black" points="2368,-0.5 2368,-68.5 "/>
+<text text-anchor="middle" x="2410.5" y="-53.3" font-family="Times New Roman,serif" font-size="14.00">Lagerfachk</text>
+<text text-anchor="middle" x="2410.5" y="-38.3" font-family="Times New Roman,serif" font-size="14.00">raft:1D7__</text>
+<text text-anchor="middle" x="2410.5" y="-23.3" font-family="Times New Roman,serif" font-size="14.00">Lane_04zp9</text>
+<text text-anchor="middle" x="2410.5" y="-8.3" font-family="Times New Roman,serif" font-size="14.00">h0</text>
+<polyline fill="none" stroke="black" points="2453,-0.5 2453,-68.5 "/>
+<text text-anchor="middle" x="2575.5" y="-30.8" font-family="Times New Roman,serif" font-size="14.00">Warenbestand_ins_Lager_zurückbringen</text>
+</g>
+<!-- ExclusiveG\nateway_18u\nftl8 -->
+<g id="node9" class="node">
+<title>ExclusiveG\nateway_18u\nftl8</title>
+<polygon fill="lightgrey" stroke="black" points="2932.5,-52.5 2715.66,-34.5 2932.5,-16.5 3149.34,-34.5 2932.5,-52.5"/>
+<text text-anchor="middle" x="2932.5" y="-30.8" font-family="Times New Roman,serif" font-size="14.00">Nur_Handgepäck_vorhanden?_/_JOIN</text>
+</g>
+<!-- Task_08sun\ndy -->
+<g id="node10" class="node">
+<title>Task_08sun\ndy</title>
+<polygon fill="lightgrey" stroke="black" points="3167.5,-8 3167.5,-61 3489.5,-61 3489.5,-8 3167.5,-8"/>
+<text text-anchor="middle" x="3210" y="-38.3" font-family="Times New Roman,serif" font-size="14.00">Task_08sun</text>
+<text text-anchor="middle" x="3210" y="-23.3" font-family="Times New Roman,serif" font-size="14.00">dy</text>
+<polyline fill="none" stroke="black" points="3252.5,-8 3252.5,-61 "/>
+<text text-anchor="middle" x="3297" y="-45.8" font-family="Times New Roman,serif" font-size="14.00">Versandbür</text>
+<text text-anchor="middle" x="3297" y="-30.8" font-family="Times New Roman,serif" font-size="14.00">o:1CN__Lan</text>
+<text text-anchor="middle" x="3297" y="-15.8" font-family="Times New Roman,serif" font-size="14.00">e_1n6g0py</text>
+<polyline fill="none" stroke="black" points="3341.5,-8 3341.5,-61 "/>
+<text text-anchor="middle" x="3415.5" y="-30.8" font-family="Times New Roman,serif" font-size="14.00">Versandeinheiten_laden</text>
+</g>
+<!-- Task_07fuo\nz6 -->
+<g id="node11" class="node">
+<title>Task_07fuo\nz6</title>
+<polygon fill="lightgrey" stroke="black" points="3508,-0.5 3508,-68.5 4103,-68.5 4103,-0.5 3508,-0.5"/>
+<text text-anchor="middle" x="3550" y="-38.3" font-family="Times New Roman,serif" font-size="14.00">Task_07fuo</text>
+<text text-anchor="middle" x="3550" y="-23.3" font-family="Times New Roman,serif" font-size="14.00">z6</text>
+<polyline fill="none" stroke="black" points="3592,-0.5 3592,-68.5 "/>
+<text text-anchor="middle" x="3636.5" y="-53.3" font-family="Times New Roman,serif" font-size="14.00">Produktion</text>
+<text text-anchor="middle" x="3636.5" y="-38.3" font-family="Times New Roman,serif" font-size="14.00">splanung:1</text>
+<text text-anchor="middle" x="3636.5" y="-23.3" font-family="Times New Roman,serif" font-size="14.00">D7b_Lane_0</text>
+<text text-anchor="middle" x="3636.5" y="-8.3" font-family="Times New Roman,serif" font-size="14.00">jl5f91</text>
+<polyline fill="none" stroke="black" points="3681,-0.5 3681,-68.5 "/>
+<text text-anchor="middle" x="3892" y="-30.8" font-family="Times New Roman,serif" font-size="14.00">Warenbestand_von_Lagerplatz_&#39;ROD&#39;_in_Lagerplatz_&#39;AFS&#39;_umbuchen</text>
+</g>
+</g>
+</svg>

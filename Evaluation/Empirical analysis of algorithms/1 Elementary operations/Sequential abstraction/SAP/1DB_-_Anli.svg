@@ -1,0 +1,142 @@
+<svg width="600px" height="822px"
+ viewBox="0.00 0.00 593.00 812.39" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(4 808.39)">
+<title>1DB_&#45;_Anlieferung_von_Produkten_mit_Batch&#45;Management</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-808.39 589,-808.39 589,4 -4,4"/>
+<!-- ExclusiveG\nateway_1ee\n5vj0 -->
+<g id="node1" class="node">
+<title>ExclusiveG\nateway_1ee\n5vj0</title>
+<polygon fill="lightgrey" stroke="black" points="292.5,-415.49 61.58,-397.49 292.5,-379.49 523.42,-397.49 292.5,-415.49"/>
+<text text-anchor="middle" x="292.5" y="-393.79" font-family="Times New Roman,serif" font-size="14.00">Warenankündigung_erforderlich?_/_JOIN</text>
+</g>
+<!-- Task_0lzvn\nph_Task_1t\nbe3ng_1D9_\nVar2 -->
+<g id="node6" class="node">
+<title>Task_0lzvn\nph_Task_1t\nbe3ng_1D9_\nVar2</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="0,-94.99 0,-342.99 585,-342.99 585,-94.99 0,-94.99"/>
+<text text-anchor="middle" x="44.5" y="-237.79" font-family="Times New Roman,serif" font-size="14.00">Task_0lzvn</text>
+<text text-anchor="middle" x="44.5" y="-222.79" font-family="Times New Roman,serif" font-size="14.00">ph_Task_1t</text>
+<text text-anchor="middle" x="44.5" y="-207.79" font-family="Times New Roman,serif" font-size="14.00">be3ng_1D9_</text>
+<text text-anchor="middle" x="44.5" y="-192.79" font-family="Times New Roman,serif" font-size="14.00">Var2</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="89,-94.99 89,-342.99 "/>
+<text text-anchor="middle" x="142.5" y="-275.29" font-family="Times New Roman,serif" font-size="14.00">Lagerfachk</text>
+<text text-anchor="middle" x="142.5" y="-260.29" font-family="Times New Roman,serif" font-size="14.00">raft:1DB__</text>
+<text text-anchor="middle" x="142.5" y="-245.29" font-family="Times New Roman,serif" font-size="14.00">Lane_11q77</text>
+<text text-anchor="middle" x="142.5" y="-230.29" font-family="Times New Roman,serif" font-size="14.00">qc&amp;Käufer:</text>
+<text text-anchor="middle" x="142.5" y="-215.29" font-family="Times New Roman,serif" font-size="14.00">1DB__Lane_</text>
+<text text-anchor="middle" x="142.5" y="-200.29" font-family="Times New Roman,serif" font-size="14.00">1a6bz8p&amp;SA</text>
+<text text-anchor="middle" x="142.5" y="-185.29" font-family="Times New Roman,serif" font-size="14.00">P_SCM_EWM:</text>
+<text text-anchor="middle" x="142.5" y="-170.29" font-family="Times New Roman,serif" font-size="14.00">1DB__Lane_</text>
+<text text-anchor="middle" x="142.5" y="-155.29" font-family="Times New Roman,serif" font-size="14.00">140os6r</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="196,-94.99 196,-342.99 "/>
+<text text-anchor="middle" x="390.5" y="-327.79" font-family="Times New Roman,serif" font-size="14.00">sequential execution:</text>
+<text text-anchor="middle" x="390.5" y="-312.79" font-family="Times New Roman,serif" font-size="14.00">Bearbeitung_der_Wareneingangsbelege_(WEB)</text>
+<text text-anchor="middle" x="390.5" y="-297.79" font-family="Times New Roman,serif" font-size="14.00">Wareneingangsbeleg_erstellen</text>
+<text text-anchor="middle" x="390.5" y="-282.79" font-family="Times New Roman,serif" font-size="14.00">LKW&#45;Check&#45;In_erreichen_und_zur_Tür_vorfahren</text>
+<text text-anchor="middle" x="390.5" y="-267.79" font-family="Times New Roman,serif" font-size="14.00">Anlieferung_erzeugen</text>
+<text text-anchor="middle" x="390.5" y="-252.79" font-family="Times New Roman,serif" font-size="14.00">Anlieferung_erstellen</text>
+<text text-anchor="middle" x="390.5" y="-237.79" font-family="Times New Roman,serif" font-size="14.00">Ausladen_(inkl._Umverpackung_und_Etikettierung)</text>
+<text text-anchor="middle" x="390.5" y="-222.79" font-family="Times New Roman,serif" font-size="14.00">Warenbeleg_bearbeiten</text>
+<text text-anchor="middle" x="390.5" y="-207.79" font-family="Times New Roman,serif" font-size="14.00">Warenbeleg_buchen</text>
+<text text-anchor="middle" x="390.5" y="-192.79" font-family="Times New Roman,serif" font-size="14.00">Anlieferung_aktualisieren</text>
+<text text-anchor="middle" x="390.5" y="-177.79" font-family="Times New Roman,serif" font-size="14.00">Physischen_Lagerbestand_prüfen</text>
+<text text-anchor="middle" x="390.5" y="-162.79" font-family="Times New Roman,serif" font-size="14.00">Lagerhaus&#45;Bestellungen_prüfen</text>
+<text text-anchor="middle" x="390.5" y="-147.79" font-family="Times New Roman,serif" font-size="14.00">Produkte_in_Hochregale_einlagern_(niedrigere_Ebenen)</text>
+<text text-anchor="middle" x="390.5" y="-132.79" font-family="Times New Roman,serif" font-size="14.00">Verfügbarkeits&#45;gruppe_ändern</text>
+<text text-anchor="middle" x="390.5" y="-117.79" font-family="Times New Roman,serif" font-size="14.00">Bestand_vom_Lagerplatz_ROD_in_den_Lagerplatz_AFS_buchen</text>
+<text text-anchor="middle" x="390.5" y="-102.79" font-family="Times New Roman,serif" font-size="14.00">Wareneingang_prüfen</text>
+</g>
+<!-- ExclusiveG\nateway_1ee\n5vj0&#45;&gt;Task_0lzvn\nph_Task_1t\nbe3ng_1D9_\nVar2 -->
+<g id="edge1" class="edge">
+<title>ExclusiveG\nateway_1ee\n5vj0&#45;&gt;Task_0lzvn\nph_Task_1t\nbe3ng_1D9_\nVar2</title>
+<path fill="none" stroke="black" d="M292.5,-379.25C292.5,-372.16 292.5,-363.27 292.5,-353.34"/>
+<polygon fill="black" stroke="black" points="296,-353.1 292.5,-343.1 289,-353.1 296,-353.1"/>
+</g>
+<!-- Task_0r1kd\nmq_Task_0r\nzjkty -->
+<g id="node2" class="node">
+<title>Task_0r1kd\nmq_Task_0r\nzjkty</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="97.5,-613.99 97.5,-711.99 487.5,-711.99 487.5,-613.99 97.5,-613.99"/>
+<text text-anchor="middle" x="142" y="-674.29" font-family="Times New Roman,serif" font-size="14.00">Task_0r1kd</text>
+<text text-anchor="middle" x="142" y="-659.29" font-family="Times New Roman,serif" font-size="14.00">mq_Task_0r</text>
+<text text-anchor="middle" x="142" y="-644.29" font-family="Times New Roman,serif" font-size="14.00">zjkty</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="186.5,-613.99 186.5,-711.99 "/>
+<text text-anchor="middle" x="231" y="-696.79" font-family="Times New Roman,serif" font-size="14.00">Käufer:1DB</text>
+<text text-anchor="middle" x="231" y="-681.79" font-family="Times New Roman,serif" font-size="14.00">__Lane_1a6</text>
+<text text-anchor="middle" x="231" y="-666.79" font-family="Times New Roman,serif" font-size="14.00">bz8p&amp;Verkä</text>
+<text text-anchor="middle" x="231" y="-651.79" font-family="Times New Roman,serif" font-size="14.00">ufer:1DB__</text>
+<text text-anchor="middle" x="231" y="-636.79" font-family="Times New Roman,serif" font-size="14.00">Lane_1rtfh</text>
+<text text-anchor="middle" x="231" y="-621.79" font-family="Times New Roman,serif" font-size="14.00">v2</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="275.5,-613.99 275.5,-711.99 "/>
+<text text-anchor="middle" x="381.5" y="-681.79" font-family="Times New Roman,serif" font-size="14.00">sequential execution:</text>
+<text text-anchor="middle" x="381.5" y="-666.79" font-family="Times New Roman,serif" font-size="14.00">Geringen_Warenbestand_erkennen</text>
+<text text-anchor="middle" x="381.5" y="-651.79" font-family="Times New Roman,serif" font-size="14.00">Bestellung_erstellen</text>
+<text text-anchor="middle" x="381.5" y="-636.79" font-family="Times New Roman,serif" font-size="14.00">Bestellung_erhalten</text>
+</g>
+<!-- ExclusiveG\nateway_1nz\n2op3 -->
+<g id="node3" class="node">
+<title>ExclusiveG\nateway_1nz\n2op3</title>
+<polygon fill="lightgrey" stroke="black" points="292.5,-577.49 54.38,-559.49 292.5,-541.49 530.62,-559.49 292.5,-577.49"/>
+<text text-anchor="middle" x="292.5" y="-555.79" font-family="Times New Roman,serif" font-size="14.00">Warenankündigung_erforderlich?_/_SPLIT</text>
+</g>
+<!-- Task_0r1kd\nmq_Task_0r\nzjkty&#45;&gt;ExclusiveG\nateway_1nz\n2op3 -->
+<g id="edge2" class="edge">
+<title>Task_0r1kd\nmq_Task_0r\nzjkty&#45;&gt;ExclusiveG\nateway_1nz\n2op3</title>
+<path fill="none" stroke="black" d="M292.5,-613.92C292.5,-605.04 292.5,-596.06 292.5,-588.05"/>
+<polygon fill="black" stroke="black" points="296,-587.84 292.5,-577.84 289,-587.84 296,-587.84"/>
+</g>
+<!-- ExclusiveG\nateway_1nz\n2op3&#45;&gt;ExclusiveG\nateway_1ee\n5vj0 -->
+<g id="edge4" class="edge">
+<title>ExclusiveG\nateway_1nz\n2op3&#45;&gt;ExclusiveG\nateway_1ee\n5vj0</title>
+<path fill="none" stroke="black" d="M253.27,-544.32C235.98,-535.89 217.37,-523.29 207.5,-505.49 195.85,-484.51 195.85,-472.48 207.5,-451.49 215.68,-436.76 229.84,-425.59 244.29,-417.39"/>
+<polygon fill="black" stroke="black" points="246.05,-420.42 253.27,-412.67 242.79,-414.23 246.05,-420.42"/>
+</g>
+<!-- Task_0icot\nr7 -->
+<g id="node5" class="node">
+<title>Task_0icot\nr7</title>
+<polygon fill="lightgrey" stroke="black" points="216.5,-451.99 216.5,-504.99 576.5,-504.99 576.5,-451.99 216.5,-451.99"/>
+<text text-anchor="middle" x="256.5" y="-482.29" font-family="Times New Roman,serif" font-size="14.00">Task_0icot</text>
+<text text-anchor="middle" x="256.5" y="-467.29" font-family="Times New Roman,serif" font-size="14.00">r7</text>
+<polyline fill="none" stroke="black" points="296.5,-451.99 296.5,-504.99 "/>
+<text text-anchor="middle" x="342.5" y="-489.79" font-family="Times New Roman,serif" font-size="14.00">Verkäufer:</text>
+<text text-anchor="middle" x="342.5" y="-474.79" font-family="Times New Roman,serif" font-size="14.00">1DB__Lane_</text>
+<text text-anchor="middle" x="342.5" y="-459.79" font-family="Times New Roman,serif" font-size="14.00">1rtfhv2</text>
+<polyline fill="none" stroke="black" points="388.5,-451.99 388.5,-504.99 "/>
+<text text-anchor="middle" x="482.5" y="-474.79" font-family="Times New Roman,serif" font-size="14.00">Warenankündigung_versenden</text>
+</g>
+<!-- ExclusiveG\nateway_1nz\n2op3&#45;&gt;Task_0icot\nr7 -->
+<g id="edge3" class="edge">
+<title>ExclusiveG\nateway_1nz\n2op3&#45;&gt;Task_0icot\nr7</title>
+<path fill="none" stroke="black" d="M313.05,-542.89C324.92,-533.87 340.31,-522.18 354.62,-511.3"/>
+<polygon fill="black" stroke="black" points="357.05,-513.86 362.9,-505.02 352.82,-508.28 357.05,-513.86"/>
+</g>
+<!-- StartEvent\n_1_1DB -->
+<g id="node4" class="node">
+<title>StartEvent\n_1_1DB</title>
+<ellipse fill="lightgrey" stroke="black" cx="292.5" cy="-776.44" rx="27.9" ry="27.9"/>
+<text text-anchor="middle" x="292.5" y="-772.74" font-family="Times New Roman,serif" font-size="14.00">Start</text>
+</g>
+<!-- StartEvent\n_1_1DB&#45;&gt;Task_0r1kd\nmq_Task_0r\nzjkty -->
+<g id="edge5" class="edge">
+<title>StartEvent\n_1_1DB&#45;&gt;Task_0r1kd\nmq_Task_0r\nzjkty</title>
+<path fill="none" stroke="black" d="M292.5,-748.46C292.5,-740.51 292.5,-731.47 292.5,-722.35"/>
+<polygon fill="black" stroke="black" points="296,-722.05 292.5,-712.05 289,-722.05 296,-722.05"/>
+</g>
+<!-- Task_0icot\nr7&#45;&gt;ExclusiveG\nateway_1ee\n5vj0 -->
+<g id="edge6" class="edge">
+<title>Task_0icot\nr7&#45;&gt;ExclusiveG\nateway_1ee\n5vj0</title>
+<path fill="none" stroke="black" d="M362.73,-451.85C349.31,-441.65 334.02,-430.03 321.14,-420.25"/>
+<polygon fill="black" stroke="black" points="323.16,-417.39 313.08,-414.12 318.92,-422.96 323.16,-417.39"/>
+</g>
+<!-- EndEvent_0\nzz0kvr_1DB -->
+<g id="node7" class="node">
+<title>EndEvent_0\nzz0kvr_1DB</title>
+<ellipse fill="lightgrey" stroke="black" cx="292.5" cy="-29.25" rx="29.5" ry="29.5"/>
+<text text-anchor="middle" x="292.5" y="-25.55" font-family="Times New Roman,serif" font-size="14.00">Ende</text>
+</g>
+<!-- Task_0lzvn\nph_Task_1t\nbe3ng_1D9_\nVar2&#45;&gt;EndEvent_0\nzz0kvr_1DB -->
+<g id="edge7" class="edge">
+<title>Task_0lzvn\nph_Task_1t\nbe3ng_1D9_\nVar2&#45;&gt;EndEvent_0\nzz0kvr_1DB</title>
+<path fill="none" stroke="black" d="M292.5,-94.86C292.5,-85.54 292.5,-76.64 292.5,-68.59"/>
+<polygon fill="black" stroke="black" points="296,-68.54 292.5,-58.54 289,-68.54 296,-68.54"/>
+</g>
+</g>
+</svg>

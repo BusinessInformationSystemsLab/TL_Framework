@@ -1,0 +1,55 @@
+<svg width="600px" height="429px"
+ viewBox="0.00 0.00 431.00 308.39" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(4 304.39)">
+<title>22_Passagierabfertigung_Mietwagen_Check&#45;In</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-304.39 427,-304.39 427,4 -4,4"/>
+<!-- EndEvent_0\npjexo5 -->
+<g id="node1" class="node">
+<title>EndEvent_0\npjexo5</title>
+<ellipse fill="lightgrey" stroke="black" cx="211.5" cy="-29.25" rx="29.5" ry="29.5"/>
+<text text-anchor="middle" x="211.5" y="-25.55" font-family="Times New Roman,serif" font-size="14.00">Ende</text>
+</g>
+<!-- Task_1bfgx\n4k_Task_14\n4sffe -->
+<g id="node2" class="node">
+<title>Task_1bfgx\n4k_Task_14\n4sffe</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="0,-94.99 0,-207.99 423,-207.99 423,-94.99 0,-94.99"/>
+<text text-anchor="middle" x="43" y="-162.79" font-family="Times New Roman,serif" font-size="14.00">Task_1bfgx</text>
+<text text-anchor="middle" x="43" y="-147.79" font-family="Times New Roman,serif" font-size="14.00">4k_Task_14</text>
+<text text-anchor="middle" x="43" y="-132.79" font-family="Times New Roman,serif" font-size="14.00">4sffe</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="86,-94.99 86,-207.99 "/>
+<text text-anchor="middle" x="129" y="-192.79" font-family="Times New Roman,serif" font-size="14.00">Mietwagen&#45;</text>
+<text text-anchor="middle" x="129" y="-177.79" font-family="Times New Roman,serif" font-size="14.00">Rückgabe&#45;S</text>
+<text text-anchor="middle" x="129" y="-162.79" font-family="Times New Roman,serif" font-size="14.00">chalter:La</text>
+<text text-anchor="middle" x="129" y="-147.79" font-family="Times New Roman,serif" font-size="14.00">ne_0nej8n1</text>
+<text text-anchor="middle" x="129" y="-132.79" font-family="Times New Roman,serif" font-size="14.00">&amp;Passagier</text>
+<text text-anchor="middle" x="129" y="-117.79" font-family="Times New Roman,serif" font-size="14.00">:Lane_13qn</text>
+<text text-anchor="middle" x="129" y="-102.79" font-family="Times New Roman,serif" font-size="14.00">0fi</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="172,-94.99 172,-207.99 "/>
+<text text-anchor="middle" x="297.5" y="-192.79" font-family="Times New Roman,serif" font-size="14.00">sequential execution:</text>
+<text text-anchor="middle" x="297.5" y="-177.79" font-family="Times New Roman,serif" font-size="14.00">Mietwagen_Rückgabe_Schalter_erreichen</text>
+<text text-anchor="middle" x="297.5" y="-162.79" font-family="Times New Roman,serif" font-size="14.00">Mietwagen_zurückgeben</text>
+<text text-anchor="middle" x="297.5" y="-147.79" font-family="Times New Roman,serif" font-size="14.00">Ausweis_kontrollieren</text>
+<text text-anchor="middle" x="297.5" y="-132.79" font-family="Times New Roman,serif" font-size="14.00">Sitzplatz_auswählen</text>
+<text text-anchor="middle" x="297.5" y="-117.79" font-family="Times New Roman,serif" font-size="14.00">Bordkarte_erstellen</text>
+<text text-anchor="middle" x="297.5" y="-102.79" font-family="Times New Roman,serif" font-size="14.00">Zum_Abflugbereich_gehen</text>
+</g>
+<!-- Task_1bfgx\n4k_Task_14\n4sffe&#45;&gt;EndEvent_0\npjexo5 -->
+<g id="edge1" class="edge">
+<title>Task_1bfgx\n4k_Task_14\n4sffe&#45;&gt;EndEvent_0\npjexo5</title>
+<path fill="none" stroke="black" d="M211.5,-94.95C211.5,-86.12 211.5,-77.16 211.5,-68.84"/>
+<polygon fill="black" stroke="black" points="215,-68.69 211.5,-58.69 208,-68.69 215,-68.69"/>
+</g>
+<!-- StartEvent\n_22 -->
+<g id="node3" class="node">
+<title>StartEvent\n_22</title>
+<ellipse fill="lightgrey" stroke="black" cx="211.5" cy="-272.44" rx="27.9" ry="27.9"/>
+<text text-anchor="middle" x="211.5" y="-268.74" font-family="Times New Roman,serif" font-size="14.00">Start</text>
+</g>
+<!-- StartEvent\n_22&#45;&gt;Task_1bfgx\n4k_Task_14\n4sffe -->
+<g id="edge2" class="edge">
+<title>StartEvent\n_22&#45;&gt;Task_1bfgx\n4k_Task_14\n4sffe</title>
+<path fill="none" stroke="black" d="M211.5,-244.45C211.5,-236.5 211.5,-227.43 211.5,-218.15"/>
+<polygon fill="black" stroke="black" points="215,-218.05 211.5,-208.05 208,-218.05 215,-218.05"/>
+</g>
+</g>
+</svg>

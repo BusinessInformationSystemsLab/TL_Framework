@@ -1,0 +1,1303 @@
+Prefix(:=<http://owl.api.wf>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://owl.api.wf>
+
+Declaration(Class(<http://owl.api.wf#Automat_erreichen>))
+Declaration(Class(<http://owl.api.wf#Bewegen>))
+Declaration(Class(<http://owl.api.wf#Dokument_bearbeiten>))
+Declaration(Class(<http://owl.api.wf#Dokument_kontrollieren>))
+Declaration(Class(<http://owl.api.wf#Flughafenbereich_erreichen>))
+Declaration(Class(<http://owl.api.wf#Gegenstand_bewegen>))
+Declaration(Class(<http://owl.api.wf#Gepäck_auf_Transportmittel_laden>))
+Declaration(Class(<http://owl.api.wf#Gepäck_aufs_Band_stellen>))
+Declaration(Class(<http://owl.api.wf#Gepäck_bewegen>))
+Declaration(Class(<http://owl.api.wf#Gepäck_entnehmen>))
+Declaration(Class(<http://owl.api.wf#Gepäck_kontrollieren>))
+Declaration(Class(<http://owl.api.wf#Gepäck_sortieren>))
+Declaration(Class(<http://owl.api.wf#Gepäck_transportieren>))
+Declaration(Class(<http://owl.api.wf#Gepäckinhalt_kontrollieren>))
+Declaration(Class(<http://owl.api.wf#Gepäckmaße_kontrollieren>))
+Declaration(Class(<http://owl.api.wf#Kontrollieren>))
+Declaration(Class(<http://owl.api.wf#Nicht_Flughafenbereich_erreichen>))
+Declaration(Class(<http://owl.api.wf#Passagier_kontrollieren>))
+Declaration(Class(<http://owl.api.wf#Person_bewegen>))
+Declaration(Class(<http://owl.api.wf#Schalter_erreichen>))
+Declaration(Class(<http://owl.api.wf#Sonstige_Gegenstände_bewegen>))
+Declaration(Class(<http://owl.api.wf#Sonstige_Tasks>))
+Declaration(Class(<http://owl.api.wf#Task_Flughafen_Hierarchie>))
+Declaration(Class(<http://owl.api.wf#Warten>))
+Declaration(ObjectProperty(<http://owl.api.wf#similarity>))
+Declaration(NamedIndividual(<http://owl.api.wf#Am_Terminal_ankommen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Am_Terminal_landen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Ausweis_kontrolieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Ausweis_kontrollieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Bahnhof_betreten>))
+Declaration(NamedIndividual(<http://owl.api.wf#Boarding_starten>))
+Declaration(NamedIndividual(<http://owl.api.wf#Bording_starten>))
+Declaration(NamedIndividual(<http://owl.api.wf#Bordkarte_drucken>))
+Declaration(NamedIndividual(<http://owl.api.wf#Bordkarte_erstellen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Bordkarte_vorzeigen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Container_auf_Hubtransporter_laden>))
+Declaration(NamedIndividual(<http://owl.api.wf#Container_in_den_Zug_verladen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Dollies_in_einen_Zug_Koppeln>))
+Declaration(NamedIndividual(<http://owl.api.wf#Dollies_in_einen_Zug_koppeln>))
+Declaration(NamedIndividual(<http://owl.api.wf#Eingabestelle_Aussteigergepäck_erreichen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Fahrer_bringt_Last-Minute-Gepäck_zum_Flugzeug>))
+Declaration(NamedIndividual(<http://owl.api.wf#Fehlgeleitetes_Gepäck_entnehmen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Flughafen_verlassen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Flugticket_kaufen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_an_Bord_belassen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_auf_Ausgaberundlauf_legen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_auf_Container-Dollies_verladen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_auf_Container_Dollies_verladen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_auf_Dollies_o._Container_laden>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_auf_Dollies_oder_Container_laden>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_auf_Förderband>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_auf_Förderband_laden>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_auf_Förderband_legen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_auf_Förderband_oder_Hebebühne_legen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_auf_Förderbandwagen_legen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_auf_Gepäckband_legen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_auf_Gepäckwagen_legen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_auf_Handkarren_laden>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_auf_Hebebühne_oder_Hubtransporter_legen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_auf_Kofferwagen_legen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_auf_Transporter_laden>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_auf_Waageband_stellen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_auf_Warteband_stellen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_auf_das_Förderband_legen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_auf_den_Gepäckträger_laden>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_auf_den_Wagen_legen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_aufbewahren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_aufgeben>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_aufs_Förderband_legen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_aufs_Gepäckband_legen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_aufs_Waageband_stellen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_aufs_Warteband_stellen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_aussondern>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_automatisch_druchleuchten>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_automatisch_durchleuchten>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_direkt_zum_Anschlussflug_bringen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_entgegennehmen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_im_Flugzeug_verstauen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_in_Container_verladen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_in_den_Gepäckkeller_transportieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_ins_Flugzeug_laden>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_manuell_überprüfen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_messen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_mit_Hubtransporter_zur_Eingabestelle_transportieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_mit_Passagier_zusammenführen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_nach_Flughafensektionen_sortieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_neben_Rundlauf_legen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_sortieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_vom_Band_nehmen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_wiegen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_zu_Eingabestellen_für_Transfergepäck_bringen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_zu_Eingabestellen_verfrachten>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_zu_Gepäckabfertigungshalle_transportieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_zu_Sperrgepäckschalter_bringen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_zu_Verladestelle_bringen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_zu_den_Entnahmestellen_leiten>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_zum_Anschlussflug_transportieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_zum_Fahrzeug_fahren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_zum_Flugzeug_fahren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_zum_Gepäckband_im_Terminal_transportieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_zum_Gepäckband_im_Terminal_transpotieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_zur_Ausgabestelle_transportieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_zur_Gepäckabfertigungshalle_liefern>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_zur_Nachkontrolle_transportieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_zur_Verladestelle_transportieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_zur_Übergabestelle_bringen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_öffnen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_über_Ladeluke_in_den_Laderaum_befördern>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckanhänger_anbringen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckanhänger_befestigen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckanhänger_befestignen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckanhänger_drucken>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckanhänger_erstellen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäcke_messen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckentnahmestelle>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckentnahmestelle_Last-Minute-Gepäck>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckentnahmestelle_Normalgepäck>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckstück-Maße_überprüfen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckstück_Maße_überprüfen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckstück_auf_Abzugsband_stellen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckstück_auf_Labelband_stellen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckstück_auf_Rundlauf_legen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckstück_auf_Sammelband_legen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckstück_auf_Zubringerband_legen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckstück_auf_das_Abzugsband_stellen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckstück_aufs_Sammelband_legen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckstück_aufs_Zubringerband_legen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckstück_durchleuchten>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckstück_manuell_kontrolieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckstück_manuell_kontrollieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckstück_mit_Passagier_zusammenführen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckstück_wiegen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckstück_zur_Nachkontrolle_transportieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckstück_zur_Röntgenbeugungsanlage_transportieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckstück_zur_Röntgenprüfanlage_transportieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckstück_zur_Sortieranlage_transportieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckstück_zur_Sotieranlage_transportieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckstück_zur_Verladestelle_transportieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Handgepäck_durchleuchten>))
+Declaration(NamedIndividual(<http://owl.api.wf#Handgepäck_manuell_kontrolieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Handgepäck_manuell_kontrollieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Hotel-Check-In-Schalter_betreten>))
+Declaration(NamedIndividual(<http://owl.api.wf#Hotel_Check_In_Schalter_betreten>))
+Declaration(NamedIndividual(<http://owl.api.wf#Hubtransporter_zum_Flugzeug_fahren>))
+Declaration(NamedIndividual(<http://owl.api.wf#In_den_Zug_steigen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Last-Minute-Gepäck_entnehmen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Last_Minute_Gepäck_entnehmen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Last_Minute_Gepäck_zum_Flugzeug_bringen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Lounge_betreten>))
+Declaration(NamedIndividual(<http://owl.api.wf#Mietwagen-Rückgabe-Schalter_erreichen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Mietwagen_Rückgabe_Schalter_erreichen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Mietwagen_zurückgeben>))
+Declaration(NamedIndividual(<http://owl.api.wf#Parkpodition_erreichen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Parkposition_erreichen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Passagier_durch_Scanner_schicken>))
+Declaration(NamedIndividual(<http://owl.api.wf#Passagier_manuell_kontrolieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Passagier_manuell_kontrollieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Prozess_Abfertigung_Sperrgepäck>))
+Declaration(NamedIndividual(<http://owl.api.wf#Prozess_GFA>))
+Declaration(NamedIndividual(<http://owl.api.wf#Prozess_GFA_Containergepäck>))
+Declaration(NamedIndividual(<http://owl.api.wf#Prozess_GFA_Normalgepäck>))
+Declaration(NamedIndividual(<http://owl.api.wf#Prozess_GFA_Sperrgepäck>))
+Declaration(NamedIndividual(<http://owl.api.wf#Prozess_GFA_Transfergepäck>))
+Declaration(NamedIndividual(<http://owl.api.wf#Prozess_Gepäck_Sicherheitskontrolle>))
+Declaration(NamedIndividual(<http://owl.api.wf#Prozess_Gepäckabfertigung>))
+Declaration(NamedIndividual(<http://owl.api.wf#Prozess_Gepäckverladung>))
+Declaration(NamedIndividual(<http://owl.api.wf#Prozess_Passagierabfertigung>))
+Declaration(NamedIndividual(<http://owl.api.wf#Prozess_Passagierabfertigung_am_Check-In-Schalter>))
+Declaration(NamedIndividual(<http://owl.api.wf#Prozess_Sicherheitbereich>))
+Declaration(NamedIndividual(<http://owl.api.wf#Prozess_Sicherheitsbereich>))
+Declaration(NamedIndividual(<http://owl.api.wf#Prozess_Sicherheitskontrolle>))
+Declaration(NamedIndividual(<http://owl.api.wf#Prozess_Transport_zum_Flugzeug>))
+Declaration(NamedIndividual(<http://owl.api.wf#Reisepass_kontrolieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Reisepass_kontrollieren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Reisepass_überprüfen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Röntgenbilder_überprüfen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Sitzplatz_auswahlen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Sitzplatz_auswählen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Terminal_betreten>))
+Declaration(NamedIndividual(<http://owl.api.wf#Warten_bis_Abzugsband_frei_ist>))
+Declaration(NamedIndividual(<http://owl.api.wf#Warten_bis_Automat_frei_ist>))
+Declaration(NamedIndividual(<http://owl.api.wf#Warten_bis_Bordkartenkontrolle_frei_ist>))
+Declaration(NamedIndividual(<http://owl.api.wf#Warten_bis_Gepäck_kommt>))
+Declaration(NamedIndividual(<http://owl.api.wf#Warten_bis_Passkontrolle_frei_ist>))
+Declaration(NamedIndividual(<http://owl.api.wf#Warten_bis_Schalter_frei_ist>))
+Declaration(NamedIndividual(<http://owl.api.wf#Warten_bis_Sicherheitsschalter_frei_ist>))
+Declaration(NamedIndividual(<http://owl.api.wf#Warten_bis_Zollstation_frei_ist>))
+Declaration(NamedIndividual(<http://owl.api.wf#Warten_bis_das_Gepäck_kommt>))
+Declaration(NamedIndividual(<http://owl.api.wf#Zollformalitäten_abwickeln>))
+Declaration(NamedIndividual(<http://owl.api.wf#Zum_Abflugbereich_gehen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Zum_Automaten_gehen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Zum_Bag-Drop-automaten_gehen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Zum_Bag_Drop_Automaten_gehen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Zum_Check-In-Schalter_gehen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Zum_Check_In_Schalter_gehen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Zum_Flughafen_fahren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Zum_Gate_gehen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Zum_Gepäckannahmeschalter_gehen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Zum_Gepäckannahmeschlater_gehen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Zum_Schalter_gehen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Zum_Sicherheitsbereich_gehen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Zum_Sperrgepäck-Schalter_gehen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Zum_Sperrgepäckschalter_gehen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Zum_Terminal_fahren>))
+Declaration(NamedIndividual(<http://owl.api.wf#Zum_Terminal_gehen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Zum_Transfer-Check-In-Schalter_gehen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Zum_Transfer_Check_In_Schalter_gehen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Zur_Gepäckausgabe_gehen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Zur_Passkontrolle_der_BP_gehen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Zur_Passkontrolle_gehen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Zur_Zollstation_gehen>))
+Declaration(NamedIndividual(<http://owl.api.wf#zum_Schalter_gehen>))
+Declaration(NamedIndividual(<http://owl.api.wf#zum_Sicherheitsbereich_gehen>))
+Declaration(NamedIndividual(<http://owl.api.wf#Check-In_für_Anschlussflug_erwünscht?_/_JOIN>))
+Declaration(NamedIndividual(<http://owl.api.wf#Check-In_für_Anschlussflug_erwünscht?_/_SPLIT>))
+Declaration(NamedIndividual(<http://owl.api.wf#Förderband_für_Sperrgepäck_vorhanden?_/_JOIN>))
+Declaration(NamedIndividual(<http://owl.api.wf#Förderband_für_Sperrgepäck_vorhanden?_/_SPLIT>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_vorhanden?_/_JOIN>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_vorhanden?_/_SPLIT>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_zollfrei?_/_JOIN>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäck_zollfrei?_/_SPLIT>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckanhänger_vorhanden?_/_JOIN>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckanhänger_vorhanden?_/_SPLIT>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckart?_/_JOIN>))
+Declaration(NamedIndividual(<http://owl.api.wf#Gepäckart?_/_SPLIT>))
+Declaration(NamedIndividual(<http://owl.api.wf#Inclusives_Gateway_/_JOIN>))
+Declaration(NamedIndividual(<http://owl.api.wf#Inclusives_Gateway_/_SPLIT>))
+Declaration(NamedIndividual(<http://owl.api.wf#Inhalt_unbedenklich?_/_JOIN>))
+Declaration(NamedIndividual(<http://owl.api.wf#Inhalt_unbedenklich?_/_SPLIT>))
+Declaration(NamedIndividual(<http://owl.api.wf#Last-Minute-Gepäck?_/_JOIN>))
+Declaration(NamedIndividual(<http://owl.api.wf#Last-Minute-Gepäck?_/_SPLIT>))
+Declaration(NamedIndividual(<http://owl.api.wf#Nur_Handgepäck_vorhanden?_/_JOIN>))
+Declaration(NamedIndividual(<http://owl.api.wf#Nur_Handgepäck_vorhanden?_/_SPLIT>))
+Declaration(NamedIndividual(<http://owl.api.wf#Paralleles_Gateway_/_JOIN>))
+Declaration(NamedIndividual(<http://owl.api.wf#Paralleles_Gateway_/_SPLIT>))
+Declaration(NamedIndividual(<http://owl.api.wf#Passagier-Mindestanzahl_für_Gruppen-Check-In_erreicht?_/_JOIN>))
+Declaration(NamedIndividual(<http://owl.api.wf#Passagier-Mindestanzahl_für_Gruppen-Check-In_erreicht?_/_SPLIT>))
+Declaration(NamedIndividual(<http://owl.api.wf#Reiseziel_überprüfen_/_JOIN>))
+Declaration(NamedIndividual(<http://owl.api.wf#Reiseziel_überprüfen_/_SPLIT>))
+Declaration(NamedIndividual(<http://owl.api.wf#Sonder-_oder_Last-Minute-Sperrgepäck?_/_JOIN>))
+Declaration(NamedIndividual(<http://owl.api.wf#Sonder-_oder_Last-Minute-Sperrgepäck?_/_SPLIT>))
+Declaration(NamedIndividual(<http://owl.api.wf#Sonder-_oder_Sperrgepäck?_/_JOIN>))
+Declaration(NamedIndividual(<http://owl.api.wf#Sonder-_oder_Sperrgepäck?_/_SPLIT>))
+Declaration(NamedIndividual(<http://owl.api.wf#Sperrgepäck?_/_SPLIT>))
+Declaration(NamedIndividual(<http://owl.api.wf#Status_überprüfen_/_JOIN>))
+Declaration(NamedIndividual(<http://owl.api.wf#Status_überprüfen_/_SPLIT>))
+Declaration(NamedIndividual(<http://owl.api.wf#Statuskontrolle_/_JOIN>))
+Declaration(NamedIndividual(<http://owl.api.wf#Statuskontrolle_/_SPLIT>))
+Declaration(NamedIndividual(<http://owl.api.wf#Transitgepäck?_/_JOIN>))
+Declaration(NamedIndividual(<http://owl.api.wf#Transitgepäck?_/_SPLIT>))
+Declaration(NamedIndividual(<http://owl.api.wf#Warten,_bis_Schalter_frei_ist>))
+Declaration(NamedIndividual(<http://owl.api.wf#Warten,_bis_Schatler_frei_ist>))
+Declaration(AnnotationProperty(<http://owl.api.wf#similarity>))
+Declaration(AnnotationProperty(owl:mappedTo))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://owl.api.wf#Automat_erreichen> (<http://owl.api.wf#Automat_erreichen>)
+
+AnnotationAssertion(<http://owl.api.wf#similarity> <http://owl.api.wf#Automat_erreichen> "1.0"^^xsd:float)
+SubClassOf(<http://owl.api.wf#Automat_erreichen> <http://owl.api.wf#Flughafenbereich_erreichen>)
+
+# Class: <http://owl.api.wf#Bewegen> (<http://owl.api.wf#Bewegen>)
+
+AnnotationAssertion(<http://owl.api.wf#similarity> <http://owl.api.wf#Bewegen> "0.05"^^xsd:float)
+AnnotationAssertion(owl:mappedTo <http://owl.api.wf#Bewegen> <http://owl.api.wf#Physische_Verarbeitung>)
+SubClassOf(<http://owl.api.wf#Bewegen> <http://owl.api.wf#Task_Flughafen_Hierarchie>)
+
+# Class: <http://owl.api.wf#Dokument_bearbeiten> (<http://owl.api.wf#Dokument_bearbeiten>)
+
+AnnotationAssertion(<http://owl.api.wf#similarity> <http://owl.api.wf#Dokument_bearbeiten> "0.7"^^xsd:float)
+AnnotationAssertion(owl:mappedTo <http://owl.api.wf#Dokument_bearbeiten> <http://owl.api.wf#Belege_bearbeiten>)
+AnnotationAssertion(owl:mappedTo <http://owl.api.wf#Dokument_bearbeiten> <http://owl.api.wf#Warenausgang_bearbeiten>)
+SubClassOf(<http://owl.api.wf#Dokument_bearbeiten> <http://owl.api.wf#Task_Flughafen_Hierarchie>)
+
+# Class: <http://owl.api.wf#Dokument_kontrollieren> (<http://owl.api.wf#Dokument_kontrollieren>)
+
+AnnotationAssertion(<http://owl.api.wf#similarity> <http://owl.api.wf#Dokument_kontrollieren> "0.85"^^xsd:float)
+AnnotationAssertion(owl:mappedTo <http://owl.api.wf#Dokument_kontrollieren> <http://owl.api.wf#Sonstige_Belege-Bearbeitung>)
+SubClassOf(<http://owl.api.wf#Dokument_kontrollieren> <http://owl.api.wf#Kontrollieren>)
+
+# Class: <http://owl.api.wf#Flughafenbereich_erreichen> (<http://owl.api.wf#Flughafenbereich_erreichen>)
+
+AnnotationAssertion(<http://owl.api.wf#similarity> <http://owl.api.wf#Flughafenbereich_erreichen> "0.9"^^xsd:float)
+AnnotationAssertion(owl:mappedTo <http://owl.api.wf#Flughafenbereich_erreichen> <http://owl.api.wf#Anlieferung_bearbeiten>)
+SubClassOf(<http://owl.api.wf#Flughafenbereich_erreichen> <http://owl.api.wf#Person_bewegen>)
+
+# Class: <http://owl.api.wf#Gegenstand_bewegen> (<http://owl.api.wf#Gegenstand_bewegen>)
+
+AnnotationAssertion(<http://owl.api.wf#similarity> <http://owl.api.wf#Gegenstand_bewegen> "0.05"^^xsd:float)
+SubClassOf(<http://owl.api.wf#Gegenstand_bewegen> <http://owl.api.wf#Bewegen>)
+
+# Class: <http://owl.api.wf#Gepäck_auf_Transportmittel_laden> (<http://owl.api.wf#Gepäck_auf_Transportmittel_laden>)
+
+AnnotationAssertion(<http://owl.api.wf#similarity> <http://owl.api.wf#Gepäck_auf_Transportmittel_laden> "1.0"^^xsd:float)
+SubClassOf(<http://owl.api.wf#Gepäck_auf_Transportmittel_laden> <http://owl.api.wf#Gepäck_bewegen>)
+
+# Class: <http://owl.api.wf#Gepäck_aufs_Band_stellen> (<http://owl.api.wf#Gepäck_aufs_Band_stellen>)
+
+AnnotationAssertion(<http://owl.api.wf#similarity> <http://owl.api.wf#Gepäck_aufs_Band_stellen> "1.0"^^xsd:float)
+SubClassOf(<http://owl.api.wf#Gepäck_aufs_Band_stellen> <http://owl.api.wf#Gepäck_bewegen>)
+
+# Class: <http://owl.api.wf#Gepäck_bewegen> (<http://owl.api.wf#Gepäck_bewegen>)
+
+AnnotationAssertion(<http://owl.api.wf#similarity> <http://owl.api.wf#Gepäck_bewegen> "0.5"^^xsd:float)
+SubClassOf(<http://owl.api.wf#Gepäck_bewegen> <http://owl.api.wf#Gegenstand_bewegen>)
+
+# Class: <http://owl.api.wf#Gepäck_entnehmen> (<http://owl.api.wf#Gepäck_entnehmen>)
+
+AnnotationAssertion(<http://owl.api.wf#similarity> <http://owl.api.wf#Gepäck_entnehmen> "1.0"^^xsd:float)
+SubClassOf(<http://owl.api.wf#Gepäck_entnehmen> <http://owl.api.wf#Gepäck_bewegen>)
+
+# Class: <http://owl.api.wf#Gepäck_kontrollieren> (<http://owl.api.wf#Gepäck_kontrollieren>)
+
+AnnotationAssertion(<http://owl.api.wf#similarity> <http://owl.api.wf#Gepäck_kontrollieren> "0.9"^^xsd:float)
+AnnotationAssertion(owl:mappedTo <http://owl.api.wf#Gepäck_kontrollieren> <http://owl.api.wf#Sonstige_Vorgänge_der_Warenüberprüfung>)
+SubClassOf(<http://owl.api.wf#Gepäck_kontrollieren> <http://owl.api.wf#Kontrollieren>)
+
+# Class: <http://owl.api.wf#Gepäck_sortieren> (<http://owl.api.wf#Gepäck_sortieren>)
+
+AnnotationAssertion(<http://owl.api.wf#similarity> <http://owl.api.wf#Gepäck_sortieren> "1.0"^^xsd:float)
+SubClassOf(<http://owl.api.wf#Gepäck_sortieren> <http://owl.api.wf#Gepäck_bewegen>)
+
+# Class: <http://owl.api.wf#Gepäck_transportieren> (<http://owl.api.wf#Gepäck_transportieren>)
+
+AnnotationAssertion(<http://owl.api.wf#similarity> <http://owl.api.wf#Gepäck_transportieren> "1.0"^^xsd:float)
+AnnotationAssertion(owl:mappedTo <http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Lageraufträge_bearbeiten>)
+AnnotationAssertion(owl:mappedTo <http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Transportmittel_beladen>)
+SubClassOf(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Gepäck_bewegen>)
+
+# Class: <http://owl.api.wf#Gepäckinhalt_kontrollieren> (<http://owl.api.wf#Gepäckinhalt_kontrollieren>)
+
+AnnotationAssertion(<http://owl.api.wf#similarity> <http://owl.api.wf#Gepäckinhalt_kontrollieren> "1.0"^^xsd:float)
+SubClassOf(<http://owl.api.wf#Gepäckinhalt_kontrollieren> <http://owl.api.wf#Gepäck_kontrollieren>)
+
+# Class: <http://owl.api.wf#Gepäckmaße_kontrollieren> (<http://owl.api.wf#Gepäckmaße_kontrollieren>)
+
+AnnotationAssertion(<http://owl.api.wf#similarity> <http://owl.api.wf#Gepäckmaße_kontrollieren> "0.9"^^xsd:float)
+SubClassOf(<http://owl.api.wf#Gepäckmaße_kontrollieren> <http://owl.api.wf#Gepäck_kontrollieren>)
+
+# Class: <http://owl.api.wf#Kontrollieren> (<http://owl.api.wf#Kontrollieren>)
+
+AnnotationAssertion(<http://owl.api.wf#similarity> <http://owl.api.wf#Kontrollieren> "0.2"^^xsd:float)
+AnnotationAssertion(owl:mappedTo <http://owl.api.wf#Kontrollieren> <http://owl.api.wf#Sonstige_Vorgänge_der_Warenüberprüfung>)
+SubClassOf(<http://owl.api.wf#Kontrollieren> <http://owl.api.wf#Task_Flughafen_Hierarchie>)
+
+# Class: <http://owl.api.wf#Nicht_Flughafenbereich_erreichen> (<http://owl.api.wf#Nicht_Flughafenbereich_erreichen>)
+
+AnnotationAssertion(<http://owl.api.wf#similarity> <http://owl.api.wf#Nicht_Flughafenbereich_erreichen> "0.9"^^xsd:float)
+SubClassOf(<http://owl.api.wf#Nicht_Flughafenbereich_erreichen> <http://owl.api.wf#Person_bewegen>)
+
+# Class: <http://owl.api.wf#Passagier_kontrollieren> (<http://owl.api.wf#Passagier_kontrollieren>)
+
+AnnotationAssertion(<http://owl.api.wf#similarity> <http://owl.api.wf#Passagier_kontrollieren> "0.85"^^xsd:float)
+AnnotationAssertion(owl:mappedTo <http://owl.api.wf#Passagier_kontrollieren> <http://owl.api.wf#Sonstige_Vorgänge_der_Warenüberprüfung>)
+SubClassOf(<http://owl.api.wf#Passagier_kontrollieren> <http://owl.api.wf#Kontrollieren>)
+
+# Class: <http://owl.api.wf#Person_bewegen> (<http://owl.api.wf#Person_bewegen>)
+
+AnnotationAssertion(<http://owl.api.wf#similarity> <http://owl.api.wf#Person_bewegen> "0.85"^^xsd:float)
+AnnotationAssertion(owl:mappedTo <http://owl.api.wf#Person_bewegen> <http://owl.api.wf#Wareneingang_bearbeiten>)
+SubClassOf(<http://owl.api.wf#Person_bewegen> <http://owl.api.wf#Bewegen>)
+
+# Class: <http://owl.api.wf#Schalter_erreichen> (<http://owl.api.wf#Schalter_erreichen>)
+
+AnnotationAssertion(<http://owl.api.wf#similarity> <http://owl.api.wf#Schalter_erreichen> "1.0"^^xsd:float)
+AnnotationAssertion(owl:mappedTo <http://owl.api.wf#Schalter_erreichen> <http://owl.api.wf#Auslieferung_bearbeiten>)
+SubClassOf(<http://owl.api.wf#Schalter_erreichen> <http://owl.api.wf#Flughafenbereich_erreichen>)
+
+# Class: <http://owl.api.wf#Sonstige_Gegenstände_bewegen> (<http://owl.api.wf#Sonstige_Gegenstände_bewegen>)
+
+AnnotationAssertion(<http://owl.api.wf#similarity> <http://owl.api.wf#Sonstige_Gegenstände_bewegen> "0.9"^^xsd:float)
+SubClassOf(<http://owl.api.wf#Sonstige_Gegenstände_bewegen> <http://owl.api.wf#Gegenstand_bewegen>)
+
+# Class: <http://owl.api.wf#Sonstige_Tasks> (<http://owl.api.wf#Sonstige_Tasks>)
+
+AnnotationAssertion(<http://owl.api.wf#similarity> <http://owl.api.wf#Sonstige_Tasks> "0.0"^^xsd:float)
+SubClassOf(<http://owl.api.wf#Sonstige_Tasks> <http://owl.api.wf#Task_Flughafen_Hierarchie>)
+
+# Class: <http://owl.api.wf#Warten> (<http://owl.api.wf#Warten>)
+
+AnnotationAssertion(<http://owl.api.wf#similarity> <http://owl.api.wf#Warten> "0.05"^^xsd:float)
+AnnotationAssertion(owl:mappedTo <http://owl.api.wf#Warten> <http://owl.api.wf#Bestellungen_bearbeiten>)
+SubClassOf(<http://owl.api.wf#Warten> <http://owl.api.wf#Task_Flughafen_Hierarchie>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://owl.api.wf#Am_Terminal_ankommen> (<http://owl.api.wf#Am_Terminal_ankommen>)
+
+ClassAssertion(<http://owl.api.wf#Flughafenbereich_erreichen> <http://owl.api.wf#Am_Terminal_ankommen>)
+
+# Individual: <http://owl.api.wf#Am_Terminal_landen> (<http://owl.api.wf#Am_Terminal_landen>)
+
+ClassAssertion(<http://owl.api.wf#Sonstige_Tasks> <http://owl.api.wf#Am_Terminal_landen>)
+
+# Individual: <http://owl.api.wf#Ausweis_kontrolieren> (<http://owl.api.wf#Ausweis_kontrolieren>)
+
+ClassAssertion(<http://owl.api.wf#Dokument_kontrollieren> <http://owl.api.wf#Ausweis_kontrolieren>)
+
+# Individual: <http://owl.api.wf#Ausweis_kontrollieren> (<http://owl.api.wf#Ausweis_kontrollieren>)
+
+ClassAssertion(<http://owl.api.wf#Dokument_kontrollieren> <http://owl.api.wf#Ausweis_kontrollieren>)
+
+# Individual: <http://owl.api.wf#Bahnhof_betreten> (<http://owl.api.wf#Bahnhof_betreten>)
+
+ClassAssertion(<http://owl.api.wf#Nicht_Flughafenbereich_erreichen> <http://owl.api.wf#Bahnhof_betreten>)
+
+# Individual: <http://owl.api.wf#Boarding_starten> (<http://owl.api.wf#Boarding_starten>)
+
+ClassAssertion(<http://owl.api.wf#Sonstige_Tasks> <http://owl.api.wf#Boarding_starten>)
+
+# Individual: <http://owl.api.wf#Bording_starten> (<http://owl.api.wf#Bording_starten>)
+
+ClassAssertion(<http://owl.api.wf#Sonstige_Tasks> <http://owl.api.wf#Bording_starten>)
+
+# Individual: <http://owl.api.wf#Bordkarte_drucken> (<http://owl.api.wf#Bordkarte_drucken>)
+
+ClassAssertion(<http://owl.api.wf#Dokument_bearbeiten> <http://owl.api.wf#Bordkarte_drucken>)
+
+# Individual: <http://owl.api.wf#Bordkarte_erstellen> (<http://owl.api.wf#Bordkarte_erstellen>)
+
+ClassAssertion(<http://owl.api.wf#Dokument_bearbeiten> <http://owl.api.wf#Bordkarte_erstellen>)
+
+# Individual: <http://owl.api.wf#Bordkarte_vorzeigen> (<http://owl.api.wf#Bordkarte_vorzeigen>)
+
+ClassAssertion(<http://owl.api.wf#Sonstige_Tasks> <http://owl.api.wf#Bordkarte_vorzeigen>)
+
+# Individual: <http://owl.api.wf#Container_auf_Hubtransporter_laden> (<http://owl.api.wf#Container_auf_Hubtransporter_laden>)
+
+ClassAssertion(<http://owl.api.wf#Sonstige_Gegenstände_bewegen> <http://owl.api.wf#Container_auf_Hubtransporter_laden>)
+
+# Individual: <http://owl.api.wf#Container_in_den_Zug_verladen> (<http://owl.api.wf#Container_in_den_Zug_verladen>)
+
+ClassAssertion(<http://owl.api.wf#Sonstige_Gegenstände_bewegen> <http://owl.api.wf#Container_in_den_Zug_verladen>)
+
+# Individual: <http://owl.api.wf#Dollies_in_einen_Zug_Koppeln> (<http://owl.api.wf#Dollies_in_einen_Zug_Koppeln>)
+
+ClassAssertion(<http://owl.api.wf#Sonstige_Tasks> <http://owl.api.wf#Dollies_in_einen_Zug_Koppeln>)
+
+# Individual: <http://owl.api.wf#Dollies_in_einen_Zug_koppeln> (<http://owl.api.wf#Dollies_in_einen_Zug_koppeln>)
+
+ClassAssertion(<http://owl.api.wf#Sonstige_Tasks> <http://owl.api.wf#Dollies_in_einen_Zug_koppeln>)
+
+# Individual: <http://owl.api.wf#Eingabestelle_Aussteigergepäck_erreichen> (<http://owl.api.wf#Eingabestelle_Aussteigergepäck_erreichen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Eingabestelle_Aussteigergepäck_erreichen>)
+
+# Individual: <http://owl.api.wf#Fahrer_bringt_Last-Minute-Gepäck_zum_Flugzeug> (<http://owl.api.wf#Fahrer_bringt_Last-Minute-Gepäck_zum_Flugzeug>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_auf_Transportmittel_laden> <http://owl.api.wf#Fahrer_bringt_Last-Minute-Gepäck_zum_Flugzeug>)
+
+# Individual: <http://owl.api.wf#Fehlgeleitetes_Gepäck_entnehmen> (<http://owl.api.wf#Fehlgeleitetes_Gepäck_entnehmen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_entnehmen> <http://owl.api.wf#Fehlgeleitetes_Gepäck_entnehmen>)
+
+# Individual: <http://owl.api.wf#Flughafen_verlassen> (<http://owl.api.wf#Flughafen_verlassen>)
+
+ClassAssertion(<http://owl.api.wf#Nicht_Flughafenbereich_erreichen> <http://owl.api.wf#Flughafen_verlassen>)
+
+# Individual: <http://owl.api.wf#Flugticket_kaufen> (<http://owl.api.wf#Flugticket_kaufen>)
+
+ClassAssertion(<http://owl.api.wf#Sonstige_Tasks> <http://owl.api.wf#Flugticket_kaufen>)
+
+# Individual: <http://owl.api.wf#Gepäck_an_Bord_belassen> (<http://owl.api.wf#Gepäck_an_Bord_belassen>)
+
+ClassAssertion(<http://owl.api.wf#Sonstige_Tasks> <http://owl.api.wf#Gepäck_an_Bord_belassen>)
+
+# Individual: <http://owl.api.wf#Gepäck_auf_Ausgaberundlauf_legen> (<http://owl.api.wf#Gepäck_auf_Ausgaberundlauf_legen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_aufs_Band_stellen> <http://owl.api.wf#Gepäck_auf_Ausgaberundlauf_legen>)
+
+# Individual: <http://owl.api.wf#Gepäck_auf_Container-Dollies_verladen> (<http://owl.api.wf#Gepäck_auf_Container-Dollies_verladen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_auf_Transportmittel_laden> <http://owl.api.wf#Gepäck_auf_Container-Dollies_verladen>)
+
+# Individual: <http://owl.api.wf#Gepäck_auf_Container_Dollies_verladen> (<http://owl.api.wf#Gepäck_auf_Container_Dollies_verladen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_auf_Transportmittel_laden> <http://owl.api.wf#Gepäck_auf_Container_Dollies_verladen>)
+
+# Individual: <http://owl.api.wf#Gepäck_auf_Dollies_o._Container_laden> (<http://owl.api.wf#Gepäck_auf_Dollies_o._Container_laden>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_auf_Transportmittel_laden> <http://owl.api.wf#Gepäck_auf_Dollies_o._Container_laden>)
+
+# Individual: <http://owl.api.wf#Gepäck_auf_Dollies_oder_Container_laden> (<http://owl.api.wf#Gepäck_auf_Dollies_oder_Container_laden>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_auf_Transportmittel_laden> <http://owl.api.wf#Gepäck_auf_Dollies_oder_Container_laden>)
+
+# Individual: <http://owl.api.wf#Gepäck_auf_Förderband> (<http://owl.api.wf#Gepäck_auf_Förderband>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_aufs_Band_stellen> <http://owl.api.wf#Gepäck_auf_Förderband>)
+
+# Individual: <http://owl.api.wf#Gepäck_auf_Förderband_laden> (<http://owl.api.wf#Gepäck_auf_Förderband_laden>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_aufs_Band_stellen> <http://owl.api.wf#Gepäck_auf_Förderband_laden>)
+
+# Individual: <http://owl.api.wf#Gepäck_auf_Förderband_legen> (<http://owl.api.wf#Gepäck_auf_Förderband_legen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_aufs_Band_stellen> <http://owl.api.wf#Gepäck_auf_Förderband_legen>)
+
+# Individual: <http://owl.api.wf#Gepäck_auf_Förderband_oder_Hebebühne_legen> (<http://owl.api.wf#Gepäck_auf_Förderband_oder_Hebebühne_legen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_auf_Transportmittel_laden> <http://owl.api.wf#Gepäck_auf_Förderband_oder_Hebebühne_legen>)
+
+# Individual: <http://owl.api.wf#Gepäck_auf_Förderbandwagen_legen> (<http://owl.api.wf#Gepäck_auf_Förderbandwagen_legen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_auf_Transportmittel_laden> <http://owl.api.wf#Gepäck_auf_Förderbandwagen_legen>)
+
+# Individual: <http://owl.api.wf#Gepäck_auf_Gepäckband_legen> (<http://owl.api.wf#Gepäck_auf_Gepäckband_legen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_aufs_Band_stellen> <http://owl.api.wf#Gepäck_auf_Gepäckband_legen>)
+
+# Individual: <http://owl.api.wf#Gepäck_auf_Gepäckwagen_legen> (<http://owl.api.wf#Gepäck_auf_Gepäckwagen_legen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_auf_Transportmittel_laden> <http://owl.api.wf#Gepäck_auf_Gepäckwagen_legen>)
+
+# Individual: <http://owl.api.wf#Gepäck_auf_Handkarren_laden> (<http://owl.api.wf#Gepäck_auf_Handkarren_laden>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_auf_Transportmittel_laden> <http://owl.api.wf#Gepäck_auf_Handkarren_laden>)
+
+# Individual: <http://owl.api.wf#Gepäck_auf_Hebebühne_oder_Hubtransporter_legen> (<http://owl.api.wf#Gepäck_auf_Hebebühne_oder_Hubtransporter_legen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_auf_Transportmittel_laden> <http://owl.api.wf#Gepäck_auf_Hebebühne_oder_Hubtransporter_legen>)
+
+# Individual: <http://owl.api.wf#Gepäck_auf_Kofferwagen_legen> (<http://owl.api.wf#Gepäck_auf_Kofferwagen_legen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_auf_Transportmittel_laden> <http://owl.api.wf#Gepäck_auf_Kofferwagen_legen>)
+
+# Individual: <http://owl.api.wf#Gepäck_auf_Transporter_laden> (<http://owl.api.wf#Gepäck_auf_Transporter_laden>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_auf_Transportmittel_laden> <http://owl.api.wf#Gepäck_auf_Transporter_laden>)
+
+# Individual: <http://owl.api.wf#Gepäck_auf_Waageband_stellen> (<http://owl.api.wf#Gepäck_auf_Waageband_stellen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_aufs_Band_stellen> <http://owl.api.wf#Gepäck_auf_Waageband_stellen>)
+
+# Individual: <http://owl.api.wf#Gepäck_auf_Warteband_stellen> (<http://owl.api.wf#Gepäck_auf_Warteband_stellen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_aufs_Band_stellen> <http://owl.api.wf#Gepäck_auf_Warteband_stellen>)
+
+# Individual: <http://owl.api.wf#Gepäck_auf_das_Förderband_legen> (<http://owl.api.wf#Gepäck_auf_das_Förderband_legen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_aufs_Band_stellen> <http://owl.api.wf#Gepäck_auf_das_Förderband_legen>)
+
+# Individual: <http://owl.api.wf#Gepäck_auf_den_Gepäckträger_laden> (<http://owl.api.wf#Gepäck_auf_den_Gepäckträger_laden>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_auf_Transportmittel_laden> <http://owl.api.wf#Gepäck_auf_den_Gepäckträger_laden>)
+
+# Individual: <http://owl.api.wf#Gepäck_auf_den_Wagen_legen> (<http://owl.api.wf#Gepäck_auf_den_Wagen_legen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_auf_Transportmittel_laden> <http://owl.api.wf#Gepäck_auf_den_Wagen_legen>)
+
+# Individual: <http://owl.api.wf#Gepäck_aufbewahren> (<http://owl.api.wf#Gepäck_aufbewahren>)
+
+ClassAssertion(<http://owl.api.wf#Sonstige_Tasks> <http://owl.api.wf#Gepäck_aufbewahren>)
+
+# Individual: <http://owl.api.wf#Gepäck_aufgeben> (<http://owl.api.wf#Gepäck_aufgeben>)
+
+ClassAssertion(<http://owl.api.wf#Sonstige_Tasks> <http://owl.api.wf#Gepäck_aufgeben>)
+
+# Individual: <http://owl.api.wf#Gepäck_aufs_Förderband_legen> (<http://owl.api.wf#Gepäck_aufs_Förderband_legen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_aufs_Band_stellen> <http://owl.api.wf#Gepäck_aufs_Förderband_legen>)
+
+# Individual: <http://owl.api.wf#Gepäck_aufs_Gepäckband_legen> (<http://owl.api.wf#Gepäck_aufs_Gepäckband_legen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_aufs_Band_stellen> <http://owl.api.wf#Gepäck_aufs_Gepäckband_legen>)
+
+# Individual: <http://owl.api.wf#Gepäck_aufs_Waageband_stellen> (<http://owl.api.wf#Gepäck_aufs_Waageband_stellen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_aufs_Band_stellen> <http://owl.api.wf#Gepäck_aufs_Waageband_stellen>)
+
+# Individual: <http://owl.api.wf#Gepäck_aufs_Warteband_stellen> (<http://owl.api.wf#Gepäck_aufs_Warteband_stellen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_aufs_Band_stellen> <http://owl.api.wf#Gepäck_aufs_Warteband_stellen>)
+
+# Individual: <http://owl.api.wf#Gepäck_aussondern> (<http://owl.api.wf#Gepäck_aussondern>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_sortieren> <http://owl.api.wf#Gepäck_aussondern>)
+
+# Individual: <http://owl.api.wf#Gepäck_automatisch_druchleuchten> (<http://owl.api.wf#Gepäck_automatisch_druchleuchten>)
+
+ClassAssertion(<http://owl.api.wf#Gepäckinhalt_kontrollieren> <http://owl.api.wf#Gepäck_automatisch_druchleuchten>)
+
+# Individual: <http://owl.api.wf#Gepäck_automatisch_durchleuchten> (<http://owl.api.wf#Gepäck_automatisch_durchleuchten>)
+
+ClassAssertion(<http://owl.api.wf#Gepäckinhalt_kontrollieren> <http://owl.api.wf#Gepäck_automatisch_durchleuchten>)
+
+# Individual: <http://owl.api.wf#Gepäck_direkt_zum_Anschlussflug_bringen> (<http://owl.api.wf#Gepäck_direkt_zum_Anschlussflug_bringen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Gepäck_direkt_zum_Anschlussflug_bringen>)
+
+# Individual: <http://owl.api.wf#Gepäck_entgegennehmen> (<http://owl.api.wf#Gepäck_entgegennehmen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_entnehmen> <http://owl.api.wf#Gepäck_entgegennehmen>)
+
+# Individual: <http://owl.api.wf#Gepäck_im_Flugzeug_verstauen> (<http://owl.api.wf#Gepäck_im_Flugzeug_verstauen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_auf_Transportmittel_laden> <http://owl.api.wf#Gepäck_im_Flugzeug_verstauen>)
+
+# Individual: <http://owl.api.wf#Gepäck_in_Container_verladen> (<http://owl.api.wf#Gepäck_in_Container_verladen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_auf_Transportmittel_laden> <http://owl.api.wf#Gepäck_in_Container_verladen>)
+
+# Individual: <http://owl.api.wf#Gepäck_in_den_Gepäckkeller_transportieren> (<http://owl.api.wf#Gepäck_in_den_Gepäckkeller_transportieren>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Gepäck_in_den_Gepäckkeller_transportieren>)
+
+# Individual: <http://owl.api.wf#Gepäck_ins_Flugzeug_laden> (<http://owl.api.wf#Gepäck_ins_Flugzeug_laden>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_auf_Transportmittel_laden> <http://owl.api.wf#Gepäck_ins_Flugzeug_laden>)
+
+# Individual: <http://owl.api.wf#Gepäck_manuell_überprüfen> (<http://owl.api.wf#Gepäck_manuell_überprüfen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäckinhalt_kontrollieren> <http://owl.api.wf#Gepäck_manuell_überprüfen>)
+
+# Individual: <http://owl.api.wf#Gepäck_messen> (<http://owl.api.wf#Gepäck_messen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäckmaße_kontrollieren> <http://owl.api.wf#Gepäck_messen>)
+
+# Individual: <http://owl.api.wf#Gepäck_mit_Hubtransporter_zur_Eingabestelle_transportieren> (<http://owl.api.wf#Gepäck_mit_Hubtransporter_zur_Eingabestelle_transportieren>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Gepäck_mit_Hubtransporter_zur_Eingabestelle_transportieren>)
+
+# Individual: <http://owl.api.wf#Gepäck_mit_Passagier_zusammenführen> (<http://owl.api.wf#Gepäck_mit_Passagier_zusammenführen>)
+
+ClassAssertion(<http://owl.api.wf#Sonstige_Tasks> <http://owl.api.wf#Gepäck_mit_Passagier_zusammenführen>)
+
+# Individual: <http://owl.api.wf#Gepäck_nach_Flughafensektionen_sortieren> (<http://owl.api.wf#Gepäck_nach_Flughafensektionen_sortieren>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_sortieren> <http://owl.api.wf#Gepäck_nach_Flughafensektionen_sortieren>)
+
+# Individual: <http://owl.api.wf#Gepäck_neben_Rundlauf_legen> (<http://owl.api.wf#Gepäck_neben_Rundlauf_legen>)
+
+ClassAssertion(<http://owl.api.wf#Sonstige_Gegenstände_bewegen> <http://owl.api.wf#Gepäck_neben_Rundlauf_legen>)
+
+# Individual: <http://owl.api.wf#Gepäck_sortieren> (<http://owl.api.wf#Gepäck_sortieren>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_sortieren> <http://owl.api.wf#Gepäck_sortieren>)
+
+# Individual: <http://owl.api.wf#Gepäck_vom_Band_nehmen> (<http://owl.api.wf#Gepäck_vom_Band_nehmen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_entnehmen> <http://owl.api.wf#Gepäck_vom_Band_nehmen>)
+
+# Individual: <http://owl.api.wf#Gepäck_wiegen> (<http://owl.api.wf#Gepäck_wiegen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäckmaße_kontrollieren> <http://owl.api.wf#Gepäck_wiegen>)
+
+# Individual: <http://owl.api.wf#Gepäck_zu_Eingabestellen_für_Transfergepäck_bringen> (<http://owl.api.wf#Gepäck_zu_Eingabestellen_für_Transfergepäck_bringen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Gepäck_zu_Eingabestellen_für_Transfergepäck_bringen>)
+
+# Individual: <http://owl.api.wf#Gepäck_zu_Eingabestellen_verfrachten> (<http://owl.api.wf#Gepäck_zu_Eingabestellen_verfrachten>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Gepäck_zu_Eingabestellen_verfrachten>)
+
+# Individual: <http://owl.api.wf#Gepäck_zu_Gepäckabfertigungshalle_transportieren> (<http://owl.api.wf#Gepäck_zu_Gepäckabfertigungshalle_transportieren>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Gepäck_zu_Gepäckabfertigungshalle_transportieren>)
+
+# Individual: <http://owl.api.wf#Gepäck_zu_Sperrgepäckschalter_bringen> (<http://owl.api.wf#Gepäck_zu_Sperrgepäckschalter_bringen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Gepäck_zu_Sperrgepäckschalter_bringen>)
+
+# Individual: <http://owl.api.wf#Gepäck_zu_Verladestelle_bringen> (<http://owl.api.wf#Gepäck_zu_Verladestelle_bringen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Gepäck_zu_Verladestelle_bringen>)
+
+# Individual: <http://owl.api.wf#Gepäck_zu_den_Entnahmestellen_leiten> (<http://owl.api.wf#Gepäck_zu_den_Entnahmestellen_leiten>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Gepäck_zu_den_Entnahmestellen_leiten>)
+
+# Individual: <http://owl.api.wf#Gepäck_zum_Anschlussflug_transportieren> (<http://owl.api.wf#Gepäck_zum_Anschlussflug_transportieren>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Gepäck_zum_Anschlussflug_transportieren>)
+
+# Individual: <http://owl.api.wf#Gepäck_zum_Fahrzeug_fahren> (<http://owl.api.wf#Gepäck_zum_Fahrzeug_fahren>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Gepäck_zum_Fahrzeug_fahren>)
+
+# Individual: <http://owl.api.wf#Gepäck_zum_Flugzeug_fahren> (<http://owl.api.wf#Gepäck_zum_Flugzeug_fahren>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Gepäck_zum_Flugzeug_fahren>)
+
+# Individual: <http://owl.api.wf#Gepäck_zum_Gepäckband_im_Terminal_transportieren> (<http://owl.api.wf#Gepäck_zum_Gepäckband_im_Terminal_transportieren>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Gepäck_zum_Gepäckband_im_Terminal_transportieren>)
+
+# Individual: <http://owl.api.wf#Gepäck_zum_Gepäckband_im_Terminal_transpotieren> (<http://owl.api.wf#Gepäck_zum_Gepäckband_im_Terminal_transpotieren>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Gepäck_zum_Gepäckband_im_Terminal_transpotieren>)
+
+# Individual: <http://owl.api.wf#Gepäck_zur_Ausgabestelle_transportieren> (<http://owl.api.wf#Gepäck_zur_Ausgabestelle_transportieren>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Gepäck_zur_Ausgabestelle_transportieren>)
+
+# Individual: <http://owl.api.wf#Gepäck_zur_Gepäckabfertigungshalle_liefern> (<http://owl.api.wf#Gepäck_zur_Gepäckabfertigungshalle_liefern>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Gepäck_zur_Gepäckabfertigungshalle_liefern>)
+
+# Individual: <http://owl.api.wf#Gepäck_zur_Nachkontrolle_transportieren> (<http://owl.api.wf#Gepäck_zur_Nachkontrolle_transportieren>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Gepäck_zur_Nachkontrolle_transportieren>)
+
+# Individual: <http://owl.api.wf#Gepäck_zur_Verladestelle_transportieren> (<http://owl.api.wf#Gepäck_zur_Verladestelle_transportieren>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Gepäck_zur_Verladestelle_transportieren>)
+
+# Individual: <http://owl.api.wf#Gepäck_zur_Übergabestelle_bringen> (<http://owl.api.wf#Gepäck_zur_Übergabestelle_bringen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Gepäck_zur_Übergabestelle_bringen>)
+
+# Individual: <http://owl.api.wf#Gepäck_öffnen> (<http://owl.api.wf#Gepäck_öffnen>)
+
+ClassAssertion(<http://owl.api.wf#Sonstige_Tasks> <http://owl.api.wf#Gepäck_öffnen>)
+
+# Individual: <http://owl.api.wf#Gepäck_über_Ladeluke_in_den_Laderaum_befördern> (<http://owl.api.wf#Gepäck_über_Ladeluke_in_den_Laderaum_befördern>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_auf_Transportmittel_laden> <http://owl.api.wf#Gepäck_über_Ladeluke_in_den_Laderaum_befördern>)
+
+# Individual: <http://owl.api.wf#Gepäckanhänger_anbringen> (<http://owl.api.wf#Gepäckanhänger_anbringen>)
+
+ClassAssertion(<http://owl.api.wf#Dokument_bearbeiten> <http://owl.api.wf#Gepäckanhänger_anbringen>)
+
+# Individual: <http://owl.api.wf#Gepäckanhänger_befestigen> (<http://owl.api.wf#Gepäckanhänger_befestigen>)
+
+ClassAssertion(<http://owl.api.wf#Dokument_bearbeiten> <http://owl.api.wf#Gepäckanhänger_befestigen>)
+
+# Individual: <http://owl.api.wf#Gepäckanhänger_befestignen> (<http://owl.api.wf#Gepäckanhänger_befestignen>)
+
+ClassAssertion(<http://owl.api.wf#Dokument_bearbeiten> <http://owl.api.wf#Gepäckanhänger_befestignen>)
+
+# Individual: <http://owl.api.wf#Gepäckanhänger_drucken> (<http://owl.api.wf#Gepäckanhänger_drucken>)
+
+ClassAssertion(<http://owl.api.wf#Dokument_bearbeiten> <http://owl.api.wf#Gepäckanhänger_drucken>)
+
+# Individual: <http://owl.api.wf#Gepäckanhänger_erstellen> (<http://owl.api.wf#Gepäckanhänger_erstellen>)
+
+ClassAssertion(<http://owl.api.wf#Dokument_bearbeiten> <http://owl.api.wf#Gepäckanhänger_erstellen>)
+
+# Individual: <http://owl.api.wf#Gepäcke_messen> (<http://owl.api.wf#Gepäcke_messen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäckmaße_kontrollieren> <http://owl.api.wf#Gepäcke_messen>)
+
+# Individual: <http://owl.api.wf#Gepäckstück-Maße_überprüfen> (<http://owl.api.wf#Gepäckstück-Maße_überprüfen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäckmaße_kontrollieren> <http://owl.api.wf#Gepäckstück-Maße_überprüfen>)
+
+# Individual: <http://owl.api.wf#Gepäckstück_Maße_überprüfen> (<http://owl.api.wf#Gepäckstück_Maße_überprüfen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäckmaße_kontrollieren> <http://owl.api.wf#Gepäckstück_Maße_überprüfen>)
+
+# Individual: <http://owl.api.wf#Gepäckstück_auf_Abzugsband_stellen> (<http://owl.api.wf#Gepäckstück_auf_Abzugsband_stellen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_aufs_Band_stellen> <http://owl.api.wf#Gepäckstück_auf_Abzugsband_stellen>)
+SameIndividual(<http://owl.api.wf#Gepäckstück_auf_Abzugsband_stellen> <http://owl.api.wf#Gepäckstück_auf_das_Abzugsband_stellen>)
+
+# Individual: <http://owl.api.wf#Gepäckstück_auf_Labelband_stellen> (<http://owl.api.wf#Gepäckstück_auf_Labelband_stellen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_aufs_Band_stellen> <http://owl.api.wf#Gepäckstück_auf_Labelband_stellen>)
+
+# Individual: <http://owl.api.wf#Gepäckstück_auf_Rundlauf_legen> (<http://owl.api.wf#Gepäckstück_auf_Rundlauf_legen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_aufs_Band_stellen> <http://owl.api.wf#Gepäckstück_auf_Rundlauf_legen>)
+
+# Individual: <http://owl.api.wf#Gepäckstück_auf_Sammelband_legen> (<http://owl.api.wf#Gepäckstück_auf_Sammelband_legen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_aufs_Band_stellen> <http://owl.api.wf#Gepäckstück_auf_Sammelband_legen>)
+
+# Individual: <http://owl.api.wf#Gepäckstück_auf_Zubringerband_legen> (<http://owl.api.wf#Gepäckstück_auf_Zubringerband_legen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_aufs_Band_stellen> <http://owl.api.wf#Gepäckstück_auf_Zubringerband_legen>)
+
+# Individual: <http://owl.api.wf#Gepäckstück_auf_das_Abzugsband_stellen> (<http://owl.api.wf#Gepäckstück_auf_das_Abzugsband_stellen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_aufs_Band_stellen> <http://owl.api.wf#Gepäckstück_auf_das_Abzugsband_stellen>)
+
+# Individual: <http://owl.api.wf#Gepäckstück_aufs_Sammelband_legen> (<http://owl.api.wf#Gepäckstück_aufs_Sammelband_legen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_aufs_Band_stellen> <http://owl.api.wf#Gepäckstück_aufs_Sammelband_legen>)
+
+# Individual: <http://owl.api.wf#Gepäckstück_aufs_Zubringerband_legen> (<http://owl.api.wf#Gepäckstück_aufs_Zubringerband_legen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_aufs_Band_stellen> <http://owl.api.wf#Gepäckstück_aufs_Zubringerband_legen>)
+
+# Individual: <http://owl.api.wf#Gepäckstück_durchleuchten> (<http://owl.api.wf#Gepäckstück_durchleuchten>)
+
+ClassAssertion(<http://owl.api.wf#Gepäckinhalt_kontrollieren> <http://owl.api.wf#Gepäckstück_durchleuchten>)
+
+# Individual: <http://owl.api.wf#Gepäckstück_manuell_kontrolieren> (<http://owl.api.wf#Gepäckstück_manuell_kontrolieren>)
+
+ClassAssertion(<http://owl.api.wf#Gepäckinhalt_kontrollieren> <http://owl.api.wf#Gepäckstück_manuell_kontrolieren>)
+
+# Individual: <http://owl.api.wf#Gepäckstück_manuell_kontrollieren> (<http://owl.api.wf#Gepäckstück_manuell_kontrollieren>)
+
+ClassAssertion(<http://owl.api.wf#Gepäckinhalt_kontrollieren> <http://owl.api.wf#Gepäckstück_manuell_kontrollieren>)
+
+# Individual: <http://owl.api.wf#Gepäckstück_mit_Passagier_zusammenführen> (<http://owl.api.wf#Gepäckstück_mit_Passagier_zusammenführen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäckinhalt_kontrollieren> <http://owl.api.wf#Gepäckstück_mit_Passagier_zusammenführen>)
+
+# Individual: <http://owl.api.wf#Gepäckstück_wiegen> (<http://owl.api.wf#Gepäckstück_wiegen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäckmaße_kontrollieren> <http://owl.api.wf#Gepäckstück_wiegen>)
+
+# Individual: <http://owl.api.wf#Gepäckstück_zur_Nachkontrolle_transportieren> (<http://owl.api.wf#Gepäckstück_zur_Nachkontrolle_transportieren>)
+
+ClassAssertion(<http://owl.api.wf#Gepäckinhalt_kontrollieren> <http://owl.api.wf#Gepäckstück_zur_Nachkontrolle_transportieren>)
+
+# Individual: <http://owl.api.wf#Gepäckstück_zur_Röntgenbeugungsanlage_transportieren> (<http://owl.api.wf#Gepäckstück_zur_Röntgenbeugungsanlage_transportieren>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Gepäckstück_zur_Röntgenbeugungsanlage_transportieren>)
+
+# Individual: <http://owl.api.wf#Gepäckstück_zur_Röntgenprüfanlage_transportieren> (<http://owl.api.wf#Gepäckstück_zur_Röntgenprüfanlage_transportieren>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Gepäckstück_zur_Röntgenprüfanlage_transportieren>)
+
+# Individual: <http://owl.api.wf#Gepäckstück_zur_Sortieranlage_transportieren> (<http://owl.api.wf#Gepäckstück_zur_Sortieranlage_transportieren>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_sortieren> <http://owl.api.wf#Gepäckstück_zur_Sortieranlage_transportieren>)
+
+# Individual: <http://owl.api.wf#Gepäckstück_zur_Sotieranlage_transportieren> (<http://owl.api.wf#Gepäckstück_zur_Sotieranlage_transportieren>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_sortieren> <http://owl.api.wf#Gepäckstück_zur_Sotieranlage_transportieren>)
+
+# Individual: <http://owl.api.wf#Gepäckstück_zur_Verladestelle_transportieren> (<http://owl.api.wf#Gepäckstück_zur_Verladestelle_transportieren>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Gepäckstück_zur_Verladestelle_transportieren>)
+
+# Individual: <http://owl.api.wf#Handgepäck_durchleuchten> (<http://owl.api.wf#Handgepäck_durchleuchten>)
+
+ClassAssertion(<http://owl.api.wf#Gepäckinhalt_kontrollieren> <http://owl.api.wf#Handgepäck_durchleuchten>)
+
+# Individual: <http://owl.api.wf#Handgepäck_manuell_kontrolieren> (<http://owl.api.wf#Handgepäck_manuell_kontrolieren>)
+
+ClassAssertion(<http://owl.api.wf#Gepäckinhalt_kontrollieren> <http://owl.api.wf#Handgepäck_manuell_kontrolieren>)
+
+# Individual: <http://owl.api.wf#Handgepäck_manuell_kontrollieren> (<http://owl.api.wf#Handgepäck_manuell_kontrollieren>)
+
+ClassAssertion(<http://owl.api.wf#Gepäckinhalt_kontrollieren> <http://owl.api.wf#Handgepäck_manuell_kontrollieren>)
+
+# Individual: <http://owl.api.wf#Hotel-Check-In-Schalter_betreten> (<http://owl.api.wf#Hotel-Check-In-Schalter_betreten>)
+
+ClassAssertion(<http://owl.api.wf#Schalter_erreichen> <http://owl.api.wf#Hotel-Check-In-Schalter_betreten>)
+
+# Individual: <http://owl.api.wf#Hotel_Check_In_Schalter_betreten> (<http://owl.api.wf#Hotel_Check_In_Schalter_betreten>)
+
+ClassAssertion(<http://owl.api.wf#Nicht_Flughafenbereich_erreichen> <http://owl.api.wf#Hotel_Check_In_Schalter_betreten>)
+
+# Individual: <http://owl.api.wf#Hubtransporter_zum_Flugzeug_fahren> (<http://owl.api.wf#Hubtransporter_zum_Flugzeug_fahren>)
+
+ClassAssertion(<http://owl.api.wf#Sonstige_Gegenstände_bewegen> <http://owl.api.wf#Hubtransporter_zum_Flugzeug_fahren>)
+
+# Individual: <http://owl.api.wf#In_den_Zug_steigen> (<http://owl.api.wf#In_den_Zug_steigen>)
+
+ClassAssertion(<http://owl.api.wf#Nicht_Flughafenbereich_erreichen> <http://owl.api.wf#In_den_Zug_steigen>)
+
+# Individual: <http://owl.api.wf#Last-Minute-Gepäck_entnehmen> (<http://owl.api.wf#Last-Minute-Gepäck_entnehmen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_entnehmen> <http://owl.api.wf#Last-Minute-Gepäck_entnehmen>)
+
+# Individual: <http://owl.api.wf#Last_Minute_Gepäck_entnehmen> (<http://owl.api.wf#Last_Minute_Gepäck_entnehmen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_entnehmen> <http://owl.api.wf#Last_Minute_Gepäck_entnehmen>)
+
+# Individual: <http://owl.api.wf#Last_Minute_Gepäck_zum_Flugzeug_bringen> (<http://owl.api.wf#Last_Minute_Gepäck_zum_Flugzeug_bringen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Last_Minute_Gepäck_zum_Flugzeug_bringen>)
+
+# Individual: <http://owl.api.wf#Lounge_betreten> (<http://owl.api.wf#Lounge_betreten>)
+
+ClassAssertion(<http://owl.api.wf#Flughafenbereich_erreichen> <http://owl.api.wf#Lounge_betreten>)
+
+# Individual: <http://owl.api.wf#Mietwagen-Rückgabe-Schalter_erreichen> (<http://owl.api.wf#Mietwagen-Rückgabe-Schalter_erreichen>)
+
+ClassAssertion(<http://owl.api.wf#Schalter_erreichen> <http://owl.api.wf#Mietwagen-Rückgabe-Schalter_erreichen>)
+
+# Individual: <http://owl.api.wf#Mietwagen_Rückgabe_Schalter_erreichen> (<http://owl.api.wf#Mietwagen_Rückgabe_Schalter_erreichen>)
+
+ClassAssertion(<http://owl.api.wf#Nicht_Flughafenbereich_erreichen> <http://owl.api.wf#Mietwagen_Rückgabe_Schalter_erreichen>)
+
+# Individual: <http://owl.api.wf#Mietwagen_zurückgeben> (<http://owl.api.wf#Mietwagen_zurückgeben>)
+
+ClassAssertion(<http://owl.api.wf#Sonstige_Tasks> <http://owl.api.wf#Mietwagen_zurückgeben>)
+
+# Individual: <http://owl.api.wf#Parkpodition_erreichen> (<http://owl.api.wf#Parkpodition_erreichen>)
+
+ClassAssertion(<http://owl.api.wf#Sonstige_Gegenstände_bewegen> <http://owl.api.wf#Parkpodition_erreichen>)
+
+# Individual: <http://owl.api.wf#Parkposition_erreichen> (<http://owl.api.wf#Parkposition_erreichen>)
+
+ClassAssertion(<http://owl.api.wf#Sonstige_Gegenstände_bewegen> <http://owl.api.wf#Parkposition_erreichen>)
+
+# Individual: <http://owl.api.wf#Passagier_durch_Scanner_schicken> (<http://owl.api.wf#Passagier_durch_Scanner_schicken>)
+
+ClassAssertion(<http://owl.api.wf#Passagier_kontrollieren> <http://owl.api.wf#Passagier_durch_Scanner_schicken>)
+
+# Individual: <http://owl.api.wf#Passagier_manuell_kontrolieren> (<http://owl.api.wf#Passagier_manuell_kontrolieren>)
+
+ClassAssertion(<http://owl.api.wf#Passagier_kontrollieren> <http://owl.api.wf#Passagier_manuell_kontrolieren>)
+
+# Individual: <http://owl.api.wf#Passagier_manuell_kontrollieren> (<http://owl.api.wf#Passagier_manuell_kontrollieren>)
+
+ClassAssertion(<http://owl.api.wf#Passagier_kontrollieren> <http://owl.api.wf#Passagier_manuell_kontrollieren>)
+
+# Individual: <http://owl.api.wf#Prozess_Abfertigung_Sperrgepäck> (<http://owl.api.wf#Prozess_Abfertigung_Sperrgepäck>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_bewegen> <http://owl.api.wf#Prozess_Abfertigung_Sperrgepäck>)
+
+# Individual: <http://owl.api.wf#Prozess_GFA> (<http://owl.api.wf#Prozess_GFA>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Prozess_GFA>)
+
+# Individual: <http://owl.api.wf#Prozess_GFA_Containergepäck> (<http://owl.api.wf#Prozess_GFA_Containergepäck>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Prozess_GFA_Containergepäck>)
+
+# Individual: <http://owl.api.wf#Prozess_GFA_Normalgepäck> (<http://owl.api.wf#Prozess_GFA_Normalgepäck>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Prozess_GFA_Normalgepäck>)
+
+# Individual: <http://owl.api.wf#Prozess_GFA_Sperrgepäck> (<http://owl.api.wf#Prozess_GFA_Sperrgepäck>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Prozess_GFA_Sperrgepäck>)
+
+# Individual: <http://owl.api.wf#Prozess_GFA_Transfergepäck> (<http://owl.api.wf#Prozess_GFA_Transfergepäck>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Prozess_GFA_Transfergepäck>)
+
+# Individual: <http://owl.api.wf#Prozess_Gepäck_Sicherheitskontrolle> (<http://owl.api.wf#Prozess_Gepäck_Sicherheitskontrolle>)
+
+ClassAssertion(<http://owl.api.wf#Kontrollieren> <http://owl.api.wf#Prozess_Gepäck_Sicherheitskontrolle>)
+
+# Individual: <http://owl.api.wf#Prozess_Gepäckabfertigung> (<http://owl.api.wf#Prozess_Gepäckabfertigung>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_bewegen> <http://owl.api.wf#Prozess_Gepäckabfertigung>)
+
+# Individual: <http://owl.api.wf#Prozess_Gepäckverladung> (<http://owl.api.wf#Prozess_Gepäckverladung>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_bewegen> <http://owl.api.wf#Prozess_Gepäckverladung>)
+
+# Individual: <http://owl.api.wf#Prozess_Passagierabfertigung> (<http://owl.api.wf#Prozess_Passagierabfertigung>)
+
+ClassAssertion(<http://owl.api.wf#Person_bewegen> <http://owl.api.wf#Prozess_Passagierabfertigung>)
+
+# Individual: <http://owl.api.wf#Prozess_Passagierabfertigung_am_Check-In-Schalter> (<http://owl.api.wf#Prozess_Passagierabfertigung_am_Check-In-Schalter>)
+
+ClassAssertion(<http://owl.api.wf#Schalter_erreichen> <http://owl.api.wf#Prozess_Passagierabfertigung_am_Check-In-Schalter>)
+
+# Individual: <http://owl.api.wf#Prozess_Sicherheitbereich> (<http://owl.api.wf#Prozess_Sicherheitbereich>)
+
+ClassAssertion(<http://owl.api.wf#Flughafenbereich_erreichen> <http://owl.api.wf#Prozess_Sicherheitbereich>)
+
+# Individual: <http://owl.api.wf#Prozess_Sicherheitsbereich> (<http://owl.api.wf#Prozess_Sicherheitsbereich>)
+
+ClassAssertion(<http://owl.api.wf#Flughafenbereich_erreichen> <http://owl.api.wf#Prozess_Sicherheitsbereich>)
+
+# Individual: <http://owl.api.wf#Prozess_Sicherheitskontrolle> (<http://owl.api.wf#Prozess_Sicherheitskontrolle>)
+
+ClassAssertion(<http://owl.api.wf#Kontrollieren> <http://owl.api.wf#Prozess_Sicherheitskontrolle>)
+
+# Individual: <http://owl.api.wf#Prozess_Transport_zum_Flugzeug> (<http://owl.api.wf#Prozess_Transport_zum_Flugzeug>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Prozess_Transport_zum_Flugzeug>)
+
+# Individual: <http://owl.api.wf#Reisepass_kontrolieren> (<http://owl.api.wf#Reisepass_kontrolieren>)
+
+ClassAssertion(<http://owl.api.wf#Dokument_kontrollieren> <http://owl.api.wf#Reisepass_kontrolieren>)
+
+# Individual: <http://owl.api.wf#Reisepass_kontrollieren> (<http://owl.api.wf#Reisepass_kontrollieren>)
+
+ClassAssertion(<http://owl.api.wf#Dokument_kontrollieren> <http://owl.api.wf#Reisepass_kontrollieren>)
+
+# Individual: <http://owl.api.wf#Reisepass_überprüfen> (<http://owl.api.wf#Reisepass_überprüfen>)
+
+ClassAssertion(<http://owl.api.wf#Dokument_kontrollieren> <http://owl.api.wf#Reisepass_überprüfen>)
+
+# Individual: <http://owl.api.wf#Röntgenbilder_überprüfen> (<http://owl.api.wf#Röntgenbilder_überprüfen>)
+
+ClassAssertion(<http://owl.api.wf#Gepäckinhalt_kontrollieren> <http://owl.api.wf#Röntgenbilder_überprüfen>)
+
+# Individual: <http://owl.api.wf#Sitzplatz_auswahlen> (<http://owl.api.wf#Sitzplatz_auswahlen>)
+
+ClassAssertion(<http://owl.api.wf#Sonstige_Tasks> <http://owl.api.wf#Sitzplatz_auswahlen>)
+
+# Individual: <http://owl.api.wf#Sitzplatz_auswählen> (<http://owl.api.wf#Sitzplatz_auswählen>)
+
+ClassAssertion(<http://owl.api.wf#Sonstige_Tasks> <http://owl.api.wf#Sitzplatz_auswählen>)
+
+# Individual: <http://owl.api.wf#Terminal_betreten> (<http://owl.api.wf#Terminal_betreten>)
+
+ClassAssertion(<http://owl.api.wf#Flughafenbereich_erreichen> <http://owl.api.wf#Terminal_betreten>)
+
+# Individual: <http://owl.api.wf#Warten_bis_Abzugsband_frei_ist> (<http://owl.api.wf#Warten_bis_Abzugsband_frei_ist>)
+
+ClassAssertion(<http://owl.api.wf#Warten> <http://owl.api.wf#Warten_bis_Abzugsband_frei_ist>)
+
+# Individual: <http://owl.api.wf#Warten_bis_Automat_frei_ist> (<http://owl.api.wf#Warten_bis_Automat_frei_ist>)
+
+ClassAssertion(<http://owl.api.wf#Warten> <http://owl.api.wf#Warten_bis_Automat_frei_ist>)
+
+# Individual: <http://owl.api.wf#Warten_bis_Bordkartenkontrolle_frei_ist> (<http://owl.api.wf#Warten_bis_Bordkartenkontrolle_frei_ist>)
+
+ClassAssertion(<http://owl.api.wf#Dokument_kontrollieren> <http://owl.api.wf#Warten_bis_Bordkartenkontrolle_frei_ist>)
+
+# Individual: <http://owl.api.wf#Warten_bis_Gepäck_kommt> (<http://owl.api.wf#Warten_bis_Gepäck_kommt>)
+
+ClassAssertion(<http://owl.api.wf#Warten> <http://owl.api.wf#Warten_bis_Gepäck_kommt>)
+
+# Individual: <http://owl.api.wf#Warten_bis_Passkontrolle_frei_ist> (<http://owl.api.wf#Warten_bis_Passkontrolle_frei_ist>)
+
+ClassAssertion(<http://owl.api.wf#Warten> <http://owl.api.wf#Warten_bis_Passkontrolle_frei_ist>)
+
+# Individual: <http://owl.api.wf#Warten_bis_Schalter_frei_ist> (<http://owl.api.wf#Warten_bis_Schalter_frei_ist>)
+
+ClassAssertion(<http://owl.api.wf#Warten> <http://owl.api.wf#Warten_bis_Schalter_frei_ist>)
+
+# Individual: <http://owl.api.wf#Warten_bis_Sicherheitsschalter_frei_ist> (<http://owl.api.wf#Warten_bis_Sicherheitsschalter_frei_ist>)
+
+ClassAssertion(<http://owl.api.wf#Warten> <http://owl.api.wf#Warten_bis_Sicherheitsschalter_frei_ist>)
+
+# Individual: <http://owl.api.wf#Warten_bis_Zollstation_frei_ist> (<http://owl.api.wf#Warten_bis_Zollstation_frei_ist>)
+
+ClassAssertion(<http://owl.api.wf#Warten> <http://owl.api.wf#Warten_bis_Zollstation_frei_ist>)
+
+# Individual: <http://owl.api.wf#Warten_bis_das_Gepäck_kommt> (<http://owl.api.wf#Warten_bis_das_Gepäck_kommt>)
+
+ClassAssertion(<http://owl.api.wf#Warten> <http://owl.api.wf#Warten_bis_das_Gepäck_kommt>)
+
+# Individual: <http://owl.api.wf#Zollformalitäten_abwickeln> (<http://owl.api.wf#Zollformalitäten_abwickeln>)
+
+ClassAssertion(<http://owl.api.wf#Sonstige_Tasks> <http://owl.api.wf#Zollformalitäten_abwickeln>)
+
+# Individual: <http://owl.api.wf#Zum_Abflugbereich_gehen> (<http://owl.api.wf#Zum_Abflugbereich_gehen>)
+
+ClassAssertion(<http://owl.api.wf#Flughafenbereich_erreichen> <http://owl.api.wf#Zum_Abflugbereich_gehen>)
+
+# Individual: <http://owl.api.wf#Zum_Automaten_gehen> (<http://owl.api.wf#Zum_Automaten_gehen>)
+
+ClassAssertion(<http://owl.api.wf#Automat_erreichen> <http://owl.api.wf#Zum_Automaten_gehen>)
+
+# Individual: <http://owl.api.wf#Zum_Bag-Drop-automaten_gehen> (<http://owl.api.wf#Zum_Bag-Drop-automaten_gehen>)
+
+ClassAssertion(<http://owl.api.wf#Automat_erreichen> <http://owl.api.wf#Zum_Bag-Drop-automaten_gehen>)
+
+# Individual: <http://owl.api.wf#Zum_Bag_Drop_Automaten_gehen> (<http://owl.api.wf#Zum_Bag_Drop_Automaten_gehen>)
+
+ClassAssertion(<http://owl.api.wf#Automat_erreichen> <http://owl.api.wf#Zum_Bag_Drop_Automaten_gehen>)
+
+# Individual: <http://owl.api.wf#Zum_Check-In-Schalter_gehen> (<http://owl.api.wf#Zum_Check-In-Schalter_gehen>)
+
+ClassAssertion(<http://owl.api.wf#Schalter_erreichen> <http://owl.api.wf#Zum_Check-In-Schalter_gehen>)
+
+# Individual: <http://owl.api.wf#Zum_Check_In_Schalter_gehen> (<http://owl.api.wf#Zum_Check_In_Schalter_gehen>)
+
+ClassAssertion(<http://owl.api.wf#Schalter_erreichen> <http://owl.api.wf#Zum_Check_In_Schalter_gehen>)
+
+# Individual: <http://owl.api.wf#Zum_Flughafen_fahren> (<http://owl.api.wf#Zum_Flughafen_fahren>)
+
+ClassAssertion(<http://owl.api.wf#Flughafenbereich_erreichen> <http://owl.api.wf#Zum_Flughafen_fahren>)
+
+# Individual: <http://owl.api.wf#Zum_Gate_gehen> (<http://owl.api.wf#Zum_Gate_gehen>)
+
+ClassAssertion(<http://owl.api.wf#Flughafenbereich_erreichen> <http://owl.api.wf#Zum_Gate_gehen>)
+
+# Individual: <http://owl.api.wf#Zum_Gepäckannahmeschalter_gehen> (<http://owl.api.wf#Zum_Gepäckannahmeschalter_gehen>)
+
+ClassAssertion(<http://owl.api.wf#Schalter_erreichen> <http://owl.api.wf#Zum_Gepäckannahmeschalter_gehen>)
+
+# Individual: <http://owl.api.wf#Zum_Gepäckannahmeschlater_gehen> (<http://owl.api.wf#Zum_Gepäckannahmeschlater_gehen>)
+
+ClassAssertion(<http://owl.api.wf#Schalter_erreichen> <http://owl.api.wf#Zum_Gepäckannahmeschlater_gehen>)
+
+# Individual: <http://owl.api.wf#Zum_Schalter_gehen> (<http://owl.api.wf#Zum_Schalter_gehen>)
+
+ClassAssertion(<http://owl.api.wf#Schalter_erreichen> <http://owl.api.wf#Zum_Schalter_gehen>)
+
+# Individual: <http://owl.api.wf#Zum_Sicherheitsbereich_gehen> (<http://owl.api.wf#Zum_Sicherheitsbereich_gehen>)
+
+ClassAssertion(<http://owl.api.wf#Flughafenbereich_erreichen> <http://owl.api.wf#Zum_Sicherheitsbereich_gehen>)
+
+# Individual: <http://owl.api.wf#Zum_Sperrgepäck-Schalter_gehen> (<http://owl.api.wf#Zum_Sperrgepäck-Schalter_gehen>)
+
+ClassAssertion(<http://owl.api.wf#Schalter_erreichen> <http://owl.api.wf#Zum_Sperrgepäck-Schalter_gehen>)
+
+# Individual: <http://owl.api.wf#Zum_Sperrgepäckschalter_gehen> (<http://owl.api.wf#Zum_Sperrgepäckschalter_gehen>)
+
+ClassAssertion(<http://owl.api.wf#Schalter_erreichen> <http://owl.api.wf#Zum_Sperrgepäckschalter_gehen>)
+
+# Individual: <http://owl.api.wf#Zum_Terminal_fahren> (<http://owl.api.wf#Zum_Terminal_fahren>)
+
+ClassAssertion(<http://owl.api.wf#Flughafenbereich_erreichen> <http://owl.api.wf#Zum_Terminal_fahren>)
+
+# Individual: <http://owl.api.wf#Zum_Terminal_gehen> (<http://owl.api.wf#Zum_Terminal_gehen>)
+
+ClassAssertion(<http://owl.api.wf#Flughafenbereich_erreichen> <http://owl.api.wf#Zum_Terminal_gehen>)
+
+# Individual: <http://owl.api.wf#Zum_Transfer-Check-In-Schalter_gehen> (<http://owl.api.wf#Zum_Transfer-Check-In-Schalter_gehen>)
+
+ClassAssertion(<http://owl.api.wf#Schalter_erreichen> <http://owl.api.wf#Zum_Transfer-Check-In-Schalter_gehen>)
+
+# Individual: <http://owl.api.wf#Zum_Transfer_Check_In_Schalter_gehen> (<http://owl.api.wf#Zum_Transfer_Check_In_Schalter_gehen>)
+
+ClassAssertion(<http://owl.api.wf#Schalter_erreichen> <http://owl.api.wf#Zum_Transfer_Check_In_Schalter_gehen>)
+
+# Individual: <http://owl.api.wf#Zur_Gepäckausgabe_gehen> (<http://owl.api.wf#Zur_Gepäckausgabe_gehen>)
+
+ClassAssertion(<http://owl.api.wf#Flughafenbereich_erreichen> <http://owl.api.wf#Zur_Gepäckausgabe_gehen>)
+
+# Individual: <http://owl.api.wf#Zur_Passkontrolle_der_BP_gehen> (<http://owl.api.wf#Zur_Passkontrolle_der_BP_gehen>)
+
+ClassAssertion(<http://owl.api.wf#Flughafenbereich_erreichen> <http://owl.api.wf#Zur_Passkontrolle_der_BP_gehen>)
+
+# Individual: <http://owl.api.wf#Zur_Passkontrolle_gehen> (<http://owl.api.wf#Zur_Passkontrolle_gehen>)
+
+ClassAssertion(<http://owl.api.wf#Flughafenbereich_erreichen> <http://owl.api.wf#Zur_Passkontrolle_gehen>)
+
+# Individual: <http://owl.api.wf#Zur_Zollstation_gehen> (<http://owl.api.wf#Zur_Zollstation_gehen>)
+
+ClassAssertion(<http://owl.api.wf#Flughafenbereich_erreichen> <http://owl.api.wf#Zur_Zollstation_gehen>)
+
+# Individual: <http://owl.api.wf#zum_Schalter_gehen> (<http://owl.api.wf#zum_Schalter_gehen>)
+
+ClassAssertion(<http://owl.api.wf#Schalter_erreichen> <http://owl.api.wf#zum_Schalter_gehen>)
+
+# Individual: <http://owl.api.wf#zum_Sicherheitsbereich_gehen> (<http://owl.api.wf#zum_Sicherheitsbereich_gehen>)
+
+ClassAssertion(<http://owl.api.wf#Flughafenbereich_erreichen> <http://owl.api.wf#zum_Sicherheitsbereich_gehen>)
+
+# Individual: <http://owl.api.wf#Check-In_für_Anschlussflug_erwünscht?_/_JOIN> (<http://owl.api.wf#Check-In_für_Anschlussflug_erwünscht?_/_JOIN>)
+
+ClassAssertion(<http://owl.api.wf#Dokument_bearbeiten> <http://owl.api.wf#Check-In_für_Anschlussflug_erwünscht?_/_JOIN>)
+
+# Individual: <http://owl.api.wf#Check-In_für_Anschlussflug_erwünscht?_/_SPLIT> (<http://owl.api.wf#Check-In_für_Anschlussflug_erwünscht?_/_SPLIT>)
+
+ClassAssertion(<http://owl.api.wf#Dokument_bearbeiten> <http://owl.api.wf#Check-In_für_Anschlussflug_erwünscht?_/_SPLIT>)
+
+# Individual: <http://owl.api.wf#Förderband_für_Sperrgepäck_vorhanden?_/_JOIN> (<http://owl.api.wf#Förderband_für_Sperrgepäck_vorhanden?_/_JOIN>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_aufs_Band_stellen> <http://owl.api.wf#Förderband_für_Sperrgepäck_vorhanden?_/_JOIN>)
+
+# Individual: <http://owl.api.wf#Förderband_für_Sperrgepäck_vorhanden?_/_SPLIT> (<http://owl.api.wf#Förderband_für_Sperrgepäck_vorhanden?_/_SPLIT>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_aufs_Band_stellen> <http://owl.api.wf#Förderband_für_Sperrgepäck_vorhanden?_/_SPLIT>)
+
+# Individual: <http://owl.api.wf#Gepäck_vorhanden?_/_JOIN> (<http://owl.api.wf#Gepäck_vorhanden?_/_JOIN>)
+
+ClassAssertion(<http://owl.api.wf#Schalter_erreichen> <http://owl.api.wf#Gepäck_vorhanden?_/_JOIN>)
+
+# Individual: <http://owl.api.wf#Gepäck_vorhanden?_/_SPLIT> (<http://owl.api.wf#Gepäck_vorhanden?_/_SPLIT>)
+
+ClassAssertion(<http://owl.api.wf#Schalter_erreichen> <http://owl.api.wf#Gepäck_vorhanden?_/_SPLIT>)
+
+# Individual: <http://owl.api.wf#Gepäck_zollfrei?_/_JOIN> (<http://owl.api.wf#Gepäck_zollfrei?_/_JOIN>)
+
+ClassAssertion(<http://owl.api.wf#Warten> <http://owl.api.wf#Gepäck_zollfrei?_/_JOIN>)
+
+# Individual: <http://owl.api.wf#Gepäck_zollfrei?_/_SPLIT> (<http://owl.api.wf#Gepäck_zollfrei?_/_SPLIT>)
+
+ClassAssertion(<http://owl.api.wf#Warten> <http://owl.api.wf#Gepäck_zollfrei?_/_SPLIT>)
+
+# Individual: <http://owl.api.wf#Gepäckanhänger_vorhanden?_/_JOIN> (<http://owl.api.wf#Gepäckanhänger_vorhanden?_/_JOIN>)
+
+ClassAssertion(<http://owl.api.wf#Dokument_bearbeiten> <http://owl.api.wf#Gepäckanhänger_vorhanden?_/_JOIN>)
+
+# Individual: <http://owl.api.wf#Gepäckanhänger_vorhanden?_/_SPLIT> (<http://owl.api.wf#Gepäckanhänger_vorhanden?_/_SPLIT>)
+
+ClassAssertion(<http://owl.api.wf#Dokument_bearbeiten> <http://owl.api.wf#Gepäckanhänger_vorhanden?_/_SPLIT>)
+
+# Individual: <http://owl.api.wf#Gepäckart?_/_JOIN> (<http://owl.api.wf#Gepäckart?_/_JOIN>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Gepäckart?_/_JOIN>)
+
+# Individual: <http://owl.api.wf#Gepäckart?_/_SPLIT> (<http://owl.api.wf#Gepäckart?_/_SPLIT>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Gepäckart?_/_SPLIT>)
+
+# Individual: <http://owl.api.wf#Inclusives_Gateway_/_JOIN> (<http://owl.api.wf#Inclusives_Gateway_/_JOIN>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_auf_Transportmittel_laden> <http://owl.api.wf#Inclusives_Gateway_/_JOIN>)
+
+# Individual: <http://owl.api.wf#Inclusives_Gateway_/_SPLIT> (<http://owl.api.wf#Inclusives_Gateway_/_SPLIT>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_auf_Transportmittel_laden> <http://owl.api.wf#Inclusives_Gateway_/_SPLIT>)
+
+# Individual: <http://owl.api.wf#Inhalt_unbedenklich?_/_JOIN> (<http://owl.api.wf#Inhalt_unbedenklich?_/_JOIN>)
+
+ClassAssertion(<http://owl.api.wf#Gepäckinhalt_kontrollieren> <http://owl.api.wf#Inhalt_unbedenklich?_/_JOIN>)
+
+# Individual: <http://owl.api.wf#Inhalt_unbedenklich?_/_SPLIT> (<http://owl.api.wf#Inhalt_unbedenklich?_/_SPLIT>)
+
+ClassAssertion(<http://owl.api.wf#Gepäckinhalt_kontrollieren> <http://owl.api.wf#Inhalt_unbedenklich?_/_SPLIT>)
+
+# Individual: <http://owl.api.wf#Last-Minute-Gepäck?_/_JOIN> (<http://owl.api.wf#Last-Minute-Gepäck?_/_JOIN>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Last-Minute-Gepäck?_/_JOIN>)
+
+# Individual: <http://owl.api.wf#Last-Minute-Gepäck?_/_SPLIT> (<http://owl.api.wf#Last-Minute-Gepäck?_/_SPLIT>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Last-Minute-Gepäck?_/_SPLIT>)
+
+# Individual: <http://owl.api.wf#Nur_Handgepäck_vorhanden?_/_JOIN> (<http://owl.api.wf#Nur_Handgepäck_vorhanden?_/_JOIN>)
+
+ClassAssertion(<http://owl.api.wf#Nicht_Flughafenbereich_erreichen> <http://owl.api.wf#Nur_Handgepäck_vorhanden?_/_JOIN>)
+
+# Individual: <http://owl.api.wf#Nur_Handgepäck_vorhanden?_/_SPLIT> (<http://owl.api.wf#Nur_Handgepäck_vorhanden?_/_SPLIT>)
+
+ClassAssertion(<http://owl.api.wf#Nicht_Flughafenbereich_erreichen> <http://owl.api.wf#Nur_Handgepäck_vorhanden?_/_SPLIT>)
+
+# Individual: <http://owl.api.wf#Paralleles_Gateway_/_JOIN> (<http://owl.api.wf#Paralleles_Gateway_/_JOIN>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_kontrollieren> <http://owl.api.wf#Paralleles_Gateway_/_JOIN>)
+
+# Individual: <http://owl.api.wf#Paralleles_Gateway_/_SPLIT> (<http://owl.api.wf#Paralleles_Gateway_/_SPLIT>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_kontrollieren> <http://owl.api.wf#Paralleles_Gateway_/_SPLIT>)
+
+# Individual: <http://owl.api.wf#Passagier-Mindestanzahl_für_Gruppen-Check-In_erreicht?_/_JOIN> (<http://owl.api.wf#Passagier-Mindestanzahl_für_Gruppen-Check-In_erreicht?_/_JOIN>)
+
+ClassAssertion(<http://owl.api.wf#Schalter_erreichen> <http://owl.api.wf#Passagier-Mindestanzahl_für_Gruppen-Check-In_erreicht?_/_JOIN>)
+
+# Individual: <http://owl.api.wf#Passagier-Mindestanzahl_für_Gruppen-Check-In_erreicht?_/_SPLIT> (<http://owl.api.wf#Passagier-Mindestanzahl_für_Gruppen-Check-In_erreicht?_/_SPLIT>)
+
+ClassAssertion(<http://owl.api.wf#Schalter_erreichen> <http://owl.api.wf#Passagier-Mindestanzahl_für_Gruppen-Check-In_erreicht?_/_SPLIT>)
+
+# Individual: <http://owl.api.wf#Reiseziel_überprüfen_/_JOIN> (<http://owl.api.wf#Reiseziel_überprüfen_/_JOIN>)
+
+ClassAssertion(<http://owl.api.wf#Passagier_kontrollieren> <http://owl.api.wf#Reiseziel_überprüfen_/_JOIN>)
+
+# Individual: <http://owl.api.wf#Reiseziel_überprüfen_/_SPLIT> (<http://owl.api.wf#Reiseziel_überprüfen_/_SPLIT>)
+
+ClassAssertion(<http://owl.api.wf#Passagier_kontrollieren> <http://owl.api.wf#Reiseziel_überprüfen_/_SPLIT>)
+
+# Individual: <http://owl.api.wf#Sonder-_oder_Last-Minute-Sperrgepäck?_/_JOIN> (<http://owl.api.wf#Sonder-_oder_Last-Minute-Sperrgepäck?_/_JOIN>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Sonder-_oder_Last-Minute-Sperrgepäck?_/_JOIN>)
+
+# Individual: <http://owl.api.wf#Sonder-_oder_Last-Minute-Sperrgepäck?_/_SPLIT> (<http://owl.api.wf#Sonder-_oder_Last-Minute-Sperrgepäck?_/_SPLIT>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Sonder-_oder_Last-Minute-Sperrgepäck?_/_SPLIT>)
+
+# Individual: <http://owl.api.wf#Sonder-_oder_Sperrgepäck?_/_JOIN> (<http://owl.api.wf#Sonder-_oder_Sperrgepäck?_/_JOIN>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Sonder-_oder_Sperrgepäck?_/_JOIN>)
+
+# Individual: <http://owl.api.wf#Sonder-_oder_Sperrgepäck?_/_SPLIT> (<http://owl.api.wf#Sonder-_oder_Sperrgepäck?_/_SPLIT>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_transportieren> <http://owl.api.wf#Sonder-_oder_Sperrgepäck?_/_SPLIT>)
+
+# Individual: <http://owl.api.wf#Sperrgepäck?_/_SPLIT> (<http://owl.api.wf#Sperrgepäck?_/_SPLIT>)
+
+ClassAssertion(<http://owl.api.wf#Gepäck_bewegen> <http://owl.api.wf#Sperrgepäck?_/_SPLIT>)
+
+# Individual: <http://owl.api.wf#Status_überprüfen_/_JOIN> (<http://owl.api.wf#Status_überprüfen_/_JOIN>)
+
+ClassAssertion(<http://owl.api.wf#Gepäckinhalt_kontrollieren> <http://owl.api.wf#Status_überprüfen_/_JOIN>)
+
+# Individual: <http://owl.api.wf#Status_überprüfen_/_SPLIT> (<http://owl.api.wf#Status_überprüfen_/_SPLIT>)
+
+ClassAssertion(<http://owl.api.wf#Gepäckinhalt_kontrollieren> <http://owl.api.wf#Status_überprüfen_/_SPLIT>)
+
+# Individual: <http://owl.api.wf#Statuskontrolle_/_JOIN> (<http://owl.api.wf#Statuskontrolle_/_JOIN>)
+
+ClassAssertion(<http://owl.api.wf#Gepäckinhalt_kontrollieren> <http://owl.api.wf#Statuskontrolle_/_JOIN>)
+
+# Individual: <http://owl.api.wf#Statuskontrolle_/_SPLIT> (<http://owl.api.wf#Statuskontrolle_/_SPLIT>)
+
+ClassAssertion(<http://owl.api.wf#Gepäckinhalt_kontrollieren> <http://owl.api.wf#Statuskontrolle_/_SPLIT>)
+
+# Individual: <http://owl.api.wf#Transitgepäck?_/_JOIN> (<http://owl.api.wf#Transitgepäck?_/_JOIN>)
+
+ClassAssertion(<http://owl.api.wf#Sonstige_Gegenstände_bewegen> <http://owl.api.wf#Transitgepäck?_/_JOIN>)
+
+# Individual: <http://owl.api.wf#Transitgepäck?_/_SPLIT> (<http://owl.api.wf#Transitgepäck?_/_SPLIT>)
+
+ClassAssertion(<http://owl.api.wf#Sonstige_Gegenstände_bewegen> <http://owl.api.wf#Transitgepäck?_/_SPLIT>)
+
+# Individual: <http://owl.api.wf#Warten,_bis_Schalter_frei_ist> (<http://owl.api.wf#Warten,_bis_Schalter_frei_ist>)
+
+ClassAssertion(<http://owl.api.wf#Warten> <http://owl.api.wf#Warten,_bis_Schalter_frei_ist>)
+
+# Individual: <http://owl.api.wf#Warten,_bis_Schatler_frei_ist> (<http://owl.api.wf#Warten,_bis_Schatler_frei_ist>)
+
+ClassAssertion(<http://owl.api.wf#Warten> <http://owl.api.wf#Warten,_bis_Schatler_frei_ist>)
+
+
+)

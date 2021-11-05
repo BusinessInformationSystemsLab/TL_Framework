@@ -1,0 +1,63 @@
+<svg width="600px" height="719px"
+ viewBox="0.00 0.00 282.00 338.39" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(4 334.39)">
+<title>08_Gepäckabfertigung_Ankunft</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-334.39 278,-334.39 278,4 -4,4"/>
+<!-- Task_1libs\ndz -->
+<g id="node1" class="node">
+<title>Task_1libs\ndz</title>
+<polygon fill="lightgrey" stroke="black" points="0,-184.99 0,-237.99 274,-237.99 274,-184.99 0,-184.99"/>
+<text text-anchor="middle" x="39" y="-215.29" font-family="Times New Roman,serif" font-size="14.00">Task_1libs</text>
+<text text-anchor="middle" x="39" y="-200.29" font-family="Times New Roman,serif" font-size="14.00">dz</text>
+<polyline fill="none" stroke="black" points="78,-184.99 78,-237.99 "/>
+<text text-anchor="middle" x="118" y="-222.79" font-family="Times New Roman,serif" font-size="14.00">Flughafenp</text>
+<text text-anchor="middle" x="118" y="-207.79" font-family="Times New Roman,serif" font-size="14.00">ersonal:La</text>
+<text text-anchor="middle" x="118" y="-192.79" font-family="Times New Roman,serif" font-size="14.00">ne_1nej1h4</text>
+<polyline fill="none" stroke="black" points="158,-184.99 158,-237.99 "/>
+<text text-anchor="middle" x="216" y="-207.79" font-family="Times New Roman,serif" font-size="14.00">Gepäck_bewegen</text>
+</g>
+<!-- Task_1hcrl\n8q -->
+<g id="node2" class="node">
+<title>Task_1hcrl\n8q</title>
+<polygon fill="lightgrey" stroke="black" points="23.5,-94.99 23.5,-147.99 250.5,-147.99 250.5,-94.99 23.5,-94.99"/>
+<text text-anchor="middle" x="63.5" y="-125.29" font-family="Times New Roman,serif" font-size="14.00">Task_1hcrl</text>
+<text text-anchor="middle" x="63.5" y="-110.29" font-family="Times New Roman,serif" font-size="14.00">8q</text>
+<polyline fill="none" stroke="black" points="103.5,-94.99 103.5,-147.99 "/>
+<text text-anchor="middle" x="143.5" y="-132.79" font-family="Times New Roman,serif" font-size="14.00">Flughafenp</text>
+<text text-anchor="middle" x="143.5" y="-117.79" font-family="Times New Roman,serif" font-size="14.00">ersonal:La</text>
+<text text-anchor="middle" x="143.5" y="-102.79" font-family="Times New Roman,serif" font-size="14.00">ne_1nej1h4</text>
+<polyline fill="none" stroke="black" points="183.5,-94.99 183.5,-147.99 "/>
+<text text-anchor="middle" x="217" y="-117.79" font-family="Times New Roman,serif" font-size="14.00">Bewegen</text>
+</g>
+<!-- Task_1libs\ndz&#45;&gt;Task_1hcrl\n8q -->
+<g id="edge1" class="edge">
+<title>Task_1libs\ndz&#45;&gt;Task_1hcrl\n8q</title>
+<path fill="none" stroke="black" d="M137,-184.57C137,-176.33 137,-167.07 137,-158.27"/>
+<polygon fill="black" stroke="black" points="140.5,-158.24 137,-148.24 133.5,-158.24 140.5,-158.24"/>
+</g>
+<!-- EndEvent_0\nrcq1yq -->
+<g id="node3" class="node">
+<title>EndEvent_0\nrcq1yq</title>
+<ellipse fill="lightgrey" stroke="black" cx="137" cy="-29.25" rx="29.5" ry="29.5"/>
+<text text-anchor="middle" x="137" y="-25.55" font-family="Times New Roman,serif" font-size="14.00">Ende</text>
+</g>
+<!-- Task_1hcrl\n8q&#45;&gt;EndEvent_0\nrcq1yq -->
+<g id="edge2" class="edge">
+<title>Task_1hcrl\n8q&#45;&gt;EndEvent_0\nrcq1yq</title>
+<path fill="none" stroke="black" d="M137,-94.87C137,-86.78 137,-77.66 137,-68.87"/>
+<polygon fill="black" stroke="black" points="140.5,-68.79 137,-58.79 133.5,-68.79 140.5,-68.79"/>
+</g>
+<!-- StartEvent\n_8 -->
+<g id="node4" class="node">
+<title>StartEvent\n_8</title>
+<ellipse fill="lightgrey" stroke="black" cx="137" cy="-302.44" rx="27.9" ry="27.9"/>
+<text text-anchor="middle" x="137" y="-298.74" font-family="Times New Roman,serif" font-size="14.00">Start</text>
+</g>
+<!-- StartEvent\n_8&#45;&gt;Task_1libs\ndz -->
+<g id="edge3" class="edge">
+<title>StartEvent\n_8&#45;&gt;Task_1libs\ndz</title>
+<path fill="none" stroke="black" d="M137,-274.27C137,-266.14 137,-257.08 137,-248.47"/>
+<polygon fill="black" stroke="black" points="140.5,-248.28 137,-238.28 133.5,-248.28 140.5,-248.28"/>
+</g>
+</g>
+</svg>

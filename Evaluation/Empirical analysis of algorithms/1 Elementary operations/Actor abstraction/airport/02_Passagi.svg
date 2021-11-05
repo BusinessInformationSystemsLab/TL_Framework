@@ -1,0 +1,223 @@
+<svg width="600px" height="1258px"
+ viewBox="0.00 0.00 509.00 1067.39" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(4 1063.39)">
+<title>02_Passagierabfertigung_am_Check&#45;In&#45;Automaten</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-1063.39 505,-1063.39 505,4 -4,4"/>
+<!-- StartEvent\n_2 -->
+<g id="node1" class="node">
+<title>StartEvent\n_2</title>
+<ellipse fill="lightgrey" stroke="black" cx="193" cy="-1031.44" rx="27.9" ry="27.9"/>
+<text text-anchor="middle" x="193" y="-1027.74" font-family="Times New Roman,serif" font-size="14.00">Start</text>
+</g>
+<!-- Task_0dhs6\nwg_Task_0q\nnugae -->
+<g id="node10" class="node">
+<title>Task_0dhs6\nwg_Task_0q\nnugae</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="15,-898.99 15,-966.99 371,-966.99 371,-898.99 15,-898.99"/>
+<text text-anchor="middle" x="60" y="-944.29" font-family="Times New Roman,serif" font-size="14.00">Task_0dhs6</text>
+<text text-anchor="middle" x="60" y="-929.29" font-family="Times New Roman,serif" font-size="14.00">wg_Task_0q</text>
+<text text-anchor="middle" x="60" y="-914.29" font-family="Times New Roman,serif" font-size="14.00">nugae</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="105,-898.99 105,-966.99 "/>
+<text text-anchor="middle" x="147" y="-944.29" font-family="Times New Roman,serif" font-size="14.00">Passagier:</text>
+<text text-anchor="middle" x="147" y="-929.29" font-family="Times New Roman,serif" font-size="14.00">Lane_1gl9w</text>
+<text text-anchor="middle" x="147" y="-914.29" font-family="Times New Roman,serif" font-size="14.00">5l</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="189,-898.99 189,-966.99 "/>
+<text text-anchor="middle" x="280" y="-951.79" font-family="Times New Roman,serif" font-size="14.00">Passagier DO</text>
+<text text-anchor="middle" x="280" y="-936.79" font-family="Times New Roman,serif" font-size="14.00"> Terminal_betreten</text>
+<text text-anchor="middle" x="280" y="-921.79" font-family="Times New Roman,serif" font-size="14.00">Zum_Automaten_gehen</text>
+<text text-anchor="middle" x="280" y="-906.79" font-family="Times New Roman,serif" font-size="14.00">Warten_bis_Automat_frei_ist</text>
+</g>
+<!-- StartEvent\n_2&#45;&gt;Task_0dhs6\nwg_Task_0q\nnugae -->
+<g id="edge1" class="edge">
+<title>StartEvent\n_2&#45;&gt;Task_0dhs6\nwg_Task_0q\nnugae</title>
+<path fill="none" stroke="black" d="M193,-1003.32C193,-995.23 193,-986.15 193,-977.3"/>
+<polygon fill="black" stroke="black" points="196.5,-977.08 193,-967.08 189.5,-977.08 196.5,-977.08"/>
+</g>
+<!-- Task_0xgty\nmq_Task_0x\ngtymq -->
+<g id="node2" class="node">
+<title>Task_0xgty\nmq_Task_0x\ngtymq</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="33.5,-628.99 33.5,-681.99 352.5,-681.99 352.5,-628.99 33.5,-628.99"/>
+<text text-anchor="middle" x="79" y="-666.79" font-family="Times New Roman,serif" font-size="14.00">Task_0xgty</text>
+<text text-anchor="middle" x="79" y="-651.79" font-family="Times New Roman,serif" font-size="14.00">mq_Task_0x</text>
+<text text-anchor="middle" x="79" y="-636.79" font-family="Times New Roman,serif" font-size="14.00">gtymq</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="124.5,-628.99 124.5,-681.99 "/>
+<text text-anchor="middle" x="166" y="-666.79" font-family="Times New Roman,serif" font-size="14.00">Check&#45;In&#45;A</text>
+<text text-anchor="middle" x="166" y="-651.79" font-family="Times New Roman,serif" font-size="14.00">utomat:Lan</text>
+<text text-anchor="middle" x="166" y="-636.79" font-family="Times New Roman,serif" font-size="14.00">e_140hr48</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="207.5,-628.99 207.5,-681.99 "/>
+<text text-anchor="middle" x="280" y="-659.29" font-family="Times New Roman,serif" font-size="14.00">Check&#45;In&#45;Automat DO</text>
+<text text-anchor="middle" x="280" y="-644.29" font-family="Times New Roman,serif" font-size="14.00"> Bordkarte_erstellen</text>
+</g>
+<!-- ExclusiveG\nateway_0w2\n89jq -->
+<g id="node12" class="node">
+<title>ExclusiveG\nateway_0w2\n89jq</title>
+<polygon fill="lightgrey" stroke="black" points="193,-592.49 19.06,-574.49 193,-556.49 366.94,-574.49 193,-592.49"/>
+<text text-anchor="middle" x="193" y="-570.79" font-family="Times New Roman,serif" font-size="14.00">Gepäck_vorhanden?_/_SPLIT</text>
+</g>
+<!-- Task_0xgty\nmq_Task_0x\ngtymq&#45;&gt;ExclusiveG\nateway_0w2\n89jq -->
+<g id="edge2" class="edge">
+<title>Task_0xgty\nmq_Task_0x\ngtymq&#45;&gt;ExclusiveG\nateway_0w2\n89jq</title>
+<path fill="none" stroke="black" d="M193,-628.63C193,-620.4 193,-611.28 193,-602.94"/>
+<polygon fill="black" stroke="black" points="196.5,-602.94 193,-592.94 189.5,-602.94 196.5,-602.94"/>
+</g>
+<!-- Task_11jq6\nxe -->
+<g id="node3" class="node">
+<title>Task_11jq6\nxe</title>
+<polygon fill="lightgrey" stroke="black" points="121.5,-361.99 121.5,-429.99 464.5,-429.99 464.5,-361.99 121.5,-361.99"/>
+<text text-anchor="middle" x="163" y="-399.79" font-family="Times New Roman,serif" font-size="14.00">Task_11jq6</text>
+<text text-anchor="middle" x="163" y="-384.79" font-family="Times New Roman,serif" font-size="14.00">xe</text>
+<polyline fill="none" stroke="black" points="204.5,-361.99 204.5,-429.99 "/>
+<text text-anchor="middle" x="247.5" y="-414.79" font-family="Times New Roman,serif" font-size="14.00">Gepäckanna</text>
+<text text-anchor="middle" x="247.5" y="-399.79" font-family="Times New Roman,serif" font-size="14.00">hmeschalte</text>
+<text text-anchor="middle" x="247.5" y="-384.79" font-family="Times New Roman,serif" font-size="14.00">r:Lane_1jc</text>
+<text text-anchor="middle" x="247.5" y="-369.79" font-family="Times New Roman,serif" font-size="14.00">jnxr</text>
+<polyline fill="none" stroke="black" points="290.5,-361.99 290.5,-429.99 "/>
+<text text-anchor="middle" x="377.5" y="-392.29" font-family="Times New Roman,serif" font-size="14.00">Prozess_Gepäckabfertigung</text>
+</g>
+<!-- ExclusiveG\nateway_05t\ng0br -->
+<g id="node4" class="node">
+<title>ExclusiveG\nateway_05t\ng0br</title>
+<polygon fill="lightgrey" stroke="black" points="181,-325.49 14.76,-307.49 181,-289.49 347.24,-307.49 181,-325.49"/>
+<text text-anchor="middle" x="181" y="-303.79" font-family="Times New Roman,serif" font-size="14.00">Gepäck_vorhanden?_/_JOIN</text>
+</g>
+<!-- Task_11jq6\nxe&#45;&gt;ExclusiveG\nateway_05t\ng0br -->
+<g id="edge3" class="edge">
+<title>Task_11jq6\nxe&#45;&gt;ExclusiveG\nateway_05t\ng0br</title>
+<path fill="none" stroke="black" d="M250.02,-361.8C236.08,-351.04 221.01,-339.4 208.52,-329.75"/>
+<polygon fill="black" stroke="black" points="210.38,-326.76 200.33,-323.42 206.1,-332.3 210.38,-326.76"/>
+</g>
+<!-- Task_1ydgj\n3r_Task_1y\ndgj3r -->
+<g id="node11" class="node">
+<title>Task_1ydgj\n3r_Task_1y\ndgj3r</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="0,-199.99 0,-252.99 362,-252.99 362,-199.99 0,-199.99"/>
+<text text-anchor="middle" x="42" y="-237.79" font-family="Times New Roman,serif" font-size="14.00">Task_1ydgj</text>
+<text text-anchor="middle" x="42" y="-222.79" font-family="Times New Roman,serif" font-size="14.00">3r_Task_1y</text>
+<text text-anchor="middle" x="42" y="-207.79" font-family="Times New Roman,serif" font-size="14.00">dgj3r</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="84,-199.99 84,-252.99 "/>
+<text text-anchor="middle" x="126" y="-237.79" font-family="Times New Roman,serif" font-size="14.00">Passagier:</text>
+<text text-anchor="middle" x="126" y="-222.79" font-family="Times New Roman,serif" font-size="14.00">Lane_1gl9w</text>
+<text text-anchor="middle" x="126" y="-207.79" font-family="Times New Roman,serif" font-size="14.00">5l</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="168,-199.99 168,-252.99 "/>
+<text text-anchor="middle" x="265" y="-230.29" font-family="Times New Roman,serif" font-size="14.00">Passagier DO</text>
+<text text-anchor="middle" x="265" y="-215.29" font-family="Times New Roman,serif" font-size="14.00"> Zum_Sicherheitsbereich_gehen</text>
+</g>
+<!-- ExclusiveG\nateway_05t\ng0br&#45;&gt;Task_1ydgj\n3r_Task_1y\ndgj3r -->
+<g id="edge4" class="edge">
+<title>ExclusiveG\nateway_05t\ng0br&#45;&gt;Task_1ydgj\n3r_Task_1y\ndgj3r</title>
+<path fill="none" stroke="black" d="M181,-289.35C181,-281.64 181,-272.23 181,-263.09"/>
+<polygon fill="black" stroke="black" points="184.5,-263.01 181,-253.01 177.5,-263.01 184.5,-263.01"/>
+</g>
+<!-- EndEvent_0\ncbepo9 -->
+<g id="node5" class="node">
+<title>EndEvent_0\ncbepo9</title>
+<ellipse fill="lightgrey" stroke="black" cx="181" cy="-29.25" rx="29.5" ry="29.5"/>
+<text text-anchor="middle" x="181" y="-25.55" font-family="Times New Roman,serif" font-size="14.00">Ende</text>
+</g>
+<!-- Task_166kh\nwz_Task_16\n6khwz -->
+<g id="node6" class="node">
+<title>Task_166kh\nwz_Task_16\n6khwz</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="9.5,-94.99 9.5,-162.99 352.5,-162.99 352.5,-94.99 9.5,-94.99"/>
+<text text-anchor="middle" x="54" y="-140.29" font-family="Times New Roman,serif" font-size="14.00">Task_166kh</text>
+<text text-anchor="middle" x="54" y="-125.29" font-family="Times New Roman,serif" font-size="14.00">wz_Task_16</text>
+<text text-anchor="middle" x="54" y="-110.29" font-family="Times New Roman,serif" font-size="14.00">6khwz</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="98.5,-94.99 98.5,-162.99 "/>
+<text text-anchor="middle" x="139" y="-147.79" font-family="Times New Roman,serif" font-size="14.00">Sicherheit</text>
+<text text-anchor="middle" x="139" y="-132.79" font-family="Times New Roman,serif" font-size="14.00">sbereich:L</text>
+<text text-anchor="middle" x="139" y="-117.79" font-family="Times New Roman,serif" font-size="14.00">ane_1cnf58</text>
+<text text-anchor="middle" x="139" y="-102.79" font-family="Times New Roman,serif" font-size="14.00">w</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="179.5,-94.99 179.5,-162.99 "/>
+<text text-anchor="middle" x="266" y="-132.79" font-family="Times New Roman,serif" font-size="14.00">Sicherheitsbereich DO</text>
+<text text-anchor="middle" x="266" y="-117.79" font-family="Times New Roman,serif" font-size="14.00"> Prozess_Sicherheitsbereich</text>
+</g>
+<!-- Task_166kh\nwz_Task_16\n6khwz&#45;&gt;EndEvent_0\ncbepo9 -->
+<g id="edge5" class="edge">
+<title>Task_166kh\nwz_Task_16\n6khwz&#45;&gt;EndEvent_0\ncbepo9</title>
+<path fill="none" stroke="black" d="M181,-94.9C181,-86.55 181,-77.52 181,-68.92"/>
+<polygon fill="black" stroke="black" points="184.5,-68.73 181,-58.73 177.5,-68.73 184.5,-68.73"/>
+</g>
+<!-- Task_18po4\n8l_Task_18\npo48l -->
+<g id="node7" class="node">
+<title>Task_18po4\n8l_Task_18\npo48l</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="41.5,-718.99 41.5,-771.99 344.5,-771.99 344.5,-718.99 41.5,-718.99"/>
+<text text-anchor="middle" x="85" y="-756.79" font-family="Times New Roman,serif" font-size="14.00">Task_18po4</text>
+<text text-anchor="middle" x="85" y="-741.79" font-family="Times New Roman,serif" font-size="14.00">8l_Task_18</text>
+<text text-anchor="middle" x="85" y="-726.79" font-family="Times New Roman,serif" font-size="14.00">po48l</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="128.5,-718.99 128.5,-771.99 "/>
+<text text-anchor="middle" x="170.5" y="-756.79" font-family="Times New Roman,serif" font-size="14.00">Passagier:</text>
+<text text-anchor="middle" x="170.5" y="-741.79" font-family="Times New Roman,serif" font-size="14.00">Lane_1gl9w</text>
+<text text-anchor="middle" x="170.5" y="-726.79" font-family="Times New Roman,serif" font-size="14.00">5l</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="212.5,-718.99 212.5,-771.99 "/>
+<text text-anchor="middle" x="278.5" y="-749.29" font-family="Times New Roman,serif" font-size="14.00">Passagier DO</text>
+<text text-anchor="middle" x="278.5" y="-734.29" font-family="Times New Roman,serif" font-size="14.00"> Sitzplatz_auswählen</text>
+</g>
+<!-- Task_18po4\n8l_Task_18\npo48l&#45;&gt;Task_0xgty\nmq_Task_0x\ngtymq -->
+<g id="edge6" class="edge">
+<title>Task_18po4\n8l_Task_18\npo48l&#45;&gt;Task_0xgty\nmq_Task_0x\ngtymq</title>
+<path fill="none" stroke="black" d="M193,-718.57C193,-710.33 193,-701.07 193,-692.27"/>
+<polygon fill="black" stroke="black" points="196.5,-692.24 193,-682.24 189.5,-692.24 196.5,-692.24"/>
+</g>
+<!-- Task_16bnm\ncp_Task_16\nbnmcp -->
+<g id="node8" class="node">
+<title>Task_16bnm\ncp_Task_16\nbnmcp</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="34,-808.99 34,-861.99 352,-861.99 352,-808.99 34,-808.99"/>
+<text text-anchor="middle" x="79" y="-846.79" font-family="Times New Roman,serif" font-size="14.00">Task_16bnm</text>
+<text text-anchor="middle" x="79" y="-831.79" font-family="Times New Roman,serif" font-size="14.00">cp_Task_16</text>
+<text text-anchor="middle" x="79" y="-816.79" font-family="Times New Roman,serif" font-size="14.00">bnmcp</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="124,-808.99 124,-861.99 "/>
+<text text-anchor="middle" x="165.5" y="-846.79" font-family="Times New Roman,serif" font-size="14.00">Check&#45;In&#45;A</text>
+<text text-anchor="middle" x="165.5" y="-831.79" font-family="Times New Roman,serif" font-size="14.00">utomat:Lan</text>
+<text text-anchor="middle" x="165.5" y="-816.79" font-family="Times New Roman,serif" font-size="14.00">e_140hr48</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="207,-808.99 207,-861.99 "/>
+<text text-anchor="middle" x="279.5" y="-839.29" font-family="Times New Roman,serif" font-size="14.00">Check&#45;In&#45;Automat DO</text>
+<text text-anchor="middle" x="279.5" y="-824.29" font-family="Times New Roman,serif" font-size="14.00"> Ausweis_kontrollieren</text>
+</g>
+<!-- Task_16bnm\ncp_Task_16\nbnmcp&#45;&gt;Task_18po4\n8l_Task_18\npo48l -->
+<g id="edge7" class="edge">
+<title>Task_16bnm\ncp_Task_16\nbnmcp&#45;&gt;Task_18po4\n8l_Task_18\npo48l</title>
+<path fill="none" stroke="black" d="M193,-808.57C193,-800.33 193,-791.07 193,-782.27"/>
+<polygon fill="black" stroke="black" points="196.5,-782.24 193,-772.24 189.5,-782.24 196.5,-782.24"/>
+</g>
+<!-- Task_1eqrd\n1u -->
+<g id="node9" class="node">
+<title>Task_1eqrd\n1u</title>
+<polygon fill="lightgrey" stroke="black" points="109,-466.99 109,-519.99 501,-519.99 501,-466.99 109,-466.99"/>
+<text text-anchor="middle" x="151" y="-497.29" font-family="Times New Roman,serif" font-size="14.00">Task_1eqrd</text>
+<text text-anchor="middle" x="151" y="-482.29" font-family="Times New Roman,serif" font-size="14.00">1u</text>
+<polyline fill="none" stroke="black" points="193,-466.99 193,-519.99 "/>
+<text text-anchor="middle" x="235" y="-504.79" font-family="Times New Roman,serif" font-size="14.00">Passagier:</text>
+<text text-anchor="middle" x="235" y="-489.79" font-family="Times New Roman,serif" font-size="14.00">Lane_1gl9w</text>
+<text text-anchor="middle" x="235" y="-474.79" font-family="Times New Roman,serif" font-size="14.00">5l</text>
+<polyline fill="none" stroke="black" points="277,-466.99 277,-519.99 "/>
+<text text-anchor="middle" x="389" y="-489.79" font-family="Times New Roman,serif" font-size="14.00">Zum_Gepäckannahmeschalter_gehen</text>
+</g>
+<!-- Task_1eqrd\n1u&#45;&gt;Task_11jq6\nxe -->
+<g id="edge8" class="edge">
+<title>Task_1eqrd\n1u&#45;&gt;Task_11jq6\nxe</title>
+<path fill="none" stroke="black" d="M301.78,-466.9C300.76,-458.71 299.59,-449.41 298.44,-440.32"/>
+<polygon fill="black" stroke="black" points="301.89,-439.7 297.17,-430.22 294.95,-440.57 301.89,-439.7"/>
+</g>
+<!-- Task_0dhs6\nwg_Task_0q\nnugae&#45;&gt;Task_16bnm\ncp_Task_16\nbnmcp -->
+<g id="edge9" class="edge">
+<title>Task_0dhs6\nwg_Task_0q\nnugae&#45;&gt;Task_16bnm\ncp_Task_16\nbnmcp</title>
+<path fill="none" stroke="black" d="M193,-898.86C193,-890.28 193,-881.01 193,-872.3"/>
+<polygon fill="black" stroke="black" points="196.5,-872.04 193,-862.04 189.5,-872.04 196.5,-872.04"/>
+</g>
+<!-- Task_1ydgj\n3r_Task_1y\ndgj3r&#45;&gt;Task_166kh\nwz_Task_16\n6khwz -->
+<g id="edge10" class="edge">
+<title>Task_1ydgj\n3r_Task_1y\ndgj3r&#45;&gt;Task_166kh\nwz_Task_16\n6khwz</title>
+<path fill="none" stroke="black" d="M181,-199.9C181,-191.71 181,-182.41 181,-173.32"/>
+<polygon fill="black" stroke="black" points="184.5,-173.22 181,-163.22 177.5,-173.22 184.5,-173.22"/>
+</g>
+<!-- ExclusiveG\nateway_0w2\n89jq&#45;&gt;ExclusiveG\nateway_05t\ng0br -->
+<g id="edge12" class="edge">
+<title>ExclusiveG\nateway_0w2\n89jq&#45;&gt;ExclusiveG\nateway_05t\ng0br</title>
+<path fill="none" stroke="black" d="M151.15,-560.63C131.99,-552.41 111.11,-539.62 100,-520.49 84.6,-493.99 103.1,-378.94 113,-361.49 120.62,-348.06 133.15,-336.85 145.38,-328.24"/>
+<polygon fill="black" stroke="black" points="147.34,-331.15 153.75,-322.71 143.47,-325.31 147.34,-331.15"/>
+</g>
+<!-- ExclusiveG\nateway_0w2\n89jq&#45;&gt;Task_1eqrd\n1u -->
+<g id="edge11" class="edge">
+<title>ExclusiveG\nateway_0w2\n89jq&#45;&gt;Task_1eqrd\n1u</title>
+<path fill="none" stroke="black" d="M214.07,-558.64C227.12,-549.42 244.4,-537.24 260.39,-525.96"/>
+<polygon fill="black" stroke="black" points="262.45,-528.79 268.6,-520.17 258.41,-523.07 262.45,-528.79"/>
+</g>
+</g>
+</svg>

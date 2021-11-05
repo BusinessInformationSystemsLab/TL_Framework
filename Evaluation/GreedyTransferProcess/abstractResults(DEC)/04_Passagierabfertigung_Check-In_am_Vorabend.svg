@@ -1,0 +1,68 @@
+<svg width="600px" height="485px"
+ viewBox="0.00 0.00 416.00 335.79" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(4 331.79)">
+<title>04_Passagierabfertigung_Check&#45;In_am_Vorabend</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-331.79 412,-331.79 412,4 -4,4"/>
+<!-- StartEvent\n_4 -->
+<g id="node1" class="node">
+<title>StartEvent\n_4</title>
+<ellipse fill="lightgrey" stroke="black" cx="204" cy="-300.49" rx="27.1" ry="27.1"/>
+<text text-anchor="middle" x="204" y="-296.79" font-family="Times,serif" font-size="14.00">Start</text>
+</g>
+<!-- Task_1376l\n88_Task_1m\nakur1 -->
+<g id="node4" class="node">
+<title>Task_1376l\n88_Task_1m\nakur1</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="13,-183.69 13,-236.69 395,-236.69 395,-183.69 13,-183.69"/>
+<text text-anchor="middle" x="57" y="-221.49" font-family="Times,serif" font-size="14.00">Task_1376l</text>
+<text text-anchor="middle" x="57" y="-206.49" font-family="Times,serif" font-size="14.00">88_Task_1m</text>
+<text text-anchor="middle" x="57" y="-191.49" font-family="Times,serif" font-size="14.00">akur1</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="101,-183.69 101,-236.69 "/>
+<text text-anchor="middle" x="142.5" y="-221.49" font-family="Times,serif" font-size="14.00">Käufer:1DB</text>
+<text text-anchor="middle" x="142.5" y="-206.49" font-family="Times,serif" font-size="14.00">__Lane_1a6</text>
+<text text-anchor="middle" x="142.5" y="-191.49" font-family="Times,serif" font-size="14.00">bz8p</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="184,-183.69 184,-236.69 "/>
+<text text-anchor="middle" x="289.5" y="-221.49" font-family="Times,serif" font-size="14.00">Käufer DO</text>
+<text text-anchor="middle" x="289.5" y="-206.49" font-family="Times,serif" font-size="14.00"> Geringen_Warenbestand_erkennen</text>
+<text text-anchor="middle" x="289.5" y="-191.49" font-family="Times,serif" font-size="14.00">Bestellung_erstellen</text>
+</g>
+<!-- StartEvent\n_4&#45;&gt;Task_1376l\n88_Task_1m\nakur1 -->
+<g id="edge1" class="edge">
+<title>StartEvent\n_4&#45;&gt;Task_1376l\n88_Task_1m\nakur1</title>
+<path fill="none" stroke="black" d="M204,-273C204,-264.84 204,-255.71 204,-247.03"/>
+<polygon fill="black" stroke="black" points="207.5,-246.76 204,-236.76 200.5,-246.76 207.5,-246.76"/>
+</g>
+<!-- EndEvent_1\nvwcw55 -->
+<g id="node2" class="node">
+<title>EndEvent_1\nvwcw55</title>
+<ellipse fill="lightgrey" stroke="black" cx="204" cy="-28.6" rx="28.7" ry="28.7"/>
+<text text-anchor="middle" x="204" y="-24.9" font-family="Times,serif" font-size="14.00">Ende</text>
+</g>
+<!-- Task_0c1t4\n9t_Task_0c\n1t49t -->
+<g id="node3" class="node">
+<title>Task_0c1t4\n9t_Task_0c\n1t49t</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="0,-93.69 0,-146.69 408,-146.69 408,-93.69 0,-93.69"/>
+<text text-anchor="middle" x="40" y="-131.49" font-family="Times,serif" font-size="14.00">Task_0c1t4</text>
+<text text-anchor="middle" x="40" y="-116.49" font-family="Times,serif" font-size="14.00">9t_Task_0c</text>
+<text text-anchor="middle" x="40" y="-101.49" font-family="Times,serif" font-size="14.00">1t49t</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="80,-93.69 80,-146.69 "/>
+<text text-anchor="middle" x="122.5" y="-131.49" font-family="Times,serif" font-size="14.00">Controller</text>
+<text text-anchor="middle" x="122.5" y="-116.49" font-family="Times,serif" font-size="14.00">:1CZ__Lane</text>
+<text text-anchor="middle" x="122.5" y="-101.49" font-family="Times,serif" font-size="14.00">_0rn0jn5</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="165,-93.69 165,-146.69 "/>
+<text text-anchor="middle" x="286.5" y="-123.99" font-family="Times,serif" font-size="14.00">Controller DO</text>
+<text text-anchor="middle" x="286.5" y="-108.99" font-family="Times,serif" font-size="14.00"> Differenzen_in_SAP_S/4HANA_buchen</text>
+</g>
+<!-- Task_0c1t4\n9t_Task_0c\n1t49t&#45;&gt;EndEvent_1\nvwcw55 -->
+<g id="edge2" class="edge">
+<title>Task_0c1t4\n9t_Task_0c\n1t49t&#45;&gt;EndEvent_1\nvwcw55</title>
+<path fill="none" stroke="black" d="M204,-93.28C204,-85.18 204,-76.08 204,-67.34"/>
+<polygon fill="black" stroke="black" points="207.5,-67.33 204,-57.33 200.5,-67.33 207.5,-67.33"/>
+</g>
+<!-- Task_1376l\n88_Task_1m\nakur1&#45;&gt;Task_0c1t4\n9t_Task_0c\n1t49t -->
+<g id="edge3" class="edge">
+<title>Task_1376l\n88_Task_1m\nakur1&#45;&gt;Task_0c1t4\n9t_Task_0c\n1t49t</title>
+<path fill="none" stroke="black" d="M204,-183.27C204,-175.03 204,-165.77 204,-156.97"/>
+<polygon fill="black" stroke="black" points="207.5,-156.94 204,-146.94 200.5,-156.94 207.5,-156.94"/>
+</g>
+</g>
+</svg>

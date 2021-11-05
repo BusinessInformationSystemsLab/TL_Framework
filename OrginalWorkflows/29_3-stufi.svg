@@ -1,0 +1,238 @@
+<svg width="588px" height="1000px"
+ viewBox="0.00 0.00 694.00 1181.39" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(4 1177.39)">
+<title>29_3&#45;stufige_Gepäckkontrolle_Normalgepäck</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-1177.39 690,-1177.39 690,4 -4,4"/>
+<!-- Task_1r6qf\nrv -->
+<g id="node1" class="node">
+<title>Task_1r6qf\nrv</title>
+<polygon fill="lightgrey" stroke="black" points="0,-418.99 0,-471.99 411,-471.99 411,-418.99 0,-418.99"/>
+<text text-anchor="middle" x="41" y="-449.29" font-family="Times New Roman,serif" font-size="14.00">Task_1r6qf</text>
+<text text-anchor="middle" x="41" y="-434.29" font-family="Times New Roman,serif" font-size="14.00">rv</text>
+<polyline fill="none" stroke="black" points="82,-418.99 82,-471.99 "/>
+<text text-anchor="middle" x="123.5" y="-456.79" font-family="Times New Roman,serif" font-size="14.00">Nachkontro</text>
+<text text-anchor="middle" x="123.5" y="-441.79" font-family="Times New Roman,serif" font-size="14.00">lle:Lane_0</text>
+<text text-anchor="middle" x="123.5" y="-426.79" font-family="Times New Roman,serif" font-size="14.00">clyel9</text>
+<polyline fill="none" stroke="black" points="165,-418.99 165,-471.99 "/>
+<text text-anchor="middle" x="288" y="-441.79" font-family="Times New Roman,serif" font-size="14.00">Gepäck_mit_Passagier_zusammenführen</text>
+</g>
+<!-- Task_19d8q\n6g -->
+<g id="node8" class="node">
+<title>Task_19d8q\n6g</title>
+<polygon fill="lightgrey" stroke="black" points="19.5,-328.99 19.5,-381.99 405.5,-381.99 405.5,-328.99 19.5,-328.99"/>
+<text text-anchor="middle" x="63" y="-359.29" font-family="Times New Roman,serif" font-size="14.00">Task_19d8q</text>
+<text text-anchor="middle" x="63" y="-344.29" font-family="Times New Roman,serif" font-size="14.00">6g</text>
+<polyline fill="none" stroke="black" points="106.5,-328.99 106.5,-381.99 "/>
+<text text-anchor="middle" x="148" y="-366.79" font-family="Times New Roman,serif" font-size="14.00">Nachkontro</text>
+<text text-anchor="middle" x="148" y="-351.79" font-family="Times New Roman,serif" font-size="14.00">lle:Lane_0</text>
+<text text-anchor="middle" x="148" y="-336.79" font-family="Times New Roman,serif" font-size="14.00">clyel9</text>
+<polyline fill="none" stroke="black" points="189.5,-328.99 189.5,-381.99 "/>
+<text text-anchor="middle" x="297.5" y="-351.79" font-family="Times New Roman,serif" font-size="14.00">Gepäckstück_manuell_kontrollieren</text>
+</g>
+<!-- Task_1r6qf\nrv&#45;&gt;Task_19d8q\n6g -->
+<g id="edge1" class="edge">
+<title>Task_1r6qf\nrv&#45;&gt;Task_19d8q\n6g</title>
+<path fill="none" stroke="black" d="M207.56,-418.57C208.22,-410.33 208.95,-401.07 209.65,-392.27"/>
+<polygon fill="black" stroke="black" points="213.15,-392.48 210.45,-382.24 206.17,-391.93 213.15,-392.48"/>
+</g>
+<!-- Task_12w5c\noa -->
+<g id="node2" class="node">
+<title>Task_12w5c\noa</title>
+<polygon fill="lightgrey" stroke="black" points="21,-685.99 21,-738.99 534,-738.99 534,-685.99 21,-685.99"/>
+<text text-anchor="middle" x="65.5" y="-716.29" font-family="Times New Roman,serif" font-size="14.00">Task_12w5c</text>
+<text text-anchor="middle" x="65.5" y="-701.29" font-family="Times New Roman,serif" font-size="14.00">oa</text>
+<polyline fill="none" stroke="black" points="110,-685.99 110,-738.99 "/>
+<text text-anchor="middle" x="151.5" y="-723.79" font-family="Times New Roman,serif" font-size="14.00">Röntgenprü</text>
+<text text-anchor="middle" x="151.5" y="-708.79" font-family="Times New Roman,serif" font-size="14.00">fanlage:La</text>
+<text text-anchor="middle" x="151.5" y="-693.79" font-family="Times New Roman,serif" font-size="14.00">ne_16r7fph</text>
+<polyline fill="none" stroke="black" points="193,-685.99 193,-738.99 "/>
+<text text-anchor="middle" x="363.5" y="-708.79" font-family="Times New Roman,serif" font-size="14.00">Gepäckstück_zur_Röntgenbeugungsanlage_transportieren</text>
+</g>
+<!-- Task_0sevf\nth -->
+<g id="node7" class="node">
+<title>Task_0sevf\nth</title>
+<polygon fill="lightgrey" stroke="black" points="106.5,-580.99 106.5,-648.99 448.5,-648.99 448.5,-580.99 106.5,-580.99"/>
+<text text-anchor="middle" x="147.5" y="-618.79" font-family="Times New Roman,serif" font-size="14.00">Task_0sevf</text>
+<text text-anchor="middle" x="147.5" y="-603.79" font-family="Times New Roman,serif" font-size="14.00">th</text>
+<polyline fill="none" stroke="black" points="188.5,-580.99 188.5,-648.99 "/>
+<text text-anchor="middle" x="230.5" y="-633.79" font-family="Times New Roman,serif" font-size="14.00">Röntgenbeu</text>
+<text text-anchor="middle" x="230.5" y="-618.79" font-family="Times New Roman,serif" font-size="14.00">gungsanlag</text>
+<text text-anchor="middle" x="230.5" y="-603.79" font-family="Times New Roman,serif" font-size="14.00">e:Lane_1gb</text>
+<text text-anchor="middle" x="230.5" y="-588.79" font-family="Times New Roman,serif" font-size="14.00">xsm0</text>
+<polyline fill="none" stroke="black" points="272.5,-580.99 272.5,-648.99 "/>
+<text text-anchor="middle" x="360.5" y="-611.29" font-family="Times New Roman,serif" font-size="14.00">Gepäckstück_durchleuchten</text>
+</g>
+<!-- Task_12w5c\noa&#45;&gt;Task_0sevf\nth -->
+<g id="edge2" class="edge">
+<title>Task_12w5c\noa&#45;&gt;Task_0sevf\nth</title>
+<path fill="none" stroke="black" d="M277.5,-685.9C277.5,-677.71 277.5,-668.41 277.5,-659.32"/>
+<polygon fill="black" stroke="black" points="281,-659.22 277.5,-649.22 274,-659.22 281,-659.22"/>
+</g>
+<!-- Task_0frp8\n8d -->
+<g id="node3" class="node">
+<title>Task_0frp8\n8d</title>
+<polygon fill="lightgrey" stroke="black" points="243,-94.99 243,-147.99 686,-147.99 686,-94.99 243,-94.99"/>
+<text text-anchor="middle" x="284" y="-125.29" font-family="Times New Roman,serif" font-size="14.00">Task_0frp8</text>
+<text text-anchor="middle" x="284" y="-110.29" font-family="Times New Roman,serif" font-size="14.00">8d</text>
+<polyline fill="none" stroke="black" points="325,-94.99 325,-147.99 "/>
+<text text-anchor="middle" x="366.5" y="-132.79" font-family="Times New Roman,serif" font-size="14.00">Röntgenprü</text>
+<text text-anchor="middle" x="366.5" y="-117.79" font-family="Times New Roman,serif" font-size="14.00">fanlage:La</text>
+<text text-anchor="middle" x="366.5" y="-102.79" font-family="Times New Roman,serif" font-size="14.00">ne_16r7fph</text>
+<polyline fill="none" stroke="black" points="408,-94.99 408,-147.99 "/>
+<text text-anchor="middle" x="547" y="-117.79" font-family="Times New Roman,serif" font-size="14.00">Gepäckstück_zur_Sortieranlage_transportieren</text>
+</g>
+<!-- EndEvent_1\n2avxw3 -->
+<g id="node5" class="node">
+<title>EndEvent_1\n2avxw3</title>
+<ellipse fill="lightgrey" stroke="black" cx="464.5" cy="-29.25" rx="29.5" ry="29.5"/>
+<text text-anchor="middle" x="464.5" y="-25.55" font-family="Times New Roman,serif" font-size="14.00">Ende</text>
+</g>
+<!-- Task_0frp8\n8d&#45;&gt;EndEvent_1\n2avxw3 -->
+<g id="edge3" class="edge">
+<title>Task_0frp8\n8d&#45;&gt;EndEvent_1\n2avxw3</title>
+<path fill="none" stroke="black" d="M464.5,-94.87C464.5,-86.78 464.5,-77.66 464.5,-68.87"/>
+<polygon fill="black" stroke="black" points="468,-68.79 464.5,-58.79 461,-68.79 468,-68.79"/>
+</g>
+<!-- Task_104ly\nyl -->
+<g id="node4" class="node">
+<title>Task_104ly\nyl</title>
+<polygon fill="lightgrey" stroke="black" points="223.5,-1027.99 223.5,-1080.99 615.5,-1080.99 615.5,-1027.99 223.5,-1027.99"/>
+<text text-anchor="middle" x="264.5" y="-1058.29" font-family="Times New Roman,serif" font-size="14.00">Task_104ly</text>
+<text text-anchor="middle" x="264.5" y="-1043.29" font-family="Times New Roman,serif" font-size="14.00">yl</text>
+<polyline fill="none" stroke="black" points="305.5,-1027.99 305.5,-1080.99 "/>
+<text text-anchor="middle" x="345.5" y="-1065.79" font-family="Times New Roman,serif" font-size="14.00">Check&#45;In:L</text>
+<text text-anchor="middle" x="345.5" y="-1050.79" font-family="Times New Roman,serif" font-size="14.00">ane_0e8xcr</text>
+<text text-anchor="middle" x="345.5" y="-1035.79" font-family="Times New Roman,serif" font-size="14.00">h</text>
+<polyline fill="none" stroke="black" points="385.5,-1027.99 385.5,-1080.99 "/>
+<text text-anchor="middle" x="500.5" y="-1050.79" font-family="Times New Roman,serif" font-size="14.00">Gepäckstück_auf_Sammelband_legen</text>
+</g>
+<!-- Task_0pdro\n9f -->
+<g id="node14" class="node">
+<title>Task_0pdro\n9f</title>
+<polygon fill="lightgrey" stroke="black" points="181,-937.99 181,-990.99 658,-990.99 658,-937.99 181,-937.99"/>
+<text text-anchor="middle" x="224" y="-968.29" font-family="Times New Roman,serif" font-size="14.00">Task_0pdro</text>
+<text text-anchor="middle" x="224" y="-953.29" font-family="Times New Roman,serif" font-size="14.00">9f</text>
+<polyline fill="none" stroke="black" points="267,-937.99 267,-990.99 "/>
+<text text-anchor="middle" x="307" y="-975.79" font-family="Times New Roman,serif" font-size="14.00">Check&#45;In:L</text>
+<text text-anchor="middle" x="307" y="-960.79" font-family="Times New Roman,serif" font-size="14.00">ane_0e8xcr</text>
+<text text-anchor="middle" x="307" y="-945.79" font-family="Times New Roman,serif" font-size="14.00">h</text>
+<polyline fill="none" stroke="black" points="347,-937.99 347,-990.99 "/>
+<text text-anchor="middle" x="502.5" y="-960.79" font-family="Times New Roman,serif" font-size="14.00">Gepäckstück_zur_Röntgenprüfanlage_transportieren</text>
+</g>
+<!-- Task_104ly\nyl&#45;&gt;Task_0pdro\n9f -->
+<g id="edge4" class="edge">
+<title>Task_104ly\nyl&#45;&gt;Task_0pdro\n9f</title>
+<path fill="none" stroke="black" d="M419.5,-1027.57C419.5,-1019.33 419.5,-1010.07 419.5,-1001.27"/>
+<polygon fill="black" stroke="black" points="423,-1001.24 419.5,-991.24 416,-1001.24 423,-1001.24"/>
+</g>
+<!-- ExclusiveG\nateway_1wa\nh59l -->
+<g id="node6" class="node">
+<title>ExclusiveG\nateway_1wa\nh59l</title>
+<polygon fill="lightgrey" stroke="black" points="366.5,-292.49 198.09,-274.49 366.5,-256.49 534.91,-274.49 366.5,-292.49"/>
+<text text-anchor="middle" x="366.5" y="-270.79" font-family="Times New Roman,serif" font-size="14.00">Inhalt_unbedenklich?_/_JOIN</text>
+</g>
+<!-- ExclusiveG\nateway_04m\n7ez2 -->
+<g id="node11" class="node">
+<title>ExclusiveG\nateway_04m\n7ez2</title>
+<polygon fill="lightgrey" stroke="black" points="464.5,-220.49 296.09,-202.49 464.5,-184.49 632.91,-202.49 464.5,-220.49"/>
+<text text-anchor="middle" x="464.5" y="-198.79" font-family="Times New Roman,serif" font-size="14.00">Inhalt_unbedenklich?_/_JOIN</text>
+</g>
+<!-- ExclusiveG\nateway_1wa\nh59l&#45;&gt;ExclusiveG\nateway_04m\n7ez2 -->
+<g id="edge5" class="edge">
+<title>ExclusiveG\nateway_1wa\nh59l&#45;&gt;ExclusiveG\nateway_04m\n7ez2</title>
+<path fill="none" stroke="black" d="M387.28,-258.65C401.32,-248.63 420.03,-235.26 435.52,-224.19"/>
+<polygon fill="black" stroke="black" points="437.64,-226.98 443.75,-218.32 433.57,-221.28 437.64,-226.98"/>
+</g>
+<!-- ExclusiveG\nateway_054\njz3l -->
+<g id="node10" class="node">
+<title>ExclusiveG\nateway_054\njz3l</title>
+<polygon fill="lightgrey" stroke="black" points="277.5,-544.49 101.88,-526.49 277.5,-508.49 453.12,-526.49 277.5,-544.49"/>
+<text text-anchor="middle" x="277.5" y="-522.79" font-family="Times New Roman,serif" font-size="14.00">Inhalt_unbedenklich?_/_SPLIT</text>
+</g>
+<!-- Task_0sevf\nth&#45;&gt;ExclusiveG\nateway_054\njz3l -->
+<g id="edge6" class="edge">
+<title>Task_0sevf\nth&#45;&gt;ExclusiveG\nateway_054\njz3l</title>
+<path fill="none" stroke="black" d="M277.5,-580.8C277.5,-572.19 277.5,-563.01 277.5,-554.74"/>
+<polygon fill="black" stroke="black" points="281,-554.52 277.5,-544.52 274,-554.52 281,-554.52"/>
+</g>
+<!-- Task_19d8q\n6g&#45;&gt;ExclusiveG\nateway_1wa\nh59l -->
+<g id="edge7" class="edge">
+<title>Task_19d8q\n6g&#45;&gt;ExclusiveG\nateway_1wa\nh59l</title>
+<path fill="none" stroke="black" d="M262.5,-328.85C284.34,-317.64 309.49,-304.74 329.59,-294.43"/>
+<polygon fill="black" stroke="black" points="331.42,-297.42 338.72,-289.74 328.23,-291.19 331.42,-297.42"/>
+</g>
+<!-- ExclusiveG\nateway_1ag\nipxg -->
+<g id="node9" class="node">
+<title>ExclusiveG\nateway_1ag\nipxg</title>
+<polygon fill="lightgrey" stroke="black" points="419.5,-811.49 243.88,-793.49 419.5,-775.49 595.12,-793.49 419.5,-811.49"/>
+<text text-anchor="middle" x="419.5" y="-789.79" font-family="Times New Roman,serif" font-size="14.00">Inhalt_unbedenklich?_/_SPLIT</text>
+</g>
+<!-- ExclusiveG\nateway_1ag\nipxg&#45;&gt;Task_12w5c\noa -->
+<g id="edge8" class="edge">
+<title>ExclusiveG\nateway_1ag\nipxg&#45;&gt;Task_12w5c\noa</title>
+<path fill="none" stroke="black" d="M393.46,-778C376.36,-768.49 353.36,-755.7 332.35,-744.01"/>
+<polygon fill="black" stroke="black" points="333.93,-740.89 323.49,-739.08 330.53,-747 333.93,-740.89"/>
+</g>
+<!-- ExclusiveG\nateway_1ag\nipxg&#45;&gt;ExclusiveG\nateway_04m\n7ez2 -->
+<g id="edge9" class="edge">
+<title>ExclusiveG\nateway_1ag\nipxg&#45;&gt;ExclusiveG\nateway_04m\n7ez2</title>
+<path fill="none" stroke="black" d="M475.37,-781.16C499.57,-773.42 526.06,-760.58 542.5,-739.49 576.69,-695.64 562.5,-671.6 562.5,-615.99 562.5,-615.99 562.5,-615.99 562.5,-354.49 562.5,-310.13 568.02,-293.47 543.5,-256.49 533.97,-242.13 519.09,-230.67 504.8,-222.14"/>
+<polygon fill="black" stroke="black" points="506.46,-219.06 496.03,-217.2 503.02,-225.16 506.46,-219.06"/>
+</g>
+<!-- ExclusiveG\nateway_054\njz3l&#45;&gt;Task_1r6qf\nrv -->
+<g id="edge11" class="edge">
+<title>ExclusiveG\nateway_054\njz3l&#45;&gt;Task_1r6qf\nrv</title>
+<path fill="none" stroke="black" d="M263.28,-509.89C255.36,-501.2 245.2,-490.05 235.61,-479.53"/>
+<polygon fill="black" stroke="black" points="238.09,-477.05 228.76,-472.02 232.91,-481.77 238.09,-477.05"/>
+</g>
+<!-- ExclusiveG\nateway_054\njz3l&#45;&gt;ExclusiveG\nateway_1wa\nh59l -->
+<g id="edge10" class="edge">
+<title>ExclusiveG\nateway_054\njz3l&#45;&gt;ExclusiveG\nateway_1wa\nh59l</title>
+<path fill="none" stroke="black" d="M350.24,-515.83C376.52,-508.43 403.59,-495.41 419.5,-472.49 429.22,-458.49 422.73,-348.21 414.5,-328.49 409.69,-316.98 401.25,-306.33 392.78,-297.65"/>
+<polygon fill="black" stroke="black" points="395.05,-294.97 385.42,-290.55 390.19,-300.01 395.05,-294.97"/>
+</g>
+<!-- ExclusiveG\nateway_04m\n7ez2&#45;&gt;Task_0frp8\n8d -->
+<g id="edge12" class="edge">
+<title>ExclusiveG\nateway_04m\n7ez2&#45;&gt;Task_0frp8\n8d</title>
+<path fill="none" stroke="black" d="M464.5,-184.35C464.5,-176.64 464.5,-167.23 464.5,-158.09"/>
+<polygon fill="black" stroke="black" points="468,-158.01 464.5,-148.01 461,-158.01 468,-158.01"/>
+</g>
+<!-- StartEvent\n_29 -->
+<g id="node12" class="node">
+<title>StartEvent\n_29</title>
+<ellipse fill="lightgrey" stroke="black" cx="419.5" cy="-1145.44" rx="27.9" ry="27.9"/>
+<text text-anchor="middle" x="419.5" y="-1141.74" font-family="Times New Roman,serif" font-size="14.00">Start</text>
+</g>
+<!-- StartEvent\n_29&#45;&gt;Task_104ly\nyl -->
+<g id="edge13" class="edge">
+<title>StartEvent\n_29&#45;&gt;Task_104ly\nyl</title>
+<path fill="none" stroke="black" d="M419.5,-1117.27C419.5,-1109.14 419.5,-1100.08 419.5,-1091.47"/>
+<polygon fill="black" stroke="black" points="423,-1091.28 419.5,-1081.28 416,-1091.28 423,-1091.28"/>
+</g>
+<!-- Task_0mauh\ny4 -->
+<g id="node13" class="node">
+<title>Task_0mauh\ny4</title>
+<polygon fill="lightgrey" stroke="black" points="245.5,-847.99 245.5,-900.99 593.5,-900.99 593.5,-847.99 245.5,-847.99"/>
+<text text-anchor="middle" x="290" y="-878.29" font-family="Times New Roman,serif" font-size="14.00">Task_0mauh</text>
+<text text-anchor="middle" x="290" y="-863.29" font-family="Times New Roman,serif" font-size="14.00">y4</text>
+<polyline fill="none" stroke="black" points="334.5,-847.99 334.5,-900.99 "/>
+<text text-anchor="middle" x="376" y="-885.79" font-family="Times New Roman,serif" font-size="14.00">Röntgenprü</text>
+<text text-anchor="middle" x="376" y="-870.79" font-family="Times New Roman,serif" font-size="14.00">fanlage:La</text>
+<text text-anchor="middle" x="376" y="-855.79" font-family="Times New Roman,serif" font-size="14.00">ne_16r7fph</text>
+<polyline fill="none" stroke="black" points="417.5,-847.99 417.5,-900.99 "/>
+<text text-anchor="middle" x="505.5" y="-870.79" font-family="Times New Roman,serif" font-size="14.00">Gepäckstück_durchleuchten</text>
+</g>
+<!-- Task_0mauh\ny4&#45;&gt;ExclusiveG\nateway_1ag\nipxg -->
+<g id="edge14" class="edge">
+<title>Task_0mauh\ny4&#45;&gt;ExclusiveG\nateway_1ag\nipxg</title>
+<path fill="none" stroke="black" d="M419.5,-847.63C419.5,-839.4 419.5,-830.28 419.5,-821.94"/>
+<polygon fill="black" stroke="black" points="423,-821.94 419.5,-811.94 416,-821.94 423,-821.94"/>
+</g>
+<!-- Task_0pdro\n9f&#45;&gt;Task_0mauh\ny4 -->
+<g id="edge15" class="edge">
+<title>Task_0pdro\n9f&#45;&gt;Task_0mauh\ny4</title>
+<path fill="none" stroke="black" d="M419.5,-937.57C419.5,-929.33 419.5,-920.07 419.5,-911.27"/>
+<polygon fill="black" stroke="black" points="423,-911.24 419.5,-901.24 416,-911.24 423,-911.24"/>
+</g>
+</g>
+</svg>

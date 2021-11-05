@@ -1,0 +1,56 @@
+<svg width="600px" height="635px"
+ viewBox="0.00 0.00 551.00 583.47" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(4 579.47)">
+<title>Frankfurt_2</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-579.47 547,-579.47 547,4 -4,4"/>
+<!-- Event_192u\nahg -->
+<g id="node1" class="node">
+<title>Event_192u\nahg</title>
+<ellipse fill="lightgrey" stroke="black" cx="271.5" cy="-447.43" rx="128.08" ry="128.08"/>
+<text text-anchor="middle" x="271.5" y="-443.73" font-family="Times New Roman,serif" font-size="14.00">startEvent_Documents_received</text>
+</g>
+<!-- Activity_1\nxorc6r_Gat\neway_1d7bu\ny5 -->
+<g id="node2" class="node">
+<title>Activity_1\nxorc6r_Gat\neway_1d7bu\ny5</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="0,-124.89 0,-282.89 543,-282.89 543,-124.89 0,-124.89"/>
+<text text-anchor="middle" x="44" y="-222.69" font-family="Times New Roman,serif" font-size="14.00">Activity_1</text>
+<text text-anchor="middle" x="44" y="-207.69" font-family="Times New Roman,serif" font-size="14.00">xorc6r_Gat</text>
+<text text-anchor="middle" x="44" y="-192.69" font-family="Times New Roman,serif" font-size="14.00">eway_1d7bu</text>
+<text text-anchor="middle" x="44" y="-177.69" font-family="Times New Roman,serif" font-size="14.00">y5</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="88,-124.89 88,-282.89 "/>
+<text text-anchor="middle" x="130.5" y="-222.69" font-family="Times New Roman,serif" font-size="14.00">University</text>
+<text text-anchor="middle" x="130.5" y="-207.69" font-family="Times New Roman,serif" font-size="14.00">_of_Cologn</text>
+<text text-anchor="middle" x="130.5" y="-192.69" font-family="Times New Roman,serif" font-size="14.00">e:Lane_1bg</text>
+<text text-anchor="middle" x="130.5" y="-177.69" font-family="Times New Roman,serif" font-size="14.00">r85p</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="173,-124.89 173,-282.89 "/>
+<text text-anchor="middle" x="358" y="-267.69" font-family="Times New Roman,serif" font-size="14.00">University_of_Cologne DO</text>
+<text text-anchor="middle" x="358" y="-252.69" font-family="Times New Roman,serif" font-size="14.00"> task_Check_documents</text>
+<text text-anchor="middle" x="358" y="-237.69" font-family="Times New Roman,serif" font-size="14.00">task_Evaluate</text>
+<text text-anchor="middle" x="358" y="-222.69" font-family="Times New Roman,serif" font-size="14.00">exclusiveGateway</text>
+<text text-anchor="middle" x="358" y="-207.69" font-family="Times New Roman,serif" font-size="14.00">task_Keep_in_the_applicant_pool</text>
+<text text-anchor="middle" x="358" y="-192.69" font-family="Times New Roman,serif" font-size="14.00">exclusiveGateway</text>
+<text text-anchor="middle" x="358" y="-177.69" font-family="Times New Roman,serif" font-size="14.00">task_Rank_students_according_to_GPA_and_the_test_results</text>
+<text text-anchor="middle" x="358" y="-162.69" font-family="Times New Roman,serif" font-size="14.00">exclusiveGateway</text>
+<text text-anchor="middle" x="358" y="-147.69" font-family="Times New Roman,serif" font-size="14.00">task_Send_letter_of_rejection</text>
+<text text-anchor="middle" x="358" y="-132.69" font-family="Times New Roman,serif" font-size="14.00">exclusiveGateway</text>
+</g>
+<!-- Event_192u\nahg&#45;&gt;Activity_1\nxorc6r_Gat\neway_1d7bu\ny5 -->
+<g id="edge1" class="edge">
+<title>Event_192u\nahg&#45;&gt;Activity_1\nxorc6r_Gat\neway_1d7bu\ny5</title>
+<path fill="none" stroke="black" d="M271.5,-319.3C271.5,-310.49 271.5,-301.73 271.5,-293.2"/>
+<polygon fill="black" stroke="black" points="275,-292.92 271.5,-282.92 268,-292.92 275,-292.92"/>
+</g>
+<!-- Event_1cr3\nfth -->
+<g id="node3" class="node">
+<title>Event_1cr3\nfth</title>
+<ellipse fill="lightgrey" stroke="black" cx="271.5" cy="-44.2" rx="44.39" ry="44.39"/>
+<text text-anchor="middle" x="271.5" y="-40.5" font-family="Times New Roman,serif" font-size="14.00">endEvent</text>
+</g>
+<!-- Activity_1\nxorc6r_Gat\neway_1d7bu\ny5&#45;&gt;Event_1cr3\nfth -->
+<g id="edge2" class="edge">
+<title>Activity_1\nxorc6r_Gat\neway_1d7bu\ny5&#45;&gt;Event_1cr3\nfth</title>
+<path fill="none" stroke="black" d="M271.5,-124.51C271.5,-115.81 271.5,-107.11 271.5,-98.82"/>
+<polygon fill="black" stroke="black" points="275,-98.57 271.5,-88.57 268,-98.57 275,-98.57"/>
+</g>
+</g>
+</svg>

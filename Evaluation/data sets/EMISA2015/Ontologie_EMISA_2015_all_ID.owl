@@ -1,0 +1,1878 @@
+Prefix(:=<http://owl.api.wf#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://owl.api.wf>
+
+Declaration(Class(:Actors))
+Declaration(Class(:Documents))
+Declaration(Class(:Events))
+Declaration(Class(:Exclusive_Gateways))
+Declaration(Class(:Exclusive_Gateways_Join))
+Declaration(Class(:Exclusive_Gateways_Split))
+Declaration(Class(:Gateways))
+Declaration(Class(:Inclusive_Gateways))
+Declaration(Class(:Inclusive_Gateways_Join))
+Declaration(Class(:Inclusive_Gateways_Split))
+Declaration(Class(:Parallel_Gateways))
+Declaration(Class(:Parallel_Gateways_Join))
+Declaration(Class(:Parallel_Gateways_Split))
+Declaration(Class(:Processes))
+Declaration(Class(:Sequence_Flows))
+Declaration(Class(:Service_Tasks))
+Declaration(Class(:Structural_Parts))
+Declaration(Class(:Tasks))
+Declaration(Class(:User_Tasks))
+Declaration(ObjectProperty(:ActivityPerformingRelations))
+Declaration(ObjectProperty(:AssignmentRelations))
+Declaration(ObjectProperty(:TemporalRelations))
+Declaration(ObjectProperty(:does))
+Declaration(ObjectProperty(:isInputOf))
+Declaration(ObjectProperty(:isOutputOf))
+Declaration(ObjectProperty(:isPartOf))
+Declaration(ObjectProperty(:priorTo))
+Declaration(ObjectProperty(:sequenceFlow))
+Declaration(NamedIndividual(:Cologne))
+Declaration(NamedIndividual(:Cologne_1))
+Declaration(NamedIndividual(:Frankfurt))
+Declaration(NamedIndividual(:Frankfurt_2))
+Declaration(NamedIndividual(:Hohenheim_1))
+Declaration(NamedIndividual(:Hohenheim_2))
+Declaration(NamedIndividual(:Hohenheim_3))
+Declaration(NamedIndividual(:Muenster_3))
+Declaration(NamedIndividual(:Potsdam))
+Declaration(NamedIndividual(:TU_Munich))
+Declaration(NamedIndividual(:TU_Munich_1))
+Declaration(NamedIndividual(:Wuerzburg))
+Declaration(NamedIndividual(<http://owl.api.wf#Admission_Committee:Lane_1isooil>))
+Declaration(NamedIndividual(<http://owl.api.wf#Admission_Office:Lane_0ps3dgu>))
+Declaration(NamedIndividual(<http://owl.api.wf#Applicant:sid-39452AA2-6890-47A4-82CA-5E7DCB7F6EF4>))
+Declaration(NamedIndividual(<http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE>))
+Declaration(NamedIndividual(<http://owl.api.wf#Applicant:sid-834957E4-F801-4092-8504-570CC30E50CA>))
+Declaration(NamedIndividual(<http://owl.api.wf#Applicant:sid-CCC7AC1D-1DF6-4703-A4D3-A6F0268A86C5>))
+Declaration(NamedIndividual(<http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929>))
+Declaration(NamedIndividual(<http://owl.api.wf#Application_System:Lane_0vgoe71>))
+Declaration(NamedIndividual(<http://owl.api.wf#Department_of_Informatics:Lane_1dmfw0k>))
+Declaration(NamedIndividual(<http://owl.api.wf#Online_Application_System:Lane_1f77ug2>))
+Declaration(NamedIndividual(<http://owl.api.wf#Secreterial_office_for_students:Lane_1bqig0i>))
+Declaration(NamedIndividual(<http://owl.api.wf#University_of_Cologne:Lane_12ea2o1>))
+Declaration(NamedIndividual(<http://owl.api.wf#University_of_Cologne:Lane_1bgr85p>))
+Declaration(NamedIndividual(<http://owl.api.wf#endEvent:Event_06ibsm2>))
+Declaration(NamedIndividual(<http://owl.api.wf#endEvent:Event_075mk5f>))
+Declaration(NamedIndividual(<http://owl.api.wf#endEvent:Event_0eeypej>))
+Declaration(NamedIndividual(<http://owl.api.wf#endEvent:Event_0ffy6ai>))
+Declaration(NamedIndividual(<http://owl.api.wf#endEvent:Event_19slsei>))
+Declaration(NamedIndividual(<http://owl.api.wf#endEvent:Event_1cr3fth>))
+Declaration(NamedIndividual(<http://owl.api.wf#endEvent:Event_1ttrlqw>))
+Declaration(NamedIndividual(<http://owl.api.wf#endEvent:sid-01574AFD-EC38-403C-8733-445D2455CA33>))
+Declaration(NamedIndividual(<http://owl.api.wf#endEvent:sid-8222F1C9-9A52-4643-89C9-8D2FD634B4FC>))
+Declaration(NamedIndividual(<http://owl.api.wf#endEvent:sid-DD67CB92-3E08-49D9-9F91-90E5C8602C4E>))
+Declaration(NamedIndividual(<http://owl.api.wf#endEvent:sid-EC00EA7C-CDFF-441C-A544-92E423EE8803>))
+Declaration(NamedIndividual(<http://owl.api.wf#endEvent:sid-ED4EDE4D-F2A7-415C-87FE-98379131F244>))
+Declaration(NamedIndividual(<http://owl.api.wf#eventBasedGateway:sid-732F12B0-6350-4614-B374-F2332F5E7CC4>))
+Declaration(NamedIndividual(<http://owl.api.wf#eventBasedGateway:sid-89EB0BD4-5311-43BF-BD7D-5B16EF67D9B3>))
+Declaration(NamedIndividual(<http://owl.api.wf#eventBasedGateway:sid-91F2DA29-96C0-431D-B3F6-5E9C53B3EAB0>))
+Declaration(NamedIndividual(<http://owl.api.wf#eventBasedGateway:sid-E654C2FF-9DEA-44ED-B904-206DC8E52297>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:Gateway_08dc3yh>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:Gateway_0e5kry8>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:Gateway_0hi91is>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:Gateway_0hl23i2>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:Gateway_0lf70ci>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:Gateway_0mosve6>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:Gateway_0n7u7jr>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:Gateway_0um0lfn>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:Gateway_0wlu059>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:Gateway_0xlssx8>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:Gateway_137oyxp>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:Gateway_15d44f8>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:Gateway_170y0ln>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:Gateway_19nzesg>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:Gateway_1d7buy5>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:Gateway_1hqo3q9>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:Gateway_1oxi3uu>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:Gateway_1qdo7vy>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:Gateway_1qmiymr>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:sid-01A67757-E183-4D3D-B853-46D44F41B388>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:sid-11FBC760-4A87-41FD-8F9F-208E733E7D3C>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:sid-2D893722-0AD2-4013-8625-113B0B368A4A>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:sid-35EE4631-A52E-4C34-B85A-415458C47917>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:sid-372AB00E-AC90-4B84-9642-AB11FC4C21AB>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:sid-521803CC-D6CB-4D35-96B4-15506606ED69>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:sid-58F17951-0C3A-4F0B-AA1F-8DF389EF4B40>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:sid-714C5B0A-CC06-4710-9866-EC2280EA282E>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:sid-76AC77BA-5CD0-41DF-9390-DF136510982B>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:sid-76E01A89-B4C3-4FCC-8940-5C76E0A5F2B1>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:sid-813795F6-9B7A-4D33-BEF1-7A04F3B3F050>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:sid-880B7840-7F46-4A0A-BC36-C030808969F9>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:sid-A7409099-EFAC-47F3-9672-000E46553889>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:sid-BA2A1CD8-D482-4E29-A529-3216DA67B38E>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:sid-BDA19998-F73B-42E3-A22F-8401F85701F1>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:sid-C5E0F5F7-15E6-48F7-85E7-638C776A412F>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:sid-CBE09DCA-7966-4018-B5CA-D433E5F4795D>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:sid-D9DD3286-4567-4496-B76F-9524D6E26F74>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:sid-DC50F673-8DC0-46AE-AAAD-A31A7E02D1F8>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:sid-DE999B42-85D4-4D1C-874D-BC5CEC34C806>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:sid-E1B754B8-CD68-4BAD-A98D-0E1093BE66EF>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:sid-FB461E09-F2C0-4232-AF49-76E090FCADA6>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway:sid-FDE49817-6778-497E-9DAF-C4B8D4BE5766>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway_German?:sid-12F965D2-744D-4C57-8FBD-EB9B25968938>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway_Meet_the_basic__requirements?:Gateway_040zq19>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway_join:Gateway_18b1tfa>))
+Declaration(NamedIndividual(<http://owl.api.wf#exclusiveGateway_split:Gateway_017am58>))
+Declaration(NamedIndividual(<http://owl.api.wf#intermediateCatchEvent:Event_09j685a>))
+Declaration(NamedIndividual(<http://owl.api.wf#intermediateCatchEvent:Event_0mr1m07>))
+Declaration(NamedIndividual(<http://owl.api.wf#intermediateCatchEvent:sid-F8721ADF-795E-4C7B-948F-5ED530B82492>))
+Declaration(NamedIndividual(<http://owl.api.wf#intermediateCatchEvent_Accepted:sid-56CF457C-E58D-4519-AD80-5EDE6DD9E302>))
+Declaration(NamedIndividual(<http://owl.api.wf#intermediateCatchEvent_Accepted:sid-A8E1C7F2-D9A4-4669-9A5E-A39015D04BE2>))
+Declaration(NamedIndividual(<http://owl.api.wf#intermediateCatchEvent_Accepted:sid-AC0658EC-033D-491F-8BD3-B3EAFB7DA704>))
+Declaration(NamedIndividual(<http://owl.api.wf#intermediateCatchEvent_Accepted:sid-FF649B0C-30F0-4E43-9BEC-02E1B22AA554>))
+Declaration(NamedIndividual(<http://owl.api.wf#intermediateCatchEvent_Accepted_provisionally:sid-6C177C18-D980-435B-AC7A-75C5A274BBE7>))
+Declaration(NamedIndividual(<http://owl.api.wf#intermediateCatchEvent_Certificate_received:sid-2F605FEA-CFEA-443C-8787-D5D523BA1F84>))
+Declaration(NamedIndividual(<http://owl.api.wf#intermediateCatchEvent_Invited_to_an_interview:sid-1FA0C09B-0884-4125-92CE-05A78B2F104C>))
+Declaration(NamedIndividual(<http://owl.api.wf#intermediateCatchEvent_Provisional__acceptance_cancelled:sid-C2288BE1-52A0-40D8-9C62-4521FD4FFDC1>))
+Declaration(NamedIndividual(<http://owl.api.wf#intermediateCatchEvent_Provisional_acceptance_confirmed:sid-C07C865B-6407-4469-A70C-7532977E3C4B>))
+Declaration(NamedIndividual(<http://owl.api.wf#intermediateCatchEvent_Rejected:sid-445A78A6-1CA7-40BF-B7BF-B8CCCAAEF703>))
+Declaration(NamedIndividual(<http://owl.api.wf#intermediateCatchEvent_Rejected:sid-701A0B1D-BFF0-482A-A658-A6713BC21F13>))
+Declaration(NamedIndividual(<http://owl.api.wf#intermediateCatchEvent_Rejected:sid-8712EF38-01F5-4812-ACB7-8F0EF759F38C>))
+Declaration(NamedIndividual(<http://owl.api.wf#intermediateCatchEvent_Rejected:sid-BB1C4222-40C6-4013-A9C7-11BD25E18C16>))
+Declaration(NamedIndividual(<http://owl.api.wf#parallelGateway:Gateway_0ff1iru>))
+Declaration(NamedIndividual(<http://owl.api.wf#parallelGateway:Gateway_0nwjiqw>))
+Declaration(NamedIndividual(<http://owl.api.wf#parallelGateway:Gateway_0wimzxf>))
+Declaration(NamedIndividual(<http://owl.api.wf#parallelGateway:Gateway_1hmq6vr>))
+Declaration(NamedIndividual(<http://owl.api.wf#parallelGateway:sid-3BF978A8-1BCC-4246-AE60-FE251E328AF3>))
+Declaration(NamedIndividual(<http://owl.api.wf#parallelGateway:sid-435C2233-B6DF-44D9-B7BF-36461549F53D>))
+Declaration(NamedIndividual(<http://owl.api.wf#parallelGateway:sid-656C1B30-6B6B-4140-8297-7CFD075F72EF>))
+Declaration(NamedIndividual(<http://owl.api.wf#parallelGateway:sid-71E7DBD7-F76C-42AD-8388-CD8D59CF88D4>))
+Declaration(NamedIndividual(<http://owl.api.wf#parallelGateway:sid-C46D7B4F-8D66-485F-9F7E-2B10F9598D70>))
+Declaration(NamedIndividual(<http://owl.api.wf#parallelGateway:sid-EBFCC664-88E4-4A1C-98AB-4CDC6394D1C8>))
+Declaration(NamedIndividual(<http://owl.api.wf#sequenceFlow_Average__grade_is_good_or_better:sid-02EAC313-B005-4A8D-888E-1EB132B792BF>))
+Declaration(NamedIndividual(<http://owl.api.wf#sequenceFlow_Average_grade_is_less_than_good:sid-5F18B065-4E9C-461E-9703-6C6B6B645194>))
+Declaration(NamedIndividual(<http://owl.api.wf#sequenceFlow_Bridging_courses__<=30_CP:Flow_1uqgkoc>))
+Declaration(NamedIndividual(<http://owl.api.wf#sequenceFlow_Bridging_courses_bigger_than30_CP:Flow_1k6ump6>))
+Declaration(NamedIndividual(<http://owl.api.wf#sequenceFlow_Less_than_16_CP__in_mathematics:sid-D1BC05C3-F423-43DF-9372-DEA6DC223573>))
+Declaration(NamedIndividual(<http://owl.api.wf#sequenceFlow_No:Flow_178cb4d>))
+Declaration(NamedIndividual(<http://owl.api.wf#sequenceFlow_No:sid-24846D93-2192-468E-B817-C37C1B729962>))
+Declaration(NamedIndividual(<http://owl.api.wf#sequenceFlow_Sufficient_CP__in_mathematics:sid-70B817AB-2667-49C4-9E62-4C734FC482FC>))
+Declaration(NamedIndividual(<http://owl.api.wf#sequenceFlow_Yes:Flow_15frfna>))
+Declaration(NamedIndividual(<http://owl.api.wf#sequenceFlow_Yes:sid-48597EDF-8BB6-40D4-A3EF-1FC862629BE3>))
+Declaration(NamedIndividual(<http://owl.api.wf#startEvent:Event_0l1cng1>))
+Declaration(NamedIndividual(<http://owl.api.wf#startEvent:Event_0qqjwcf>))
+Declaration(NamedIndividual(<http://owl.api.wf#startEvent:Event_1u7ij2d>))
+Declaration(NamedIndividual(<http://owl.api.wf#startEvent:Event_1upf8ke>))
+Declaration(NamedIndividual(<http://owl.api.wf#startEvent:sid-2F1B5E15-2C23-46DF-82E6-958211C1D0DD>))
+Declaration(NamedIndividual(<http://owl.api.wf#startEvent:sid-321FA3C6-D9DF-46B4-85AC-4E9E7310BCC7>))
+Declaration(NamedIndividual(<http://owl.api.wf#startEvent:sid-3AE34340-B40D-4A61-99AB-3EF1D830EF28>))
+Declaration(NamedIndividual(<http://owl.api.wf#startEvent:sid-4BC64E5F-17AA-4A7C-AAF7-C0C5AAC49682>))
+Declaration(NamedIndividual(<http://owl.api.wf#startEvent:sid-ADD682EC-3708-48C9-B271-FD15F17C58F0>))
+Declaration(NamedIndividual(<http://owl.api.wf#startEvent_Documents__received:Event_066hn74>))
+Declaration(NamedIndividual(<http://owl.api.wf#startEvent_Documents_received:Event_192uahg>))
+Declaration(NamedIndividual(<http://owl.api.wf#startEvent_Documents_received:Event_1geljn0>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Add_case-of-hardship_certificate:sid-AFD38E5A-3438-44ED-87A9-63EAE7A744DD>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Add_certificate_of_German_language:sid-D7986EB7-2220-4C30-A486-42454F049BCB>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Add_certificate_of_bachelor_degree:sid-4636DE79-328E-4C1B-8BE3-F0D5FF00E69C>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Add_certificates_of_qualification:sid-FB567539-2B9F-4B9C-A2A8-4C8A9097CE89>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Add_recommendations:sid-9460F7EB-5D0E-4C9A-933C-91EAEDFF6B1F>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Allocate_an_application_number_and_password_to_each_applicant:Activity_1vl8llz>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Apply_online:sid-3B9A1679-D9C0-48D4-B6EB-EE354AB529F2>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Apply_online:sid-6952982C-0D18-4456-93A2-B60B5B3BA047>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Apply_online:sid-B11703D1-08C3-416B-8947-76CE10A27978>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Assessment_of_application:Activity_1y70b3u>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Check_bachelor_degree:Activity_0bhf14h>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Check_documents:Activity_0l6ptwm>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Check_documents:Activity_1ocui6e>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Check_documents:Activity_1xorc6r>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Check_responses:Activity_1qnwoyy>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Checking_if_complete:Activity_1wkha59>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Choose_Uni:sid-7334C78B-F3F1-449E-9B9B-D39C17261BD9>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Complete_application:sid-7A2F2AA8-E50F-40F2-B7ED-CDEDB810D97C>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Conduct_interview:Activity_1xha5g7>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Create_and_add_CV:sid-D3AE1325-5912-4B94-9B35-72D7EBE6BE16>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Create_and_add_letter_of_motivation:sid-8DA2CA7E-99ED-4CF8-955B-FA96DD526870>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Document_online_applications:Activity_0u1kzre>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Evaluate:Activity_0bdop2m>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Evaluate:Activity_0lklwmd>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Evaluate:Activity_1flewlx>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Fill_in_online_form_of_application:sid-8C628809-B4AD-4A0E-9BB9-E3AFAB22381C>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Fill_in_printed_form_of_application_for_international_students:sid-48539062-6B70-468F-BF19-F74EEE12F0EB>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Fill_out_application_form:sid-F0B6060E-1460-4CFF-8D94-1181081F4671>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Final_confirmation_by_head_of_the_university:Activity_0rgufzq>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Forward_documents:Activity_13uljj7>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Go_to_the_interview:sid-C35B2287-57A3-420B-A8B3-86E1FBC12BDA>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Immatriculate:sid-8331F5EE-D58A-48EC-BC26-C10543262F66>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Invite_to_an_aptitude_test:Activity_0spz3a5>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Invite_to_an_aptitude_test:Activity_1ookijs>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Keep_in_the_applicant_pool:Activity_0y0do5e>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Keep_in_the_applicant_pool:Activity_0y71ekd>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Mark_as_complete:Activity_1eo7ejl>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Mark_as_not_complete:Activity_1vnv5tl>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Matriculate:sid-BE11AE1D-B085-42FA-B004-A17ABBDB94F0>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Pay_for_aptitude_test:sid-F6E821C8-4300-4AA0-B6D1-6BA5D15FA7DE>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Publishing_the_letters:Activity_18axd57>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Rank_application_on_scale_from_1_to_10:Activity_0dxqmpp>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Rank_students_according_to_GPA_and_the_test_results:Activity_0luiffv>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Rank_students_according_to_GPA_and_the_test_results:Activity_148u7wn>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Receive_Commitment:sid-9A5FD3B9-73DF-4C23-9E85-6298D3E6685F>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Receive_acceptance:sid-162937B1-3998-44B9-BB0A-840A43001E88>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Receive_application:Activity_1o2r3sm>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Receive_rejection:sid-2A9C0ECA-8F9F-4329-9023-8A4B3332F463>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Receive_rejection:sid-8C069EC3-1A91-4327-9C7C-364898A9A6BF>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Receiving_the_written_applications:Activity_0lrjdrr>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Reject_interview:Activity_052y7o3>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Rejection:Activity_0t9jmaa>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Send_application:sid-1181CC8B-F6CE-4E13-A25C-93BDF75B71B7>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Send_application_form:Activity_0gterbw>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Send_bachelor_certificate:sid-E78FA99D-E060-476F-B663-312E3503890F>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Send_documents_by_post:sid-234E99B4-0E97-4770-B2CF-AD0DACDF6888>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Send_documents_by_post:sid-4C4748D1-DBC6-4155-91C8-F71F3796A768>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Send_documents_by_post:sid-B9C01B9A-294C-4E27-A0A8-DB69025E4284>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Send_documents_to_selection_committee:Activity_1m5aybb>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Send_german_application:sid-31ACAFC9-DEA8-4F26-8AC2-16751B0B91A2>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Send_international_application:sid-925591B8-59CC-4806-B43B-3B5F10D7794F>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Send_interview_invitation:Activity_0u7goff>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Send_letter_of_acceptance:Activity_01xd3wi>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Send_letter_of_acceptance:Activity_05r5kw1>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Send_letter_of_acceptance:Activity_0o49wgb>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Send_letter_of_acceptance:Activity_0rz5k9k>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Send_letter_of_rejection:Activity_09ztofn>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Send_letter_of_rejection:Activity_0j3iu7e>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Send_letter_of_rejection:Activity_0qxlspo>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Send_letter_of_rejection:Activity_1p8iq44>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Send_online_protocäl:sid-2A61C308-48B4-4C26-9CB3-D489A0BBC1E3>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Take_aptitude_test:sid-A3568080-F469-4D86-BB96-7A5C48342857>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Take_oral_exam:sid-0FB8FB77-B1AF-4D8C-A203-3730AA67E6A4>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Update_status_of_application:Activity_0bc8g0k>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Update_the_applicant_status:Activity_04gt7sy>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Wait_for_bachelor_certificate:sid-66591B2F-F075-4F41-84CF-13A13B315189>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Wait_for_results:sid-40FCF57B-44A4-443F-80D6-D2778D1045CD>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Wait_for_results:sid-B296B105-D85C-47FE-A200-50F7C64E65CF>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Wait_for_results:sid-DF0BF153-C7B8-47A6-9436-2217B6A02FB9>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_Waiting_for_response:sid-B06626EF-C70E-4D70-B20F-BA3DAC313DD9>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_high_ranking_requirements_are_met:Activity_1abkimh>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_proof_of_uni_degree_provided:Activity_0d6tdq6>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_proposed_as_accepted:Activity_1ur9m13>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_proposed_as_rejected:Activity_0o92biq>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_proposed_as_reserved:Activity_0yhj0b9>))
+Declaration(NamedIndividual(<http://owl.api.wf#task_requirements_are_not_met_or_low_ranking:Activity_0uzkoq5>))
+############################
+#   Object Properties
+############################
+
+# Object Property: :does (:does)
+
+SubObjectPropertyOf(:does :ActivityPerformingRelations)
+
+# Object Property: :isInputOf (:isInputOf)
+
+SubObjectPropertyOf(:isInputOf :AssignmentRelations)
+
+# Object Property: :isOutputOf (:isOutputOf)
+
+SubObjectPropertyOf(:isOutputOf :AssignmentRelations)
+
+# Object Property: :isPartOf (:isPartOf)
+
+SubObjectPropertyOf(:isPartOf :AssignmentRelations)
+
+# Object Property: :priorTo (:priorTo)
+
+SubObjectPropertyOf(:priorTo :TemporalRelations)
+
+# Object Property: :sequenceFlow (:sequenceFlow)
+
+SubObjectPropertyOf(:sequenceFlow :TemporalRelations)
+
+
+############################
+#   Classes
+############################
+
+# Class: :Documents (:Documents)
+
+SubClassOf(:Documents :Structural_Parts)
+
+# Class: :Events (:Events)
+
+SubClassOf(:Events :Structural_Parts)
+
+# Class: :Exclusive_Gateways (:Exclusive_Gateways)
+
+SubClassOf(:Exclusive_Gateways :Gateways)
+
+# Class: :Exclusive_Gateways_Join (:Exclusive_Gateways_Join)
+
+SubClassOf(:Exclusive_Gateways_Join :Exclusive_Gateways)
+
+# Class: :Exclusive_Gateways_Split (:Exclusive_Gateways_Split)
+
+SubClassOf(:Exclusive_Gateways_Split :Exclusive_Gateways)
+
+# Class: :Gateways (:Gateways)
+
+SubClassOf(:Gateways :Structural_Parts)
+
+# Class: :Inclusive_Gateways (:Inclusive_Gateways)
+
+SubClassOf(:Inclusive_Gateways :Gateways)
+
+# Class: :Inclusive_Gateways_Join (:Inclusive_Gateways_Join)
+
+SubClassOf(:Inclusive_Gateways_Join :Inclusive_Gateways)
+
+# Class: :Inclusive_Gateways_Split (:Inclusive_Gateways_Split)
+
+SubClassOf(:Inclusive_Gateways_Split :Inclusive_Gateways)
+
+# Class: :Parallel_Gateways (:Parallel_Gateways)
+
+SubClassOf(:Parallel_Gateways :Gateways)
+
+# Class: :Parallel_Gateways_Join (:Parallel_Gateways_Join)
+
+SubClassOf(:Parallel_Gateways_Join :Parallel_Gateways)
+
+# Class: :Parallel_Gateways_Split (:Parallel_Gateways_Split)
+
+SubClassOf(:Parallel_Gateways_Split :Parallel_Gateways)
+
+# Class: :Processes (:Processes)
+
+SubClassOf(:Processes :Structural_Parts)
+
+# Class: :Sequence_Flows (:Sequence_Flows)
+
+SubClassOf(:Sequence_Flows :Structural_Parts)
+
+# Class: :Service_Tasks (:Service_Tasks)
+
+SubClassOf(:Service_Tasks :Tasks)
+
+# Class: :Tasks (:Tasks)
+
+SubClassOf(:Tasks :Structural_Parts)
+
+# Class: :User_Tasks (:User_Tasks)
+
+SubClassOf(:User_Tasks :Tasks)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: :Cologne (:Cologne)
+
+ClassAssertion(:Processes :Cologne)
+
+# Individual: :Cologne_1 (:Cologne_1)
+
+ClassAssertion(:Processes :Cologne_1)
+
+# Individual: :Frankfurt (:Frankfurt)
+
+ClassAssertion(:Processes :Frankfurt)
+
+# Individual: :Frankfurt_2 (:Frankfurt_2)
+
+ClassAssertion(:Processes :Frankfurt_2)
+
+# Individual: :Hohenheim_1 (:Hohenheim_1)
+
+ClassAssertion(:Processes :Hohenheim_1)
+
+# Individual: :Hohenheim_2 (:Hohenheim_2)
+
+ClassAssertion(:Processes :Hohenheim_2)
+
+# Individual: :Hohenheim_3 (:Hohenheim_3)
+
+ClassAssertion(:Processes :Hohenheim_3)
+
+# Individual: :Muenster_3 (:Muenster_3)
+
+ClassAssertion(:Processes :Muenster_3)
+
+# Individual: :Potsdam (:Potsdam)
+
+ClassAssertion(:Processes :Potsdam)
+
+# Individual: :TU_Munich (:TU_Munich)
+
+ClassAssertion(:Processes :TU_Munich)
+
+# Individual: :TU_Munich_1 (:TU_Munich_1)
+
+ClassAssertion(:Processes :TU_Munich_1)
+
+# Individual: :Wuerzburg (:Wuerzburg)
+
+ClassAssertion(:Processes :Wuerzburg)
+
+# Individual: <http://owl.api.wf#Admission_Committee:Lane_1isooil> (<http://owl.api.wf#Admission_Committee:Lane_1isooil>)
+
+ClassAssertion(:Actors <http://owl.api.wf#Admission_Committee:Lane_1isooil>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Admission_Committee:Lane_1isooil> <http://owl.api.wf#endEvent:Event_0eeypej>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Admission_Committee:Lane_1isooil> <http://owl.api.wf#exclusiveGateway:Gateway_0mosve6>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Admission_Committee:Lane_1isooil> <http://owl.api.wf#exclusiveGateway:Gateway_1oxi3uu>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Admission_Committee:Lane_1isooil> <http://owl.api.wf#parallelGateway:Gateway_0wimzxf>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Admission_Committee:Lane_1isooil> <http://owl.api.wf#parallelGateway:Gateway_1hmq6vr>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Admission_Committee:Lane_1isooil> <http://owl.api.wf#startEvent:Event_1upf8ke>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Admission_Committee:Lane_1isooil> <http://owl.api.wf#task_Assessment_of_application:Activity_1y70b3u>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Admission_Committee:Lane_1isooil> <http://owl.api.wf#task_Final_confirmation_by_head_of_the_university:Activity_0rgufzq>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Admission_Committee:Lane_1isooil> <http://owl.api.wf#task_Rank_application_on_scale_from_1_to_10:Activity_0dxqmpp>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Admission_Committee:Lane_1isooil> <http://owl.api.wf#task_Receive_application:Activity_1o2r3sm>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Admission_Committee:Lane_1isooil> <http://owl.api.wf#task_high_ranking_requirements_are_met:Activity_1abkimh>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Admission_Committee:Lane_1isooil> <http://owl.api.wf#task_proof_of_uni_degree_provided:Activity_0d6tdq6>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Admission_Committee:Lane_1isooil> <http://owl.api.wf#task_proposed_as_accepted:Activity_1ur9m13>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Admission_Committee:Lane_1isooil> <http://owl.api.wf#task_proposed_as_rejected:Activity_0o92biq>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Admission_Committee:Lane_1isooil> <http://owl.api.wf#task_proposed_as_reserved:Activity_0yhj0b9>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Admission_Committee:Lane_1isooil> <http://owl.api.wf#task_requirements_are_not_met_or_low_ranking:Activity_0uzkoq5>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#Admission_Committee:Lane_1isooil> :Hohenheim_1)
+
+# Individual: <http://owl.api.wf#Admission_Office:Lane_0ps3dgu> (<http://owl.api.wf#Admission_Office:Lane_0ps3dgu>)
+
+ClassAssertion(:Actors <http://owl.api.wf#Admission_Office:Lane_0ps3dgu>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Admission_Office:Lane_0ps3dgu> <http://owl.api.wf#endEvent:Event_19slsei>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Admission_Office:Lane_0ps3dgu> <http://owl.api.wf#exclusiveGateway:Gateway_0n7u7jr>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Admission_Office:Lane_0ps3dgu> <http://owl.api.wf#exclusiveGateway:Gateway_1hqo3q9>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Admission_Office:Lane_0ps3dgu> <http://owl.api.wf#startEvent_Documents__received:Event_066hn74>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Admission_Office:Lane_0ps3dgu> <http://owl.api.wf#task_Check_bachelor_degree:Activity_0bhf14h>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Admission_Office:Lane_0ps3dgu> <http://owl.api.wf#task_Check_documents:Activity_0l6ptwm>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Admission_Office:Lane_0ps3dgu> <http://owl.api.wf#task_Forward_documents:Activity_13uljj7>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#Admission_Office:Lane_0ps3dgu> :TU_Munich_1)
+
+# Individual: <http://owl.api.wf#Applicant:sid-39452AA2-6890-47A4-82CA-5E7DCB7F6EF4> (<http://owl.api.wf#Applicant:sid-39452AA2-6890-47A4-82CA-5E7DCB7F6EF4>)
+
+ClassAssertion(:Actors <http://owl.api.wf#Applicant:sid-39452AA2-6890-47A4-82CA-5E7DCB7F6EF4>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-39452AA2-6890-47A4-82CA-5E7DCB7F6EF4> <http://owl.api.wf#endEvent:sid-EC00EA7C-CDFF-441C-A544-92E423EE8803>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-39452AA2-6890-47A4-82CA-5E7DCB7F6EF4> <http://owl.api.wf#eventBasedGateway:sid-89EB0BD4-5311-43BF-BD7D-5B16EF67D9B3>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-39452AA2-6890-47A4-82CA-5E7DCB7F6EF4> <http://owl.api.wf#eventBasedGateway:sid-E654C2FF-9DEA-44ED-B904-206DC8E52297>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-39452AA2-6890-47A4-82CA-5E7DCB7F6EF4> <http://owl.api.wf#exclusiveGateway:sid-714C5B0A-CC06-4710-9866-EC2280EA282E>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-39452AA2-6890-47A4-82CA-5E7DCB7F6EF4> <http://owl.api.wf#exclusiveGateway:sid-BDA19998-F73B-42E3-A22F-8401F85701F1>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-39452AA2-6890-47A4-82CA-5E7DCB7F6EF4> <http://owl.api.wf#intermediateCatchEvent_Accepted:sid-A8E1C7F2-D9A4-4669-9A5E-A39015D04BE2>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-39452AA2-6890-47A4-82CA-5E7DCB7F6EF4> <http://owl.api.wf#intermediateCatchEvent_Accepted:sid-AC0658EC-033D-491F-8BD3-B3EAFB7DA704>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-39452AA2-6890-47A4-82CA-5E7DCB7F6EF4> <http://owl.api.wf#intermediateCatchEvent_Invited_to_an_interview:sid-1FA0C09B-0884-4125-92CE-05A78B2F104C>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-39452AA2-6890-47A4-82CA-5E7DCB7F6EF4> <http://owl.api.wf#intermediateCatchEvent_Rejected:sid-701A0B1D-BFF0-482A-A658-A6713BC21F13>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-39452AA2-6890-47A4-82CA-5E7DCB7F6EF4> <http://owl.api.wf#intermediateCatchEvent_Rejected:sid-BB1C4222-40C6-4013-A9C7-11BD25E18C16>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-39452AA2-6890-47A4-82CA-5E7DCB7F6EF4> <http://owl.api.wf#startEvent:sid-4BC64E5F-17AA-4A7C-AAF7-C0C5AAC49682>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-39452AA2-6890-47A4-82CA-5E7DCB7F6EF4> <http://owl.api.wf#task_Apply_online:sid-3B9A1679-D9C0-48D4-B6EB-EE354AB529F2>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-39452AA2-6890-47A4-82CA-5E7DCB7F6EF4> <http://owl.api.wf#task_Go_to_the_interview:sid-C35B2287-57A3-420B-A8B3-86E1FBC12BDA>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-39452AA2-6890-47A4-82CA-5E7DCB7F6EF4> <http://owl.api.wf#task_Send_documents_by_post:sid-B9C01B9A-294C-4E27-A0A8-DB69025E4284>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-39452AA2-6890-47A4-82CA-5E7DCB7F6EF4> <http://owl.api.wf#task_Wait_for_results:sid-40FCF57B-44A4-443F-80D6-D2778D1045CD>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#Applicant:sid-39452AA2-6890-47A4-82CA-5E7DCB7F6EF4> :TU_Munich)
+
+# Individual: <http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE> (<http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE>)
+
+ClassAssertion(:Actors <http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE> <http://owl.api.wf#endEvent:sid-8222F1C9-9A52-4643-89C9-8D2FD634B4FC>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE> <http://owl.api.wf#eventBasedGateway:sid-732F12B0-6350-4614-B374-F2332F5E7CC4>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE> <http://owl.api.wf#exclusiveGateway:sid-2D893722-0AD2-4013-8625-113B0B368A4A>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE> <http://owl.api.wf#exclusiveGateway:sid-58F17951-0C3A-4F0B-AA1F-8DF389EF4B40>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE> <http://owl.api.wf#exclusiveGateway:sid-D9DD3286-4567-4496-B76F-9524D6E26F74>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE> <http://owl.api.wf#exclusiveGateway:sid-DC50F673-8DC0-46AE-AAAD-A31A7E02D1F8>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE> <http://owl.api.wf#exclusiveGateway:sid-FDE49817-6778-497E-9DAF-C4B8D4BE5766>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE> <http://owl.api.wf#intermediateCatchEvent:sid-F8721ADF-795E-4C7B-948F-5ED530B82492>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE> <http://owl.api.wf#intermediateCatchEvent_Accepted:sid-56CF457C-E58D-4519-AD80-5EDE6DD9E302>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE> <http://owl.api.wf#intermediateCatchEvent_Accepted_provisionally:sid-6C177C18-D980-435B-AC7A-75C5A274BBE7>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE> <http://owl.api.wf#intermediateCatchEvent_Certificate_received:sid-2F605FEA-CFEA-443C-8787-D5D523BA1F84>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE> <http://owl.api.wf#intermediateCatchEvent_Provisional__acceptance_cancelled:sid-C2288BE1-52A0-40D8-9C62-4521FD4FFDC1>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE> <http://owl.api.wf#intermediateCatchEvent_Provisional_acceptance_confirmed:sid-C07C865B-6407-4469-A70C-7532977E3C4B>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE> <http://owl.api.wf#intermediateCatchEvent_Rejected:sid-445A78A6-1CA7-40BF-B7BF-B8CCCAAEF703>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE> <http://owl.api.wf#startEvent:sid-ADD682EC-3708-48C9-B271-FD15F17C58F0>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE> <http://owl.api.wf#task_Apply_online:sid-6952982C-0D18-4456-93A2-B60B5B3BA047>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE> <http://owl.api.wf#task_Send_bachelor_certificate:sid-E78FA99D-E060-476F-B663-312E3503890F>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE> <http://owl.api.wf#task_Send_documents_by_post:sid-234E99B4-0E97-4770-B2CF-AD0DACDF6888>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE> <http://owl.api.wf#task_Take_oral_exam:sid-0FB8FB77-B1AF-4D8C-A203-3730AA67E6A4>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE> <http://owl.api.wf#task_Wait_for_bachelor_certificate:sid-66591B2F-F075-4F41-84CF-13A13B315189>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE> <http://owl.api.wf#task_Wait_for_results:sid-B296B105-D85C-47FE-A200-50F7C64E65CF>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#Applicant:sid-42D56A1D-4EA1-4E0C-9E5D-8A2DB62A49DE> :Frankfurt)
+
+# Individual: <http://owl.api.wf#Applicant:sid-834957E4-F801-4092-8504-570CC30E50CA> (<http://owl.api.wf#Applicant:sid-834957E4-F801-4092-8504-570CC30E50CA>)
+
+ClassAssertion(:Actors <http://owl.api.wf#Applicant:sid-834957E4-F801-4092-8504-570CC30E50CA>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-834957E4-F801-4092-8504-570CC30E50CA> <http://owl.api.wf#endEvent:sid-ED4EDE4D-F2A7-415C-87FE-98379131F244>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-834957E4-F801-4092-8504-570CC30E50CA> <http://owl.api.wf#exclusiveGateway:sid-01A67757-E183-4D3D-B853-46D44F41B388>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-834957E4-F801-4092-8504-570CC30E50CA> <http://owl.api.wf#exclusiveGateway:sid-880B7840-7F46-4A0A-BC36-C030808969F9>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-834957E4-F801-4092-8504-570CC30E50CA> <http://owl.api.wf#exclusiveGateway:sid-A7409099-EFAC-47F3-9672-000E46553889>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-834957E4-F801-4092-8504-570CC30E50CA> <http://owl.api.wf#exclusiveGateway:sid-C5E0F5F7-15E6-48F7-85E7-638C776A412F>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-834957E4-F801-4092-8504-570CC30E50CA> <http://owl.api.wf#startEvent:sid-3AE34340-B40D-4A61-99AB-3EF1D830EF28>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-834957E4-F801-4092-8504-570CC30E50CA> <http://owl.api.wf#task_Choose_Uni:sid-7334C78B-F3F1-449E-9B9B-D39C17261BD9>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-834957E4-F801-4092-8504-570CC30E50CA> <http://owl.api.wf#task_Fill_in_online_form_of_application:sid-8C628809-B4AD-4A0E-9BB9-E3AFAB22381C>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-834957E4-F801-4092-8504-570CC30E50CA> <http://owl.api.wf#task_Fill_in_printed_form_of_application_for_international_students:sid-48539062-6B70-468F-BF19-F74EEE12F0EB>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-834957E4-F801-4092-8504-570CC30E50CA> <http://owl.api.wf#task_Matriculate:sid-BE11AE1D-B085-42FA-B004-A17ABBDB94F0>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-834957E4-F801-4092-8504-570CC30E50CA> <http://owl.api.wf#task_Receive_Commitment:sid-9A5FD3B9-73DF-4C23-9E85-6298D3E6685F>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-834957E4-F801-4092-8504-570CC30E50CA> <http://owl.api.wf#task_Receive_rejection:sid-8C069EC3-1A91-4327-9C7C-364898A9A6BF>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-834957E4-F801-4092-8504-570CC30E50CA> <http://owl.api.wf#task_Send_german_application:sid-31ACAFC9-DEA8-4F26-8AC2-16751B0B91A2>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-834957E4-F801-4092-8504-570CC30E50CA> <http://owl.api.wf#task_Send_international_application:sid-925591B8-59CC-4806-B43B-3B5F10D7794F>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-834957E4-F801-4092-8504-570CC30E50CA> <http://owl.api.wf#task_Waiting_for_response:sid-B06626EF-C70E-4D70-B20F-BA3DAC313DD9>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#Applicant:sid-834957E4-F801-4092-8504-570CC30E50CA> :Wuerzburg)
+
+# Individual: <http://owl.api.wf#Applicant:sid-CCC7AC1D-1DF6-4703-A4D3-A6F0268A86C5> (<http://owl.api.wf#Applicant:sid-CCC7AC1D-1DF6-4703-A4D3-A6F0268A86C5>)
+
+ClassAssertion(:Actors <http://owl.api.wf#Applicant:sid-CCC7AC1D-1DF6-4703-A4D3-A6F0268A86C5>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-CCC7AC1D-1DF6-4703-A4D3-A6F0268A86C5> <http://owl.api.wf#endEvent:sid-01574AFD-EC38-403C-8733-445D2455CA33>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-CCC7AC1D-1DF6-4703-A4D3-A6F0268A86C5> <http://owl.api.wf#eventBasedGateway:sid-91F2DA29-96C0-431D-B3F6-5E9C53B3EAB0>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-CCC7AC1D-1DF6-4703-A4D3-A6F0268A86C5> <http://owl.api.wf#exclusiveGateway:sid-11FBC760-4A87-41FD-8F9F-208E733E7D3C>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-CCC7AC1D-1DF6-4703-A4D3-A6F0268A86C5> <http://owl.api.wf#exclusiveGateway:sid-521803CC-D6CB-4D35-96B4-15506606ED69>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-CCC7AC1D-1DF6-4703-A4D3-A6F0268A86C5> <http://owl.api.wf#exclusiveGateway:sid-E1B754B8-CD68-4BAD-A98D-0E1093BE66EF>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-CCC7AC1D-1DF6-4703-A4D3-A6F0268A86C5> <http://owl.api.wf#intermediateCatchEvent_Accepted:sid-FF649B0C-30F0-4E43-9BEC-02E1B22AA554>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-CCC7AC1D-1DF6-4703-A4D3-A6F0268A86C5> <http://owl.api.wf#intermediateCatchEvent_Rejected:sid-8712EF38-01F5-4812-ACB7-8F0EF759F38C>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-CCC7AC1D-1DF6-4703-A4D3-A6F0268A86C5> <http://owl.api.wf#parallelGateway:sid-435C2233-B6DF-44D9-B7BF-36461549F53D>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-CCC7AC1D-1DF6-4703-A4D3-A6F0268A86C5> <http://owl.api.wf#parallelGateway:sid-EBFCC664-88E4-4A1C-98AB-4CDC6394D1C8>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-CCC7AC1D-1DF6-4703-A4D3-A6F0268A86C5> <http://owl.api.wf#startEvent:sid-321FA3C6-D9DF-46B4-85AC-4E9E7310BCC7>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-CCC7AC1D-1DF6-4703-A4D3-A6F0268A86C5> <http://owl.api.wf#task_Apply_online:sid-B11703D1-08C3-416B-8947-76CE10A27978>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-CCC7AC1D-1DF6-4703-A4D3-A6F0268A86C5> <http://owl.api.wf#task_Pay_for_aptitude_test:sid-F6E821C8-4300-4AA0-B6D1-6BA5D15FA7DE>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-CCC7AC1D-1DF6-4703-A4D3-A6F0268A86C5> <http://owl.api.wf#task_Send_documents_by_post:sid-4C4748D1-DBC6-4155-91C8-F71F3796A768>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-CCC7AC1D-1DF6-4703-A4D3-A6F0268A86C5> <http://owl.api.wf#task_Send_online_protocäl:sid-2A61C308-48B4-4C26-9CB3-D489A0BBC1E3>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-CCC7AC1D-1DF6-4703-A4D3-A6F0268A86C5> <http://owl.api.wf#task_Take_aptitude_test:sid-A3568080-F469-4D86-BB96-7A5C48342857>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-CCC7AC1D-1DF6-4703-A4D3-A6F0268A86C5> <http://owl.api.wf#task_Wait_for_results:sid-DF0BF153-C7B8-47A6-9436-2217B6A02FB9>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#Applicant:sid-CCC7AC1D-1DF6-4703-A4D3-A6F0268A86C5> :Cologne)
+
+# Individual: <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> (<http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929>)
+
+ClassAssertion(:Actors <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#endEvent:sid-DD67CB92-3E08-49D9-9F91-90E5C8602C4E>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#exclusiveGateway:sid-35EE4631-A52E-4C34-B85A-415458C47917>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#exclusiveGateway:sid-372AB00E-AC90-4B84-9642-AB11FC4C21AB>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#exclusiveGateway:sid-76AC77BA-5CD0-41DF-9390-DF136510982B>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#exclusiveGateway:sid-76E01A89-B4C3-4FCC-8940-5C76E0A5F2B1>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#exclusiveGateway:sid-813795F6-9B7A-4D33-BEF1-7A04F3B3F050>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#exclusiveGateway:sid-BA2A1CD8-D482-4E29-A529-3216DA67B38E>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#exclusiveGateway:sid-CBE09DCA-7966-4018-B5CA-D433E5F4795D>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#exclusiveGateway:sid-DE999B42-85D4-4D1C-874D-BC5CEC34C806>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#exclusiveGateway:sid-FB461E09-F2C0-4232-AF49-76E090FCADA6>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#exclusiveGateway_German?:sid-12F965D2-744D-4C57-8FBD-EB9B25968938>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#parallelGateway:sid-3BF978A8-1BCC-4246-AE60-FE251E328AF3>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#parallelGateway:sid-656C1B30-6B6B-4140-8297-7CFD075F72EF>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#parallelGateway:sid-71E7DBD7-F76C-42AD-8388-CD8D59CF88D4>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#parallelGateway:sid-C46D7B4F-8D66-485F-9F7E-2B10F9598D70>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#startEvent:sid-2F1B5E15-2C23-46DF-82E6-958211C1D0DD>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#task_Add_case-of-hardship_certificate:sid-AFD38E5A-3438-44ED-87A9-63EAE7A744DD>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#task_Add_certificate_of_German_language:sid-D7986EB7-2220-4C30-A486-42454F049BCB>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#task_Add_certificate_of_bachelor_degree:sid-4636DE79-328E-4C1B-8BE3-F0D5FF00E69C>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#task_Add_certificates_of_qualification:sid-FB567539-2B9F-4B9C-A2A8-4C8A9097CE89>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#task_Add_recommendations:sid-9460F7EB-5D0E-4C9A-933C-91EAEDFF6B1F>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#task_Complete_application:sid-7A2F2AA8-E50F-40F2-B7ED-CDEDB810D97C>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#task_Create_and_add_CV:sid-D3AE1325-5912-4B94-9B35-72D7EBE6BE16>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#task_Create_and_add_letter_of_motivation:sid-8DA2CA7E-99ED-4CF8-955B-FA96DD526870>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#task_Fill_out_application_form:sid-F0B6060E-1460-4CFF-8D94-1181081F4671>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#task_Immatriculate:sid-8331F5EE-D58A-48EC-BC26-C10543262F66>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#task_Receive_acceptance:sid-162937B1-3998-44B9-BB0A-840A43001E88>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#task_Receive_rejection:sid-2A9C0ECA-8F9F-4329-9023-8A4B3332F463>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> <http://owl.api.wf#task_Send_application:sid-1181CC8B-F6CE-4E13-A25C-93BDF75B71B7>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#Applicant:sid-FB9E0B61-61D0-4D5E-981D-5F932C84B929> :Potsdam)
+
+# Individual: <http://owl.api.wf#Application_System:Lane_0vgoe71> (<http://owl.api.wf#Application_System:Lane_0vgoe71>)
+
+ClassAssertion(:Actors <http://owl.api.wf#Application_System:Lane_0vgoe71>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Application_System:Lane_0vgoe71> <http://owl.api.wf#endEvent:Event_0ffy6ai>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Application_System:Lane_0vgoe71> <http://owl.api.wf#intermediateCatchEvent:Event_09j685a>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Application_System:Lane_0vgoe71> <http://owl.api.wf#startEvent:Event_0l1cng1>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Application_System:Lane_0vgoe71> <http://owl.api.wf#task_Allocate_an_application_number_and_password_to_each_applicant:Activity_1vl8llz>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Application_System:Lane_0vgoe71> <http://owl.api.wf#task_Document_online_applications:Activity_0u1kzre>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#Application_System:Lane_0vgoe71> :Hohenheim_3)
+
+# Individual: <http://owl.api.wf#Department_of_Informatics:Lane_1dmfw0k> (<http://owl.api.wf#Department_of_Informatics:Lane_1dmfw0k>)
+
+ClassAssertion(:Actors <http://owl.api.wf#Department_of_Informatics:Lane_1dmfw0k>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Department_of_Informatics:Lane_1dmfw0k> <http://owl.api.wf#exclusiveGateway:Gateway_08dc3yh>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Department_of_Informatics:Lane_1dmfw0k> <http://owl.api.wf#exclusiveGateway:Gateway_0lf70ci>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Department_of_Informatics:Lane_1dmfw0k> <http://owl.api.wf#exclusiveGateway:Gateway_0wlu059>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Department_of_Informatics:Lane_1dmfw0k> <http://owl.api.wf#exclusiveGateway:Gateway_19nzesg>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Department_of_Informatics:Lane_1dmfw0k> <http://owl.api.wf#task_Conduct_interview:Activity_1xha5g7>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Department_of_Informatics:Lane_1dmfw0k> <http://owl.api.wf#task_Evaluate:Activity_0bdop2m>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Department_of_Informatics:Lane_1dmfw0k> <http://owl.api.wf#task_Send_interview_invitation:Activity_0u7goff>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Department_of_Informatics:Lane_1dmfw0k> <http://owl.api.wf#task_Send_letter_of_acceptance:Activity_01xd3wi>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Department_of_Informatics:Lane_1dmfw0k> <http://owl.api.wf#task_Send_letter_of_acceptance:Activity_0rz5k9k>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Department_of_Informatics:Lane_1dmfw0k> <http://owl.api.wf#task_Send_letter_of_rejection:Activity_0j3iu7e>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Department_of_Informatics:Lane_1dmfw0k> <http://owl.api.wf#task_Send_letter_of_rejection:Activity_1p8iq44>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#Department_of_Informatics:Lane_1dmfw0k> :TU_Munich_1)
+
+# Individual: <http://owl.api.wf#Online_Application_System:Lane_1f77ug2> (<http://owl.api.wf#Online_Application_System:Lane_1f77ug2>)
+
+ClassAssertion(:Actors <http://owl.api.wf#Online_Application_System:Lane_1f77ug2>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Online_Application_System:Lane_1f77ug2> <http://owl.api.wf#endEvent:Event_06ibsm2>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Online_Application_System:Lane_1f77ug2> <http://owl.api.wf#exclusiveGateway:Gateway_0um0lfn>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Online_Application_System:Lane_1f77ug2> <http://owl.api.wf#exclusiveGateway_Meet_the_basic__requirements?:Gateway_040zq19>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Online_Application_System:Lane_1f77ug2> <http://owl.api.wf#exclusiveGateway_join:Gateway_18b1tfa>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Online_Application_System:Lane_1f77ug2> <http://owl.api.wf#exclusiveGateway_split:Gateway_017am58>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Online_Application_System:Lane_1f77ug2> <http://owl.api.wf#startEvent:Event_1u7ij2d>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Online_Application_System:Lane_1f77ug2> <http://owl.api.wf#task_Check_responses:Activity_1qnwoyy>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Online_Application_System:Lane_1f77ug2> <http://owl.api.wf#task_Reject_interview:Activity_052y7o3>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Online_Application_System:Lane_1f77ug2> <http://owl.api.wf#task_Send_application_form:Activity_0gterbw>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Online_Application_System:Lane_1f77ug2> <http://owl.api.wf#task_Update_status_of_application:Activity_0bc8g0k>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#Online_Application_System:Lane_1f77ug2> :Muenster_3)
+
+# Individual: <http://owl.api.wf#Secreterial_office_for_students:Lane_1bqig0i> (<http://owl.api.wf#Secreterial_office_for_students:Lane_1bqig0i>)
+
+ClassAssertion(:Actors <http://owl.api.wf#Secreterial_office_for_students:Lane_1bqig0i>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Secreterial_office_for_students:Lane_1bqig0i> <http://owl.api.wf#endEvent:Event_075mk5f>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Secreterial_office_for_students:Lane_1bqig0i> <http://owl.api.wf#exclusiveGateway:Gateway_15d44f8>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Secreterial_office_for_students:Lane_1bqig0i> <http://owl.api.wf#exclusiveGateway:Gateway_170y0ln>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Secreterial_office_for_students:Lane_1bqig0i> <http://owl.api.wf#intermediateCatchEvent:Event_0mr1m07>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Secreterial_office_for_students:Lane_1bqig0i> <http://owl.api.wf#parallelGateway:Gateway_0ff1iru>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Secreterial_office_for_students:Lane_1bqig0i> <http://owl.api.wf#parallelGateway:Gateway_0nwjiqw>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Secreterial_office_for_students:Lane_1bqig0i> <http://owl.api.wf#startEvent:Event_0qqjwcf>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Secreterial_office_for_students:Lane_1bqig0i> <http://owl.api.wf#task_Checking_if_complete:Activity_1wkha59>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Secreterial_office_for_students:Lane_1bqig0i> <http://owl.api.wf#task_Mark_as_complete:Activity_1eo7ejl>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Secreterial_office_for_students:Lane_1bqig0i> <http://owl.api.wf#task_Mark_as_not_complete:Activity_1vnv5tl>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Secreterial_office_for_students:Lane_1bqig0i> <http://owl.api.wf#task_Publishing_the_letters:Activity_18axd57>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Secreterial_office_for_students:Lane_1bqig0i> <http://owl.api.wf#task_Receiving_the_written_applications:Activity_0lrjdrr>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Secreterial_office_for_students:Lane_1bqig0i> <http://owl.api.wf#task_Rejection:Activity_0t9jmaa>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Secreterial_office_for_students:Lane_1bqig0i> <http://owl.api.wf#task_Send_documents_to_selection_committee:Activity_1m5aybb>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#Secreterial_office_for_students:Lane_1bqig0i> <http://owl.api.wf#task_Update_the_applicant_status:Activity_04gt7sy>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#Secreterial_office_for_students:Lane_1bqig0i> :Hohenheim_2)
+
+# Individual: <http://owl.api.wf#University_of_Cologne:Lane_12ea2o1> (<http://owl.api.wf#University_of_Cologne:Lane_12ea2o1>)
+
+ClassAssertion(:Actors <http://owl.api.wf#University_of_Cologne:Lane_12ea2o1>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_12ea2o1> <http://owl.api.wf#endEvent:Event_1ttrlqw>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_12ea2o1> <http://owl.api.wf#exclusiveGateway:Gateway_0e5kry8>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_12ea2o1> <http://owl.api.wf#exclusiveGateway:Gateway_0xlssx8>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_12ea2o1> <http://owl.api.wf#exclusiveGateway:Gateway_1qdo7vy>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_12ea2o1> <http://owl.api.wf#exclusiveGateway:Gateway_1qmiymr>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_12ea2o1> <http://owl.api.wf#startEvent_Documents_received:Event_1geljn0>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_12ea2o1> <http://owl.api.wf#task_Check_documents:Activity_1ocui6e>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_12ea2o1> <http://owl.api.wf#task_Evaluate:Activity_1flewlx>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_12ea2o1> <http://owl.api.wf#task_Invite_to_an_aptitude_test:Activity_1ookijs>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_12ea2o1> <http://owl.api.wf#task_Keep_in_the_applicant_pool:Activity_0y0do5e>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_12ea2o1> <http://owl.api.wf#task_Rank_students_according_to_GPA_and_the_test_results:Activity_148u7wn>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_12ea2o1> <http://owl.api.wf#task_Send_letter_of_acceptance:Activity_0o49wgb>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_12ea2o1> <http://owl.api.wf#task_Send_letter_of_rejection:Activity_0qxlspo>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#University_of_Cologne:Lane_12ea2o1> :Cologne_1)
+
+# Individual: <http://owl.api.wf#University_of_Cologne:Lane_1bgr85p> (<http://owl.api.wf#University_of_Cologne:Lane_1bgr85p>)
+
+ClassAssertion(:Actors <http://owl.api.wf#University_of_Cologne:Lane_1bgr85p>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_1bgr85p> <http://owl.api.wf#endEvent:Event_1cr3fth>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_1bgr85p> <http://owl.api.wf#exclusiveGateway:Gateway_0hi91is>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_1bgr85p> <http://owl.api.wf#exclusiveGateway:Gateway_0hl23i2>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_1bgr85p> <http://owl.api.wf#exclusiveGateway:Gateway_137oyxp>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_1bgr85p> <http://owl.api.wf#exclusiveGateway:Gateway_1d7buy5>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_1bgr85p> <http://owl.api.wf#startEvent_Documents_received:Event_192uahg>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_1bgr85p> <http://owl.api.wf#task_Check_documents:Activity_1xorc6r>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_1bgr85p> <http://owl.api.wf#task_Evaluate:Activity_0lklwmd>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_1bgr85p> <http://owl.api.wf#task_Invite_to_an_aptitude_test:Activity_0spz3a5>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_1bgr85p> <http://owl.api.wf#task_Keep_in_the_applicant_pool:Activity_0y71ekd>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_1bgr85p> <http://owl.api.wf#task_Rank_students_according_to_GPA_and_the_test_results:Activity_0luiffv>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_1bgr85p> <http://owl.api.wf#task_Send_letter_of_acceptance:Activity_05r5kw1>)
+ObjectPropertyAssertion(:does <http://owl.api.wf#University_of_Cologne:Lane_1bgr85p> <http://owl.api.wf#task_Send_letter_of_rejection:Activity_09ztofn>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#University_of_Cologne:Lane_1bgr85p> :Frankfurt_2)
+
+# Individual: <http://owl.api.wf#endEvent:Event_06ibsm2> (<http://owl.api.wf#endEvent:Event_06ibsm2>)
+
+ClassAssertion(:Events <http://owl.api.wf#endEvent:Event_06ibsm2>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#endEvent:Event_06ibsm2> :Muenster_3)
+
+# Individual: <http://owl.api.wf#endEvent:Event_075mk5f> (<http://owl.api.wf#endEvent:Event_075mk5f>)
+
+ClassAssertion(:Events <http://owl.api.wf#endEvent:Event_075mk5f>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#endEvent:Event_075mk5f> :Hohenheim_2)
+
+# Individual: <http://owl.api.wf#endEvent:Event_0eeypej> (<http://owl.api.wf#endEvent:Event_0eeypej>)
+
+ClassAssertion(:Events <http://owl.api.wf#endEvent:Event_0eeypej>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#endEvent:Event_0eeypej> :Hohenheim_1)
+
+# Individual: <http://owl.api.wf#endEvent:Event_0ffy6ai> (<http://owl.api.wf#endEvent:Event_0ffy6ai>)
+
+ClassAssertion(:Events <http://owl.api.wf#endEvent:Event_0ffy6ai>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#endEvent:Event_0ffy6ai> :Hohenheim_3)
+
+# Individual: <http://owl.api.wf#endEvent:Event_19slsei> (<http://owl.api.wf#endEvent:Event_19slsei>)
+
+ClassAssertion(:Events <http://owl.api.wf#endEvent:Event_19slsei>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#endEvent:Event_19slsei> :TU_Munich_1)
+
+# Individual: <http://owl.api.wf#endEvent:Event_1cr3fth> (<http://owl.api.wf#endEvent:Event_1cr3fth>)
+
+ClassAssertion(:Events <http://owl.api.wf#endEvent:Event_1cr3fth>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#endEvent:Event_1cr3fth> :Frankfurt_2)
+
+# Individual: <http://owl.api.wf#endEvent:Event_1ttrlqw> (<http://owl.api.wf#endEvent:Event_1ttrlqw>)
+
+ClassAssertion(:Events <http://owl.api.wf#endEvent:Event_1ttrlqw>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#endEvent:Event_1ttrlqw> :Cologne_1)
+
+# Individual: <http://owl.api.wf#endEvent:sid-01574AFD-EC38-403C-8733-445D2455CA33> (<http://owl.api.wf#endEvent:sid-01574AFD-EC38-403C-8733-445D2455CA33>)
+
+ClassAssertion(:Events <http://owl.api.wf#endEvent:sid-01574AFD-EC38-403C-8733-445D2455CA33>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#endEvent:sid-01574AFD-EC38-403C-8733-445D2455CA33> :Cologne)
+
+# Individual: <http://owl.api.wf#endEvent:sid-8222F1C9-9A52-4643-89C9-8D2FD634B4FC> (<http://owl.api.wf#endEvent:sid-8222F1C9-9A52-4643-89C9-8D2FD634B4FC>)
+
+ClassAssertion(:Events <http://owl.api.wf#endEvent:sid-8222F1C9-9A52-4643-89C9-8D2FD634B4FC>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#endEvent:sid-8222F1C9-9A52-4643-89C9-8D2FD634B4FC> :Frankfurt)
+
+# Individual: <http://owl.api.wf#endEvent:sid-DD67CB92-3E08-49D9-9F91-90E5C8602C4E> (<http://owl.api.wf#endEvent:sid-DD67CB92-3E08-49D9-9F91-90E5C8602C4E>)
+
+ClassAssertion(:Events <http://owl.api.wf#endEvent:sid-DD67CB92-3E08-49D9-9F91-90E5C8602C4E>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#endEvent:sid-DD67CB92-3E08-49D9-9F91-90E5C8602C4E> :Potsdam)
+
+# Individual: <http://owl.api.wf#endEvent:sid-EC00EA7C-CDFF-441C-A544-92E423EE8803> (<http://owl.api.wf#endEvent:sid-EC00EA7C-CDFF-441C-A544-92E423EE8803>)
+
+ClassAssertion(:Events <http://owl.api.wf#endEvent:sid-EC00EA7C-CDFF-441C-A544-92E423EE8803>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#endEvent:sid-EC00EA7C-CDFF-441C-A544-92E423EE8803> :TU_Munich)
+
+# Individual: <http://owl.api.wf#endEvent:sid-ED4EDE4D-F2A7-415C-87FE-98379131F244> (<http://owl.api.wf#endEvent:sid-ED4EDE4D-F2A7-415C-87FE-98379131F244>)
+
+ClassAssertion(:Events <http://owl.api.wf#endEvent:sid-ED4EDE4D-F2A7-415C-87FE-98379131F244>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#endEvent:sid-ED4EDE4D-F2A7-415C-87FE-98379131F244> :Wuerzburg)
+
+# Individual: <http://owl.api.wf#eventBasedGateway:sid-732F12B0-6350-4614-B374-F2332F5E7CC4> (<http://owl.api.wf#eventBasedGateway:sid-732F12B0-6350-4614-B374-F2332F5E7CC4>)
+
+ClassAssertion(:Exclusive_Gateways_Split <http://owl.api.wf#eventBasedGateway:sid-732F12B0-6350-4614-B374-F2332F5E7CC4>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#eventBasedGateway:sid-732F12B0-6350-4614-B374-F2332F5E7CC4> :Frankfurt)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#eventBasedGateway:sid-732F12B0-6350-4614-B374-F2332F5E7CC4> <http://owl.api.wf#intermediateCatchEvent_Accepted:sid-56CF457C-E58D-4519-AD80-5EDE6DD9E302>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#eventBasedGateway:sid-732F12B0-6350-4614-B374-F2332F5E7CC4> <http://owl.api.wf#intermediateCatchEvent_Accepted_provisionally:sid-6C177C18-D980-435B-AC7A-75C5A274BBE7>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#eventBasedGateway:sid-732F12B0-6350-4614-B374-F2332F5E7CC4> <http://owl.api.wf#intermediateCatchEvent_Rejected:sid-445A78A6-1CA7-40BF-B7BF-B8CCCAAEF703>)
+
+# Individual: <http://owl.api.wf#eventBasedGateway:sid-89EB0BD4-5311-43BF-BD7D-5B16EF67D9B3> (<http://owl.api.wf#eventBasedGateway:sid-89EB0BD4-5311-43BF-BD7D-5B16EF67D9B3>)
+
+ClassAssertion(:Exclusive_Gateways_Split <http://owl.api.wf#eventBasedGateway:sid-89EB0BD4-5311-43BF-BD7D-5B16EF67D9B3>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#eventBasedGateway:sid-89EB0BD4-5311-43BF-BD7D-5B16EF67D9B3> :TU_Munich)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#eventBasedGateway:sid-89EB0BD4-5311-43BF-BD7D-5B16EF67D9B3> <http://owl.api.wf#intermediateCatchEvent_Accepted:sid-AC0658EC-033D-491F-8BD3-B3EAFB7DA704>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#eventBasedGateway:sid-89EB0BD4-5311-43BF-BD7D-5B16EF67D9B3> <http://owl.api.wf#intermediateCatchEvent_Invited_to_an_interview:sid-1FA0C09B-0884-4125-92CE-05A78B2F104C>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#eventBasedGateway:sid-89EB0BD4-5311-43BF-BD7D-5B16EF67D9B3> <http://owl.api.wf#intermediateCatchEvent_Rejected:sid-BB1C4222-40C6-4013-A9C7-11BD25E18C16>)
+
+# Individual: <http://owl.api.wf#eventBasedGateway:sid-91F2DA29-96C0-431D-B3F6-5E9C53B3EAB0> (<http://owl.api.wf#eventBasedGateway:sid-91F2DA29-96C0-431D-B3F6-5E9C53B3EAB0>)
+
+ClassAssertion(:Exclusive_Gateways_Split <http://owl.api.wf#eventBasedGateway:sid-91F2DA29-96C0-431D-B3F6-5E9C53B3EAB0>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#eventBasedGateway:sid-91F2DA29-96C0-431D-B3F6-5E9C53B3EAB0> :Cologne)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#eventBasedGateway:sid-91F2DA29-96C0-431D-B3F6-5E9C53B3EAB0> <http://owl.api.wf#intermediateCatchEvent_Accepted:sid-FF649B0C-30F0-4E43-9BEC-02E1B22AA554>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#eventBasedGateway:sid-91F2DA29-96C0-431D-B3F6-5E9C53B3EAB0> <http://owl.api.wf#intermediateCatchEvent_Rejected:sid-8712EF38-01F5-4812-ACB7-8F0EF759F38C>)
+
+# Individual: <http://owl.api.wf#eventBasedGateway:sid-E654C2FF-9DEA-44ED-B904-206DC8E52297> (<http://owl.api.wf#eventBasedGateway:sid-E654C2FF-9DEA-44ED-B904-206DC8E52297>)
+
+ClassAssertion(:Exclusive_Gateways_Split <http://owl.api.wf#eventBasedGateway:sid-E654C2FF-9DEA-44ED-B904-206DC8E52297>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#eventBasedGateway:sid-E654C2FF-9DEA-44ED-B904-206DC8E52297> :TU_Munich)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#eventBasedGateway:sid-E654C2FF-9DEA-44ED-B904-206DC8E52297> <http://owl.api.wf#intermediateCatchEvent_Accepted:sid-A8E1C7F2-D9A4-4669-9A5E-A39015D04BE2>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#eventBasedGateway:sid-E654C2FF-9DEA-44ED-B904-206DC8E52297> <http://owl.api.wf#intermediateCatchEvent_Rejected:sid-701A0B1D-BFF0-482A-A658-A6713BC21F13>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:Gateway_08dc3yh> (<http://owl.api.wf#exclusiveGateway:Gateway_08dc3yh>)
+
+ClassAssertion(:Exclusive_Gateways_Split <http://owl.api.wf#exclusiveGateway:Gateway_08dc3yh>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:Gateway_08dc3yh> :TU_Munich_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_08dc3yh> <http://owl.api.wf#task_Send_interview_invitation:Activity_0u7goff>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_08dc3yh> <http://owl.api.wf#task_Send_letter_of_acceptance:Activity_01xd3wi>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_08dc3yh> <http://owl.api.wf#task_Send_letter_of_rejection:Activity_1p8iq44>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:Gateway_0e5kry8> (<http://owl.api.wf#exclusiveGateway:Gateway_0e5kry8>)
+
+ClassAssertion(:Exclusive_Gateways_Split <http://owl.api.wf#exclusiveGateway:Gateway_0e5kry8>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:Gateway_0e5kry8> :Cologne_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_0e5kry8> <http://owl.api.wf#task_Send_letter_of_acceptance:Activity_0o49wgb>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_0e5kry8> <http://owl.api.wf#task_Send_letter_of_rejection:Activity_0qxlspo>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:Gateway_0hi91is> (<http://owl.api.wf#exclusiveGateway:Gateway_0hi91is>)
+
+ClassAssertion(:Exclusive_Gateways_Split <http://owl.api.wf#exclusiveGateway:Gateway_0hi91is>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:Gateway_0hi91is> :Frankfurt_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_0hi91is> <http://owl.api.wf#task_Send_letter_of_acceptance:Activity_05r5kw1>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_0hi91is> <http://owl.api.wf#task_Send_letter_of_rejection:Activity_09ztofn>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:Gateway_0hl23i2> (<http://owl.api.wf#exclusiveGateway:Gateway_0hl23i2>)
+
+ClassAssertion(:Exclusive_Gateways_Join <http://owl.api.wf#exclusiveGateway:Gateway_0hl23i2>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:Gateway_0hl23i2> :Frankfurt_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_0hl23i2> <http://owl.api.wf#task_Rank_students_according_to_GPA_and_the_test_results:Activity_0luiffv>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:Gateway_0lf70ci> (<http://owl.api.wf#exclusiveGateway:Gateway_0lf70ci>)
+
+ClassAssertion(:Exclusive_Gateways_Join <http://owl.api.wf#exclusiveGateway:Gateway_0lf70ci>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:Gateway_0lf70ci> :TU_Munich_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_0lf70ci> <http://owl.api.wf#task_Conduct_interview:Activity_1xha5g7>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:Gateway_0mosve6> (<http://owl.api.wf#exclusiveGateway:Gateway_0mosve6>)
+
+ClassAssertion(:Exclusive_Gateways_Join <http://owl.api.wf#exclusiveGateway:Gateway_0mosve6>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:Gateway_0mosve6> :Hohenheim_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_0mosve6> <http://owl.api.wf#task_Final_confirmation_by_head_of_the_university:Activity_0rgufzq>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:Gateway_0n7u7jr> (<http://owl.api.wf#exclusiveGateway:Gateway_0n7u7jr>)
+
+ClassAssertion(:Exclusive_Gateways_Split <http://owl.api.wf#exclusiveGateway:Gateway_0n7u7jr>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:Gateway_0n7u7jr> :TU_Munich_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_0n7u7jr> <http://owl.api.wf#exclusiveGateway:Gateway_1hqo3q9>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_0n7u7jr> <http://owl.api.wf#task_Check_documents:Activity_0l6ptwm>)
+ObjectPropertyAssertion(:sequenceFlow <http://owl.api.wf#exclusiveGateway:Gateway_0n7u7jr> <http://owl.api.wf#sequenceFlow_Bridging_courses__<=30_CP:Flow_1uqgkoc>)
+ObjectPropertyAssertion(:sequenceFlow <http://owl.api.wf#exclusiveGateway:Gateway_0n7u7jr> <http://owl.api.wf#sequenceFlow_Bridging_courses_bigger_than30_CP:Flow_1k6ump6>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:Gateway_0um0lfn> (<http://owl.api.wf#exclusiveGateway:Gateway_0um0lfn>)
+
+ClassAssertion(:Exclusive_Gateways_Join <http://owl.api.wf#exclusiveGateway:Gateway_0um0lfn>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:Gateway_0um0lfn> :Muenster_3)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_0um0lfn> <http://owl.api.wf#exclusiveGateway_join:Gateway_18b1tfa>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:Gateway_0wlu059> (<http://owl.api.wf#exclusiveGateway:Gateway_0wlu059>)
+
+ClassAssertion(:Exclusive_Gateways_Split <http://owl.api.wf#exclusiveGateway:Gateway_0wlu059>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:Gateway_0wlu059> :TU_Munich_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_0wlu059> <http://owl.api.wf#task_Send_letter_of_acceptance:Activity_0rz5k9k>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_0wlu059> <http://owl.api.wf#task_Send_letter_of_rejection:Activity_0j3iu7e>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:Gateway_0xlssx8> (<http://owl.api.wf#exclusiveGateway:Gateway_0xlssx8>)
+
+ClassAssertion(:Exclusive_Gateways_Join <http://owl.api.wf#exclusiveGateway:Gateway_0xlssx8>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:Gateway_0xlssx8> :Cologne_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_0xlssx8> <http://owl.api.wf#endEvent:Event_1ttrlqw>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:Gateway_137oyxp> (<http://owl.api.wf#exclusiveGateway:Gateway_137oyxp>)
+
+ClassAssertion(:Exclusive_Gateways_Split <http://owl.api.wf#exclusiveGateway:Gateway_137oyxp>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:Gateway_137oyxp> :Frankfurt_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_137oyxp> <http://owl.api.wf#task_Invite_to_an_aptitude_test:Activity_0spz3a5>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_137oyxp> <http://owl.api.wf#task_Keep_in_the_applicant_pool:Activity_0y71ekd>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:Gateway_15d44f8> (<http://owl.api.wf#exclusiveGateway:Gateway_15d44f8>)
+
+ClassAssertion(:Exclusive_Gateways_Join <http://owl.api.wf#exclusiveGateway:Gateway_15d44f8>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:Gateway_15d44f8> :Hohenheim_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_15d44f8> <http://owl.api.wf#parallelGateway:Gateway_0nwjiqw>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:Gateway_170y0ln> (<http://owl.api.wf#exclusiveGateway:Gateway_170y0ln>)
+
+ClassAssertion(:Exclusive_Gateways_Split <http://owl.api.wf#exclusiveGateway:Gateway_170y0ln>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:Gateway_170y0ln> :Hohenheim_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_170y0ln> <http://owl.api.wf#task_Mark_as_complete:Activity_1eo7ejl>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_170y0ln> <http://owl.api.wf#task_Mark_as_not_complete:Activity_1vnv5tl>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:Gateway_19nzesg> (<http://owl.api.wf#exclusiveGateway:Gateway_19nzesg>)
+
+ClassAssertion(:Exclusive_Gateways_Join <http://owl.api.wf#exclusiveGateway:Gateway_19nzesg>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:Gateway_19nzesg> :TU_Munich_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_19nzesg> <http://owl.api.wf#exclusiveGateway:Gateway_1hqo3q9>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:Gateway_1d7buy5> (<http://owl.api.wf#exclusiveGateway:Gateway_1d7buy5>)
+
+ClassAssertion(:Exclusive_Gateways_Join <http://owl.api.wf#exclusiveGateway:Gateway_1d7buy5>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:Gateway_1d7buy5> :Frankfurt_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_1d7buy5> <http://owl.api.wf#endEvent:Event_1cr3fth>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:Gateway_1hqo3q9> (<http://owl.api.wf#exclusiveGateway:Gateway_1hqo3q9>)
+
+ClassAssertion(:Exclusive_Gateways_Join <http://owl.api.wf#exclusiveGateway:Gateway_1hqo3q9>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:Gateway_1hqo3q9> :TU_Munich_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_1hqo3q9> <http://owl.api.wf#endEvent:Event_19slsei>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:Gateway_1oxi3uu> (<http://owl.api.wf#exclusiveGateway:Gateway_1oxi3uu>)
+
+ClassAssertion(:Exclusive_Gateways_Split <http://owl.api.wf#exclusiveGateway:Gateway_1oxi3uu>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:Gateway_1oxi3uu> :Hohenheim_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_1oxi3uu> <http://owl.api.wf#task_high_ranking_requirements_are_met:Activity_1abkimh>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_1oxi3uu> <http://owl.api.wf#task_proof_of_uni_degree_provided:Activity_0d6tdq6>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_1oxi3uu> <http://owl.api.wf#task_requirements_are_not_met_or_low_ranking:Activity_0uzkoq5>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:Gateway_1qdo7vy> (<http://owl.api.wf#exclusiveGateway:Gateway_1qdo7vy>)
+
+ClassAssertion(:Exclusive_Gateways_Split <http://owl.api.wf#exclusiveGateway:Gateway_1qdo7vy>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:Gateway_1qdo7vy> :Cologne_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_1qdo7vy> <http://owl.api.wf#task_Invite_to_an_aptitude_test:Activity_1ookijs>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_1qdo7vy> <http://owl.api.wf#task_Keep_in_the_applicant_pool:Activity_0y0do5e>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:Gateway_1qmiymr> (<http://owl.api.wf#exclusiveGateway:Gateway_1qmiymr>)
+
+ClassAssertion(:Exclusive_Gateways_Join <http://owl.api.wf#exclusiveGateway:Gateway_1qmiymr>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:Gateway_1qmiymr> :Cologne_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:Gateway_1qmiymr> <http://owl.api.wf#task_Rank_students_according_to_GPA_and_the_test_results:Activity_148u7wn>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:sid-01A67757-E183-4D3D-B853-46D44F41B388> (<http://owl.api.wf#exclusiveGateway:sid-01A67757-E183-4D3D-B853-46D44F41B388>)
+
+ClassAssertion(:Exclusive_Gateways_Split <http://owl.api.wf#exclusiveGateway:sid-01A67757-E183-4D3D-B853-46D44F41B388>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:sid-01A67757-E183-4D3D-B853-46D44F41B388> :Wuerzburg)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-01A67757-E183-4D3D-B853-46D44F41B388> <http://owl.api.wf#task_Fill_in_online_form_of_application:sid-8C628809-B4AD-4A0E-9BB9-E3AFAB22381C>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-01A67757-E183-4D3D-B853-46D44F41B388> <http://owl.api.wf#task_Fill_in_printed_form_of_application_for_international_students:sid-48539062-6B70-468F-BF19-F74EEE12F0EB>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:sid-11FBC760-4A87-41FD-8F9F-208E733E7D3C> (<http://owl.api.wf#exclusiveGateway:sid-11FBC760-4A87-41FD-8F9F-208E733E7D3C>)
+
+ClassAssertion(:Exclusive_Gateways_Join <http://owl.api.wf#exclusiveGateway:sid-11FBC760-4A87-41FD-8F9F-208E733E7D3C>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:sid-11FBC760-4A87-41FD-8F9F-208E733E7D3C> :Cologne)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-11FBC760-4A87-41FD-8F9F-208E733E7D3C> <http://owl.api.wf#task_Wait_for_results:sid-DF0BF153-C7B8-47A6-9436-2217B6A02FB9>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:sid-2D893722-0AD2-4013-8625-113B0B368A4A> (<http://owl.api.wf#exclusiveGateway:sid-2D893722-0AD2-4013-8625-113B0B368A4A>)
+
+ClassAssertion(:Exclusive_Gateways_Join <http://owl.api.wf#exclusiveGateway:sid-2D893722-0AD2-4013-8625-113B0B368A4A>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:sid-2D893722-0AD2-4013-8625-113B0B368A4A> :Frankfurt)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-2D893722-0AD2-4013-8625-113B0B368A4A> <http://owl.api.wf#endEvent:sid-8222F1C9-9A52-4643-89C9-8D2FD634B4FC>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:sid-35EE4631-A52E-4C34-B85A-415458C47917> (<http://owl.api.wf#exclusiveGateway:sid-35EE4631-A52E-4C34-B85A-415458C47917>)
+
+ClassAssertion(:Exclusive_Gateways_Join <http://owl.api.wf#exclusiveGateway:sid-35EE4631-A52E-4C34-B85A-415458C47917>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:sid-35EE4631-A52E-4C34-B85A-415458C47917> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-35EE4631-A52E-4C34-B85A-415458C47917> <http://owl.api.wf#parallelGateway:sid-3BF978A8-1BCC-4246-AE60-FE251E328AF3>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:sid-372AB00E-AC90-4B84-9642-AB11FC4C21AB> (<http://owl.api.wf#exclusiveGateway:sid-372AB00E-AC90-4B84-9642-AB11FC4C21AB>)
+
+ClassAssertion(:Exclusive_Gateways_Split <http://owl.api.wf#exclusiveGateway:sid-372AB00E-AC90-4B84-9642-AB11FC4C21AB>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:sid-372AB00E-AC90-4B84-9642-AB11FC4C21AB> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-372AB00E-AC90-4B84-9642-AB11FC4C21AB> <http://owl.api.wf#exclusiveGateway:sid-FB461E09-F2C0-4232-AF49-76E090FCADA6>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-372AB00E-AC90-4B84-9642-AB11FC4C21AB> <http://owl.api.wf#task_Add_case-of-hardship_certificate:sid-AFD38E5A-3438-44ED-87A9-63EAE7A744DD>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:sid-521803CC-D6CB-4D35-96B4-15506606ED69> (<http://owl.api.wf#exclusiveGateway:sid-521803CC-D6CB-4D35-96B4-15506606ED69>)
+
+ClassAssertion(:Exclusive_Gateways_Split <http://owl.api.wf#exclusiveGateway:sid-521803CC-D6CB-4D35-96B4-15506606ED69>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:sid-521803CC-D6CB-4D35-96B4-15506606ED69> :Cologne)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-521803CC-D6CB-4D35-96B4-15506606ED69> <http://owl.api.wf#exclusiveGateway:sid-11FBC760-4A87-41FD-8F9F-208E733E7D3C>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-521803CC-D6CB-4D35-96B4-15506606ED69> <http://owl.api.wf#parallelGateway:sid-435C2233-B6DF-44D9-B7BF-36461549F53D>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:sid-58F17951-0C3A-4F0B-AA1F-8DF389EF4B40> (<http://owl.api.wf#exclusiveGateway:sid-58F17951-0C3A-4F0B-AA1F-8DF389EF4B40>)
+
+ClassAssertion(:Exclusive_Gateways_Split <http://owl.api.wf#exclusiveGateway:sid-58F17951-0C3A-4F0B-AA1F-8DF389EF4B40>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:sid-58F17951-0C3A-4F0B-AA1F-8DF389EF4B40> :Frankfurt)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-58F17951-0C3A-4F0B-AA1F-8DF389EF4B40> <http://owl.api.wf#exclusiveGateway:sid-FDE49817-6778-497E-9DAF-C4B8D4BE5766>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-58F17951-0C3A-4F0B-AA1F-8DF389EF4B40> <http://owl.api.wf#task_Take_oral_exam:sid-0FB8FB77-B1AF-4D8C-A203-3730AA67E6A4>)
+ObjectPropertyAssertion(:sequenceFlow <http://owl.api.wf#exclusiveGateway:sid-58F17951-0C3A-4F0B-AA1F-8DF389EF4B40> <http://owl.api.wf#sequenceFlow_Less_than_16_CP__in_mathematics:sid-D1BC05C3-F423-43DF-9372-DEA6DC223573>)
+ObjectPropertyAssertion(:sequenceFlow <http://owl.api.wf#exclusiveGateway:sid-58F17951-0C3A-4F0B-AA1F-8DF389EF4B40> <http://owl.api.wf#sequenceFlow_Sufficient_CP__in_mathematics:sid-70B817AB-2667-49C4-9E62-4C734FC482FC>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:sid-714C5B0A-CC06-4710-9866-EC2280EA282E> (<http://owl.api.wf#exclusiveGateway:sid-714C5B0A-CC06-4710-9866-EC2280EA282E>)
+
+ClassAssertion(:Exclusive_Gateways_Join <http://owl.api.wf#exclusiveGateway:sid-714C5B0A-CC06-4710-9866-EC2280EA282E>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:sid-714C5B0A-CC06-4710-9866-EC2280EA282E> :TU_Munich)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-714C5B0A-CC06-4710-9866-EC2280EA282E> <http://owl.api.wf#endEvent:sid-EC00EA7C-CDFF-441C-A544-92E423EE8803>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:sid-76AC77BA-5CD0-41DF-9390-DF136510982B> (<http://owl.api.wf#exclusiveGateway:sid-76AC77BA-5CD0-41DF-9390-DF136510982B>)
+
+ClassAssertion(:Exclusive_Gateways_Join <http://owl.api.wf#exclusiveGateway:sid-76AC77BA-5CD0-41DF-9390-DF136510982B>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:sid-76AC77BA-5CD0-41DF-9390-DF136510982B> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-76AC77BA-5CD0-41DF-9390-DF136510982B> <http://owl.api.wf#parallelGateway:sid-3BF978A8-1BCC-4246-AE60-FE251E328AF3>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:sid-76E01A89-B4C3-4FCC-8940-5C76E0A5F2B1> (<http://owl.api.wf#exclusiveGateway:sid-76E01A89-B4C3-4FCC-8940-5C76E0A5F2B1>)
+
+ClassAssertion(:Exclusive_Gateways_Split <http://owl.api.wf#exclusiveGateway:sid-76E01A89-B4C3-4FCC-8940-5C76E0A5F2B1>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:sid-76E01A89-B4C3-4FCC-8940-5C76E0A5F2B1> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-76E01A89-B4C3-4FCC-8940-5C76E0A5F2B1> <http://owl.api.wf#exclusiveGateway:sid-76AC77BA-5CD0-41DF-9390-DF136510982B>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-76E01A89-B4C3-4FCC-8940-5C76E0A5F2B1> <http://owl.api.wf#task_Add_certificates_of_qualification:sid-FB567539-2B9F-4B9C-A2A8-4C8A9097CE89>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:sid-813795F6-9B7A-4D33-BEF1-7A04F3B3F050> (<http://owl.api.wf#exclusiveGateway:sid-813795F6-9B7A-4D33-BEF1-7A04F3B3F050>)
+
+ClassAssertion(:Exclusive_Gateways_Split <http://owl.api.wf#exclusiveGateway:sid-813795F6-9B7A-4D33-BEF1-7A04F3B3F050>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:sid-813795F6-9B7A-4D33-BEF1-7A04F3B3F050> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-813795F6-9B7A-4D33-BEF1-7A04F3B3F050> <http://owl.api.wf#exclusiveGateway:sid-35EE4631-A52E-4C34-B85A-415458C47917>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-813795F6-9B7A-4D33-BEF1-7A04F3B3F050> <http://owl.api.wf#task_Add_recommendations:sid-9460F7EB-5D0E-4C9A-933C-91EAEDFF6B1F>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:sid-880B7840-7F46-4A0A-BC36-C030808969F9> (<http://owl.api.wf#exclusiveGateway:sid-880B7840-7F46-4A0A-BC36-C030808969F9>)
+
+ClassAssertion(:Exclusive_Gateways_Join <http://owl.api.wf#exclusiveGateway:sid-880B7840-7F46-4A0A-BC36-C030808969F9>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:sid-880B7840-7F46-4A0A-BC36-C030808969F9> :Wuerzburg)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-880B7840-7F46-4A0A-BC36-C030808969F9> <http://owl.api.wf#task_Waiting_for_response:sid-B06626EF-C70E-4D70-B20F-BA3DAC313DD9>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:sid-A7409099-EFAC-47F3-9672-000E46553889> (<http://owl.api.wf#exclusiveGateway:sid-A7409099-EFAC-47F3-9672-000E46553889>)
+
+ClassAssertion(:Exclusive_Gateways_Join <http://owl.api.wf#exclusiveGateway:sid-A7409099-EFAC-47F3-9672-000E46553889>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:sid-A7409099-EFAC-47F3-9672-000E46553889> :Wuerzburg)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-A7409099-EFAC-47F3-9672-000E46553889> <http://owl.api.wf#endEvent:sid-ED4EDE4D-F2A7-415C-87FE-98379131F244>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:sid-BA2A1CD8-D482-4E29-A529-3216DA67B38E> (<http://owl.api.wf#exclusiveGateway:sid-BA2A1CD8-D482-4E29-A529-3216DA67B38E>)
+
+ClassAssertion(:Exclusive_Gateways_Join <http://owl.api.wf#exclusiveGateway:sid-BA2A1CD8-D482-4E29-A529-3216DA67B38E>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:sid-BA2A1CD8-D482-4E29-A529-3216DA67B38E> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-BA2A1CD8-D482-4E29-A529-3216DA67B38E> <http://owl.api.wf#endEvent:sid-DD67CB92-3E08-49D9-9F91-90E5C8602C4E>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:sid-BDA19998-F73B-42E3-A22F-8401F85701F1> (<http://owl.api.wf#exclusiveGateway:sid-BDA19998-F73B-42E3-A22F-8401F85701F1>)
+
+ClassAssertion(:Exclusive_Gateways_Join <http://owl.api.wf#exclusiveGateway:sid-BDA19998-F73B-42E3-A22F-8401F85701F1>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:sid-BDA19998-F73B-42E3-A22F-8401F85701F1> :TU_Munich)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-BDA19998-F73B-42E3-A22F-8401F85701F1> <http://owl.api.wf#exclusiveGateway:sid-714C5B0A-CC06-4710-9866-EC2280EA282E>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:sid-C5E0F5F7-15E6-48F7-85E7-638C776A412F> (<http://owl.api.wf#exclusiveGateway:sid-C5E0F5F7-15E6-48F7-85E7-638C776A412F>)
+
+ClassAssertion(:Exclusive_Gateways_Split <http://owl.api.wf#exclusiveGateway:sid-C5E0F5F7-15E6-48F7-85E7-638C776A412F>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:sid-C5E0F5F7-15E6-48F7-85E7-638C776A412F> :Wuerzburg)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-C5E0F5F7-15E6-48F7-85E7-638C776A412F> <http://owl.api.wf#task_Receive_Commitment:sid-9A5FD3B9-73DF-4C23-9E85-6298D3E6685F>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-C5E0F5F7-15E6-48F7-85E7-638C776A412F> <http://owl.api.wf#task_Receive_rejection:sid-8C069EC3-1A91-4327-9C7C-364898A9A6BF>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:sid-CBE09DCA-7966-4018-B5CA-D433E5F4795D> (<http://owl.api.wf#exclusiveGateway:sid-CBE09DCA-7966-4018-B5CA-D433E5F4795D>)
+
+ClassAssertion(:Exclusive_Gateways_Join <http://owl.api.wf#exclusiveGateway:sid-CBE09DCA-7966-4018-B5CA-D433E5F4795D>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:sid-CBE09DCA-7966-4018-B5CA-D433E5F4795D> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-CBE09DCA-7966-4018-B5CA-D433E5F4795D> <http://owl.api.wf#parallelGateway:sid-C46D7B4F-8D66-485F-9F7E-2B10F9598D70>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:sid-D9DD3286-4567-4496-B76F-9524D6E26F74> (<http://owl.api.wf#exclusiveGateway:sid-D9DD3286-4567-4496-B76F-9524D6E26F74>)
+
+ClassAssertion(:Exclusive_Gateways_Split <http://owl.api.wf#exclusiveGateway:sid-D9DD3286-4567-4496-B76F-9524D6E26F74>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:sid-D9DD3286-4567-4496-B76F-9524D6E26F74> :Frankfurt)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-D9DD3286-4567-4496-B76F-9524D6E26F74> <http://owl.api.wf#intermediateCatchEvent:sid-F8721ADF-795E-4C7B-948F-5ED530B82492>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-D9DD3286-4567-4496-B76F-9524D6E26F74> <http://owl.api.wf#intermediateCatchEvent_Provisional__acceptance_cancelled:sid-C2288BE1-52A0-40D8-9C62-4521FD4FFDC1>)
+ObjectPropertyAssertion(:sequenceFlow <http://owl.api.wf#exclusiveGateway:sid-D9DD3286-4567-4496-B76F-9524D6E26F74> <http://owl.api.wf#sequenceFlow_Average__grade_is_good_or_better:sid-02EAC313-B005-4A8D-888E-1EB132B792BF>)
+ObjectPropertyAssertion(:sequenceFlow <http://owl.api.wf#exclusiveGateway:sid-D9DD3286-4567-4496-B76F-9524D6E26F74> <http://owl.api.wf#sequenceFlow_Average_grade_is_less_than_good:sid-5F18B065-4E9C-461E-9703-6C6B6B645194>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:sid-DC50F673-8DC0-46AE-AAAD-A31A7E02D1F8> (<http://owl.api.wf#exclusiveGateway:sid-DC50F673-8DC0-46AE-AAAD-A31A7E02D1F8>)
+
+ClassAssertion(:Exclusive_Gateways_Join <http://owl.api.wf#exclusiveGateway:sid-DC50F673-8DC0-46AE-AAAD-A31A7E02D1F8>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:sid-DC50F673-8DC0-46AE-AAAD-A31A7E02D1F8> :Frankfurt)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-DC50F673-8DC0-46AE-AAAD-A31A7E02D1F8> <http://owl.api.wf#exclusiveGateway:sid-2D893722-0AD2-4013-8625-113B0B368A4A>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:sid-DE999B42-85D4-4D1C-874D-BC5CEC34C806> (<http://owl.api.wf#exclusiveGateway:sid-DE999B42-85D4-4D1C-874D-BC5CEC34C806>)
+
+ClassAssertion(:Exclusive_Gateways_Split <http://owl.api.wf#exclusiveGateway:sid-DE999B42-85D4-4D1C-874D-BC5CEC34C806>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:sid-DE999B42-85D4-4D1C-874D-BC5CEC34C806> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-DE999B42-85D4-4D1C-874D-BC5CEC34C806> <http://owl.api.wf#task_Receive_acceptance:sid-162937B1-3998-44B9-BB0A-840A43001E88>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-DE999B42-85D4-4D1C-874D-BC5CEC34C806> <http://owl.api.wf#task_Receive_rejection:sid-2A9C0ECA-8F9F-4329-9023-8A4B3332F463>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:sid-E1B754B8-CD68-4BAD-A98D-0E1093BE66EF> (<http://owl.api.wf#exclusiveGateway:sid-E1B754B8-CD68-4BAD-A98D-0E1093BE66EF>)
+
+ClassAssertion(:Exclusive_Gateways_Join <http://owl.api.wf#exclusiveGateway:sid-E1B754B8-CD68-4BAD-A98D-0E1093BE66EF>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:sid-E1B754B8-CD68-4BAD-A98D-0E1093BE66EF> :Cologne)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-E1B754B8-CD68-4BAD-A98D-0E1093BE66EF> <http://owl.api.wf#endEvent:sid-01574AFD-EC38-403C-8733-445D2455CA33>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:sid-FB461E09-F2C0-4232-AF49-76E090FCADA6> (<http://owl.api.wf#exclusiveGateway:sid-FB461E09-F2C0-4232-AF49-76E090FCADA6>)
+
+ClassAssertion(:Exclusive_Gateways_Join <http://owl.api.wf#exclusiveGateway:sid-FB461E09-F2C0-4232-AF49-76E090FCADA6>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:sid-FB461E09-F2C0-4232-AF49-76E090FCADA6> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-FB461E09-F2C0-4232-AF49-76E090FCADA6> <http://owl.api.wf#parallelGateway:sid-3BF978A8-1BCC-4246-AE60-FE251E328AF3>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway:sid-FDE49817-6778-497E-9DAF-C4B8D4BE5766> (<http://owl.api.wf#exclusiveGateway:sid-FDE49817-6778-497E-9DAF-C4B8D4BE5766>)
+
+ClassAssertion(:Exclusive_Gateways_Join <http://owl.api.wf#exclusiveGateway:sid-FDE49817-6778-497E-9DAF-C4B8D4BE5766>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway:sid-FDE49817-6778-497E-9DAF-C4B8D4BE5766> :Frankfurt)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway:sid-FDE49817-6778-497E-9DAF-C4B8D4BE5766> <http://owl.api.wf#task_Wait_for_results:sid-B296B105-D85C-47FE-A200-50F7C64E65CF>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway_German?:sid-12F965D2-744D-4C57-8FBD-EB9B25968938> (<http://owl.api.wf#exclusiveGateway_German?:sid-12F965D2-744D-4C57-8FBD-EB9B25968938>)
+
+ClassAssertion(:Exclusive_Gateways_Split <http://owl.api.wf#exclusiveGateway_German?:sid-12F965D2-744D-4C57-8FBD-EB9B25968938>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway_German?:sid-12F965D2-744D-4C57-8FBD-EB9B25968938> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway_German?:sid-12F965D2-744D-4C57-8FBD-EB9B25968938> <http://owl.api.wf#exclusiveGateway:sid-CBE09DCA-7966-4018-B5CA-D433E5F4795D>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway_German?:sid-12F965D2-744D-4C57-8FBD-EB9B25968938> <http://owl.api.wf#task_Add_certificate_of_German_language:sid-D7986EB7-2220-4C30-A486-42454F049BCB>)
+ObjectPropertyAssertion(:sequenceFlow <http://owl.api.wf#exclusiveGateway_German?:sid-12F965D2-744D-4C57-8FBD-EB9B25968938> <http://owl.api.wf#sequenceFlow_No:sid-24846D93-2192-468E-B817-C37C1B729962>)
+ObjectPropertyAssertion(:sequenceFlow <http://owl.api.wf#exclusiveGateway_German?:sid-12F965D2-744D-4C57-8FBD-EB9B25968938> <http://owl.api.wf#sequenceFlow_Yes:sid-48597EDF-8BB6-40D4-A3EF-1FC862629BE3>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway_Meet_the_basic__requirements?:Gateway_040zq19> (<http://owl.api.wf#exclusiveGateway_Meet_the_basic__requirements?:Gateway_040zq19>)
+
+ClassAssertion(:Exclusive_Gateways_Split <http://owl.api.wf#exclusiveGateway_Meet_the_basic__requirements?:Gateway_040zq19>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway_Meet_the_basic__requirements?:Gateway_040zq19> :Muenster_3)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway_Meet_the_basic__requirements?:Gateway_040zq19> <http://owl.api.wf#task_Reject_interview:Activity_052y7o3>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway_Meet_the_basic__requirements?:Gateway_040zq19> <http://owl.api.wf#task_Send_application_form:Activity_0gterbw>)
+ObjectPropertyAssertion(:sequenceFlow <http://owl.api.wf#exclusiveGateway_Meet_the_basic__requirements?:Gateway_040zq19> <http://owl.api.wf#sequenceFlow_No:Flow_178cb4d>)
+ObjectPropertyAssertion(:sequenceFlow <http://owl.api.wf#exclusiveGateway_Meet_the_basic__requirements?:Gateway_040zq19> <http://owl.api.wf#sequenceFlow_Yes:Flow_15frfna>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway_join:Gateway_18b1tfa> (<http://owl.api.wf#exclusiveGateway_join:Gateway_18b1tfa>)
+
+ClassAssertion(:Exclusive_Gateways_Join <http://owl.api.wf#exclusiveGateway_join:Gateway_18b1tfa>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway_join:Gateway_18b1tfa> :Muenster_3)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway_join:Gateway_18b1tfa> <http://owl.api.wf#task_Update_status_of_application:Activity_0bc8g0k>)
+
+# Individual: <http://owl.api.wf#exclusiveGateway_split:Gateway_017am58> (<http://owl.api.wf#exclusiveGateway_split:Gateway_017am58>)
+
+ClassAssertion(:Exclusive_Gateways_Split <http://owl.api.wf#exclusiveGateway_split:Gateway_017am58>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#exclusiveGateway_split:Gateway_017am58> :Muenster_3)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway_split:Gateway_017am58> <http://owl.api.wf#endEvent:Event_06ibsm2>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#exclusiveGateway_split:Gateway_017am58> <http://owl.api.wf#exclusiveGateway_join:Gateway_18b1tfa>)
+
+# Individual: <http://owl.api.wf#intermediateCatchEvent:Event_09j685a> (<http://owl.api.wf#intermediateCatchEvent:Event_09j685a>)
+
+ClassAssertion(:Events <http://owl.api.wf#intermediateCatchEvent:Event_09j685a>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#intermediateCatchEvent:Event_09j685a> :Hohenheim_3)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#intermediateCatchEvent:Event_09j685a> <http://owl.api.wf#endEvent:Event_0ffy6ai>)
+
+# Individual: <http://owl.api.wf#intermediateCatchEvent:Event_0mr1m07> (<http://owl.api.wf#intermediateCatchEvent:Event_0mr1m07>)
+
+ClassAssertion(:Events <http://owl.api.wf#intermediateCatchEvent:Event_0mr1m07>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#intermediateCatchEvent:Event_0mr1m07> :Hohenheim_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#intermediateCatchEvent:Event_0mr1m07> <http://owl.api.wf#exclusiveGateway:Gateway_15d44f8>)
+
+# Individual: <http://owl.api.wf#intermediateCatchEvent:sid-F8721ADF-795E-4C7B-948F-5ED530B82492> (<http://owl.api.wf#intermediateCatchEvent:sid-F8721ADF-795E-4C7B-948F-5ED530B82492>)
+
+ClassAssertion(:Events <http://owl.api.wf#intermediateCatchEvent:sid-F8721ADF-795E-4C7B-948F-5ED530B82492>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#intermediateCatchEvent:sid-F8721ADF-795E-4C7B-948F-5ED530B82492> :Frankfurt)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#intermediateCatchEvent:sid-F8721ADF-795E-4C7B-948F-5ED530B82492> <http://owl.api.wf#intermediateCatchEvent_Provisional_acceptance_confirmed:sid-C07C865B-6407-4469-A70C-7532977E3C4B>)
+
+# Individual: <http://owl.api.wf#intermediateCatchEvent_Accepted:sid-56CF457C-E58D-4519-AD80-5EDE6DD9E302> (<http://owl.api.wf#intermediateCatchEvent_Accepted:sid-56CF457C-E58D-4519-AD80-5EDE6DD9E302>)
+
+ClassAssertion(:Events <http://owl.api.wf#intermediateCatchEvent_Accepted:sid-56CF457C-E58D-4519-AD80-5EDE6DD9E302>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#intermediateCatchEvent_Accepted:sid-56CF457C-E58D-4519-AD80-5EDE6DD9E302> :Frankfurt)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#intermediateCatchEvent_Accepted:sid-56CF457C-E58D-4519-AD80-5EDE6DD9E302> <http://owl.api.wf#exclusiveGateway:sid-2D893722-0AD2-4013-8625-113B0B368A4A>)
+
+# Individual: <http://owl.api.wf#intermediateCatchEvent_Accepted:sid-A8E1C7F2-D9A4-4669-9A5E-A39015D04BE2> (<http://owl.api.wf#intermediateCatchEvent_Accepted:sid-A8E1C7F2-D9A4-4669-9A5E-A39015D04BE2>)
+
+ClassAssertion(:Events <http://owl.api.wf#intermediateCatchEvent_Accepted:sid-A8E1C7F2-D9A4-4669-9A5E-A39015D04BE2>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#intermediateCatchEvent_Accepted:sid-A8E1C7F2-D9A4-4669-9A5E-A39015D04BE2> :TU_Munich)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#intermediateCatchEvent_Accepted:sid-A8E1C7F2-D9A4-4669-9A5E-A39015D04BE2> <http://owl.api.wf#exclusiveGateway:sid-BDA19998-F73B-42E3-A22F-8401F85701F1>)
+
+# Individual: <http://owl.api.wf#intermediateCatchEvent_Accepted:sid-AC0658EC-033D-491F-8BD3-B3EAFB7DA704> (<http://owl.api.wf#intermediateCatchEvent_Accepted:sid-AC0658EC-033D-491F-8BD3-B3EAFB7DA704>)
+
+ClassAssertion(:Events <http://owl.api.wf#intermediateCatchEvent_Accepted:sid-AC0658EC-033D-491F-8BD3-B3EAFB7DA704>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#intermediateCatchEvent_Accepted:sid-AC0658EC-033D-491F-8BD3-B3EAFB7DA704> :TU_Munich)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#intermediateCatchEvent_Accepted:sid-AC0658EC-033D-491F-8BD3-B3EAFB7DA704> <http://owl.api.wf#exclusiveGateway:sid-714C5B0A-CC06-4710-9866-EC2280EA282E>)
+
+# Individual: <http://owl.api.wf#intermediateCatchEvent_Accepted:sid-FF649B0C-30F0-4E43-9BEC-02E1B22AA554> (<http://owl.api.wf#intermediateCatchEvent_Accepted:sid-FF649B0C-30F0-4E43-9BEC-02E1B22AA554>)
+
+ClassAssertion(:Events <http://owl.api.wf#intermediateCatchEvent_Accepted:sid-FF649B0C-30F0-4E43-9BEC-02E1B22AA554>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#intermediateCatchEvent_Accepted:sid-FF649B0C-30F0-4E43-9BEC-02E1B22AA554> :Cologne)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#intermediateCatchEvent_Accepted:sid-FF649B0C-30F0-4E43-9BEC-02E1B22AA554> <http://owl.api.wf#exclusiveGateway:sid-E1B754B8-CD68-4BAD-A98D-0E1093BE66EF>)
+
+# Individual: <http://owl.api.wf#intermediateCatchEvent_Accepted_provisionally:sid-6C177C18-D980-435B-AC7A-75C5A274BBE7> (<http://owl.api.wf#intermediateCatchEvent_Accepted_provisionally:sid-6C177C18-D980-435B-AC7A-75C5A274BBE7>)
+
+ClassAssertion(:Events <http://owl.api.wf#intermediateCatchEvent_Accepted_provisionally:sid-6C177C18-D980-435B-AC7A-75C5A274BBE7>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#intermediateCatchEvent_Accepted_provisionally:sid-6C177C18-D980-435B-AC7A-75C5A274BBE7> :Frankfurt)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#intermediateCatchEvent_Accepted_provisionally:sid-6C177C18-D980-435B-AC7A-75C5A274BBE7> <http://owl.api.wf#task_Wait_for_bachelor_certificate:sid-66591B2F-F075-4F41-84CF-13A13B315189>)
+
+# Individual: <http://owl.api.wf#intermediateCatchEvent_Certificate_received:sid-2F605FEA-CFEA-443C-8787-D5D523BA1F84> (<http://owl.api.wf#intermediateCatchEvent_Certificate_received:sid-2F605FEA-CFEA-443C-8787-D5D523BA1F84>)
+
+ClassAssertion(:Events <http://owl.api.wf#intermediateCatchEvent_Certificate_received:sid-2F605FEA-CFEA-443C-8787-D5D523BA1F84>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#intermediateCatchEvent_Certificate_received:sid-2F605FEA-CFEA-443C-8787-D5D523BA1F84> :Frankfurt)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#intermediateCatchEvent_Certificate_received:sid-2F605FEA-CFEA-443C-8787-D5D523BA1F84> <http://owl.api.wf#task_Send_bachelor_certificate:sid-E78FA99D-E060-476F-B663-312E3503890F>)
+
+# Individual: <http://owl.api.wf#intermediateCatchEvent_Invited_to_an_interview:sid-1FA0C09B-0884-4125-92CE-05A78B2F104C> (<http://owl.api.wf#intermediateCatchEvent_Invited_to_an_interview:sid-1FA0C09B-0884-4125-92CE-05A78B2F104C>)
+
+ClassAssertion(:Events <http://owl.api.wf#intermediateCatchEvent_Invited_to_an_interview:sid-1FA0C09B-0884-4125-92CE-05A78B2F104C>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#intermediateCatchEvent_Invited_to_an_interview:sid-1FA0C09B-0884-4125-92CE-05A78B2F104C> :TU_Munich)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#intermediateCatchEvent_Invited_to_an_interview:sid-1FA0C09B-0884-4125-92CE-05A78B2F104C> <http://owl.api.wf#task_Go_to_the_interview:sid-C35B2287-57A3-420B-A8B3-86E1FBC12BDA>)
+
+# Individual: <http://owl.api.wf#intermediateCatchEvent_Provisional__acceptance_cancelled:sid-C2288BE1-52A0-40D8-9C62-4521FD4FFDC1> (<http://owl.api.wf#intermediateCatchEvent_Provisional__acceptance_cancelled:sid-C2288BE1-52A0-40D8-9C62-4521FD4FFDC1>)
+
+ClassAssertion(:Events <http://owl.api.wf#intermediateCatchEvent_Provisional__acceptance_cancelled:sid-C2288BE1-52A0-40D8-9C62-4521FD4FFDC1>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#intermediateCatchEvent_Provisional__acceptance_cancelled:sid-C2288BE1-52A0-40D8-9C62-4521FD4FFDC1> :Frankfurt)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#intermediateCatchEvent_Provisional__acceptance_cancelled:sid-C2288BE1-52A0-40D8-9C62-4521FD4FFDC1> <http://owl.api.wf#exclusiveGateway:sid-DC50F673-8DC0-46AE-AAAD-A31A7E02D1F8>)
+
+# Individual: <http://owl.api.wf#intermediateCatchEvent_Provisional_acceptance_confirmed:sid-C07C865B-6407-4469-A70C-7532977E3C4B> (<http://owl.api.wf#intermediateCatchEvent_Provisional_acceptance_confirmed:sid-C07C865B-6407-4469-A70C-7532977E3C4B>)
+
+ClassAssertion(:Events <http://owl.api.wf#intermediateCatchEvent_Provisional_acceptance_confirmed:sid-C07C865B-6407-4469-A70C-7532977E3C4B>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#intermediateCatchEvent_Provisional_acceptance_confirmed:sid-C07C865B-6407-4469-A70C-7532977E3C4B> :Frankfurt)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#intermediateCatchEvent_Provisional_acceptance_confirmed:sid-C07C865B-6407-4469-A70C-7532977E3C4B> <http://owl.api.wf#exclusiveGateway:sid-DC50F673-8DC0-46AE-AAAD-A31A7E02D1F8>)
+
+# Individual: <http://owl.api.wf#intermediateCatchEvent_Rejected:sid-445A78A6-1CA7-40BF-B7BF-B8CCCAAEF703> (<http://owl.api.wf#intermediateCatchEvent_Rejected:sid-445A78A6-1CA7-40BF-B7BF-B8CCCAAEF703>)
+
+ClassAssertion(:Events <http://owl.api.wf#intermediateCatchEvent_Rejected:sid-445A78A6-1CA7-40BF-B7BF-B8CCCAAEF703>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#intermediateCatchEvent_Rejected:sid-445A78A6-1CA7-40BF-B7BF-B8CCCAAEF703> :Frankfurt)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#intermediateCatchEvent_Rejected:sid-445A78A6-1CA7-40BF-B7BF-B8CCCAAEF703> <http://owl.api.wf#exclusiveGateway:sid-2D893722-0AD2-4013-8625-113B0B368A4A>)
+
+# Individual: <http://owl.api.wf#intermediateCatchEvent_Rejected:sid-701A0B1D-BFF0-482A-A658-A6713BC21F13> (<http://owl.api.wf#intermediateCatchEvent_Rejected:sid-701A0B1D-BFF0-482A-A658-A6713BC21F13>)
+
+ClassAssertion(:Events <http://owl.api.wf#intermediateCatchEvent_Rejected:sid-701A0B1D-BFF0-482A-A658-A6713BC21F13>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#intermediateCatchEvent_Rejected:sid-701A0B1D-BFF0-482A-A658-A6713BC21F13> :TU_Munich)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#intermediateCatchEvent_Rejected:sid-701A0B1D-BFF0-482A-A658-A6713BC21F13> <http://owl.api.wf#exclusiveGateway:sid-BDA19998-F73B-42E3-A22F-8401F85701F1>)
+
+# Individual: <http://owl.api.wf#intermediateCatchEvent_Rejected:sid-8712EF38-01F5-4812-ACB7-8F0EF759F38C> (<http://owl.api.wf#intermediateCatchEvent_Rejected:sid-8712EF38-01F5-4812-ACB7-8F0EF759F38C>)
+
+ClassAssertion(:Events <http://owl.api.wf#intermediateCatchEvent_Rejected:sid-8712EF38-01F5-4812-ACB7-8F0EF759F38C>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#intermediateCatchEvent_Rejected:sid-8712EF38-01F5-4812-ACB7-8F0EF759F38C> :Cologne)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#intermediateCatchEvent_Rejected:sid-8712EF38-01F5-4812-ACB7-8F0EF759F38C> <http://owl.api.wf#exclusiveGateway:sid-E1B754B8-CD68-4BAD-A98D-0E1093BE66EF>)
+
+# Individual: <http://owl.api.wf#intermediateCatchEvent_Rejected:sid-BB1C4222-40C6-4013-A9C7-11BD25E18C16> (<http://owl.api.wf#intermediateCatchEvent_Rejected:sid-BB1C4222-40C6-4013-A9C7-11BD25E18C16>)
+
+ClassAssertion(:Events <http://owl.api.wf#intermediateCatchEvent_Rejected:sid-BB1C4222-40C6-4013-A9C7-11BD25E18C16>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#intermediateCatchEvent_Rejected:sid-BB1C4222-40C6-4013-A9C7-11BD25E18C16> :TU_Munich)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#intermediateCatchEvent_Rejected:sid-BB1C4222-40C6-4013-A9C7-11BD25E18C16> <http://owl.api.wf#exclusiveGateway:sid-714C5B0A-CC06-4710-9866-EC2280EA282E>)
+
+# Individual: <http://owl.api.wf#parallelGateway:Gateway_0ff1iru> (<http://owl.api.wf#parallelGateway:Gateway_0ff1iru>)
+
+ClassAssertion(:Parallel_Gateways_Join <http://owl.api.wf#parallelGateway:Gateway_0ff1iru>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#parallelGateway:Gateway_0ff1iru> :Hohenheim_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#parallelGateway:Gateway_0ff1iru> <http://owl.api.wf#endEvent:Event_075mk5f>)
+
+# Individual: <http://owl.api.wf#parallelGateway:Gateway_0nwjiqw> (<http://owl.api.wf#parallelGateway:Gateway_0nwjiqw>)
+
+ClassAssertion(:Parallel_Gateways_Split <http://owl.api.wf#parallelGateway:Gateway_0nwjiqw>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#parallelGateway:Gateway_0nwjiqw> :Hohenheim_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#parallelGateway:Gateway_0nwjiqw> <http://owl.api.wf#task_Publishing_the_letters:Activity_18axd57>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#parallelGateway:Gateway_0nwjiqw> <http://owl.api.wf#task_Update_the_applicant_status:Activity_04gt7sy>)
+
+# Individual: <http://owl.api.wf#parallelGateway:Gateway_0wimzxf> (<http://owl.api.wf#parallelGateway:Gateway_0wimzxf>)
+
+ClassAssertion(:Parallel_Gateways_Join <http://owl.api.wf#parallelGateway:Gateway_0wimzxf>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#parallelGateway:Gateway_0wimzxf> :Hohenheim_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#parallelGateway:Gateway_0wimzxf> <http://owl.api.wf#exclusiveGateway:Gateway_1oxi3uu>)
+
+# Individual: <http://owl.api.wf#parallelGateway:Gateway_1hmq6vr> (<http://owl.api.wf#parallelGateway:Gateway_1hmq6vr>)
+
+ClassAssertion(:Parallel_Gateways_Split <http://owl.api.wf#parallelGateway:Gateway_1hmq6vr>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#parallelGateway:Gateway_1hmq6vr> :Hohenheim_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#parallelGateway:Gateway_1hmq6vr> <http://owl.api.wf#task_Assessment_of_application:Activity_1y70b3u>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#parallelGateway:Gateway_1hmq6vr> <http://owl.api.wf#task_Rank_application_on_scale_from_1_to_10:Activity_0dxqmpp>)
+
+# Individual: <http://owl.api.wf#parallelGateway:sid-3BF978A8-1BCC-4246-AE60-FE251E328AF3> (<http://owl.api.wf#parallelGateway:sid-3BF978A8-1BCC-4246-AE60-FE251E328AF3>)
+
+ClassAssertion(:Parallel_Gateways_Join <http://owl.api.wf#parallelGateway:sid-3BF978A8-1BCC-4246-AE60-FE251E328AF3>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#parallelGateway:sid-3BF978A8-1BCC-4246-AE60-FE251E328AF3> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#parallelGateway:sid-3BF978A8-1BCC-4246-AE60-FE251E328AF3> <http://owl.api.wf#task_Send_application:sid-1181CC8B-F6CE-4E13-A25C-93BDF75B71B7>)
+
+# Individual: <http://owl.api.wf#parallelGateway:sid-435C2233-B6DF-44D9-B7BF-36461549F53D> (<http://owl.api.wf#parallelGateway:sid-435C2233-B6DF-44D9-B7BF-36461549F53D>)
+
+ClassAssertion(:Parallel_Gateways_Split <http://owl.api.wf#parallelGateway:sid-435C2233-B6DF-44D9-B7BF-36461549F53D>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#parallelGateway:sid-435C2233-B6DF-44D9-B7BF-36461549F53D> :Cologne)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#parallelGateway:sid-435C2233-B6DF-44D9-B7BF-36461549F53D> <http://owl.api.wf#task_Pay_for_aptitude_test:sid-F6E821C8-4300-4AA0-B6D1-6BA5D15FA7DE>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#parallelGateway:sid-435C2233-B6DF-44D9-B7BF-36461549F53D> <http://owl.api.wf#task_Take_aptitude_test:sid-A3568080-F469-4D86-BB96-7A5C48342857>)
+
+# Individual: <http://owl.api.wf#parallelGateway:sid-656C1B30-6B6B-4140-8297-7CFD075F72EF> (<http://owl.api.wf#parallelGateway:sid-656C1B30-6B6B-4140-8297-7CFD075F72EF>)
+
+ClassAssertion(:Parallel_Gateways_Split <http://owl.api.wf#parallelGateway:sid-656C1B30-6B6B-4140-8297-7CFD075F72EF>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#parallelGateway:sid-656C1B30-6B6B-4140-8297-7CFD075F72EF> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#parallelGateway:sid-656C1B30-6B6B-4140-8297-7CFD075F72EF> <http://owl.api.wf#exclusiveGateway_German?:sid-12F965D2-744D-4C57-8FBD-EB9B25968938>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#parallelGateway:sid-656C1B30-6B6B-4140-8297-7CFD075F72EF> <http://owl.api.wf#task_Add_certificate_of_bachelor_degree:sid-4636DE79-328E-4C1B-8BE3-F0D5FF00E69C>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#parallelGateway:sid-656C1B30-6B6B-4140-8297-7CFD075F72EF> <http://owl.api.wf#task_Create_and_add_CV:sid-D3AE1325-5912-4B94-9B35-72D7EBE6BE16>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#parallelGateway:sid-656C1B30-6B6B-4140-8297-7CFD075F72EF> <http://owl.api.wf#task_Create_and_add_letter_of_motivation:sid-8DA2CA7E-99ED-4CF8-955B-FA96DD526870>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#parallelGateway:sid-656C1B30-6B6B-4140-8297-7CFD075F72EF> <http://owl.api.wf#task_Fill_out_application_form:sid-F0B6060E-1460-4CFF-8D94-1181081F4671>)
+
+# Individual: <http://owl.api.wf#parallelGateway:sid-71E7DBD7-F76C-42AD-8388-CD8D59CF88D4> (<http://owl.api.wf#parallelGateway:sid-71E7DBD7-F76C-42AD-8388-CD8D59CF88D4>)
+
+ClassAssertion(:Parallel_Gateways_Split <http://owl.api.wf#parallelGateway:sid-71E7DBD7-F76C-42AD-8388-CD8D59CF88D4>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#parallelGateway:sid-71E7DBD7-F76C-42AD-8388-CD8D59CF88D4> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#parallelGateway:sid-71E7DBD7-F76C-42AD-8388-CD8D59CF88D4> <http://owl.api.wf#exclusiveGateway:sid-372AB00E-AC90-4B84-9642-AB11FC4C21AB>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#parallelGateway:sid-71E7DBD7-F76C-42AD-8388-CD8D59CF88D4> <http://owl.api.wf#exclusiveGateway:sid-76E01A89-B4C3-4FCC-8940-5C76E0A5F2B1>)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#parallelGateway:sid-71E7DBD7-F76C-42AD-8388-CD8D59CF88D4> <http://owl.api.wf#exclusiveGateway:sid-813795F6-9B7A-4D33-BEF1-7A04F3B3F050>)
+
+# Individual: <http://owl.api.wf#parallelGateway:sid-C46D7B4F-8D66-485F-9F7E-2B10F9598D70> (<http://owl.api.wf#parallelGateway:sid-C46D7B4F-8D66-485F-9F7E-2B10F9598D70>)
+
+ClassAssertion(:Parallel_Gateways_Join <http://owl.api.wf#parallelGateway:sid-C46D7B4F-8D66-485F-9F7E-2B10F9598D70>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#parallelGateway:sid-C46D7B4F-8D66-485F-9F7E-2B10F9598D70> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#parallelGateway:sid-C46D7B4F-8D66-485F-9F7E-2B10F9598D70> <http://owl.api.wf#parallelGateway:sid-71E7DBD7-F76C-42AD-8388-CD8D59CF88D4>)
+
+# Individual: <http://owl.api.wf#parallelGateway:sid-EBFCC664-88E4-4A1C-98AB-4CDC6394D1C8> (<http://owl.api.wf#parallelGateway:sid-EBFCC664-88E4-4A1C-98AB-4CDC6394D1C8>)
+
+ClassAssertion(:Parallel_Gateways_Join <http://owl.api.wf#parallelGateway:sid-EBFCC664-88E4-4A1C-98AB-4CDC6394D1C8>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#parallelGateway:sid-EBFCC664-88E4-4A1C-98AB-4CDC6394D1C8> :Cologne)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#parallelGateway:sid-EBFCC664-88E4-4A1C-98AB-4CDC6394D1C8> <http://owl.api.wf#exclusiveGateway:sid-11FBC760-4A87-41FD-8F9F-208E733E7D3C>)
+
+# Individual: <http://owl.api.wf#sequenceFlow_Average__grade_is_good_or_better:sid-02EAC313-B005-4A8D-888E-1EB132B792BF> (<http://owl.api.wf#sequenceFlow_Average__grade_is_good_or_better:sid-02EAC313-B005-4A8D-888E-1EB132B792BF>)
+
+ClassAssertion(:Sequence_Flows <http://owl.api.wf#sequenceFlow_Average__grade_is_good_or_better:sid-02EAC313-B005-4A8D-888E-1EB132B792BF>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#sequenceFlow_Average__grade_is_good_or_better:sid-02EAC313-B005-4A8D-888E-1EB132B792BF> :Frankfurt)
+ObjectPropertyAssertion(:sequenceFlow <http://owl.api.wf#sequenceFlow_Average__grade_is_good_or_better:sid-02EAC313-B005-4A8D-888E-1EB132B792BF> <http://owl.api.wf#intermediateCatchEvent:sid-F8721ADF-795E-4C7B-948F-5ED530B82492>)
+
+# Individual: <http://owl.api.wf#sequenceFlow_Average_grade_is_less_than_good:sid-5F18B065-4E9C-461E-9703-6C6B6B645194> (<http://owl.api.wf#sequenceFlow_Average_grade_is_less_than_good:sid-5F18B065-4E9C-461E-9703-6C6B6B645194>)
+
+ClassAssertion(:Sequence_Flows <http://owl.api.wf#sequenceFlow_Average_grade_is_less_than_good:sid-5F18B065-4E9C-461E-9703-6C6B6B645194>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#sequenceFlow_Average_grade_is_less_than_good:sid-5F18B065-4E9C-461E-9703-6C6B6B645194> :Frankfurt)
+ObjectPropertyAssertion(:sequenceFlow <http://owl.api.wf#sequenceFlow_Average_grade_is_less_than_good:sid-5F18B065-4E9C-461E-9703-6C6B6B645194> <http://owl.api.wf#intermediateCatchEvent_Provisional__acceptance_cancelled:sid-C2288BE1-52A0-40D8-9C62-4521FD4FFDC1>)
+
+# Individual: <http://owl.api.wf#sequenceFlow_Bridging_courses__<=30_CP:Flow_1uqgkoc> (<http://owl.api.wf#sequenceFlow_Bridging_courses__<=30_CP:Flow_1uqgkoc>)
+
+ClassAssertion(:Sequence_Flows <http://owl.api.wf#sequenceFlow_Bridging_courses__<=30_CP:Flow_1uqgkoc>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#sequenceFlow_Bridging_courses__<=30_CP:Flow_1uqgkoc> :TU_Munich_1)
+ObjectPropertyAssertion(:sequenceFlow <http://owl.api.wf#sequenceFlow_Bridging_courses__<=30_CP:Flow_1uqgkoc> <http://owl.api.wf#task_Check_documents:Activity_0l6ptwm>)
+
+# Individual: <http://owl.api.wf#sequenceFlow_Bridging_courses_bigger_than30_CP:Flow_1k6ump6> (<http://owl.api.wf#sequenceFlow_Bridging_courses_bigger_than30_CP:Flow_1k6ump6>)
+
+ClassAssertion(:Sequence_Flows <http://owl.api.wf#sequenceFlow_Bridging_courses_bigger_than30_CP:Flow_1k6ump6>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#sequenceFlow_Bridging_courses_bigger_than30_CP:Flow_1k6ump6> :TU_Munich_1)
+ObjectPropertyAssertion(:sequenceFlow <http://owl.api.wf#sequenceFlow_Bridging_courses_bigger_than30_CP:Flow_1k6ump6> <http://owl.api.wf#exclusiveGateway:Gateway_1hqo3q9>)
+
+# Individual: <http://owl.api.wf#sequenceFlow_Less_than_16_CP__in_mathematics:sid-D1BC05C3-F423-43DF-9372-DEA6DC223573> (<http://owl.api.wf#sequenceFlow_Less_than_16_CP__in_mathematics:sid-D1BC05C3-F423-43DF-9372-DEA6DC223573>)
+
+ClassAssertion(:Sequence_Flows <http://owl.api.wf#sequenceFlow_Less_than_16_CP__in_mathematics:sid-D1BC05C3-F423-43DF-9372-DEA6DC223573>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#sequenceFlow_Less_than_16_CP__in_mathematics:sid-D1BC05C3-F423-43DF-9372-DEA6DC223573> :Frankfurt)
+ObjectPropertyAssertion(:sequenceFlow <http://owl.api.wf#sequenceFlow_Less_than_16_CP__in_mathematics:sid-D1BC05C3-F423-43DF-9372-DEA6DC223573> <http://owl.api.wf#task_Take_oral_exam:sid-0FB8FB77-B1AF-4D8C-A203-3730AA67E6A4>)
+
+# Individual: <http://owl.api.wf#sequenceFlow_No:Flow_178cb4d> (<http://owl.api.wf#sequenceFlow_No:Flow_178cb4d>)
+
+ClassAssertion(:Sequence_Flows <http://owl.api.wf#sequenceFlow_No:Flow_178cb4d>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#sequenceFlow_No:Flow_178cb4d> :Muenster_3)
+ObjectPropertyAssertion(:sequenceFlow <http://owl.api.wf#sequenceFlow_No:Flow_178cb4d> <http://owl.api.wf#task_Reject_interview:Activity_052y7o3>)
+
+# Individual: <http://owl.api.wf#sequenceFlow_No:sid-24846D93-2192-468E-B817-C37C1B729962> (<http://owl.api.wf#sequenceFlow_No:sid-24846D93-2192-468E-B817-C37C1B729962>)
+
+ClassAssertion(:Sequence_Flows <http://owl.api.wf#sequenceFlow_No:sid-24846D93-2192-468E-B817-C37C1B729962>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#sequenceFlow_No:sid-24846D93-2192-468E-B817-C37C1B729962> :Potsdam)
+ObjectPropertyAssertion(:sequenceFlow <http://owl.api.wf#sequenceFlow_No:sid-24846D93-2192-468E-B817-C37C1B729962> <http://owl.api.wf#task_Add_certificate_of_German_language:sid-D7986EB7-2220-4C30-A486-42454F049BCB>)
+
+# Individual: <http://owl.api.wf#sequenceFlow_Sufficient_CP__in_mathematics:sid-70B817AB-2667-49C4-9E62-4C734FC482FC> (<http://owl.api.wf#sequenceFlow_Sufficient_CP__in_mathematics:sid-70B817AB-2667-49C4-9E62-4C734FC482FC>)
+
+ClassAssertion(:Sequence_Flows <http://owl.api.wf#sequenceFlow_Sufficient_CP__in_mathematics:sid-70B817AB-2667-49C4-9E62-4C734FC482FC>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#sequenceFlow_Sufficient_CP__in_mathematics:sid-70B817AB-2667-49C4-9E62-4C734FC482FC> :Frankfurt)
+ObjectPropertyAssertion(:sequenceFlow <http://owl.api.wf#sequenceFlow_Sufficient_CP__in_mathematics:sid-70B817AB-2667-49C4-9E62-4C734FC482FC> <http://owl.api.wf#exclusiveGateway:sid-FDE49817-6778-497E-9DAF-C4B8D4BE5766>)
+
+# Individual: <http://owl.api.wf#sequenceFlow_Yes:Flow_15frfna> (<http://owl.api.wf#sequenceFlow_Yes:Flow_15frfna>)
+
+ClassAssertion(:Sequence_Flows <http://owl.api.wf#sequenceFlow_Yes:Flow_15frfna>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#sequenceFlow_Yes:Flow_15frfna> :Muenster_3)
+ObjectPropertyAssertion(:sequenceFlow <http://owl.api.wf#sequenceFlow_Yes:Flow_15frfna> <http://owl.api.wf#task_Send_application_form:Activity_0gterbw>)
+
+# Individual: <http://owl.api.wf#sequenceFlow_Yes:sid-48597EDF-8BB6-40D4-A3EF-1FC862629BE3> (<http://owl.api.wf#sequenceFlow_Yes:sid-48597EDF-8BB6-40D4-A3EF-1FC862629BE3>)
+
+ClassAssertion(:Sequence_Flows <http://owl.api.wf#sequenceFlow_Yes:sid-48597EDF-8BB6-40D4-A3EF-1FC862629BE3>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#sequenceFlow_Yes:sid-48597EDF-8BB6-40D4-A3EF-1FC862629BE3> :Potsdam)
+ObjectPropertyAssertion(:sequenceFlow <http://owl.api.wf#sequenceFlow_Yes:sid-48597EDF-8BB6-40D4-A3EF-1FC862629BE3> <http://owl.api.wf#exclusiveGateway:sid-CBE09DCA-7966-4018-B5CA-D433E5F4795D>)
+
+# Individual: <http://owl.api.wf#startEvent:Event_0l1cng1> (<http://owl.api.wf#startEvent:Event_0l1cng1>)
+
+ClassAssertion(:Events <http://owl.api.wf#startEvent:Event_0l1cng1>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#startEvent:Event_0l1cng1> :Hohenheim_3)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#startEvent:Event_0l1cng1> <http://owl.api.wf#task_Document_online_applications:Activity_0u1kzre>)
+
+# Individual: <http://owl.api.wf#startEvent:Event_0qqjwcf> (<http://owl.api.wf#startEvent:Event_0qqjwcf>)
+
+ClassAssertion(:Events <http://owl.api.wf#startEvent:Event_0qqjwcf>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#startEvent:Event_0qqjwcf> :Hohenheim_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#startEvent:Event_0qqjwcf> <http://owl.api.wf#task_Receiving_the_written_applications:Activity_0lrjdrr>)
+
+# Individual: <http://owl.api.wf#startEvent:Event_1u7ij2d> (<http://owl.api.wf#startEvent:Event_1u7ij2d>)
+
+ClassAssertion(:Events <http://owl.api.wf#startEvent:Event_1u7ij2d>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#startEvent:Event_1u7ij2d> :Muenster_3)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#startEvent:Event_1u7ij2d> <http://owl.api.wf#task_Check_responses:Activity_1qnwoyy>)
+
+# Individual: <http://owl.api.wf#startEvent:Event_1upf8ke> (<http://owl.api.wf#startEvent:Event_1upf8ke>)
+
+ClassAssertion(:Events <http://owl.api.wf#startEvent:Event_1upf8ke>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#startEvent:Event_1upf8ke> :Hohenheim_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#startEvent:Event_1upf8ke> <http://owl.api.wf#task_Receive_application:Activity_1o2r3sm>)
+
+# Individual: <http://owl.api.wf#startEvent:sid-2F1B5E15-2C23-46DF-82E6-958211C1D0DD> (<http://owl.api.wf#startEvent:sid-2F1B5E15-2C23-46DF-82E6-958211C1D0DD>)
+
+ClassAssertion(:Events <http://owl.api.wf#startEvent:sid-2F1B5E15-2C23-46DF-82E6-958211C1D0DD>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#startEvent:sid-2F1B5E15-2C23-46DF-82E6-958211C1D0DD> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#startEvent:sid-2F1B5E15-2C23-46DF-82E6-958211C1D0DD> <http://owl.api.wf#task_Complete_application:sid-7A2F2AA8-E50F-40F2-B7ED-CDEDB810D97C>)
+
+# Individual: <http://owl.api.wf#startEvent:sid-321FA3C6-D9DF-46B4-85AC-4E9E7310BCC7> (<http://owl.api.wf#startEvent:sid-321FA3C6-D9DF-46B4-85AC-4E9E7310BCC7>)
+
+ClassAssertion(:Events <http://owl.api.wf#startEvent:sid-321FA3C6-D9DF-46B4-85AC-4E9E7310BCC7>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#startEvent:sid-321FA3C6-D9DF-46B4-85AC-4E9E7310BCC7> :Cologne)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#startEvent:sid-321FA3C6-D9DF-46B4-85AC-4E9E7310BCC7> <http://owl.api.wf#task_Apply_online:sid-B11703D1-08C3-416B-8947-76CE10A27978>)
+
+# Individual: <http://owl.api.wf#startEvent:sid-3AE34340-B40D-4A61-99AB-3EF1D830EF28> (<http://owl.api.wf#startEvent:sid-3AE34340-B40D-4A61-99AB-3EF1D830EF28>)
+
+ClassAssertion(:Events <http://owl.api.wf#startEvent:sid-3AE34340-B40D-4A61-99AB-3EF1D830EF28>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#startEvent:sid-3AE34340-B40D-4A61-99AB-3EF1D830EF28> :Wuerzburg)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#startEvent:sid-3AE34340-B40D-4A61-99AB-3EF1D830EF28> <http://owl.api.wf#task_Choose_Uni:sid-7334C78B-F3F1-449E-9B9B-D39C17261BD9>)
+
+# Individual: <http://owl.api.wf#startEvent:sid-4BC64E5F-17AA-4A7C-AAF7-C0C5AAC49682> (<http://owl.api.wf#startEvent:sid-4BC64E5F-17AA-4A7C-AAF7-C0C5AAC49682>)
+
+ClassAssertion(:Events <http://owl.api.wf#startEvent:sid-4BC64E5F-17AA-4A7C-AAF7-C0C5AAC49682>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#startEvent:sid-4BC64E5F-17AA-4A7C-AAF7-C0C5AAC49682> :TU_Munich)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#startEvent:sid-4BC64E5F-17AA-4A7C-AAF7-C0C5AAC49682> <http://owl.api.wf#task_Apply_online:sid-3B9A1679-D9C0-48D4-B6EB-EE354AB529F2>)
+
+# Individual: <http://owl.api.wf#startEvent:sid-ADD682EC-3708-48C9-B271-FD15F17C58F0> (<http://owl.api.wf#startEvent:sid-ADD682EC-3708-48C9-B271-FD15F17C58F0>)
+
+ClassAssertion(:Events <http://owl.api.wf#startEvent:sid-ADD682EC-3708-48C9-B271-FD15F17C58F0>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#startEvent:sid-ADD682EC-3708-48C9-B271-FD15F17C58F0> :Frankfurt)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#startEvent:sid-ADD682EC-3708-48C9-B271-FD15F17C58F0> <http://owl.api.wf#task_Apply_online:sid-6952982C-0D18-4456-93A2-B60B5B3BA047>)
+
+# Individual: <http://owl.api.wf#startEvent_Documents__received:Event_066hn74> (<http://owl.api.wf#startEvent_Documents__received:Event_066hn74>)
+
+ClassAssertion(:Events <http://owl.api.wf#startEvent_Documents__received:Event_066hn74>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#startEvent_Documents__received:Event_066hn74> :TU_Munich_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#startEvent_Documents__received:Event_066hn74> <http://owl.api.wf#task_Check_bachelor_degree:Activity_0bhf14h>)
+
+# Individual: <http://owl.api.wf#startEvent_Documents_received:Event_192uahg> (<http://owl.api.wf#startEvent_Documents_received:Event_192uahg>)
+
+ClassAssertion(:Events <http://owl.api.wf#startEvent_Documents_received:Event_192uahg>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#startEvent_Documents_received:Event_192uahg> :Frankfurt_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#startEvent_Documents_received:Event_192uahg> <http://owl.api.wf#task_Check_documents:Activity_1xorc6r>)
+
+# Individual: <http://owl.api.wf#startEvent_Documents_received:Event_1geljn0> (<http://owl.api.wf#startEvent_Documents_received:Event_1geljn0>)
+
+ClassAssertion(:Events <http://owl.api.wf#startEvent_Documents_received:Event_1geljn0>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#startEvent_Documents_received:Event_1geljn0> :Cologne_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#startEvent_Documents_received:Event_1geljn0> <http://owl.api.wf#task_Check_documents:Activity_1ocui6e>)
+
+# Individual: <http://owl.api.wf#task_Add_case-of-hardship_certificate:sid-AFD38E5A-3438-44ED-87A9-63EAE7A744DD> (<http://owl.api.wf#task_Add_case-of-hardship_certificate:sid-AFD38E5A-3438-44ED-87A9-63EAE7A744DD>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Add_case-of-hardship_certificate:sid-AFD38E5A-3438-44ED-87A9-63EAE7A744DD>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Add_case-of-hardship_certificate:sid-AFD38E5A-3438-44ED-87A9-63EAE7A744DD> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Add_case-of-hardship_certificate:sid-AFD38E5A-3438-44ED-87A9-63EAE7A744DD> <http://owl.api.wf#exclusiveGateway:sid-FB461E09-F2C0-4232-AF49-76E090FCADA6>)
+
+# Individual: <http://owl.api.wf#task_Add_certificate_of_German_language:sid-D7986EB7-2220-4C30-A486-42454F049BCB> (<http://owl.api.wf#task_Add_certificate_of_German_language:sid-D7986EB7-2220-4C30-A486-42454F049BCB>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Add_certificate_of_German_language:sid-D7986EB7-2220-4C30-A486-42454F049BCB>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Add_certificate_of_German_language:sid-D7986EB7-2220-4C30-A486-42454F049BCB> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Add_certificate_of_German_language:sid-D7986EB7-2220-4C30-A486-42454F049BCB> <http://owl.api.wf#exclusiveGateway:sid-CBE09DCA-7966-4018-B5CA-D433E5F4795D>)
+
+# Individual: <http://owl.api.wf#task_Add_certificate_of_bachelor_degree:sid-4636DE79-328E-4C1B-8BE3-F0D5FF00E69C> (<http://owl.api.wf#task_Add_certificate_of_bachelor_degree:sid-4636DE79-328E-4C1B-8BE3-F0D5FF00E69C>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Add_certificate_of_bachelor_degree:sid-4636DE79-328E-4C1B-8BE3-F0D5FF00E69C>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Add_certificate_of_bachelor_degree:sid-4636DE79-328E-4C1B-8BE3-F0D5FF00E69C> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Add_certificate_of_bachelor_degree:sid-4636DE79-328E-4C1B-8BE3-F0D5FF00E69C> <http://owl.api.wf#parallelGateway:sid-C46D7B4F-8D66-485F-9F7E-2B10F9598D70>)
+
+# Individual: <http://owl.api.wf#task_Add_certificates_of_qualification:sid-FB567539-2B9F-4B9C-A2A8-4C8A9097CE89> (<http://owl.api.wf#task_Add_certificates_of_qualification:sid-FB567539-2B9F-4B9C-A2A8-4C8A9097CE89>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Add_certificates_of_qualification:sid-FB567539-2B9F-4B9C-A2A8-4C8A9097CE89>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Add_certificates_of_qualification:sid-FB567539-2B9F-4B9C-A2A8-4C8A9097CE89> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Add_certificates_of_qualification:sid-FB567539-2B9F-4B9C-A2A8-4C8A9097CE89> <http://owl.api.wf#exclusiveGateway:sid-76AC77BA-5CD0-41DF-9390-DF136510982B>)
+
+# Individual: <http://owl.api.wf#task_Add_recommendations:sid-9460F7EB-5D0E-4C9A-933C-91EAEDFF6B1F> (<http://owl.api.wf#task_Add_recommendations:sid-9460F7EB-5D0E-4C9A-933C-91EAEDFF6B1F>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Add_recommendations:sid-9460F7EB-5D0E-4C9A-933C-91EAEDFF6B1F>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Add_recommendations:sid-9460F7EB-5D0E-4C9A-933C-91EAEDFF6B1F> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Add_recommendations:sid-9460F7EB-5D0E-4C9A-933C-91EAEDFF6B1F> <http://owl.api.wf#exclusiveGateway:sid-35EE4631-A52E-4C34-B85A-415458C47917>)
+
+# Individual: <http://owl.api.wf#task_Allocate_an_application_number_and_password_to_each_applicant:Activity_1vl8llz> (<http://owl.api.wf#task_Allocate_an_application_number_and_password_to_each_applicant:Activity_1vl8llz>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Allocate_an_application_number_and_password_to_each_applicant:Activity_1vl8llz>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Allocate_an_application_number_and_password_to_each_applicant:Activity_1vl8llz> :Hohenheim_3)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Allocate_an_application_number_and_password_to_each_applicant:Activity_1vl8llz> <http://owl.api.wf#intermediateCatchEvent:Event_09j685a>)
+
+# Individual: <http://owl.api.wf#task_Apply_online:sid-3B9A1679-D9C0-48D4-B6EB-EE354AB529F2> (<http://owl.api.wf#task_Apply_online:sid-3B9A1679-D9C0-48D4-B6EB-EE354AB529F2>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Apply_online:sid-3B9A1679-D9C0-48D4-B6EB-EE354AB529F2>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Apply_online:sid-3B9A1679-D9C0-48D4-B6EB-EE354AB529F2> :TU_Munich)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Apply_online:sid-3B9A1679-D9C0-48D4-B6EB-EE354AB529F2> <http://owl.api.wf#task_Send_documents_by_post:sid-B9C01B9A-294C-4E27-A0A8-DB69025E4284>)
+
+# Individual: <http://owl.api.wf#task_Apply_online:sid-6952982C-0D18-4456-93A2-B60B5B3BA047> (<http://owl.api.wf#task_Apply_online:sid-6952982C-0D18-4456-93A2-B60B5B3BA047>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Apply_online:sid-6952982C-0D18-4456-93A2-B60B5B3BA047>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Apply_online:sid-6952982C-0D18-4456-93A2-B60B5B3BA047> :Frankfurt)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Apply_online:sid-6952982C-0D18-4456-93A2-B60B5B3BA047> <http://owl.api.wf#task_Send_documents_by_post:sid-234E99B4-0E97-4770-B2CF-AD0DACDF6888>)
+
+# Individual: <http://owl.api.wf#task_Apply_online:sid-B11703D1-08C3-416B-8947-76CE10A27978> (<http://owl.api.wf#task_Apply_online:sid-B11703D1-08C3-416B-8947-76CE10A27978>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Apply_online:sid-B11703D1-08C3-416B-8947-76CE10A27978>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Apply_online:sid-B11703D1-08C3-416B-8947-76CE10A27978> :Cologne)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Apply_online:sid-B11703D1-08C3-416B-8947-76CE10A27978> <http://owl.api.wf#task_Send_online_protocäl:sid-2A61C308-48B4-4C26-9CB3-D489A0BBC1E3>)
+
+# Individual: <http://owl.api.wf#task_Assessment_of_application:Activity_1y70b3u> (<http://owl.api.wf#task_Assessment_of_application:Activity_1y70b3u>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Assessment_of_application:Activity_1y70b3u>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Assessment_of_application:Activity_1y70b3u> :Hohenheim_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Assessment_of_application:Activity_1y70b3u> <http://owl.api.wf#parallelGateway:Gateway_0wimzxf>)
+
+# Individual: <http://owl.api.wf#task_Check_bachelor_degree:Activity_0bhf14h> (<http://owl.api.wf#task_Check_bachelor_degree:Activity_0bhf14h>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Check_bachelor_degree:Activity_0bhf14h>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Check_bachelor_degree:Activity_0bhf14h> :TU_Munich_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Check_bachelor_degree:Activity_0bhf14h> <http://owl.api.wf#exclusiveGateway:Gateway_0n7u7jr>)
+
+# Individual: <http://owl.api.wf#task_Check_documents:Activity_0l6ptwm> (<http://owl.api.wf#task_Check_documents:Activity_0l6ptwm>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Check_documents:Activity_0l6ptwm>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Check_documents:Activity_0l6ptwm> :TU_Munich_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Check_documents:Activity_0l6ptwm> <http://owl.api.wf#task_Forward_documents:Activity_13uljj7>)
+
+# Individual: <http://owl.api.wf#task_Check_documents:Activity_1ocui6e> (<http://owl.api.wf#task_Check_documents:Activity_1ocui6e>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Check_documents:Activity_1ocui6e>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Check_documents:Activity_1ocui6e> :Cologne_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Check_documents:Activity_1ocui6e> <http://owl.api.wf#task_Evaluate:Activity_1flewlx>)
+
+# Individual: <http://owl.api.wf#task_Check_documents:Activity_1xorc6r> (<http://owl.api.wf#task_Check_documents:Activity_1xorc6r>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Check_documents:Activity_1xorc6r>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Check_documents:Activity_1xorc6r> :Frankfurt_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Check_documents:Activity_1xorc6r> <http://owl.api.wf#task_Evaluate:Activity_0lklwmd>)
+
+# Individual: <http://owl.api.wf#task_Check_responses:Activity_1qnwoyy> (<http://owl.api.wf#task_Check_responses:Activity_1qnwoyy>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Check_responses:Activity_1qnwoyy>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Check_responses:Activity_1qnwoyy> :Muenster_3)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Check_responses:Activity_1qnwoyy> <http://owl.api.wf#exclusiveGateway_Meet_the_basic__requirements?:Gateway_040zq19>)
+
+# Individual: <http://owl.api.wf#task_Checking_if_complete:Activity_1wkha59> (<http://owl.api.wf#task_Checking_if_complete:Activity_1wkha59>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Checking_if_complete:Activity_1wkha59>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Checking_if_complete:Activity_1wkha59> :Hohenheim_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Checking_if_complete:Activity_1wkha59> <http://owl.api.wf#exclusiveGateway:Gateway_170y0ln>)
+
+# Individual: <http://owl.api.wf#task_Choose_Uni:sid-7334C78B-F3F1-449E-9B9B-D39C17261BD9> (<http://owl.api.wf#task_Choose_Uni:sid-7334C78B-F3F1-449E-9B9B-D39C17261BD9>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Choose_Uni:sid-7334C78B-F3F1-449E-9B9B-D39C17261BD9>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Choose_Uni:sid-7334C78B-F3F1-449E-9B9B-D39C17261BD9> :Wuerzburg)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Choose_Uni:sid-7334C78B-F3F1-449E-9B9B-D39C17261BD9> <http://owl.api.wf#exclusiveGateway:sid-01A67757-E183-4D3D-B853-46D44F41B388>)
+
+# Individual: <http://owl.api.wf#task_Complete_application:sid-7A2F2AA8-E50F-40F2-B7ED-CDEDB810D97C> (<http://owl.api.wf#task_Complete_application:sid-7A2F2AA8-E50F-40F2-B7ED-CDEDB810D97C>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Complete_application:sid-7A2F2AA8-E50F-40F2-B7ED-CDEDB810D97C>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Complete_application:sid-7A2F2AA8-E50F-40F2-B7ED-CDEDB810D97C> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Complete_application:sid-7A2F2AA8-E50F-40F2-B7ED-CDEDB810D97C> <http://owl.api.wf#parallelGateway:sid-656C1B30-6B6B-4140-8297-7CFD075F72EF>)
+
+# Individual: <http://owl.api.wf#task_Conduct_interview:Activity_1xha5g7> (<http://owl.api.wf#task_Conduct_interview:Activity_1xha5g7>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Conduct_interview:Activity_1xha5g7>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Conduct_interview:Activity_1xha5g7> :TU_Munich_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Conduct_interview:Activity_1xha5g7> <http://owl.api.wf#exclusiveGateway:Gateway_0wlu059>)
+
+# Individual: <http://owl.api.wf#task_Create_and_add_CV:sid-D3AE1325-5912-4B94-9B35-72D7EBE6BE16> (<http://owl.api.wf#task_Create_and_add_CV:sid-D3AE1325-5912-4B94-9B35-72D7EBE6BE16>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Create_and_add_CV:sid-D3AE1325-5912-4B94-9B35-72D7EBE6BE16>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Create_and_add_CV:sid-D3AE1325-5912-4B94-9B35-72D7EBE6BE16> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Create_and_add_CV:sid-D3AE1325-5912-4B94-9B35-72D7EBE6BE16> <http://owl.api.wf#parallelGateway:sid-C46D7B4F-8D66-485F-9F7E-2B10F9598D70>)
+
+# Individual: <http://owl.api.wf#task_Create_and_add_letter_of_motivation:sid-8DA2CA7E-99ED-4CF8-955B-FA96DD526870> (<http://owl.api.wf#task_Create_and_add_letter_of_motivation:sid-8DA2CA7E-99ED-4CF8-955B-FA96DD526870>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Create_and_add_letter_of_motivation:sid-8DA2CA7E-99ED-4CF8-955B-FA96DD526870>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Create_and_add_letter_of_motivation:sid-8DA2CA7E-99ED-4CF8-955B-FA96DD526870> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Create_and_add_letter_of_motivation:sid-8DA2CA7E-99ED-4CF8-955B-FA96DD526870> <http://owl.api.wf#parallelGateway:sid-C46D7B4F-8D66-485F-9F7E-2B10F9598D70>)
+
+# Individual: <http://owl.api.wf#task_Document_online_applications:Activity_0u1kzre> (<http://owl.api.wf#task_Document_online_applications:Activity_0u1kzre>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Document_online_applications:Activity_0u1kzre>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Document_online_applications:Activity_0u1kzre> :Hohenheim_3)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Document_online_applications:Activity_0u1kzre> <http://owl.api.wf#task_Allocate_an_application_number_and_password_to_each_applicant:Activity_1vl8llz>)
+
+# Individual: <http://owl.api.wf#task_Evaluate:Activity_0bdop2m> (<http://owl.api.wf#task_Evaluate:Activity_0bdop2m>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Evaluate:Activity_0bdop2m>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Evaluate:Activity_0bdop2m> :TU_Munich_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Evaluate:Activity_0bdop2m> <http://owl.api.wf#exclusiveGateway:Gateway_08dc3yh>)
+
+# Individual: <http://owl.api.wf#task_Evaluate:Activity_0lklwmd> (<http://owl.api.wf#task_Evaluate:Activity_0lklwmd>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Evaluate:Activity_0lklwmd>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Evaluate:Activity_0lklwmd> :Frankfurt_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Evaluate:Activity_0lklwmd> <http://owl.api.wf#exclusiveGateway:Gateway_137oyxp>)
+
+# Individual: <http://owl.api.wf#task_Evaluate:Activity_1flewlx> (<http://owl.api.wf#task_Evaluate:Activity_1flewlx>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Evaluate:Activity_1flewlx>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Evaluate:Activity_1flewlx> :Cologne_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Evaluate:Activity_1flewlx> <http://owl.api.wf#exclusiveGateway:Gateway_1qdo7vy>)
+
+# Individual: <http://owl.api.wf#task_Fill_in_online_form_of_application:sid-8C628809-B4AD-4A0E-9BB9-E3AFAB22381C> (<http://owl.api.wf#task_Fill_in_online_form_of_application:sid-8C628809-B4AD-4A0E-9BB9-E3AFAB22381C>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Fill_in_online_form_of_application:sid-8C628809-B4AD-4A0E-9BB9-E3AFAB22381C>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Fill_in_online_form_of_application:sid-8C628809-B4AD-4A0E-9BB9-E3AFAB22381C> :Wuerzburg)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Fill_in_online_form_of_application:sid-8C628809-B4AD-4A0E-9BB9-E3AFAB22381C> <http://owl.api.wf#task_Send_german_application:sid-31ACAFC9-DEA8-4F26-8AC2-16751B0B91A2>)
+
+# Individual: <http://owl.api.wf#task_Fill_in_printed_form_of_application_for_international_students:sid-48539062-6B70-468F-BF19-F74EEE12F0EB> (<http://owl.api.wf#task_Fill_in_printed_form_of_application_for_international_students:sid-48539062-6B70-468F-BF19-F74EEE12F0EB>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Fill_in_printed_form_of_application_for_international_students:sid-48539062-6B70-468F-BF19-F74EEE12F0EB>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Fill_in_printed_form_of_application_for_international_students:sid-48539062-6B70-468F-BF19-F74EEE12F0EB> :Wuerzburg)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Fill_in_printed_form_of_application_for_international_students:sid-48539062-6B70-468F-BF19-F74EEE12F0EB> <http://owl.api.wf#task_Send_international_application:sid-925591B8-59CC-4806-B43B-3B5F10D7794F>)
+
+# Individual: <http://owl.api.wf#task_Fill_out_application_form:sid-F0B6060E-1460-4CFF-8D94-1181081F4671> (<http://owl.api.wf#task_Fill_out_application_form:sid-F0B6060E-1460-4CFF-8D94-1181081F4671>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Fill_out_application_form:sid-F0B6060E-1460-4CFF-8D94-1181081F4671>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Fill_out_application_form:sid-F0B6060E-1460-4CFF-8D94-1181081F4671> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Fill_out_application_form:sid-F0B6060E-1460-4CFF-8D94-1181081F4671> <http://owl.api.wf#parallelGateway:sid-C46D7B4F-8D66-485F-9F7E-2B10F9598D70>)
+
+# Individual: <http://owl.api.wf#task_Final_confirmation_by_head_of_the_university:Activity_0rgufzq> (<http://owl.api.wf#task_Final_confirmation_by_head_of_the_university:Activity_0rgufzq>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Final_confirmation_by_head_of_the_university:Activity_0rgufzq>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Final_confirmation_by_head_of_the_university:Activity_0rgufzq> :Hohenheim_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Final_confirmation_by_head_of_the_university:Activity_0rgufzq> <http://owl.api.wf#endEvent:Event_0eeypej>)
+
+# Individual: <http://owl.api.wf#task_Forward_documents:Activity_13uljj7> (<http://owl.api.wf#task_Forward_documents:Activity_13uljj7>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Forward_documents:Activity_13uljj7>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Forward_documents:Activity_13uljj7> :TU_Munich_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Forward_documents:Activity_13uljj7> <http://owl.api.wf#task_Evaluate:Activity_0bdop2m>)
+
+# Individual: <http://owl.api.wf#task_Go_to_the_interview:sid-C35B2287-57A3-420B-A8B3-86E1FBC12BDA> (<http://owl.api.wf#task_Go_to_the_interview:sid-C35B2287-57A3-420B-A8B3-86E1FBC12BDA>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Go_to_the_interview:sid-C35B2287-57A3-420B-A8B3-86E1FBC12BDA>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Go_to_the_interview:sid-C35B2287-57A3-420B-A8B3-86E1FBC12BDA> :TU_Munich)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Go_to_the_interview:sid-C35B2287-57A3-420B-A8B3-86E1FBC12BDA> <http://owl.api.wf#eventBasedGateway:sid-E654C2FF-9DEA-44ED-B904-206DC8E52297>)
+
+# Individual: <http://owl.api.wf#task_Immatriculate:sid-8331F5EE-D58A-48EC-BC26-C10543262F66> (<http://owl.api.wf#task_Immatriculate:sid-8331F5EE-D58A-48EC-BC26-C10543262F66>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Immatriculate:sid-8331F5EE-D58A-48EC-BC26-C10543262F66>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Immatriculate:sid-8331F5EE-D58A-48EC-BC26-C10543262F66> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Immatriculate:sid-8331F5EE-D58A-48EC-BC26-C10543262F66> <http://owl.api.wf#exclusiveGateway:sid-BA2A1CD8-D482-4E29-A529-3216DA67B38E>)
+
+# Individual: <http://owl.api.wf#task_Invite_to_an_aptitude_test:Activity_0spz3a5> (<http://owl.api.wf#task_Invite_to_an_aptitude_test:Activity_0spz3a5>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Invite_to_an_aptitude_test:Activity_0spz3a5>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Invite_to_an_aptitude_test:Activity_0spz3a5> :Frankfurt_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Invite_to_an_aptitude_test:Activity_0spz3a5> <http://owl.api.wf#exclusiveGateway:Gateway_0hl23i2>)
+
+# Individual: <http://owl.api.wf#task_Invite_to_an_aptitude_test:Activity_1ookijs> (<http://owl.api.wf#task_Invite_to_an_aptitude_test:Activity_1ookijs>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Invite_to_an_aptitude_test:Activity_1ookijs>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Invite_to_an_aptitude_test:Activity_1ookijs> :Cologne_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Invite_to_an_aptitude_test:Activity_1ookijs> <http://owl.api.wf#exclusiveGateway:Gateway_1qmiymr>)
+
+# Individual: <http://owl.api.wf#task_Keep_in_the_applicant_pool:Activity_0y0do5e> (<http://owl.api.wf#task_Keep_in_the_applicant_pool:Activity_0y0do5e>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Keep_in_the_applicant_pool:Activity_0y0do5e>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Keep_in_the_applicant_pool:Activity_0y0do5e> :Cologne_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Keep_in_the_applicant_pool:Activity_0y0do5e> <http://owl.api.wf#exclusiveGateway:Gateway_1qmiymr>)
+
+# Individual: <http://owl.api.wf#task_Keep_in_the_applicant_pool:Activity_0y71ekd> (<http://owl.api.wf#task_Keep_in_the_applicant_pool:Activity_0y71ekd>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Keep_in_the_applicant_pool:Activity_0y71ekd>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Keep_in_the_applicant_pool:Activity_0y71ekd> :Frankfurt_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Keep_in_the_applicant_pool:Activity_0y71ekd> <http://owl.api.wf#exclusiveGateway:Gateway_0hl23i2>)
+
+# Individual: <http://owl.api.wf#task_Mark_as_complete:Activity_1eo7ejl> (<http://owl.api.wf#task_Mark_as_complete:Activity_1eo7ejl>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Mark_as_complete:Activity_1eo7ejl>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Mark_as_complete:Activity_1eo7ejl> :Hohenheim_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Mark_as_complete:Activity_1eo7ejl> <http://owl.api.wf#task_Send_documents_to_selection_committee:Activity_1m5aybb>)
+
+# Individual: <http://owl.api.wf#task_Mark_as_not_complete:Activity_1vnv5tl> (<http://owl.api.wf#task_Mark_as_not_complete:Activity_1vnv5tl>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Mark_as_not_complete:Activity_1vnv5tl>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Mark_as_not_complete:Activity_1vnv5tl> :Hohenheim_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Mark_as_not_complete:Activity_1vnv5tl> <http://owl.api.wf#task_Rejection:Activity_0t9jmaa>)
+
+# Individual: <http://owl.api.wf#task_Matriculate:sid-BE11AE1D-B085-42FA-B004-A17ABBDB94F0> (<http://owl.api.wf#task_Matriculate:sid-BE11AE1D-B085-42FA-B004-A17ABBDB94F0>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Matriculate:sid-BE11AE1D-B085-42FA-B004-A17ABBDB94F0>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Matriculate:sid-BE11AE1D-B085-42FA-B004-A17ABBDB94F0> :Wuerzburg)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Matriculate:sid-BE11AE1D-B085-42FA-B004-A17ABBDB94F0> <http://owl.api.wf#exclusiveGateway:sid-A7409099-EFAC-47F3-9672-000E46553889>)
+
+# Individual: <http://owl.api.wf#task_Pay_for_aptitude_test:sid-F6E821C8-4300-4AA0-B6D1-6BA5D15FA7DE> (<http://owl.api.wf#task_Pay_for_aptitude_test:sid-F6E821C8-4300-4AA0-B6D1-6BA5D15FA7DE>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Pay_for_aptitude_test:sid-F6E821C8-4300-4AA0-B6D1-6BA5D15FA7DE>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Pay_for_aptitude_test:sid-F6E821C8-4300-4AA0-B6D1-6BA5D15FA7DE> :Cologne)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Pay_for_aptitude_test:sid-F6E821C8-4300-4AA0-B6D1-6BA5D15FA7DE> <http://owl.api.wf#parallelGateway:sid-EBFCC664-88E4-4A1C-98AB-4CDC6394D1C8>)
+
+# Individual: <http://owl.api.wf#task_Publishing_the_letters:Activity_18axd57> (<http://owl.api.wf#task_Publishing_the_letters:Activity_18axd57>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Publishing_the_letters:Activity_18axd57>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Publishing_the_letters:Activity_18axd57> :Hohenheim_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Publishing_the_letters:Activity_18axd57> <http://owl.api.wf#parallelGateway:Gateway_0ff1iru>)
+
+# Individual: <http://owl.api.wf#task_Rank_application_on_scale_from_1_to_10:Activity_0dxqmpp> (<http://owl.api.wf#task_Rank_application_on_scale_from_1_to_10:Activity_0dxqmpp>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Rank_application_on_scale_from_1_to_10:Activity_0dxqmpp>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Rank_application_on_scale_from_1_to_10:Activity_0dxqmpp> :Hohenheim_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Rank_application_on_scale_from_1_to_10:Activity_0dxqmpp> <http://owl.api.wf#parallelGateway:Gateway_0wimzxf>)
+
+# Individual: <http://owl.api.wf#task_Rank_students_according_to_GPA_and_the_test_results:Activity_0luiffv> (<http://owl.api.wf#task_Rank_students_according_to_GPA_and_the_test_results:Activity_0luiffv>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Rank_students_according_to_GPA_and_the_test_results:Activity_0luiffv>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Rank_students_according_to_GPA_and_the_test_results:Activity_0luiffv> :Frankfurt_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Rank_students_according_to_GPA_and_the_test_results:Activity_0luiffv> <http://owl.api.wf#exclusiveGateway:Gateway_0hi91is>)
+
+# Individual: <http://owl.api.wf#task_Rank_students_according_to_GPA_and_the_test_results:Activity_148u7wn> (<http://owl.api.wf#task_Rank_students_according_to_GPA_and_the_test_results:Activity_148u7wn>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Rank_students_according_to_GPA_and_the_test_results:Activity_148u7wn>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Rank_students_according_to_GPA_and_the_test_results:Activity_148u7wn> :Cologne_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Rank_students_according_to_GPA_and_the_test_results:Activity_148u7wn> <http://owl.api.wf#exclusiveGateway:Gateway_0e5kry8>)
+
+# Individual: <http://owl.api.wf#task_Receive_Commitment:sid-9A5FD3B9-73DF-4C23-9E85-6298D3E6685F> (<http://owl.api.wf#task_Receive_Commitment:sid-9A5FD3B9-73DF-4C23-9E85-6298D3E6685F>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Receive_Commitment:sid-9A5FD3B9-73DF-4C23-9E85-6298D3E6685F>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Receive_Commitment:sid-9A5FD3B9-73DF-4C23-9E85-6298D3E6685F> :Wuerzburg)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Receive_Commitment:sid-9A5FD3B9-73DF-4C23-9E85-6298D3E6685F> <http://owl.api.wf#task_Matriculate:sid-BE11AE1D-B085-42FA-B004-A17ABBDB94F0>)
+
+# Individual: <http://owl.api.wf#task_Receive_acceptance:sid-162937B1-3998-44B9-BB0A-840A43001E88> (<http://owl.api.wf#task_Receive_acceptance:sid-162937B1-3998-44B9-BB0A-840A43001E88>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Receive_acceptance:sid-162937B1-3998-44B9-BB0A-840A43001E88>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Receive_acceptance:sid-162937B1-3998-44B9-BB0A-840A43001E88> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Receive_acceptance:sid-162937B1-3998-44B9-BB0A-840A43001E88> <http://owl.api.wf#task_Immatriculate:sid-8331F5EE-D58A-48EC-BC26-C10543262F66>)
+
+# Individual: <http://owl.api.wf#task_Receive_application:Activity_1o2r3sm> (<http://owl.api.wf#task_Receive_application:Activity_1o2r3sm>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Receive_application:Activity_1o2r3sm>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Receive_application:Activity_1o2r3sm> :Hohenheim_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Receive_application:Activity_1o2r3sm> <http://owl.api.wf#parallelGateway:Gateway_1hmq6vr>)
+
+# Individual: <http://owl.api.wf#task_Receive_rejection:sid-2A9C0ECA-8F9F-4329-9023-8A4B3332F463> (<http://owl.api.wf#task_Receive_rejection:sid-2A9C0ECA-8F9F-4329-9023-8A4B3332F463>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Receive_rejection:sid-2A9C0ECA-8F9F-4329-9023-8A4B3332F463>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Receive_rejection:sid-2A9C0ECA-8F9F-4329-9023-8A4B3332F463> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Receive_rejection:sid-2A9C0ECA-8F9F-4329-9023-8A4B3332F463> <http://owl.api.wf#exclusiveGateway:sid-BA2A1CD8-D482-4E29-A529-3216DA67B38E>)
+
+# Individual: <http://owl.api.wf#task_Receive_rejection:sid-8C069EC3-1A91-4327-9C7C-364898A9A6BF> (<http://owl.api.wf#task_Receive_rejection:sid-8C069EC3-1A91-4327-9C7C-364898A9A6BF>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Receive_rejection:sid-8C069EC3-1A91-4327-9C7C-364898A9A6BF>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Receive_rejection:sid-8C069EC3-1A91-4327-9C7C-364898A9A6BF> :Wuerzburg)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Receive_rejection:sid-8C069EC3-1A91-4327-9C7C-364898A9A6BF> <http://owl.api.wf#exclusiveGateway:sid-A7409099-EFAC-47F3-9672-000E46553889>)
+
+# Individual: <http://owl.api.wf#task_Receiving_the_written_applications:Activity_0lrjdrr> (<http://owl.api.wf#task_Receiving_the_written_applications:Activity_0lrjdrr>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Receiving_the_written_applications:Activity_0lrjdrr>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Receiving_the_written_applications:Activity_0lrjdrr> :Hohenheim_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Receiving_the_written_applications:Activity_0lrjdrr> <http://owl.api.wf#task_Checking_if_complete:Activity_1wkha59>)
+
+# Individual: <http://owl.api.wf#task_Reject_interview:Activity_052y7o3> (<http://owl.api.wf#task_Reject_interview:Activity_052y7o3>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Reject_interview:Activity_052y7o3>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Reject_interview:Activity_052y7o3> :Muenster_3)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Reject_interview:Activity_052y7o3> <http://owl.api.wf#exclusiveGateway:Gateway_0um0lfn>)
+
+# Individual: <http://owl.api.wf#task_Rejection:Activity_0t9jmaa> (<http://owl.api.wf#task_Rejection:Activity_0t9jmaa>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Rejection:Activity_0t9jmaa>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Rejection:Activity_0t9jmaa> :Hohenheim_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Rejection:Activity_0t9jmaa> <http://owl.api.wf#exclusiveGateway:Gateway_15d44f8>)
+
+# Individual: <http://owl.api.wf#task_Send_application:sid-1181CC8B-F6CE-4E13-A25C-93BDF75B71B7> (<http://owl.api.wf#task_Send_application:sid-1181CC8B-F6CE-4E13-A25C-93BDF75B71B7>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Send_application:sid-1181CC8B-F6CE-4E13-A25C-93BDF75B71B7>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Send_application:sid-1181CC8B-F6CE-4E13-A25C-93BDF75B71B7> :Potsdam)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Send_application:sid-1181CC8B-F6CE-4E13-A25C-93BDF75B71B7> <http://owl.api.wf#exclusiveGateway:sid-DE999B42-85D4-4D1C-874D-BC5CEC34C806>)
+
+# Individual: <http://owl.api.wf#task_Send_application_form:Activity_0gterbw> (<http://owl.api.wf#task_Send_application_form:Activity_0gterbw>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Send_application_form:Activity_0gterbw>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Send_application_form:Activity_0gterbw> :Muenster_3)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Send_application_form:Activity_0gterbw> <http://owl.api.wf#exclusiveGateway:Gateway_0um0lfn>)
+
+# Individual: <http://owl.api.wf#task_Send_bachelor_certificate:sid-E78FA99D-E060-476F-B663-312E3503890F> (<http://owl.api.wf#task_Send_bachelor_certificate:sid-E78FA99D-E060-476F-B663-312E3503890F>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Send_bachelor_certificate:sid-E78FA99D-E060-476F-B663-312E3503890F>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Send_bachelor_certificate:sid-E78FA99D-E060-476F-B663-312E3503890F> :Frankfurt)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Send_bachelor_certificate:sid-E78FA99D-E060-476F-B663-312E3503890F> <http://owl.api.wf#exclusiveGateway:sid-D9DD3286-4567-4496-B76F-9524D6E26F74>)
+
+# Individual: <http://owl.api.wf#task_Send_documents_by_post:sid-234E99B4-0E97-4770-B2CF-AD0DACDF6888> (<http://owl.api.wf#task_Send_documents_by_post:sid-234E99B4-0E97-4770-B2CF-AD0DACDF6888>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Send_documents_by_post:sid-234E99B4-0E97-4770-B2CF-AD0DACDF6888>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Send_documents_by_post:sid-234E99B4-0E97-4770-B2CF-AD0DACDF6888> :Frankfurt)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Send_documents_by_post:sid-234E99B4-0E97-4770-B2CF-AD0DACDF6888> <http://owl.api.wf#exclusiveGateway:sid-58F17951-0C3A-4F0B-AA1F-8DF389EF4B40>)
+
+# Individual: <http://owl.api.wf#task_Send_documents_by_post:sid-4C4748D1-DBC6-4155-91C8-F71F3796A768> (<http://owl.api.wf#task_Send_documents_by_post:sid-4C4748D1-DBC6-4155-91C8-F71F3796A768>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Send_documents_by_post:sid-4C4748D1-DBC6-4155-91C8-F71F3796A768>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Send_documents_by_post:sid-4C4748D1-DBC6-4155-91C8-F71F3796A768> :Cologne)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Send_documents_by_post:sid-4C4748D1-DBC6-4155-91C8-F71F3796A768> <http://owl.api.wf#exclusiveGateway:sid-521803CC-D6CB-4D35-96B4-15506606ED69>)
+
+# Individual: <http://owl.api.wf#task_Send_documents_by_post:sid-B9C01B9A-294C-4E27-A0A8-DB69025E4284> (<http://owl.api.wf#task_Send_documents_by_post:sid-B9C01B9A-294C-4E27-A0A8-DB69025E4284>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Send_documents_by_post:sid-B9C01B9A-294C-4E27-A0A8-DB69025E4284>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Send_documents_by_post:sid-B9C01B9A-294C-4E27-A0A8-DB69025E4284> :TU_Munich)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Send_documents_by_post:sid-B9C01B9A-294C-4E27-A0A8-DB69025E4284> <http://owl.api.wf#task_Wait_for_results:sid-40FCF57B-44A4-443F-80D6-D2778D1045CD>)
+
+# Individual: <http://owl.api.wf#task_Send_documents_to_selection_committee:Activity_1m5aybb> (<http://owl.api.wf#task_Send_documents_to_selection_committee:Activity_1m5aybb>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Send_documents_to_selection_committee:Activity_1m5aybb>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Send_documents_to_selection_committee:Activity_1m5aybb> :Hohenheim_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Send_documents_to_selection_committee:Activity_1m5aybb> <http://owl.api.wf#intermediateCatchEvent:Event_0mr1m07>)
+
+# Individual: <http://owl.api.wf#task_Send_german_application:sid-31ACAFC9-DEA8-4F26-8AC2-16751B0B91A2> (<http://owl.api.wf#task_Send_german_application:sid-31ACAFC9-DEA8-4F26-8AC2-16751B0B91A2>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Send_german_application:sid-31ACAFC9-DEA8-4F26-8AC2-16751B0B91A2>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Send_german_application:sid-31ACAFC9-DEA8-4F26-8AC2-16751B0B91A2> :Wuerzburg)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Send_german_application:sid-31ACAFC9-DEA8-4F26-8AC2-16751B0B91A2> <http://owl.api.wf#exclusiveGateway:sid-880B7840-7F46-4A0A-BC36-C030808969F9>)
+
+# Individual: <http://owl.api.wf#task_Send_international_application:sid-925591B8-59CC-4806-B43B-3B5F10D7794F> (<http://owl.api.wf#task_Send_international_application:sid-925591B8-59CC-4806-B43B-3B5F10D7794F>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Send_international_application:sid-925591B8-59CC-4806-B43B-3B5F10D7794F>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Send_international_application:sid-925591B8-59CC-4806-B43B-3B5F10D7794F> :Wuerzburg)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Send_international_application:sid-925591B8-59CC-4806-B43B-3B5F10D7794F> <http://owl.api.wf#exclusiveGateway:sid-880B7840-7F46-4A0A-BC36-C030808969F9>)
+
+# Individual: <http://owl.api.wf#task_Send_interview_invitation:Activity_0u7goff> (<http://owl.api.wf#task_Send_interview_invitation:Activity_0u7goff>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Send_interview_invitation:Activity_0u7goff>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Send_interview_invitation:Activity_0u7goff> :TU_Munich_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Send_interview_invitation:Activity_0u7goff> <http://owl.api.wf#exclusiveGateway:Gateway_0lf70ci>)
+
+# Individual: <http://owl.api.wf#task_Send_letter_of_acceptance:Activity_01xd3wi> (<http://owl.api.wf#task_Send_letter_of_acceptance:Activity_01xd3wi>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Send_letter_of_acceptance:Activity_01xd3wi>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Send_letter_of_acceptance:Activity_01xd3wi> :TU_Munich_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Send_letter_of_acceptance:Activity_01xd3wi> <http://owl.api.wf#exclusiveGateway:Gateway_0lf70ci>)
+
+# Individual: <http://owl.api.wf#task_Send_letter_of_acceptance:Activity_05r5kw1> (<http://owl.api.wf#task_Send_letter_of_acceptance:Activity_05r5kw1>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Send_letter_of_acceptance:Activity_05r5kw1>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Send_letter_of_acceptance:Activity_05r5kw1> :Frankfurt_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Send_letter_of_acceptance:Activity_05r5kw1> <http://owl.api.wf#exclusiveGateway:Gateway_1d7buy5>)
+
+# Individual: <http://owl.api.wf#task_Send_letter_of_acceptance:Activity_0o49wgb> (<http://owl.api.wf#task_Send_letter_of_acceptance:Activity_0o49wgb>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Send_letter_of_acceptance:Activity_0o49wgb>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Send_letter_of_acceptance:Activity_0o49wgb> :Cologne_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Send_letter_of_acceptance:Activity_0o49wgb> <http://owl.api.wf#exclusiveGateway:Gateway_0xlssx8>)
+
+# Individual: <http://owl.api.wf#task_Send_letter_of_acceptance:Activity_0rz5k9k> (<http://owl.api.wf#task_Send_letter_of_acceptance:Activity_0rz5k9k>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Send_letter_of_acceptance:Activity_0rz5k9k>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Send_letter_of_acceptance:Activity_0rz5k9k> :TU_Munich_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Send_letter_of_acceptance:Activity_0rz5k9k> <http://owl.api.wf#exclusiveGateway:Gateway_19nzesg>)
+
+# Individual: <http://owl.api.wf#task_Send_letter_of_rejection:Activity_09ztofn> (<http://owl.api.wf#task_Send_letter_of_rejection:Activity_09ztofn>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Send_letter_of_rejection:Activity_09ztofn>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Send_letter_of_rejection:Activity_09ztofn> :Frankfurt_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Send_letter_of_rejection:Activity_09ztofn> <http://owl.api.wf#exclusiveGateway:Gateway_1d7buy5>)
+
+# Individual: <http://owl.api.wf#task_Send_letter_of_rejection:Activity_0j3iu7e> (<http://owl.api.wf#task_Send_letter_of_rejection:Activity_0j3iu7e>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Send_letter_of_rejection:Activity_0j3iu7e>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Send_letter_of_rejection:Activity_0j3iu7e> :TU_Munich_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Send_letter_of_rejection:Activity_0j3iu7e> <http://owl.api.wf#exclusiveGateway:Gateway_19nzesg>)
+
+# Individual: <http://owl.api.wf#task_Send_letter_of_rejection:Activity_0qxlspo> (<http://owl.api.wf#task_Send_letter_of_rejection:Activity_0qxlspo>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Send_letter_of_rejection:Activity_0qxlspo>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Send_letter_of_rejection:Activity_0qxlspo> :Cologne_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Send_letter_of_rejection:Activity_0qxlspo> <http://owl.api.wf#exclusiveGateway:Gateway_0xlssx8>)
+
+# Individual: <http://owl.api.wf#task_Send_letter_of_rejection:Activity_1p8iq44> (<http://owl.api.wf#task_Send_letter_of_rejection:Activity_1p8iq44>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Send_letter_of_rejection:Activity_1p8iq44>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Send_letter_of_rejection:Activity_1p8iq44> :TU_Munich_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Send_letter_of_rejection:Activity_1p8iq44> <http://owl.api.wf#exclusiveGateway:Gateway_0lf70ci>)
+
+# Individual: <http://owl.api.wf#task_Send_online_protocäl:sid-2A61C308-48B4-4C26-9CB3-D489A0BBC1E3> (<http://owl.api.wf#task_Send_online_protocäl:sid-2A61C308-48B4-4C26-9CB3-D489A0BBC1E3>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Send_online_protocäl:sid-2A61C308-48B4-4C26-9CB3-D489A0BBC1E3>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Send_online_protocäl:sid-2A61C308-48B4-4C26-9CB3-D489A0BBC1E3> :Cologne)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Send_online_protocäl:sid-2A61C308-48B4-4C26-9CB3-D489A0BBC1E3> <http://owl.api.wf#task_Send_documents_by_post:sid-4C4748D1-DBC6-4155-91C8-F71F3796A768>)
+
+# Individual: <http://owl.api.wf#task_Take_aptitude_test:sid-A3568080-F469-4D86-BB96-7A5C48342857> (<http://owl.api.wf#task_Take_aptitude_test:sid-A3568080-F469-4D86-BB96-7A5C48342857>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Take_aptitude_test:sid-A3568080-F469-4D86-BB96-7A5C48342857>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Take_aptitude_test:sid-A3568080-F469-4D86-BB96-7A5C48342857> :Cologne)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Take_aptitude_test:sid-A3568080-F469-4D86-BB96-7A5C48342857> <http://owl.api.wf#parallelGateway:sid-EBFCC664-88E4-4A1C-98AB-4CDC6394D1C8>)
+
+# Individual: <http://owl.api.wf#task_Take_oral_exam:sid-0FB8FB77-B1AF-4D8C-A203-3730AA67E6A4> (<http://owl.api.wf#task_Take_oral_exam:sid-0FB8FB77-B1AF-4D8C-A203-3730AA67E6A4>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Take_oral_exam:sid-0FB8FB77-B1AF-4D8C-A203-3730AA67E6A4>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Take_oral_exam:sid-0FB8FB77-B1AF-4D8C-A203-3730AA67E6A4> :Frankfurt)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Take_oral_exam:sid-0FB8FB77-B1AF-4D8C-A203-3730AA67E6A4> <http://owl.api.wf#exclusiveGateway:sid-FDE49817-6778-497E-9DAF-C4B8D4BE5766>)
+
+# Individual: <http://owl.api.wf#task_Update_status_of_application:Activity_0bc8g0k> (<http://owl.api.wf#task_Update_status_of_application:Activity_0bc8g0k>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Update_status_of_application:Activity_0bc8g0k>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Update_status_of_application:Activity_0bc8g0k> :Muenster_3)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Update_status_of_application:Activity_0bc8g0k> <http://owl.api.wf#exclusiveGateway_split:Gateway_017am58>)
+
+# Individual: <http://owl.api.wf#task_Update_the_applicant_status:Activity_04gt7sy> (<http://owl.api.wf#task_Update_the_applicant_status:Activity_04gt7sy>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Update_the_applicant_status:Activity_04gt7sy>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Update_the_applicant_status:Activity_04gt7sy> :Hohenheim_2)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Update_the_applicant_status:Activity_04gt7sy> <http://owl.api.wf#parallelGateway:Gateway_0ff1iru>)
+
+# Individual: <http://owl.api.wf#task_Wait_for_bachelor_certificate:sid-66591B2F-F075-4F41-84CF-13A13B315189> (<http://owl.api.wf#task_Wait_for_bachelor_certificate:sid-66591B2F-F075-4F41-84CF-13A13B315189>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Wait_for_bachelor_certificate:sid-66591B2F-F075-4F41-84CF-13A13B315189>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Wait_for_bachelor_certificate:sid-66591B2F-F075-4F41-84CF-13A13B315189> :Frankfurt)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Wait_for_bachelor_certificate:sid-66591B2F-F075-4F41-84CF-13A13B315189> <http://owl.api.wf#intermediateCatchEvent_Certificate_received:sid-2F605FEA-CFEA-443C-8787-D5D523BA1F84>)
+
+# Individual: <http://owl.api.wf#task_Wait_for_results:sid-40FCF57B-44A4-443F-80D6-D2778D1045CD> (<http://owl.api.wf#task_Wait_for_results:sid-40FCF57B-44A4-443F-80D6-D2778D1045CD>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Wait_for_results:sid-40FCF57B-44A4-443F-80D6-D2778D1045CD>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Wait_for_results:sid-40FCF57B-44A4-443F-80D6-D2778D1045CD> :TU_Munich)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Wait_for_results:sid-40FCF57B-44A4-443F-80D6-D2778D1045CD> <http://owl.api.wf#eventBasedGateway:sid-89EB0BD4-5311-43BF-BD7D-5B16EF67D9B3>)
+
+# Individual: <http://owl.api.wf#task_Wait_for_results:sid-B296B105-D85C-47FE-A200-50F7C64E65CF> (<http://owl.api.wf#task_Wait_for_results:sid-B296B105-D85C-47FE-A200-50F7C64E65CF>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Wait_for_results:sid-B296B105-D85C-47FE-A200-50F7C64E65CF>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Wait_for_results:sid-B296B105-D85C-47FE-A200-50F7C64E65CF> :Frankfurt)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Wait_for_results:sid-B296B105-D85C-47FE-A200-50F7C64E65CF> <http://owl.api.wf#eventBasedGateway:sid-732F12B0-6350-4614-B374-F2332F5E7CC4>)
+
+# Individual: <http://owl.api.wf#task_Wait_for_results:sid-DF0BF153-C7B8-47A6-9436-2217B6A02FB9> (<http://owl.api.wf#task_Wait_for_results:sid-DF0BF153-C7B8-47A6-9436-2217B6A02FB9>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Wait_for_results:sid-DF0BF153-C7B8-47A6-9436-2217B6A02FB9>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Wait_for_results:sid-DF0BF153-C7B8-47A6-9436-2217B6A02FB9> :Cologne)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Wait_for_results:sid-DF0BF153-C7B8-47A6-9436-2217B6A02FB9> <http://owl.api.wf#eventBasedGateway:sid-91F2DA29-96C0-431D-B3F6-5E9C53B3EAB0>)
+
+# Individual: <http://owl.api.wf#task_Waiting_for_response:sid-B06626EF-C70E-4D70-B20F-BA3DAC313DD9> (<http://owl.api.wf#task_Waiting_for_response:sid-B06626EF-C70E-4D70-B20F-BA3DAC313DD9>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_Waiting_for_response:sid-B06626EF-C70E-4D70-B20F-BA3DAC313DD9>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_Waiting_for_response:sid-B06626EF-C70E-4D70-B20F-BA3DAC313DD9> :Wuerzburg)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_Waiting_for_response:sid-B06626EF-C70E-4D70-B20F-BA3DAC313DD9> <http://owl.api.wf#exclusiveGateway:sid-C5E0F5F7-15E6-48F7-85E7-638C776A412F>)
+
+# Individual: <http://owl.api.wf#task_high_ranking_requirements_are_met:Activity_1abkimh> (<http://owl.api.wf#task_high_ranking_requirements_are_met:Activity_1abkimh>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_high_ranking_requirements_are_met:Activity_1abkimh>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_high_ranking_requirements_are_met:Activity_1abkimh> :Hohenheim_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_high_ranking_requirements_are_met:Activity_1abkimh> <http://owl.api.wf#task_proposed_as_accepted:Activity_1ur9m13>)
+
+# Individual: <http://owl.api.wf#task_proof_of_uni_degree_provided:Activity_0d6tdq6> (<http://owl.api.wf#task_proof_of_uni_degree_provided:Activity_0d6tdq6>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_proof_of_uni_degree_provided:Activity_0d6tdq6>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_proof_of_uni_degree_provided:Activity_0d6tdq6> :Hohenheim_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_proof_of_uni_degree_provided:Activity_0d6tdq6> <http://owl.api.wf#task_proposed_as_reserved:Activity_0yhj0b9>)
+
+# Individual: <http://owl.api.wf#task_proposed_as_accepted:Activity_1ur9m13> (<http://owl.api.wf#task_proposed_as_accepted:Activity_1ur9m13>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_proposed_as_accepted:Activity_1ur9m13>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_proposed_as_accepted:Activity_1ur9m13> :Hohenheim_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_proposed_as_accepted:Activity_1ur9m13> <http://owl.api.wf#exclusiveGateway:Gateway_0mosve6>)
+
+# Individual: <http://owl.api.wf#task_proposed_as_rejected:Activity_0o92biq> (<http://owl.api.wf#task_proposed_as_rejected:Activity_0o92biq>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_proposed_as_rejected:Activity_0o92biq>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_proposed_as_rejected:Activity_0o92biq> :Hohenheim_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_proposed_as_rejected:Activity_0o92biq> <http://owl.api.wf#exclusiveGateway:Gateway_0mosve6>)
+
+# Individual: <http://owl.api.wf#task_proposed_as_reserved:Activity_0yhj0b9> (<http://owl.api.wf#task_proposed_as_reserved:Activity_0yhj0b9>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_proposed_as_reserved:Activity_0yhj0b9>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_proposed_as_reserved:Activity_0yhj0b9> :Hohenheim_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_proposed_as_reserved:Activity_0yhj0b9> <http://owl.api.wf#exclusiveGateway:Gateway_0mosve6>)
+
+# Individual: <http://owl.api.wf#task_requirements_are_not_met_or_low_ranking:Activity_0uzkoq5> (<http://owl.api.wf#task_requirements_are_not_met_or_low_ranking:Activity_0uzkoq5>)
+
+ClassAssertion(:Tasks <http://owl.api.wf#task_requirements_are_not_met_or_low_ranking:Activity_0uzkoq5>)
+ObjectPropertyAssertion(:isPartOf <http://owl.api.wf#task_requirements_are_not_met_or_low_ranking:Activity_0uzkoq5> :Hohenheim_1)
+ObjectPropertyAssertion(:priorTo <http://owl.api.wf#task_requirements_are_not_met_or_low_ranking:Activity_0uzkoq5> <http://owl.api.wf#task_proposed_as_rejected:Activity_0o92biq>)
+
+
+)

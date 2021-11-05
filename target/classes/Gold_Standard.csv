@@ -1,0 +1,103 @@
+Am Terminal landen;LKW-Check-In erreichen und zur Tür vorfahren
+Terminal betreten;LKW-Check-In erreichen und zur Tür vorfahren
+Am_Terminal_ankommen;LKW-Check-In erreichen und zur Tür vorfahren
+Zum_Terminal_gehen;LKW-Check-In erreichen und zur Tür vorfahren
+Ausweis kontrollieren;Materialdokument im System prüfen
+Bording_starten;Versandeinheiten laden
+Bordkarte erstellen;Wareneingangsbeleg erstellen
+Bordkarte vorzeigen;Wareneingangsbeleg bearbeiten
+Bordkarte vorzeigen;Wareneingangsbelege (WEB) bearbeiten
+Bordkarte vorzeigen;Bearbeitung der Wareneingangsbelege (WEB)
+Container auf Hubtransporter laden;LKW beladen
+Container in den Zug verladen;LKW beladen
+Flughafen verlassen;LKW fährt los
+Gepäck auf Ausgaberundlauf legen;Versandeinheiten laden
+Gepäck auf Ausgaberundlauf legen;Ausladen (inkl. Umverpackung und Etikettierung)
+Gepäck auf Container-Dollies verladen;LKW beladen
+Gepäck auf Container-Dollies verladen;Versandeinheiten laden
+Gepäck auf den Gepäckträger laden;LKW beladen
+Gepäck auf den Gepäckträger laden;Versandeinheiten laden
+Gepäck auf den Wagen legen;LKW beladen
+Gepäck auf den Wagen legen;Versandeinheiten laden
+Gepäck auf Dollies oder Container laden;LKW beladen
+Gepäck auf Dollies oder Container laden;Versandeinheiten laden
+Gepäck auf Förderband laden;Versandeinheiten laden
+Gepäck auf Förderbandwagen legen;LKW beladen
+Gepäck auf Förderbandwagen legen;Versandeinheiten laden
+Gepäck auf Handkarren laden;LKW beladen
+Gepäck auf Handkarren laden;Versandeinheiten laden
+Gepäck auf Hebebühne oder Hubtransporter legen;LKW beladen
+Gepäck auf Hebebühne oder Hubtransporter legen;Versandeinheiten laden
+Gepäck auf Kofferwagen legen;LKW beladen
+Gepäck auf Kofferwagen legen;Versandeinheiten laden
+Gepäck auf Labelband stellen;Versandeinheiten laden
+Gepäck auf Transporter laden;Versandeinheiten laden
+Gepäck auf Transporter laden;LKW beladen
+Gepäck aufbewahren;Ware Einlagern
+Gepäck auf Förderband legen;Versandeinheiten laden
+Gepäck auf Förderband oder Hebebühne legen;LKW beladen
+Gepäck auf Förderband oder Hebebühne legen;Versandeinheiten laden
+Gepäck auf Gepäckband legen;Versandeinheiten laden
+Gepäck auf Waageband stellen;Versandeinheiten laden
+Gepäck auf Warteband stellen;Versandeinheiten laden
+Gepäck durchleuchten;Ladung sichten
+Gepäck durchleuchten;Ladung sichten
+Gepäck entgegennehmen;Ware am Entnahmepunkt entnehmen
+Gepäck im Flugzeug verstauen;LKW beladen
+Gepäck im Flugzeug verstauen;Versandeinheiten laden
+Gepäck in Container verladen;LKW beladen
+Gepäck in Container verladen;Versandeinheiten laden
+Gepäck in den Gepäckkeller transportieren;Ware Einlagern
+Gepäck in den Gepäckkeller transportieren;Produkte ins Mezzanin einlagern
+Gepäck ins Flugzeug laden;LKW beladen
+Gepäck ins Flugzeug laden;Versandeinheiten laden
+Gepäck manuell überprüfen;Wareneingang prüfen
+Gepäck manuell überprüfen;Ladung sichten
+Gepäck messen;Wareneingang prüfen
+Gepäck über Ladeluke in den Laderaum befördern;LKW beladen
+Gepäck über Ladeluke in den Laderaum befördern;Versandeinheiten laden
+Gepäck vom Band entnehmen;Ware am Entnahmepunkt entnehmen
+Gepäck wiegen;Wareneingang prüfen
+Gepäck zu den Entnahmestellen leiten;Paletten/Wareneinheiten zum Entnahmepunkt bewegen
+Gepäck zu Gepäckabfertigungshalle transportieren;Produkte in die Klärungszone bewegen
+Gepäck zu Verladestelle bringen;Paletten/Wareneinheiten zum Übergabepunkt bewegen
+Gepäck zu Verladestelle bringen;Ware zum Übergabepunkt bewegen
+Gepäck zur Ausgabestelle transportieren;Paletten/Wareneinheiten zum Entnahmepunkt bewegen
+Gepäck zu Gepäckabfertigungshalle transportieren;Produkte in die Klärungszone bewegen
+Gepäck zur Übergabestelle bringen;Paletten/Wareneinheiten zum Übergabepunkt bewegen
+Gepäck zur Übergabestelle bringen;Ware zum Übergabepunkt bewegen
+Gepäckanhänger erstellen;Wareneingangsbeleg erstellen
+Gepäckstück auf Abzugsband stellen;Versandeinheiten laden
+Gepäckstück auf Labelband stellen;Versandeinheiten laden
+Gepäckstück auf Rundlauf legen;Versandeinheiten laden
+Gepäckstück auf Rundlauf legen;Ausladen (inkl. Umverpackung und Etikettierung)
+Gepäckstück auf Sammelband legen;Versandeinheiten laden
+Gepäckstück auf Zubringerband legen;Versandeinheiten laden
+Gepäckstück durchleuchten;Wareneingang prüfen
+Gepäckstück durchleuchten;Ladung sichten
+Gepäckstück manuell kontrollieren;Wareneingang prüfen
+Gepäckstück manuell kontrollieren;Ladung sichten
+Gepäckstück wiegen;Wareneingang prüfen
+Gepäck zur Nachkontrolle transportieren;Produkte in die Klärungszone bewegen
+Gepäck zur Nachkontrolle transportieren;Retournierte Produkte zu Qulitätsprüfung bewegen
+Gepäck zur Verladestelle transportieren;Paletten/Wareneinheiten zum Übergabepunkt bewegen
+Gepäck zur Verladestelle transportieren;Ware zum Übergabepunkt bewegen
+Gepäckstück-Maße überprüfen;Wareneingang prüfen
+Handgepäck durchleuchten;Wareneingang prüfen
+Handgepäck durchleuchten;Ladung sichten
+Handgepäck manuell kontrollieren;Wareneingang prüfen
+Handgepäck manuell kontrollieren;Ladung sichten
+Hotel-Check-In-Schalter betreten;LKW-Check-In erreichen und zur Tür vorfahren
+Passagier durch Scanner schicken;Ladung sichten
+Passagier manuell kontrollieren;Ladung sichten
+Reisepass kontrollieren;Materialdokument im System prüfen
+Reisepass überprüfen;Materialdokument im System prüfen
+Röntgenbilder überprüfen;Ladung sichten
+Terminal betreten;LKW-Check-In erreichen und zur Tür vorfahren
+Zum Abflugbereich gehen;LKW-Check-In erreichen und zur Tür vorfahren
+Zum Check-In-Schalter gehen;LKW-Check-In erreichen und zur Tür vorfahren
+Zum Gepäckannahmeschalter gehen;LKW-Check-In erreichen und zur Tür vorfahren
+Zum Schalter gehen;LKW-Check-In erreichen und zur Tür vorfahren
+Zum Sperrgepäckschalter gehen;LKW-Check-In erreichen und zur Tür vorfahren
+Zum Terminal gehen;LKW-Check-In erreichen und zur Tür vorfahren
+Zum Transfer-Check-In-Schalter gehen;LKW-Check-In erreichen und zur Tür vorfahren

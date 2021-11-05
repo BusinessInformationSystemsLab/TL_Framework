@@ -1,0 +1,64 @@
+<svg width="600px" height="358px"
+ viewBox="0.00 0.00 617.00 368.39" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(4 364.39)">
+<title>1CX_&#45;_Cycle&#45;Counting&#45;Inventur_(EWM_brancehnübergreifend_&#45;_Schmalganglager_&#45;_Variante_2_&#45;_Radiofrequenz&#45;basierte_Zählung)</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-364.39 613,-364.39 613,4 -4,4"/>
+<!-- Task_0axx1\nbp_1CX_Var\n2_Task_1f4\n610t_1CX_V\nar2 -->
+<g id="node1" class="node">
+<title>Task_0axx1\nbp_1CX_Var\n2_Task_1f4\n610t_1CX_V\nar2</title>
+<polygon fill="none" stroke="black" stroke-dasharray="5,2" points="0,-94.99 0,-267.99 609,-267.99 609,-94.99 0,-94.99"/>
+<text text-anchor="middle" x="46.5" y="-207.79" font-family="Times New Roman,serif" font-size="14.00">Task_0axx1</text>
+<text text-anchor="middle" x="46.5" y="-192.79" font-family="Times New Roman,serif" font-size="14.00">bp_1CX_Var</text>
+<text text-anchor="middle" x="46.5" y="-177.79" font-family="Times New Roman,serif" font-size="14.00">2_Task_1f4</text>
+<text text-anchor="middle" x="46.5" y="-162.79" font-family="Times New Roman,serif" font-size="14.00">610t_1CX_V</text>
+<text text-anchor="middle" x="46.5" y="-147.79" font-family="Times New Roman,serif" font-size="14.00">ar2</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="93,-94.99 93,-267.99 "/>
+<text text-anchor="middle" x="137.5" y="-245.29" font-family="Times New Roman,serif" font-size="14.00">Lagerleitu</text>
+<text text-anchor="middle" x="137.5" y="-230.29" font-family="Times New Roman,serif" font-size="14.00">ng:1CX__La</text>
+<text text-anchor="middle" x="137.5" y="-215.29" font-family="Times New Roman,serif" font-size="14.00">ne_1tzanw4</text>
+<text text-anchor="middle" x="137.5" y="-200.29" font-family="Times New Roman,serif" font-size="14.00">&amp;Controlle</text>
+<text text-anchor="middle" x="137.5" y="-185.29" font-family="Times New Roman,serif" font-size="14.00">r:1CX__Lan</text>
+<text text-anchor="middle" x="137.5" y="-170.29" font-family="Times New Roman,serif" font-size="14.00">e_0rn0jn5&amp;</text>
+<text text-anchor="middle" x="137.5" y="-155.29" font-family="Times New Roman,serif" font-size="14.00">Lagerfachk</text>
+<text text-anchor="middle" x="137.5" y="-140.29" font-family="Times New Roman,serif" font-size="14.00">raft:1CX__</text>
+<text text-anchor="middle" x="137.5" y="-125.29" font-family="Times New Roman,serif" font-size="14.00">Lane_0yuyn</text>
+<text text-anchor="middle" x="137.5" y="-110.29" font-family="Times New Roman,serif" font-size="14.00">ze</text>
+<polyline fill="none" stroke="black" stroke-dasharray="5,2" points="182,-94.99 182,-267.99 "/>
+<text text-anchor="middle" x="395.5" y="-252.79" font-family="Times New Roman,serif" font-size="14.00">sequential execution:</text>
+<text text-anchor="middle" x="395.5" y="-237.79" font-family="Times New Roman,serif" font-size="14.00">Offene_Produkte_überwachen</text>
+<text text-anchor="middle" x="395.5" y="-222.79" font-family="Times New Roman,serif" font-size="14.00">Dokument_für_physische_Inventur_erstellen</text>
+<text text-anchor="middle" x="395.5" y="-207.79" font-family="Times New Roman,serif" font-size="14.00">Artikel_zählen_und_Ergebnisse_ins_mobile_Gerät_eingeben</text>
+<text text-anchor="middle" x="395.5" y="-192.79" font-family="Times New Roman,serif" font-size="14.00">RF&#45;basiert_zählen</text>
+<text text-anchor="middle" x="395.5" y="-177.79" font-family="Times New Roman,serif" font-size="14.00">Nachgezählte_Inventurdokumente_kontrollieren</text>
+<text text-anchor="middle" x="395.5" y="-162.79" font-family="Times New Roman,serif" font-size="14.00">Differenzen_der_physischen_Inventur_in_SAP_EWM_einbuchen</text>
+<text text-anchor="middle" x="395.5" y="-147.79" font-family="Times New Roman,serif" font-size="14.00">Differenzen_der_physischen_Inventur_ins_SAP_S/4HANA_transferieren</text>
+<text text-anchor="middle" x="395.5" y="-132.79" font-family="Times New Roman,serif" font-size="14.00">Differenzen_in_SAP_S/4HANA_buchen</text>
+<text text-anchor="middle" x="395.5" y="-117.79" font-family="Times New Roman,serif" font-size="14.00">Geblockte_Inventur&#45;Differenzen_analysieren</text>
+<text text-anchor="middle" x="395.5" y="-102.79" font-family="Times New Roman,serif" font-size="14.00">Differenzen_in_SAP_S/4HANA_buchen</text>
+</g>
+<!-- EndEvent_0\n040paz_1CX\n_Var2 -->
+<g id="node3" class="node">
+<title>EndEvent_0\n040paz_1CX\n_Var2</title>
+<ellipse fill="lightgrey" stroke="black" cx="304.5" cy="-29.25" rx="29.5" ry="29.5"/>
+<text text-anchor="middle" x="304.5" y="-25.55" font-family="Times New Roman,serif" font-size="14.00">Ende</text>
+</g>
+<!-- Task_0axx1\nbp_1CX_Var\n2_Task_1f4\n610t_1CX_V\nar2&#45;&gt;EndEvent_0\n040paz_1CX\n_Var2 -->
+<g id="edge1" class="edge">
+<title>Task_0axx1\nbp_1CX_Var\n2_Task_1f4\n610t_1CX_V\nar2&#45;&gt;EndEvent_0\n040paz_1CX\n_Var2</title>
+<path fill="none" stroke="black" d="M304.5,-94.84C304.5,-85.77 304.5,-76.9 304.5,-68.79"/>
+<polygon fill="black" stroke="black" points="308,-68.61 304.5,-58.61 301,-68.61 308,-68.61"/>
+</g>
+<!-- StartEvent\n_1_1CX_Var\n2 -->
+<g id="node2" class="node">
+<title>StartEvent\n_1_1CX_Var\n2</title>
+<ellipse fill="lightgrey" stroke="black" cx="304.5" cy="-332.44" rx="27.9" ry="27.9"/>
+<text text-anchor="middle" x="304.5" y="-328.74" font-family="Times New Roman,serif" font-size="14.00">Start</text>
+</g>
+<!-- StartEvent\n_1_1CX_Var\n2&#45;&gt;Task_0axx1\nbp_1CX_Var\n2_Task_1f4\n610t_1CX_V\nar2 -->
+<g id="edge2" class="edge">
+<title>StartEvent\n_1_1CX_Var\n2&#45;&gt;Task_0axx1\nbp_1CX_Var\n2_Task_1f4\n610t_1CX_V\nar2</title>
+<path fill="none" stroke="black" d="M304.5,-304.47C304.5,-296.69 304.5,-287.73 304.5,-278.26"/>
+<polygon fill="black" stroke="black" points="308,-278.25 304.5,-268.25 301,-278.25 308,-278.25"/>
+</g>
+</g>
+</svg>
